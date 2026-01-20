@@ -1,0 +1,49 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	
+	\begin{logicmap}
+		\centering
+		\begin{tikzpicture}[
+			node distance=2cm, 
+			auto, 
+			block/.style={rectangle, draw=red!60, fill=red!5, thick, align=center, rounded corners},
+			line/.style={-Latex, thick}
+			]
+			\node [block] (tool) {工具 (Part I)};
+			\node [block, below=of tool] (geo) {地理环境\\(Input)};
+			\node [block, right=of geo] (hist) {历史路径\\(Branching)};
+			
+			\draw [line] (tool) -- (geo) node[midway, right, font=\footnotesize] {应用分析};
+			\draw [line] (geo) -- (hist);
+		\end{tikzpicture}
+		
+		\vspace{1em}
+		\textbf{当前位置}：工具已备好。现在我们将其应用于人类历史的唯一"硬输入"——地理环境，并观察由此引发的必然分支。
+	\end{logicmap}
+	
+	\chapter{唯物史观的基石：地理决定论}
+	\begin{motivation}
+		为什么文明会有不同的形态？不要谈论虚无缥缈的"民族性"，那是结果不是原因。
+		我们要寻找最初的那个"输入变量"。
+	\end{motivation}
+	
+	\section{因果链条的回溯：史观的层级}
+	理解历史发展的因果链是认识社会本质的关键。我们不能停留在表面现象，而要追溯到最初的决定因素。
+	
+	\subsection{反驳文化决定论：文化是果不是因}
+	传统观点常常将文化视为决定历史发展的根本因素，然而文化本身是在特定环境条件下形成的，是对环境的适应性产物。文化差异并非源于神秘的"民族性格"，而是源于不同的生存环境和发展路径。
+	
+	\subsection{地理环境作为不可变更的初始条件}
+	与文化等后天形成的要素不同，地理环境是文明发展的初始条件，具有相对不变性。河流、山脉、气候、资源分布等地理因素构成了人类活动的基本舞台，决定了生产方式、交通模式和社会组织的基本形态。
+	
+	\section{案例分析：东西方大分流的地理根源}
+	东西方文明的发展轨迹之所以出现显著分歧，其根源在于不同的地理条件。这种分歧不是偶然的，而是地理环境塑造下的必然结果。
+	
+	\subsection{治水与农业：中央集权的地理必然性}
+	在需要大规模水利建设的地区，如古代中国和埃及，由于水利工程需要集中资源和统一协调，因此催生了强大的中央集权体制。这种体制不是文化的偶然产物，而是特定地理条件下组织大规模公共工程的必然选择。
+	
+	\subsection{破碎海岸与贸易：分权与契约的地理必然性}
+	相比之下，地中海沿岸等地形复杂的地区，由于缺乏大规模农业的需求，反而发展出了以贸易为主的经济模式。这种模式更依赖于分散决策和契约关系，从而促进了分权制度的发展。
+	
+\end{document}

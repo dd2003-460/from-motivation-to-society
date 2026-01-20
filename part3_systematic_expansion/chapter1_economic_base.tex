@@ -1,0 +1,41 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	
+	\begin{logicmap}
+		\centering
+		\begin{tikzpicture}[
+			node distance=2.5cm, 
+			auto, 
+			block/.style={rectangle, draw=green!60!black, fill=green!5, thick, align=center, rounded corners},
+			line/.style={-Latex, thick}
+			]
+			\node [block] (env) {环境 (Part II)};
+			\node [block, right=of env] (soc) {社会系统};
+			\node [block, above right=of soc] (mat) {物质 (经济)};
+			\node [block, below right=of soc] (ideo) {意识 (文化/政治)};
+			
+			\draw [line] (env) -- (soc);
+			\draw [line] (soc) -- (mat);
+			\draw [line] (soc) -- (ideo);
+		\end{tikzpicture}
+		
+		\vspace{1em}
+		\textbf{当前位置}：环境确立了生存策略，社会系统随之分裂为"硬件"（经济）和"软件/操作系统"（文化与政治）。
+	\end{logicmap}
+	
+	\chapter{物质分支：经济基础}
+	\begin{motivation}
+		这是社会存续的能量来源。应用Part I的"结构效率"理论，解释商业逻辑。
+	\end{motivation}
+	
+	\section{供求关系与价值认同}
+	经济活动本质上是一种价值交换过程，供求关系反映了市场参与者对价值的认知和认同。这种关系不仅受客观条件的影响，也受到主观认知的调节。通过供求机制，社会资源得以分配，价值得以体现。
+	
+	\section{不对称信息：商业利润的来源}
+	在现实经济活动中，信息往往是不对称分布的。掌握更多信息的一方能够在交易中获得优势地位，这种信息优势构成了商业利润的重要来源。企业家精神在很大程度上就是发现和利用信息不对称的能力。
+	
+	\section{多金融产品：人为制造的"复杂编码"}
+	金融市场发展出了各种复杂的金融工具，这些工具可以被视为经济系统中的"复杂编码"。就像在信息理论中使用变长编码来优化传输效率一样，金融市场通过创造多样化的金融产品来优化资源配置和风险分担。
+	
+\end{document}

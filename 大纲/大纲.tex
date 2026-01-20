@@ -1,0 +1,194 @@
+\documentclass[openany]{book} % openany 允许章节从任意页开始，方便阅读
+
+% =============================
+% 宏包与设置
+% =============================
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm} % 数学公式与符号
+\usepackage{graphicx}
+\usepackage[colorlinks, linkcolor=blue, anchorcolor=blue, citecolor=green]{hyperref}
+\usepackage{enumitem}
+\usepackage{tikz} % 用于绘制逻辑拓扑图
+\usetikzlibrary{shapes,arrows,positioning}
+\usepackage{fancyhdr} % 页眉页脚
+\usepackage{titlesec} % 标题格式
+\usepackage{ctex} % 中文支持
+
+% 字体设置 (可选，根据系统配置)
+\setmainfont{Times New Roman}
+% \setCJKmainfont{SimSun} 
+
+% 定义定理与推导环境
+\newtheorem{axiom}{公理}[chapter]
+\newtheorem{theorem}{定理}[chapter]
+\newtheorem{definition}{定义}[chapter]
+\newtheorem{principle}{原理}[chapter]
+
+% 自定义“推导与数学细节”环境，用于区分正文与硬核推导
+\newenvironment{derivation}[1][数学推导与模型细节]{
+	\par\vspace{1em}\noindent\textbf{\color{darkgray} [#1]} \itshape \small
+	\begin{quote}\color{gray}
+	}{
+	\end{quote}\par\vspace{1em}
+}
+
+% =============================
+% 书籍信息
+% =============================
+\title{\textbf{社会动力学与公理化体系}\\ \large ——从变长编码到文明演化的统一框架}
+\author{D·declaim}
+\date{\today}
+
+\begin{document}
+	
+	% =============================
+	% 封面与前言
+	% =============================
+	\maketitle
+	
+	\chapter*{前言：双路思想与写作动机}
+	\addcontentsline{toc}{chapter}{前言}
+	
+	\section*{写作动机}
+	本书源于与朋友（如sbbm, gcr, ctt等）的启发式讨论，旨在构建一套兼顾数理逻辑与社会科学直觉的统一方法论。
+	\begin{itemize}
+		\item \textbf{核心目标}：将直觉性的社会观察（政治、经济、文化）压缩为低熵的公理化逻辑（信息论、动力学）。
+		\item \textbf{面向群体}：数理背景读者（寻找社会现象的底层方程）与社科背景读者（寻找理论的逻辑骨架）。
+	\end{itemize}
+	
+	\section*{本书结构：逻辑拓扑}
+	本书并非线性叙事，而是模块化的逻辑拓扑（树状分叉与圈状循环）：
+	\begin{itemize}
+		\item \textbf{Part I 现实分支（Exploration Track）}：基于“架空游戏”视角的宏观推演，讨论历史的偶然与必然。
+		\item \textbf{Part II 理论分支（Foundation Track）}：从信息压缩与动力学方程出发，推导社会结构的生成。
+		\item \textbf{循环结构}：从最基本的动力出发，产生现象，最终结果又构成新的选择压（自指与自证预言）。
+	\end{itemize}
+	
+	\tableofcontents
+	\mainmatter
+	
+	% =============================
+	% 第一部分：现实分支 (现象与直觉)
+	% =============================
+	\part{现实分支：演化游戏与历史拓扑 (Exploration Track)}
+	\vspace{2em}
+	\textit{本部分侧重于宏观视角的“架空模拟”，讨论在给定的宇宙与地球基础设定下，社会形态演化的偶然性与必然性。}
+	
+	\chapter{导论：起点的设定}
+	\section{宇宙与地球的基础参数}
+	\section{偶然与必然的比例：历史的条件概率}
+	\begin{itemize}
+		\item 讨论：如果重来一次，人类社会是否还会如此？
+		\item 方法论：利用链条各环节的条件概率来统一“偶然”与“必然”。
+	\end{itemize}
+	\section{从生存压力到社会结构}
+	
+	\chapter{经济现实：供求与不完全信息}
+	\section{供求关系的本质认同}
+	\section{不对称信息与追涨杀跌}
+	\section{商业逻辑的自然演化}
+	\begin{derivation}[模型补充：商业策略的演化]
+		讨论多金融产品如何作为“捕食策略”在信息不对称环境中演化。
+	\end{derivation}
+	
+	\chapter{政治现实：权力的抽象与赋予}
+	\section{权力即共识：对命令的认同}
+	\section{职能的抽象化：从个人到组织}
+	\section{利益交换：带有偏好的经济学}
+	
+	\chapter{文化现实：模因的传播强度}
+	\section{情绪与煽动：不问方向，但求强度}
+	\section{背景信息与“不完备”的定义}
+	\begin{itemize}
+		\item 案例：地图缺失与挠不到痒的同构性。
+		\item 讨论：信息背景如何决定描述的有效性（基于gcr讨论）。
+	\end{itemize}
+	
+	% =============================
+	% 第二部分：公理化体系 (内核与推导)
+	% =============================
+	\part{公理化体系：结构、信息与动力学 (Foundation Track)}
+	\vspace{2em}
+	\textit{本部分为本书核心，从底层数学原理出发，自底向上推导社会科学的各个子领域。}
+	
+	\chapter{第一公理：信息与结构化}
+	\label{chap:info_theory}
+	\section{分类与粗粒化 (Coarse-graining)}
+	\subsection{分类的无交性与完全性}
+	\subsection{分类精细度与误差分析}
+	\begin{derivation}[数学推导：分类单元大小的评估]
+		利用比例误差与绝对误差定义分类的“分辨率”。
+		$$ E = \sum |x_i - \hat{x}| \quad \text{vs} \quad E_{rel} = \frac{\Delta x}{x} $$
+	\end{derivation}
+	
+	\section{信息压缩与编码}
+	\subsection{有损压缩：语言与抽象}
+	\subsection{无损压缩：频率派与变长编码}
+	\begin{derivation}[推导：霍夫曼编码与社会分层]
+		证明：高频事件（日常行为）对应短编码（低成本习惯），低频事件（变革）对应长编码。
+		$$ L = \sum p_i \log_2(1/p_i) $$
+		论述完全精细的分类等价于照搬元素（信息熵极大）。
+	\end{derivation}
+	
+	\chapter{演化动力学：系统的数学描述}
+	\section{状态空间的定义}
+	\section{动力学方程：从牛顿到社会力}
+	\subsection{微分方程与循环因果}
+	\subsection{自指与自证预言 (Self-Reflexivity)}
+	\begin{derivation}[模型：预期一致的激励]
+		建立循环微分方程描述股票价格与权力稳固度：
+		$$ \frac{dX}{dt} = f(X, \text{Expectation}(X)) $$
+	\end{derivation}
+	
+	\section{势阱与稳态：拉格朗日视角}
+	\subsection{社会势能与广义动量}
+	\subsection{杆的摇晃：动量与稳定性的类比}
+	\begin{derivation}[数学推导：哈密顿量在社会系统中的适用性]
+		讨论在相对稳态环境下，如何构造社会系统的拉格朗日量 $\mathcal{L} = T - V$ 并分析其极值路径。
+	\end{derivation}
+	
+	\chapter{介观统一论：模因、经济与政治的转换}
+	\section{模因统一视角}
+	\subsection{经济：压缩偏好的金钱模因}
+	\subsection{政治：带有偏好的利益交换}
+	\section{守恒律与网络性质}
+	\subsection{经济网络的价值守恒}
+	\subsection{政治交换的利益守恒}
+	\subsection{文化传播的非守恒性（无压扩增）}
+	\begin{derivation}[推导：守恒与耗散系统的区别]
+		对比经济交易（$A \to B$）与模因复制（$A \to A+B$）的拓扑差异。
+	\end{derivation}
+	
+	\chapter{因果与责任：条件概率的法律应用}
+	\section{多链条因果分析}
+	\section{条件概率与责任划归}
+	\begin{derivation}[推导：基于条件概率的定责模型]
+		基于与sbbm的讨论。计算在不施加某条件情况下，危害结果发生的概率变化：
+		$$ P(Result | \neg Condition) \quad \text{vs} \quad P(Result | Condition) $$
+		通过归一化计算各环节的责任权重。
+	\end{derivation}
+	
+	\chapter{人存原理与现象归纳}
+	\section{现象归纳的适用边界}
+	\section{人存原理：幸存者偏差的物理化}
+	\section{等效曲线拟合与噪声评估}
+	
+	% =============================
+	% 附录：工具箱与补充材料
+	% =============================
+	\appendix
+	\part{附录：工具与方法论索引}
+	
+	\chapter{数学工具详解}
+	\section{信息论基础：从香农到变长编码}
+	\section{动力系统稳定性分析}
+	\section{复杂系统的概率评估方法}
+	
+	\chapter{灵感来源与致谢}
+	\section{关于朋友们的启发性讨论 (sbbm, ctt, gcr等)}
+	\section{推荐阅读与索引地图}
+	
+	\backmatter
+	\bibliography{references}
+	
+\end{document}

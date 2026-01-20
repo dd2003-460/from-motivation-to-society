@@ -1,0 +1,62 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	
+	% 逻辑地图：这里使用了 tikz 绘图
+	\begin{logicmap}
+		\centering
+		\begin{tikzpicture}[
+			node distance=2.5cm,
+			auto,
+			block/.style={rectangle, draw=blue!60, fill=blue!5, thick, align=center, rounded corners},
+			line/.style={-Latex, thick}
+			]
+			% 定义节点
+			\node [block] (nature) {存在或者毁灭\\(生存概率)};
+			\node [block, right=of nature] (struct) {结构与效率\\(负熵)};
+			\node [block, right=of struct] (lang) {语言与分类\\(压缩)};
+
+			% 定义连线
+			\draw [line] (nature) -- (struct);
+			\draw [line] (struct) -- (lang);
+			\draw [line, dashed] (lang) to[bend left=45] node[above, font=\footnotesize] {解释与重构} (nature);
+		\end{tikzpicture}
+
+		\vspace{1em}
+		\textbf{当前位置}：在探讨"结构如何形成"之前，必须先问"为什么有些东西能存在，而有些必然消亡"。
+	\end{logicmap}
+
+	\chapter{存在或者毁灭}
+	\label{ch:existence}
+	\begin{motivation}
+		莎士比亚笔下哈姆雷特的永恒困惑："存在还是毁灭，这是一个问题。"\\
+		《三体》中"生存是幸运的偶然"的冷峻陈述。\\
+		\textbf{核心动机}：从文学和科幻的感性描述出发，建立对"生存"这一概念的物理与数学解释。
+	\end{motivation}
+
+	\section{从语言到自然：描述与现实的映射}
+	当我们用语言描述世界时，我们实际上在进行一次信息压缩。语言将连续的自然现象离散化为可交流的符号，这个过程本身就蕴含着对"什么值得描述"的选择。
+
+	例如，莎士比亚之所以写下"To be or not to be"，是因为人类历史上充满了"生存"与"毁灭"的案例，使得这个概念在语言中被编码为一个高频词汇。语言的使用频率，反过来反映了自然现象的发生频率。
+
+	\section{生存与毁灭：从幸运偶然到普遍现象}
+	刘慈欣在《三体》中提出了一个令人不安的观点："生存是幸运的偶然。"从宇宙尺度来看，这确实如此。在热力学熵增的大趋势下，任何有序结构的形成都需要极其特殊的条件——能量的持续输入、环境的稳定性、多个随机事件的巧合叠加。
+
+	然而，如果我们缩小观察尺度，从微观到宏观，从个体到文明，"生存"与"毁灭"却变得普遍起来。一个细胞在培养皿中的存活，一个物种在生态系统中的延续，一个文明在历史长河中的兴衰，这些构成了我们日常经验的主要部分。
+
+	\section{什么决定了生存与毁灭？}
+	既然生存不是必然，那么是什么决定了一个系统能否存活？
+
+	这里有两个关键原理：
+
+	\subsection{人存原理}
+	人存原理告诉我们：我们之所以能观察到现在这个宇宙，是因为我们存在于其中。换句话说，任何能够问出"为什么我存在"的观察者，都必须处于允许其存在的环境中。
+
+	将这个原理推广到社会领域：任何能够持续存在的社会结构，必然满足了某些基本条件。如果某个结构毁灭了，那么它要么不满足这些条件，要么环境发生了剧烈变化。
+
+	\subsection{中性选择原理}
+中性选择原理指出，并非所有的变异都会被自然选择所筛选。很多变化对生存能力的影响微乎其微，它们会随基因漂变而保留或消失。
+
+	在社会系统中，这意味着：很多文化、制度、行为模式并非因为"优越"而存在，仅仅是因为它们没有致命缺陷。它们能够在某些环境下存活，不等于它们在任何环境下都最优。
+	
+\end{document}

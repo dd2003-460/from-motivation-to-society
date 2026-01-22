@@ -3,61 +3,16 @@
 \begin{document}
 
 	% 全局逻辑地图：本章在全书的位置
-	\begin{logicmap}
-		\centering
-		\begin{tikzpicture}[
-			node distance=1.5cm,
-			auto,
-			block/.style={rectangle, draw=blue!60, fill=blue!5, thick, align=center, rounded corners},
-			line/.style={-Latex, thick}
-			]
-			\node [block] (prev) {引言：\\方法论与预告};
-			\node [block, below=of prev] (current) {存在或者毁灭};
-			\node [block, below=of current] (next) {结构与效率};
+	\textbf{\large 全书位置}：引言 → \textbf{存在或者毁灭} → 结构与效率。
 
-			\draw [line] (prev) -- (current);
-			\draw [line] (current) -- (next);
-		\end{tikzpicture}
+	\textit{从感性困惑出发，建立\textbf{存在}这一概念的物理与数学解释，为后续讨论\textbf{结构如何形成}提供基础。}
 
-		\vspace{0.5em}
-		\textbf{全局位置}：从感性困惑出发，建立\textbf{存在}这一概念的物理与数学解释，为后续讨论\textbf{结构如何形成}提供基础。
-	\end{logicmap}
+	\vspace{1em}
 
-	% 局部逻辑地图：本章内部模块（简化纵向树结构）
-	\begin{logicmap}
-		\centering
-		\begin{tikzpicture}[
-			node distance=1.2cm,
-			auto,
-			root/.style={rectangle, draw=red!60, fill=red!5, thick, align=center, rounded corners, font=\Large\bfseries},
-			block/.style={rectangle, draw=blue!60, fill=blue!5, thick, align=center, rounded corners},
-			line/.style={-Latex, thick},
-			dashed/.style={-Latex, dashed, thick}
-			]
-			% 根节点
-			\node [root] (root) {存在};
+	% 局部逻辑地图：本章内部模块
+	\textbf{\large 本章结构}：四个模块解释\textbf{存在}——（1）语言映射，（2）生存偶然，（3）观察者必然，（4）存留≠最优。
 
-			% 第一层
-			\node [block, below left=1.2cm of root] (lang) {模块1：\\从语言到自然};
-			\node [block, below=1.2cm of root] (survival) {模块2：\\生存的偶然性};
-			\node [block, below right=1.2cm of root] (anthropic) {模块3：\\人存原理};
-
-			% 第二层（中性选择）
-			\node [block, below=1.5cm of survival] (neutral) {模块4：\\中性选择};
-
-			% 连线
-			\draw [line] (root) -- (lang);
-			\draw [line] (root) -- (survival);
-			\draw [line] (root) -- (anthropic);
-			\draw [line] (survival) -- (neutral);
-
-			% 循环线
-			\draw [dashed, bend left=60] (neutral) to node[right, font=\footnotesize] {循环} (lang);
-		\end{tikzpicture}
-
-		\vspace{0.5em}
-		\textbf{当前位置}：本章用\textbf{四个模块}解释\textbf{存在}——语言映射、生存偶然、观察者必然、存留≠最优。
-	\end{logicmap}
+	\vspace{1em}
 
 	\chapter{存在或者毁灭}
 	\label{ch:existence}

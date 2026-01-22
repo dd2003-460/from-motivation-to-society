@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  22 JAN 2026 23:05
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  22 JAN 2026 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,14 +1103,9 @@ Package hyperref Info: Link coloring ON on input line 3.
 \openout4 = `chapter1_nature_motivation.out'.
 
 
-Overfull \hbox (6.57526pt too wide) in paragraph at lines 20--21
- [][] 
- []
 
-
-Overfull \hbox (139.8668pt too wide) in paragraph at lines 44--45
- [][] 
- []
+LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 8.
 
 Missing character: There is no ≠ in font [lmroman12-regular]:mapping=tex-text;!
 
@@ -1120,49 +1115,53 @@ Missing character: There is no ≠ in font [lmroman12-regular]:mapping=tex-text;
 ]
 Chapter 1.
 
-LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 52.
-
-
 
 [2
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 124.
+(Font)              <10.95> on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 124.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 124.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              <6> on input line 95.
 
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-135.
+106.
 [3]
 
 [4]
 
 [5]
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ≠ in font [lmroman12-regular]:mapping=tex-text;!
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [6]
-Missing character: There is no ≠ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
 
 
 [7]
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
 
-LaTeX Warning: Hyper reference `ch:structure' on page 8 undefined on input line
- 335.
+Underfull \vbox (badness 1867) has occurred while \output is active []
 
 
 
-[8] (chapter1_nature_motivation.aux)
+[8]
+
+LaTeX Warning: Hyper reference `ch:structure' on page 9 undefined on input line
+ 333.
+
+
+
+[9] (chapter1_nature_motivation.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1174,17 +1173,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `chapter1_nature_motivation.out' has not chan
-ged.
-(rerunfilecheck)             Checksum: DE7E4C8A8BA7A44D70571EA7DDA5C017;2981.
+
+Package rerunfilecheck Warning: File `chapter1_nature_motivation.out' has chang
+ed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `chapter1_nature_motivation.out':
+(rerunfilecheck)             Before: DE7E4C8A8BA7A44D70571EA7DDA5C017;2981
+(rerunfilecheck)             After:  937B4B2F4876E60AD095575EC48C157A;2961.
  ) 
 Here is how much of TeX's memory you used:
- 28170 strings out of 403337
- 629171 string characters out of 5470285
- 1035366 words of memory out of 5000000
- 56133 multiletter control sequences out of 15000+600000
+ 28162 strings out of 403337
+ 633671 string characters out of 5470285
+ 1037347 words of memory out of 5000000
+ 56125 multiletter control sequences out of 15000+600000
  631862 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,9n,128p,513b,973s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,8n,128p,513b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on chapter1_nature_motivation.pdf (8 pages).
+Output written on chapter1_nature_motivation.pdf (9 pages).

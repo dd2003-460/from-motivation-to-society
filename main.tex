@@ -26,18 +26,17 @@
 % 定义【逻辑地图】环境
 % 使用 tcolorbox 包装，带有标题和边框
 \newenvironment{logicmap}{
-	\begin{center}
-		\begin{tcolorbox}[
-			colback=blue!5!white,      % 背景色：极淡蓝
-			colframe=blue!50!black,    % 边框色：深蓝
-			title=\textbf{逻辑地图 (Logic Map)}, % 标题
-			fonttitle=\bfseries,
-			sharp corners=south,       % 底部直角
-			boxrule=0.5mm
-			]
-		}{
-		\end{tcolorbox}
-	\end{center}
+	\begin{tcolorbox}[
+		colback=blue!5!white,      % 背景色：极淡蓝
+		colframe=blue!50!black,    % 边框色：深蓝
+		title=\textbf{逻辑地图 (Logic Map)}, % 标题
+		fonttitle=\bfseries,
+		sharp corners=south,       % 底部直角
+		boxrule=0.5mm
+		]
+	\centering
+	}{
+	\end{tcolorbox}
 }
 
 % 定义【写作动机】环境

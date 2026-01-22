@@ -1,0 +1,179 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(main.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+(D:\Miktex\tex/latex/base\book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(D:\Miktex\tex/latex/base\bk12.clo)) (D:\Miktex\tex/latex/ctex\ctex.sty
+(D:\Miktex\tex/latex/l3kernel\expl3.sty
+(D:\Miktex\tex/latex/l3backend\l3backend-xetex.def))
+(D:\Miktex\tex/latex/ctex\ctexhook.sty) (D:\Miktex\tex/latex/ctex\ctexpatch.sty
+) (D:\Miktex\tex/latex/base\fix-cm.sty (D:\Miktex\tex/latex/base\ts1enc.def))
+(D:\Miktex\tex/latex/ctex/config\ctexopts.cfg)
+(D:\Miktex\tex/latex/ctex/engine\ctex-engine-xetex.def
+(D:\Miktex\tex/xelatex/xecjk\xeCJK.sty
+(D:\Miktex\tex/latex/l3packages/xtemplate\xtemplate.sty)
+(D:\Miktex\tex/latex/fontspec\fontspec.sty
+(D:\Miktex\tex/latex/l3packages/xparse\xparse.sty)
+(D:\Miktex\tex/latex/fontspec\fontspec-xetex.sty
+(D:\Miktex\tex/latex/base\fontenc.sty)
+(D:\Miktex\tex/latex/fontspec\fontspec.cfg)))
+(D:\Miktex\tex/xelatex/xecjk\xeCJK.cfg)))
+(D:\Miktex\tex/latex/zhnumber\zhnumber.sty
+(D:\Miktex\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(D:\Miktex\tex/latex/ctex/scheme\ctex-scheme-chinese.def
+(D:\Miktex\tex/latex/ctex/config\ctex-name-utf8.cfg))
+(D:\Miktex\tex/latex/tools\indentfirst.sty)
+(D:\Miktex\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(D:\Miktex\tex/latex/ctex/config\ctex.cfg)
+(D:\Miktex\tex/latex/geometry\geometry.sty
+(D:\Miktex\tex/latex/graphics\keyval.sty)
+(D:\Miktex\tex/generic/iftex\ifvtex.sty (D:\Miktex\tex/generic/iftex\iftex.sty)
+) (D:\Miktex\tex/latex/geometry\geometry.cfg))
+(D:\Miktex\tex/latex/fancyhdr\fancyhdr.sty)
+(D:\Miktex\tex/latex/hyperref\hyperref.sty
+(D:\Miktex\tex/latex/kvsetkeys\kvsetkeys.sty)
+(D:\Miktex\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(D:\Miktex\tex/generic/pdfescape\pdfescape.sty
+(D:\Miktex\tex/generic/ltxcmds\ltxcmds.sty)
+(D:\Miktex\tex/generic/pdftexcmds\pdftexcmds.sty
+(D:\Miktex\tex/generic/infwarerr\infwarerr.sty)))
+(D:\Miktex\tex/latex/hycolor\hycolor.sty)
+(D:\Miktex\tex/latex/hyperref\nameref.sty
+(D:\Miktex\tex/latex/refcount\refcount.sty)
+(D:\Miktex\tex/generic/gettitlestring\gettitlestring.sty
+(D:\Miktex\tex/latex/kvoptions\kvoptions.sty)))
+(D:\Miktex\tex/latex/etoolbox\etoolbox.sty)
+(D:\Miktex\tex/generic/stringenc\stringenc.sty)
+(D:\Miktex\tex/latex/hyperref\pd1enc.def)
+(D:\Miktex\tex/generic/intcalc\intcalc.sty)
+(D:\Miktex\tex/latex/hyperref\puenc.def) (D:\Miktex\tex/latex/url\url.sty)
+(D:\Miktex\tex/generic/bitset\bitset.sty
+(D:\Miktex\tex/generic/bigintcalc\bigintcalc.sty)))
+(D:\Miktex\tex/latex/hyperref\hxetex.def
+(D:\Miktex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(D:\Miktex\tex/generic/uniquecounter\uniquecounter.sty)))
+(D:\Miktex\tex/latex/subfiles\subfiles.sty
+(D:\Miktex\tex/latex/import\import.sty))
+(D:\Miktex\tex/latex/pgf/frontendlayer\tikz.sty
+(D:\Miktex\tex/latex/pgf/basiclayer\pgf.sty
+(D:\Miktex\tex/latex/pgf/utilities\pgfrcs.sty
+(D:\Miktex\tex/generic/pgf/utilities\pgfutil-common.tex)
+(D:\Miktex\tex/generic/pgf/utilities\pgfutil-latex.def)
+(D:\Miktex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(D:\Miktex\tex/generic/pgf\pgf.revision.tex)))
+(D:\Miktex\tex/latex/pgf/basiclayer\pgfcore.sty
+(D:\Miktex\tex/latex/graphics\graphicx.sty
+(D:\Miktex\tex/latex/graphics\graphics.sty
+(D:\Miktex\tex/latex/graphics\trig.sty)
+(D:\Miktex\tex/latex/graphics-cfg\graphics.cfg)
+(D:\Miktex\tex/latex/graphics-def\xetex.def)))
+(D:\Miktex\tex/latex/pgf/systemlayer\pgfsys.sty
+(D:\Miktex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(D:\Miktex\tex/generic/pgf/utilities\pgfkeys.code.tex
+(D:\Miktex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex))
+(D:\Miktex\tex/generic/pgf/systemlayer\pgf.cfg)
+(D:\Miktex\tex/generic/pgf/systemlayer\pgfsys-xetex.def
+(D:\Miktex\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
+(D:\Miktex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def))))
+(D:\Miktex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex)
+(D:\Miktex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex))
+(D:\Miktex\tex/latex/xcolor\xcolor.sty
+(D:\Miktex\tex/latex/graphics-cfg\color.cfg)
+(D:\Miktex\tex/latex/graphics\mathcolor.ltx))
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(D:\Miktex\tex/generic/pgf/math\pgfmath.code.tex
+(D:\Miktex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathparser.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathcalc.code.tex)
+(D:\Miktex\tex/generic/pgf/math\pgfmathfloat.code.tex))
+(D:\Miktex\tex/generic/pgf/math\pgfint.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex)
+(D:\Miktex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex)))
+(D:\Miktex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex)
+(D:\Miktex\tex/generic/pgf/modules\pgfmoduleplot.code.tex)
+(D:\Miktex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty)
+(D:\Miktex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty))
+(D:\Miktex\tex/latex/pgf/utilities\pgffor.sty
+(D:\Miktex\tex/latex/pgf/utilities\pgfkeys.sty
+(D:\Miktex\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(D:\Miktex\tex/latex/pgf/math\pgfmath.sty
+(D:\Miktex\tex/generic/pgf/math\pgfmath.code.tex))
+(D:\Miktex\tex/generic/pgf/utilities\pgffor.code.tex))
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(D:\Miktex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex)
+(D:\Miktex\tex/generic/pgf/modules\pgfmodulematrix.code.tex)
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code
+.tex)))
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geome
+tric.code.tex
+(D:\Miktex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+)) (D:\Miktex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex)
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.
+code.tex) (D:\Miktex\tex/latex/tcolorbox\tcolorbox.sty
+(D:\Miktex\tex/latex/tools\verbatim.sty)
+(D:\Miktex\tex/latex/environ\environ.sty
+(D:\Miktex\tex/latex/trimspaces\trimspaces.sty))) (main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(main.out) (main.out)
+[1] (main.toc)
+[2] (part1_core_logic/introduction.tex
+
+LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 22.
+
+
+Underfull \vbox (badness 2478) has occurred while \output is active
+[1]
+[2]
+
+LaTeX Warning: Hyper reference `ch:existence' on page 3 undefined on input line
+ 84.
+
+
+LaTeX Warning: Hyper reference `ch:structure' on page 3 undefined on input line
+ 85.
+
+
+LaTeX Warning: Hyper reference `ch:language' on page 3 undefined on input line 
+86.
+
+)
+[3]
+[4] (part1_core_logic/chapter1_nature_motivation.tex
+Missing character: There is no ≠ in font [lmroman10-regular]:mapping=tex-text;!
+! TeX capacity exceeded, sorry [input stack size=10000].
+<to be read again> 
+                    
+l.84 ^^I^^I^^I\draw [dashed, bend left=45]
+                                           (neut2) to node[right, font=\foot...
+
+Output written on main.pdf (6 pages).
+Transcript written on main.log.

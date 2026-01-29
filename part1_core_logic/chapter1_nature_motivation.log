@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  29 JAN 2026 20:34
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  29 JAN 2026 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,39 +1294,35 @@ LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
 96.
 [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [4]
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-
 
 [5]
 Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-
-LaTeX Warning: Hyper reference `math:various' on page 6 undefined on input line
- 201.
-
 Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 [6]
 Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
 
-LaTeX Warning: Hyper reference `ch:structure' on page 7 undefined on input line
- 265.
+LaTeX Warning: Hyper reference `math:various' on page 7 undefined on input line
+ 339.
 
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
 
 
 [7]
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
 
-[8] (chapter1_nature_motivation.aux)
+LaTeX Warning: Hyper reference `ch:structure' on page 8 undefined on input line
+ 403.
+
+
+
+[8]
+
+[9] (chapter1_nature_motivation.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1340,15 +1336,15 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `chapter1_nature_motivation.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 4B4AFE1C9E66826F8A82F5F08CCD2E4A;2336.
+(rerunfilecheck)             Checksum: 492B412BAD1D265C29ED03043D7450D7;2360.
  ) 
 Here is how much of TeX's memory you used:
- 31968 strings out of 403337
- 734903 string characters out of 5470285
- 1204282 words of memory out of 5000000
- 59839 multiletter control sequences out of 15000+600000
- 632536 words of font info for 92 fonts, out of 8000000 for 9000
+ 32105 strings out of 403337
+ 742911 string characters out of 5470285
+ 1208306 words of memory out of 5000000
+ 59974 multiletter control sequences out of 15000+600000
+ 633673 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,8n,128p,513b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,9n,128p,513b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on chapter1_nature_motivation.pdf (8 pages).
+Output written on chapter1_nature_motivation.pdf (9 pages).

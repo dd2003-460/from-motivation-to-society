@@ -16,77 +16,77 @@
 \contentsline {subsection}{\numberline {1.1.2}尺度转换：为什么局部看是普遍的？}{7}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}人存原理：观察者的必然性}{7}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}弱人存原理：逻辑同义反复}{7}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}强人存原理：宇宙的参数被\textit {锁定}？}{8}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}社会推广：制度的存在条件}{8}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}中性选择原理：幸存者不是最优者}{9}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}最优≠存留：达尔文主义的误解}{9}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}漂变与中性变异}{9}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}社会启示：很多制度只是\textit {没死}}{10}{subsection.1.3.3}%
-\contentsline {subsubsection}{因此产生的多样性}{10}{section*.9}%
-\contentsline {section}{\numberline {1.4}本章小结与衔接}{11}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}回到本章动机：从文学到物理}{11}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}衔接到第2章：结构如何维持存在？}{11}{subsection.1.4.2}%
-\contentsline {chapter}{\numberline {2}结构与效率：生存的物理学}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}自然选择作为过滤器}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}结构是效率的物理固化}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}案例：从晶体到生物组织的必然性}{13}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}晶体结构的效率}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}生物组织的效率优化}{14}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}语言与信息：分类的方法论}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}从语言到自然：作为频率编码的存在}{15}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}语言是如何压缩信息的？}{15}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}莎士比亚的永恒困惑}{16}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}归纳：语言作为自然的映射}{16}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}语言即信息传递}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}结构的抽象表示：分类 (Classification)}{17}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}分类的本质：粗粒化 (Coarse-graining)}{17}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}分类的代价：信息损失与误差分析}{17}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}编码理论：霍夫曼编码与社会分层}{18}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}高频使用短编码（习惯/直觉）}{18}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}低频使用长编码（法律/逻辑）}{18}{subsection.3.4.2}%
-\contentsline {part}{II\hspace {1em}初始输入：地理与历史的必然性 (The Geologics)}{19}{part.2}%
-\contentsline {chapter}{\numberline {4}唯物史观的基石：地理决定论}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}因果链条的回溯：史观的层级}{21}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}反驳文化决定论：文化是果不是因}{21}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}地理环境作为不可变更的初始条件}{21}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}案例分析：东西方大分流的地理根源}{21}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}治水与农业：中央集权的地理必然性}{22}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}破碎海岸与贸易：分权与契约的地理必然性}{22}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}生存策略的分化：大一统与碎片化}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}中央集权：作为一种降低内部交易成本的解法}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}思想控制的必然性推导}{23}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}逻辑推导：集权 $\to $ 统一调度 $\to $ 统一思想 $\to $ 抑制异端}{23}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}这并非恶意，而是系统维持"低熵态"的能耗最优解}{23}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}假设反证：如果不是地理环境？}{24}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}基于条件概率的"架空推演"}{24}{subsection.5.3.1}%
-\contentsline {part}{III\hspace {1em}系统展开：经济、文化与政治 (The Structure)}{25}{part.3}%
-\contentsline {chapter}{\numberline {6}物质分支：经济基础}{27}{chapter.6}%
-\contentsline {section}{\numberline {6.1}供求关系与价值认同}{27}{section.6.1}%
-\contentsline {section}{\numberline {6.2}不对称信息：商业利润的来源}{27}{section.6.2}%
-\contentsline {section}{\numberline {6.3}多金融产品：人为制造的"复杂编码"}{27}{section.6.3}%
-\contentsline {chapter}{\numberline {7}意识分支 I：文化与民间制度}{28}{chapter.7}%
-\contentsline {section}{\numberline {7.1}文化作为一种算法：低成本的决策辅助}{28}{section.7.1}%
-\contentsline {section}{\numberline {7.2}道德与风俗：高频行为的短编码化}{28}{section.7.2}%
-\contentsline {section}{\numberline {7.3}模因传播：不问对错，只问强度}{28}{section.7.3}%
-\contentsline {chapter}{\numberline {8}意识分支 II：政治与权力结构}{29}{chapter.8}%
-\contentsline {section}{\numberline {8.1}权力的本质：对职能命令的认同}{29}{section.8.1}%
-\contentsline {section}{\numberline {8.2}组织的抽象：从个人魅力到机构权威}{29}{section.8.2}%
-\contentsline {section}{\numberline {8.3}博弈与制衡：权力系统的动力学}{29}{section.8.3}%
-\contentsline {chapter}{\numberline {9}制度的终极形态：法律}{30}{chapter.9}%
-\contentsline {section}{\numberline {9.1}法律的变长编码属性}{30}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}为什么法律条文必须冗长？（为了减少歧义/分类误差）}{30}{subsection.9.1.1}%
-\contentsline {section}{\numberline {9.2}责任的归因：基于条件概率的定责逻辑}{30}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}回顾Sbbm讨论：多链条因果的数学处理}{30}{subsection.9.2.1}%
-\contentsline {part}{IV\hspace {1em}结语与数学附录}{31}{part.4}%
-\contentsline {chapter}{\numberline {10}结语：循环的闭合}{32}{chapter.10}%
-\contentsline {section}{\numberline {10.1}人定胜天？社会系统对初始条件的修正}{32}{section.10.1}%
-\contentsline {section}{\numberline {10.2}新的循环：技术作为新的变量}{32}{section.10.2}%
-\contentsline {chapter}{\numberline {A}数学视角下的演化、结构与稳定性}{33}{appendix.A}%
-\contentsline {section}{\numberline {A.1}V.0 使用说明与工程声明}{33}{section.A.1}%
-\contentsline {chapter}{\numberline {B}V.1 存在、稳态与演化动力学}{34}{appendix.B}%
-\contentsline {chapter}{\numberline {C}V.2 信息、结构与正交性}{35}{appendix.C}%
-\contentsline {section}{\numberline {C.1}逻辑去重的 Gram--Schmidt 过程}{35}{section.C.1}%
-\contentsline {chapter}{\numberline {D}V.3 环境、条件概率与历史路径}{36}{appendix.D}%
-\contentsline {chapter}{\numberline {E}V.4 正反馈、自组织与社会结构}{37}{appendix.E}%
-\contentsline {chapter}{\numberline {F}V.5 附录自检清单}{38}{appendix.F}%
-\contentsline {section}{\numberline {F.1}工程自检}{38}{section.F.1}%
+\contentsline {subsection}{\numberline {1.2.2}强人存原理：它究竟比弱人存强在哪里？}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}社会推广：制度的存在条件}{9}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}中性选择原理：幸存者不是最优者}{10}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}最优≠存留：达尔文主义的误解}{10}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}漂变与中性变异}{11}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}社会启示：很多制度只是\textit {没死}}{11}{subsection.1.3.3}%
+\contentsline {subsubsection}{因此产生的多样性}{11}{section*.9}%
+\contentsline {section}{\numberline {1.4}本章小结与衔接}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}回到本章动机：从文学到物理}{12}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}衔接到第2章：结构如何维持存在？}{12}{subsection.1.4.2}%
+\contentsline {chapter}{\numberline {2}结构与效率：生存的物理学}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}自然选择作为过滤器}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}结构是效率的物理固化}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}案例：从晶体到生物组织的必然性}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}晶体结构的效率}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}生物组织的效率优化}{15}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}语言与信息：分类的方法论}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}从语言到自然：作为频率编码的存在}{16}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}语言是如何压缩信息的？}{16}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}莎士比亚的永恒困惑}{17}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}归纳：语言作为自然的映射}{17}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}语言即信息传递}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}结构的抽象表示：分类 (Classification)}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}分类的本质：粗粒化 (Coarse-graining)}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}分类的代价：信息损失与误差分析}{18}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}编码理论：霍夫曼编码与社会分层}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}高频使用短编码（习惯/直觉）}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}低频使用长编码（法律/逻辑）}{19}{subsection.3.4.2}%
+\contentsline {part}{II\hspace {1em}初始输入：地理与历史的必然性 (The Geologics)}{20}{part.2}%
+\contentsline {chapter}{\numberline {4}唯物史观的基石：地理决定论}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}因果链条的回溯：史观的层级}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}反驳文化决定论：文化是果不是因}{22}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}地理环境作为不可变更的初始条件}{22}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}案例分析：东西方大分流的地理根源}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}治水与农业：中央集权的地理必然性}{23}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}破碎海岸与贸易：分权与契约的地理必然性}{23}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}生存策略的分化：大一统与碎片化}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}中央集权：作为一种降低内部交易成本的解法}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}思想控制的必然性推导}{24}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}逻辑推导：集权 $\to $ 统一调度 $\to $ 统一思想 $\to $ 抑制异端}{24}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}这并非恶意，而是系统维持"低熵态"的能耗最优解}{24}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}假设反证：如果不是地理环境？}{25}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}基于条件概率的"架空推演"}{25}{subsection.5.3.1}%
+\contentsline {part}{III\hspace {1em}系统展开：经济、文化与政治 (The Structure)}{26}{part.3}%
+\contentsline {chapter}{\numberline {6}物质分支：经济基础}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}供求关系与价值认同}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}不对称信息：商业利润的来源}{28}{section.6.2}%
+\contentsline {section}{\numberline {6.3}多金融产品：人为制造的"复杂编码"}{28}{section.6.3}%
+\contentsline {chapter}{\numberline {7}意识分支 I：文化与民间制度}{29}{chapter.7}%
+\contentsline {section}{\numberline {7.1}文化作为一种算法：低成本的决策辅助}{29}{section.7.1}%
+\contentsline {section}{\numberline {7.2}道德与风俗：高频行为的短编码化}{29}{section.7.2}%
+\contentsline {section}{\numberline {7.3}模因传播：不问对错，只问强度}{29}{section.7.3}%
+\contentsline {chapter}{\numberline {8}意识分支 II：政治与权力结构}{30}{chapter.8}%
+\contentsline {section}{\numberline {8.1}权力的本质：对职能命令的认同}{30}{section.8.1}%
+\contentsline {section}{\numberline {8.2}组织的抽象：从个人魅力到机构权威}{30}{section.8.2}%
+\contentsline {section}{\numberline {8.3}博弈与制衡：权力系统的动力学}{30}{section.8.3}%
+\contentsline {chapter}{\numberline {9}制度的终极形态：法律}{31}{chapter.9}%
+\contentsline {section}{\numberline {9.1}法律的变长编码属性}{31}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}为什么法律条文必须冗长？（为了减少歧义/分类误差）}{31}{subsection.9.1.1}%
+\contentsline {section}{\numberline {9.2}责任的归因：基于条件概率的定责逻辑}{31}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}回顾Sbbm讨论：多链条因果的数学处理}{31}{subsection.9.2.1}%
+\contentsline {part}{IV\hspace {1em}结语与数学附录}{32}{part.4}%
+\contentsline {chapter}{\numberline {10}结语：循环的闭合}{33}{chapter.10}%
+\contentsline {section}{\numberline {10.1}人定胜天？社会系统对初始条件的修正}{33}{section.10.1}%
+\contentsline {section}{\numberline {10.2}新的循环：技术作为新的变量}{33}{section.10.2}%
+\contentsline {chapter}{\numberline {A}数学视角下的演化、结构与稳定性}{34}{appendix.A}%
+\contentsline {section}{\numberline {A.1}V.0 使用说明与工程声明}{34}{section.A.1}%
+\contentsline {chapter}{\numberline {B}V.1 存在、稳态与演化动力学}{35}{appendix.B}%
+\contentsline {chapter}{\numberline {C}V.2 信息、结构与正交性}{36}{appendix.C}%
+\contentsline {section}{\numberline {C.1}逻辑去重的 Gram--Schmidt 过程}{36}{section.C.1}%
+\contentsline {chapter}{\numberline {D}V.3 环境、条件概率与历史路径}{37}{appendix.D}%
+\contentsline {chapter}{\numberline {E}V.4 正反馈、自组织与社会结构}{38}{appendix.E}%
+\contentsline {chapter}{\numberline {F}V.5 附录自检清单}{39}{appendix.F}%
+\contentsline {section}{\numberline {F.1}工程自检}{39}{section.F.1}%

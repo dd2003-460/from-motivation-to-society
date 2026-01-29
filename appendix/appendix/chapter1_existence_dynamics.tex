@@ -1,0 +1,39 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+\chapter{V.1 存在、稳态与演化动力学}
+\label{math:existence}
+
+\mathlink{math:existence}{正文链接：存在为何需要稳态条件？}
+
+\begin{mathbox}{1. 问题动机与建模视角}
+	\textbf{问题}：在正文中，我们多次使用"存在""幸存""持续"等概念。它们在数学上意味着什么？
+	
+	\textbf{动机}：若一个结构不能在扰动下保持，其"存在"只是一瞬事件，而非可讨论对象。
+	
+	\textbf{建模视角}：将"存在"视为动力系统中的\lowfreq{稳态（Stable State）}。
+\end{mathbox}
+
+\begin{mathbox}{2. 基本模型与假设}
+	\textbf{假设 A（动力系统）}：系统状态 $x(t)$ 满足
+	\[ \dot{x} = f(x, \theta) \]
+	其中 $\theta$ 表示环境参数。
+	
+	\textbf{假设 B（存在条件）}：存在 $x^*$ 使得 $f(x^*,\theta)=0$，且在小扰动下系统回归 $x^*$。
+\end{mathbox}
+
+\begin{mathbox}{3. 推论与方法论分叉}
+	\textbf{推论 1（负反馈）}：若 $\partial f/\partial x <0$，系统表现为稳态，对应\lowfreq{归纳方法论}（平均、统计、拟合）。
+	
+	\textbf{推论 2（正反馈）}：若 $\partial f/\partial x >0$，系统远离原态，对应\lowfreq{演绎/构造方法论}（规则、制度、设计）。
+	
+	\textbf{未闭合分支}：多稳态与相变条件，此处不展开。
+\end{mathbox}
+
+\label{math:various}
+
+\mathlink{main:various}{正文链接：多样性跟什么有关？}
+
+
+\end{document}

@@ -19,6 +19,25 @@
 
 \usepackage{tcolorbox}      % 用于制作漂亮的文本框
 
+\tcbuselibrary{skins, breakable, theorems}
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows.meta, positioning, shadows, calc, fit, trees}
+
+% ==========================================
+% 数学附录 ↔ 正文 链接接口
+% ==========================================
+\newcommand{\mathlink}[2]{%
+	\par\noindent
+	\textcolor{blue}{\small$\rightarrow$ \hyperref[#1]{#2}}
+	\par
+}
+
+% ==========================================
+% 低频高信息密度强调（写作工程接口）
+% ==========================================
+\newcommand{\lowfreq}[1]{\textbf{\textcolor{red!70!black}{#1}}}
+
+
 % ==========================================
 % 3. 自定义环境定义
 % ==========================================
@@ -55,6 +74,17 @@
 	}{
 	\end{tcolorbox}
 	\vspace{1em}
+}
+
+% --- 2.4 数学推导盒子 ---
+\newtcolorbox{mathbox}[1]{
+	enhanced,
+	colback=gray!5,
+	colframe=gray!60!black,
+	title=\textbf{🧮 数学建模：#1},
+	fonttitle=\small\bfseries\sffamily,
+	leftrule=2mm,
+	breakable
 }
 
 % ==========================================
@@ -104,15 +134,16 @@
 	\subfile{part3_systematic_expansion/chapter4_law_institutional_form}
 	
 	% =================================================================
-	% 结语与附录
+	% 结语与数学附录
 	% =================================================================
-	\part{结语与附录}
+	\part{结语与数学附录}
 	\subfile{conclusion/circular_closure}
 	
+	% ==============================
+	% Part V: Mathematical Appendix
+	% ==============================
 	\appendix
-	\part{附录：数学工具箱与参考文献}
-	\chapter{详细数学推导}
-	\section{变长编码与熵的计算细节}
-	\section{动力学方程的稳定性证明}
+	\subfile{appendix/appendix_V_math}
+
 	
 \end{document}

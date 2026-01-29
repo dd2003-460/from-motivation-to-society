@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  29 JAN 2026 11:19
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  29 JAN 2026 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./introduction.tex
-(introduction.tex
+**./chapter3_language_information.tex
+(chapter3_language_information.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
 (D:\Miktex\tex/latex/subfiles\subfiles.cls
@@ -1152,8 +1152,8 @@ File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytrees.code.t
 ex
 File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (introduction.aux)
-\openout1 = `introduction.aux'.
+))) (chapter3_language_information.aux)
+\openout1 = `chapter3_language_information.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -1268,17 +1268,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 3.
-(introduction.out) (introduction.out)
+(chapter3_language_information.out) (chapter3_language_information.out)
 \@outlinefile=\write4
-\openout4 = `introduction.out'.
+\openout4 = `chapter3_language_information.out'.
 
 
+Chapter 1.
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 22.
-
-
-Underfull \vbox (badness 2478) has occurred while \output is active []
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 6.
 
 
 
@@ -1287,25 +1285,14 @@ Underfull \vbox (badness 2478) has occurred while \output is active []
 
 ]
 
-[2]
-
-LaTeX Warning: Hyper reference `ch:existence' on page 3 undefined on input line
- 84.
-
-
-LaTeX Warning: Hyper reference `ch:structure' on page 3 undefined on input line
- 85.
-
-
-LaTeX Warning: Hyper reference `ch:language' on page 3 undefined on input line 
-86.
-
-
-
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-89.
-[3] (introduction.aux)
+99.
+[2]
+
+[3]
+
+[4] (chapter3_language_information.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1315,18 +1302,23 @@ L3 programming layer <2022/07/14>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `chapter3_language_information.out' has ch
+anged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 54CC54145A82B5184B02870453537200;1210.
+Package rerunfilecheck Info: Checksums for `chapter3_language_information.out':
+
+(rerunfilecheck)             Before: FAFE55DE1649181FCEF559A68EC89C85;2120
+(rerunfilecheck)             After:  86AA9656A447B4712D7F6EA59DEFB8B2;2028.
  ) 
 Here is how much of TeX's memory you used:
- 31579 strings out of 403337
- 712851 string characters out of 5470285
- 1205975 words of memory out of 5000000
- 59457 multiletter control sequences out of 15000+600000
- 632477 words of font info for 85 fonts, out of 8000000 for 9000
+ 31892 strings out of 403337
+ 730967 string characters out of 5470285
+ 1207035 words of memory out of 5000000
+ 59764 multiletter control sequences out of 15000+600000
+ 632528 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,6n,128p,499b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,6n,128p,516b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on introduction.pdf (3 pages).
+Output written on chapter3_language_information.pdf (4 pages).

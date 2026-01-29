@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  22 JAN 2026 23:48
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  29 JAN 2026 20:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,8 +980,179 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box74
 \tcb@temp=\box75
 \tcb@temp=\box76
+)
+(D:\Miktex\tex/latex/tcolorbox\tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.6.0'
+(D:\Miktex\tex/latex/tikzfill\tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(D:\Miktex\tex/latex/tikzfill\tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(D:\Miktex\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box77
+))
+(D:\Miktex\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.6.0'
+)) (D:\Miktex\tex/latex/tcolorbox\tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.6.0'
+(D:\Miktex\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box78
+\tcb@totalupperbox=\box79
+\tcb@totallowerbox=\box80
+)
+(D:\Miktex\tex/latex/tcolorbox\tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.6.0'
+(D:\Miktex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(D:\Miktex\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(D:\Miktex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen307
+))
+(D:\Miktex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen308
+)
+(D:\Miktex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count353
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count354
+\leftroot@=\count355
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count356
+\DOTSCASE@=\count357
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box81
+\strutbox@=\box82
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen309
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count358
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count359
+\dotsspace@=\muskip18
+\c@parentequation=\count360
+\dspbrk@lvl=\count361
+\tag@help=\toks36
+\row@=\count362
+\column@=\count363
+\maxfields@=\count364
+\andhelp@=\toks37
+\eqnshift@=\dimen310
+\alignsep@=\dimen311
+\tagshift@=\dimen312
+\tagwidth@=\dimen313
+\totwidth@=\dimen314
+\lineht@=\dimen315
+\@envbody=\toks38
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+))
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.
+tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.
+code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(D:\Miktex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbo
+ls.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(D:\Miktex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrow
+s.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(D:\Miktex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callo
+uts.code.tex
+(D:\Miktex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)
+)
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multi
+part.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(D:\Miktex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box83
+\pgfnodeparttwobox=\box84
+\pgfnodepartthreebox=\box85
+\pgfnodepartfourbox=\box86
+\pgfnodeparttwentybox=\box87
+\pgfnodepartnineteenbox=\box88
+\pgfnodeparteighteenbox=\box89
+\pgfnodepartseventeenbox=\box90
+\pgfnodepartsixteenbox=\box91
+\pgfnodepartfifteenbox=\box92
+\pgfnodepartfourteenbox=\box93
+\pgfnodepartthirteenbox=\box94
+\pgfnodeparttwelvebox=\box95
+\pgfnodepartelevenbox=\box96
+\pgfnodeparttenbox=\box97
+\pgfnodepartninebox=\box98
+\pgfnodeparteightbox=\box99
+\pgfnodepartsevenbox=\box100
+\pgfnodepartsixbox=\box101
+\pgfnodepartfivebox=\box102
 )))
-(chapter1_nature_motivation.aux)
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code
+.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code
+.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (D:\Miktex\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.te
+x
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytrees.code.t
+ex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (chapter1_nature_motivation.aux)
 \openout1 = `chapter1_nature_motivation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1022,7 +1193,6 @@ LaTeX Font Info:    Redeclaring math accent \check on input line 3.
 LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 3.
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
@@ -1119,49 +1289,44 @@ Chapter 1.
 [2
 
 ]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 95.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 95.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 95.
-
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-106.
+96.
 [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [4]
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+
 
 [5]
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+
+LaTeX Warning: Hyper reference `math:various' on page 6 undefined on input line
+ 201.
+
+Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [6]
 Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
+
+LaTeX Warning: Hyper reference `ch:structure' on page 7 undefined on input line
+ 265.
+
 
 
 [7]
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ≠ in font [lmroman12-bold]:mapping=tex-text;!
 
-Underfull \vbox (badness 1867) has occurred while \output is active []
-
-
-
-[8]
-
-LaTeX Warning: Hyper reference `ch:structure' on page 9 undefined on input line
- 333.
-
-
-
-[9] (chapter1_nature_motivation.aux)
+[8] (chapter1_nature_motivation.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1173,23 +1338,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `chapter1_nature_motivation.out' has chang
-ed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `chapter1_nature_motivation.out':
-(rerunfilecheck)             Before: DE7E4C8A8BA7A44D70571EA7DDA5C017;2981
-(rerunfilecheck)             After:  937B4B2F4876E60AD095575EC48C157A;2961.
+Package rerunfilecheck Info: File `chapter1_nature_motivation.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 4B4AFE1C9E66826F8A82F5F08CCD2E4A;2336.
  ) 
 Here is how much of TeX's memory you used:
- 28162 strings out of 403337
- 633671 string characters out of 5470285
- 1037347 words of memory out of 5000000
- 56125 multiletter control sequences out of 15000+600000
- 631862 words of font info for 89 fonts, out of 8000000 for 9000
+ 31968 strings out of 403337
+ 734903 string characters out of 5470285
+ 1204282 words of memory out of 5000000
+ 59839 multiletter control sequences out of 15000+600000
+ 632536 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,8n,128p,513b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,8n,128p,513b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on chapter1_nature_motivation.pdf (9 pages).
+Output written on chapter1_nature_motivation.pdf (8 pages).

@@ -17,7 +17,19 @@
 \usepackage{tikz}           % 绘图核心包
 \usetikzlibrary{shapes.geometric, arrows.meta, positioning} % 载入TikZ扩展库
 
-\usepackage{tcolorbox}      % 用于制作漂亮的文本框
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox{readingnote}{
+	colback=gray!5,
+	colframe=gray!40,
+	boxrule=0.4pt,
+	arc=2mm,
+	left=6pt,
+	right=6pt,
+	top=6pt,
+	bottom=6pt
+}
+     % 用于制作漂亮的文本框
 
 \tcbuselibrary{skins, breakable, theorems}
 \usepackage{tikz}
@@ -86,6 +98,11 @@
 	leftrule=2mm,
 	breakable
 }
+
+% 画图等需要的宏包
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+\usepackage{booktabs}
 
 % ==========================================
 % 4. 书籍信息

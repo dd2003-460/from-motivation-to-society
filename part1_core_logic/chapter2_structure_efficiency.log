@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  9 FEB 2026 22:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  9 FEB 2026 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./introduction.tex
-(introduction.tex
+**./chapter2_structure_efficiency.tex
+(chapter2_structure_efficiency.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
 (D:\Miktex\tex/latex/subfiles\subfiles.cls
@@ -1241,8 +1241,9 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count383
 \@lastruleclass=\count384
 \@thisrulewidth=\dimen335
-))) (introduction.aux)
-\openout1 = `introduction.aux'.
+)))
+(chapter2_structure_efficiency.aux)
+\openout1 = `chapter2_structure_efficiency.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -1357,18 +1358,20 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 3.
-(introduction.out) (introduction.out)
+(chapter2_structure_efficiency.out) (chapter2_structure_efficiency.out)
 \@outlinefile=\write4
-\openout4 = `introduction.out'.
+\openout4 = `chapter2_structure_efficiency.out'.
 
 \c@lstlisting=\count385
 
+Chapter 1.
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 22.
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 17.
 
 
-Underfull \vbox (badness 2478) has occurred while \output is active []
+LaTeX Warning: Hyper reference `math:selection_filter' on page 1 undefined on i
+nput line 40.
 
 
 
@@ -1377,35 +1380,26 @@ Underfull \vbox (badness 2478) has occurred while \output is active []
 
 ]
 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Hyper reference `math:threshold_model' on page 2 undefined on in
+put line 69.
 
 
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-166.
+121.
+[2]
+
 [3]
-Underfull \vbox (badness 1043) has occurred while \output is active []
+
+LaTeX Warning: Hyper reference `math:survival_constraint' on page 4 undefined o
+n input line 251.
 
 
 
 [4]
 
-LaTeX Warning: Hyper reference `ch:existence' on page 5 undefined on input line
- 238.
-
-
-LaTeX Warning: Hyper reference `ch:structure' on page 5 undefined on input line
- 239.
-
-
-LaTeX Warning: Hyper reference `ch:language' on page 5 undefined on input line 
-240.
-
-
-
-[5] (introduction.aux)
+[5] (chapter2_structure_efficiency.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1417,16 +1411,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 07910A7C27F7B413A0F3F8FDFE241943;1416.
+Package rerunfilecheck Info: File `chapter2_structure_efficiency.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: A56BB34545E8FED09DFA00C132B96549;2386.
  ) 
 Here is how much of TeX's memory you used:
- 34448 strings out of 403337
- 779773 string characters out of 5470285
- 1275803 words of memory out of 5000000
- 62275 multiletter control sequences out of 15000+600000
- 632485 words of font info for 86 fonts, out of 8000000 for 9000
+ 34552 strings out of 403337
+ 789489 string characters out of 5470285
+ 1274324 words of memory out of 5000000
+ 62374 multiletter control sequences out of 15000+600000
+ 633657 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,8n,128p,499b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,6n,128p,516b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on introduction.pdf (5 pages).
+Output written on chapter2_structure_efficiency.pdf (5 pages).

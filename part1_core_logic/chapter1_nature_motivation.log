@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  29 JAN 2026 21:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.4)  9 FEB 2026 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,8 +980,14 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box74
 \tcb@temp=\box75
 \tcb@temp=\box76
-)
-(D:\Miktex\tex/latex/tcolorbox\tcbskins.code.tex
+
+(D:\Miktex\tex/latex/tcolorbox\tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.6.0'
+\c@tcbrastercolumn=\count353
+\c@tcbrasterrow=\count354
+\c@tcbrasternum=\count355
+\c@tcbraster=\count356
+) (D:\Miktex\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.6.0'
 (D:\Miktex\tex/latex/tikzfill\tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
@@ -1006,7 +1012,9 @@ Package pdfcol Info: pdfTeX's color stacks are not available.
 \tcb@totalupperbox=\box79
 \tcb@totallowerbox=\box80
 )
-(D:\Miktex\tex/latex/tcolorbox\tcbtheorems.code.tex
+(D:\Miktex\tex/latex/tcolorbox\tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.6.0'
+) (D:\Miktex\tex/latex/tcolorbox\tcbtheorems.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.6.0'
 (D:\Miktex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
@@ -1028,14 +1036,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (D:\Miktex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count353
+\inf@bad=\count357
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count354
-\leftroot@=\count355
+\uproot@=\count358
+\leftroot@=\count359
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count356
-\DOTSCASE@=\count357
+\classnum@=\count360
+\DOTSCASE@=\count361
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -1048,20 +1056,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen309
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count358
+\macc@depth=\count362
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count359
+\c@MaxMatrixCols=\count363
 \dotsspace@=\muskip18
-\c@parentequation=\count360
-\dspbrk@lvl=\count361
+\c@parentequation=\count364
+\dspbrk@lvl=\count365
 \tag@help=\toks36
-\row@=\count362
-\column@=\count363
-\maxfields@=\count364
+\row@=\count366
+\column@=\count367
+\maxfields@=\count368
 \andhelp@=\toks37
 \eqnshift@=\dimen310
 \alignsep@=\dimen311
@@ -1075,6 +1083,74 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
+))
+(D:\Miktex\tex/latex/tcolorbox\tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.6.0'
+\tcbfitdim=\dimen316
+\tcb@lowerfitdim=\dimen317
+\tcb@upperfitdim=\dimen318
+\tcb@cur@hbadness=\count369
+) (D:\Miktex\tex/latex/tcolorbox\tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.6.0'
+(D:\Miktex\tex/latex/tcolorbox\tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.6.0'
+(D:\Miktex\tex/latex/listings\listings.sty
+\lst@mode=\count370
+\lst@gtempboxa=\box83
+\lst@token=\toks40
+\lst@length=\count371
+\lst@currlwidth=\dimen319
+\lst@column=\count372
+\lst@pos=\count373
+\lst@lostspace=\dimen320
+\lst@width=\dimen321
+\lst@newlines=\count374
+\lst@lineno=\count375
+\lst@maxwidth=\dimen322
+
+(D:\Miktex\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(D:\Miktex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count376
+\lst@skipnumbers=\count377
+\lst@framebox=\box84
+)
+(D:\Miktex\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(D:\Miktex\tex/xelatex/xecjk\xeCJK-listings.sty
+Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count378
+\l__xeCJK_listings_flag_int=\count379
+)
+(D:\Miktex\tex/latex/tcolorbox\tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.6.0'
+(D:\Miktex\tex/latex/tcolorbox\tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.6.0'
+)
+\c@tcblisting=\count380
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
+Library `listings` is loaded instead. on input line 29.
+) (D:\Miktex\tex/latex/tcolorbox\tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.6.0'
+) (D:\Miktex\tex/latex/tcolorbox\tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.6.0'
+) (D:\Miktex\tex/latex/tcolorbox\tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.6.0'
+
+(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code
+.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (D:\Miktex\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(D:\Miktex\tex/latex/tcolorbox\tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.6.0'
 ))
 (D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.
 tex
@@ -1111,37 +1187,31 @@ File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (D:\Miktex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box83
-\pgfnodeparttwobox=\box84
-\pgfnodepartthreebox=\box85
-\pgfnodepartfourbox=\box86
-\pgfnodeparttwentybox=\box87
-\pgfnodepartnineteenbox=\box88
-\pgfnodeparteighteenbox=\box89
-\pgfnodepartseventeenbox=\box90
-\pgfnodepartsixteenbox=\box91
-\pgfnodepartfifteenbox=\box92
-\pgfnodepartfourteenbox=\box93
-\pgfnodepartthirteenbox=\box94
-\pgfnodeparttwelvebox=\box95
-\pgfnodepartelevenbox=\box96
-\pgfnodeparttenbox=\box97
-\pgfnodepartninebox=\box98
-\pgfnodeparteightbox=\box99
-\pgfnodepartsevenbox=\box100
-\pgfnodepartsixbox=\box101
-\pgfnodepartfivebox=\box102
+\pgfnodepartlowerbox=\box85
+\pgfnodeparttwobox=\box86
+\pgfnodepartthreebox=\box87
+\pgfnodepartfourbox=\box88
+\pgfnodeparttwentybox=\box89
+\pgfnodepartnineteenbox=\box90
+\pgfnodeparteighteenbox=\box91
+\pgfnodepartseventeenbox=\box92
+\pgfnodepartsixteenbox=\box93
+\pgfnodepartfifteenbox=\box94
+\pgfnodepartfourteenbox=\box95
+\pgfnodepartthirteenbox=\box96
+\pgfnodeparttwelvebox=\box97
+\pgfnodepartelevenbox=\box98
+\pgfnodeparttenbox=\box99
+\pgfnodepartninebox=\box100
+\pgfnodeparteightbox=\box101
+\pgfnodepartsevenbox=\box102
+\pgfnodepartsixbox=\box103
+\pgfnodepartfivebox=\box104
 )))
 (D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code
 .tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code
-.tex
-File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (D:\Miktex\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
-File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
+)
 (D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.te
 x
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1152,7 +1222,27 @@ File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (D:\Miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytrees.code.t
 ex
 File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (chapter1_nature_motivation.aux)
+) (D:\Miktex\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen323
+\lightrulewidth=\dimen324
+\cmidrulewidth=\dimen325
+\belowrulesep=\dimen326
+\belowbottomsep=\dimen327
+\aboverulesep=\dimen328
+\abovetopsep=\dimen329
+\cmidrulesep=\dimen330
+\cmidrulekern=\dimen331
+\defaultaddspace=\dimen332
+\@cmidla=\count381
+\@cmidlb=\count382
+\@aboverulesep=\dimen333
+\@belowrulesep=\dimen334
+\@thisruleclass=\count383
+\@lastruleclass=\count384
+\@thisrulewidth=\dimen335
+)))
+(chapter1_nature_motivation.aux)
 \openout1 = `chapter1_nature_motivation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1272,6 +1362,7 @@ Package hyperref Info: Link coloring ON on input line 3.
 \@outlinefile=\write4
 \openout4 = `chapter1_nature_motivation.out'.
 
+\c@lstlisting=\count385
 
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
@@ -1325,7 +1416,7 @@ LaTeX Warning: Hyper reference `ch:structure' on page 8 undefined on input line
 [9] (chapter1_nature_motivation.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2022/07/14>
+L3 programming layer <2022/08/05>
  ***********
 
 
@@ -1339,10 +1430,10 @@ ged.
 (rerunfilecheck)             Checksum: 492B412BAD1D265C29ED03043D7450D7;2360.
  ) 
 Here is how much of TeX's memory you used:
- 32105 strings out of 403337
- 742911 string characters out of 5470285
- 1208306 words of memory out of 5000000
- 59974 multiletter control sequences out of 15000+600000
+ 34756 strings out of 403337
+ 802485 string characters out of 5470285
+ 1277933 words of memory out of 5000000
+ 62575 multiletter control sequences out of 15000+600000
  633673 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,9n,128p,513b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -1,0 +1,607 @@
+{
+  "project": "动机社会",
+  "generated_at": "2026-03-09T00:52:00Z",
+  "total_tasks": 75,
+  "tasks": [
+    {
+      "id": "t0001",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter3_politics_power_structure.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0002",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter3_politics_power_structure.tex",
+      "section": "权力的本质：对职能命令的认同",
+      "goal": "在「权力的本质：对职能命令的认同」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0003",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter3_politics_power_structure.tex",
+      "section": "组织的抽象：从个人魅力到机构权威",
+      "goal": "在「组织的抽象：从个人魅力到机构权威」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0004",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter3_politics_power_structure.tex",
+      "section": "博弈与制衡：权力系统的动力学",
+      "goal": "在「博弈与制衡：权力系统的动力学」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0005",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter4_law_institutional_form.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0006",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter4_law_institutional_form.tex",
+      "section": "法律的变长编码属性",
+      "goal": "在「法律的变长编码属性」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0007",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter4_law_institutional_form.tex",
+      "section": "责任的归因：基于条件概率的定责逻辑",
+      "goal": "在「责任的归因：基于条件概率的定责逻辑」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0008",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter1_economic_base.tex",
+      "section": "供求关系与价值认同",
+      "goal": "在「供求关系与价值认同」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0009",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter1_economic_base.tex",
+      "section": "不对称信息：商业利润的来源",
+      "goal": "在「不对称信息：商业利润的来源」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0010",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter1_economic_base.tex",
+      "section": "多金融产品：人为制造的\"复杂编码\"",
+      "goal": "在「多金融产品：人为制造的\"复杂编码\"」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0011",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter2_culture_folk_institutions.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0012",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter2_culture_folk_institutions.tex",
+      "section": "文化作为一种算法：低成本的决策辅助",
+      "goal": "在「文化作为一种算法：低成本的决策辅助」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0013",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter2_culture_folk_institutions.tex",
+      "section": "道德与风俗：高频行为的短编码化",
+      "goal": "在「道德与风俗：高频行为的短编码化」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0014",
+      "action": "edit",
+      "file": "./part3_systematic_expansion/chapter2_culture_folk_institutions.tex",
+      "section": "模因传播：不问对错，只问强度",
+      "goal": "在「模因传播：不问对错，只问强度」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0015",
+      "action": "edit",
+      "file": "./appendix/appendix_V_math.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0016",
+      "action": "edit",
+      "file": "./appendix/appendix_V_math.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0017",
+      "action": "edit",
+      "file": "./appendix/appendix_V_math.tex",
+      "section": "V.0 使用说明与工程声明",
+      "goal": "在「V.0 使用说明与工程声明」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0018",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter3_history_probability.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0019",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter3_history_probability.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0020",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter4_selforg_dynamics.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0021",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter4_selforg_dynamics.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0022",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter1_existence_dynamics.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0023",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter1_existence_dynamics.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0024",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter2_structure_info.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0025",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter2_structure_info.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0026",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter2_structure_info.tex",
+      "section": "逻辑去重的 Gram--Schmidt 过程",
+      "goal": "在「逻辑去重的 Gram--Schmidt 过程」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0027",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter5_checklist.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0028",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter5_checklist.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0029",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter5_checklist.tex",
+      "section": "工程自检",
+      "goal": "在「工程自检」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0030",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter0_readme.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0031",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter0_readme.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0032",
+      "action": "edit",
+      "file": "./appendix/appendix/chapter0_readme.tex",
+      "section": "V.0 使用说明与工程声明",
+      "goal": "在「V.0 使用说明与工程声明」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0033",
+      "action": "edit",
+      "file": "./part2_geological_determinism/chapter2_survival_strategy_divergence.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0034",
+      "action": "edit",
+      "file": "./part2_geological_determinism/chapter2_survival_strategy_divergence.tex",
+      "section": "中央集权：作为一种降低内部交易成本的解法",
+      "goal": "在「中央集权：作为一种降低内部交易成本的解法」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0035",
+      "action": "edit",
+      "file": "./part2_geological_determinism/chapter2_survival_strategy_divergence.tex",
+      "section": "思想控制的必然性推导",
+      "goal": "在「思想控制的必然性推导」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0036",
+      "action": "edit",
+      "file": "./part2_geological_determinism/chapter2_survival_strategy_divergence.tex",
+      "section": "假设反证：如果不是地理环境？",
+      "goal": "在「假设反证：如果不是地理环境？」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0037",
+      "action": "edit",
+      "file": "./part2_geological_determinism/chapter1_materialist_historical_view.tex",
+      "section": "因果链条的回溯：史观的层级",
+      "goal": "在「因果链条的回溯：史观的层级」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0038",
+      "action": "edit",
+      "file": "./part2_geological_determinism/chapter1_materialist_historical_view.tex",
+      "section": "案例分析：东西方大分流的地理根源",
+      "goal": "在「案例分析：东西方大分流的地理根源」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0039",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter2_structure_efficiency.tex",
+      "section": "自然选择作为过滤器",
+      "goal": "在「自然选择作为过滤器」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0040",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter2_structure_efficiency.tex",
+      "section": "结构为什么会产生效率",
+      "goal": "在「结构为什么会产生效率」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0041",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter2_structure_efficiency.tex",
+      "section": "效率的代价：结构僵化",
+      "goal": "在「效率的代价：结构僵化」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0042",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter2_structure_efficiency.tex",
+      "section": "效率的代价：结构僵化",
+      "goal": "在「效率的代价：结构僵化」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0043",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter2_structure_efficiency.tex",
+      "section": "生命为何如此复杂？",
+      "goal": "在「生命为何如此复杂？」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0044",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter1_nature_motivation.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0045",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter1_nature_motivation.tex",
+      "section": "生存的偶然性：从宇宙尺度到文明尺度",
+      "goal": "在「生存的偶然性：从宇宙尺度到文明尺度」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0046",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter1_nature_motivation.tex",
+      "section": "人存原理：观察者的必然性",
+      "goal": "在「人存原理：观察者的必然性」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0047",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter1_nature_motivation.tex",
+      "section": "中性选择原理：幸存者不是最优者",
+      "goal": "在「中性选择原理：幸存者不是最优者」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0048",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter1_nature_motivation.tex",
+      "section": "本章小结与衔接",
+      "goal": "在「本章小结与衔接」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0049",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter3_language_information.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0050",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter3_language_information.tex",
+      "section": "语言为何如此容易使用？",
+      "goal": "在「语言为何如此容易使用？」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0051",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter3_language_information.tex",
+      "section": "语言为何不是最优？",
+      "goal": "在「语言为何不是最优？」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0052",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter3_language_information.tex",
+      "section": "高频与压缩：一种看不见的压力",
+      "goal": "在「高频与压缩：一种看不见的压力」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0053",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter3_language_information.tex",
+      "section": "这是否只是巧合？",
+      "goal": "在「这是否只是巧合？」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0054",
+      "action": "edit",
+      "file": "./part1_core_logic/chapter3_language_information.tex",
+      "section": "文学：压缩的极致形式",
+      "goal": "在「文学：压缩的极致形式」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0055",
+      "action": "edit",
+      "file": "./part1_core_logic/introduction.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0056",
+      "action": "edit",
+      "file": "./part1_core_logic/introduction.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0057",
+      "action": "edit",
+      "file": "./part1_core_logic/introduction.tex",
+      "section": "写作动机",
+      "goal": "在「写作动机」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0058",
+      "action": "edit",
+      "file": "./part1_core_logic/introduction.tex",
+      "section": "面向读者群体",
+      "goal": "在「面向读者群体」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0059",
+      "action": "edit",
+      "file": "./part1_core_logic/introduction.tex",
+      "section": "结构设计思路",
+      "goal": "在「结构设计思路」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0060",
+      "action": "edit",
+      "file": "./part1_core_logic/introduction.tex",
+      "section": "如何阅读本书",
+      "goal": "在「如何阅读本书」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0061",
+      "action": "edit",
+      "file": "./大纲1/大纲1.tex",
+      "section": "最基本的动力：熵增与能量流",
+      "goal": "在「最基本的动力：熵增与能量流」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0062",
+      "action": "edit",
+      "file": "./大纲1/大纲1.tex",
+      "section": "次级产生的现象：耗散结构",
+      "goal": "在「次级产生的现象：耗散结构」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0063",
+      "action": "edit",
+      "file": "./大纲1/大纲1.tex",
+      "section": "自然选择作为过滤器",
+      "goal": "在「自然选择作为过滤器」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0064",
+      "action": "edit",
+      "file": "./大纲1/大纲1.tex",
+      "section": "结构是效率的物理固化",
+      "goal": "在「结构是效率的物理固化」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0065",
+      "action": "edit",
+      "file": "./大纲1/大纲1.tex",
+      "section": "案例：从晶体到生物组织的必然性",
+      "goal": "在「案例：从晶体到生物组织的必然性」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0066",
+      "action": "edit",
+      "file": "./大纲/大纲.tex",
+      "target": "chapter_start",
+      "goal": "添加 motivation 环境：从感性困惑出发，用一两句话说明本章核心动机",
+      "status": "pending"
+    },
+    {
+      "id": "t0067",
+      "action": "edit",
+      "file": "./大纲/大纲.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0068",
+      "action": "edit",
+      "file": "./大纲/大纲.tex",
+      "section": "宇宙与地球的基础参数",
+      "goal": "在「宇宙与地球的基础参数」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0069",
+      "action": "edit",
+      "file": "./大纲/大纲.tex",
+      "section": "偶然与必然的比例：历史的条件概率",
+      "goal": "在「偶然与必然的比例：历史的条件概率」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0070",
+      "action": "edit",
+      "file": "./大纲/大纲.tex",
+      "section": "从生存压力到社会结构",
+      "goal": "在「从生存压力到社会结构」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0071",
+      "action": "edit",
+      "file": "./大纲/大纲.tex",
+      "section": "供求关系的本质认同",
+      "goal": "在「供求关系的本质认同」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0072",
+      "action": "edit",
+      "file": "./大纲/大纲.tex",
+      "section": "不对称信息与追涨杀跌",
+      "goal": "在「不对称信息与追涨杀跌」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0073",
+      "action": "edit",
+      "file": "./conclusion/circular_closure.tex",
+      "target": "after_motivation",
+      "goal": "添加 logicmap 环境：展示本章逻辑结构（可用 TikZ 或文字描述）",
+      "status": "pending"
+    },
+    {
+      "id": "t0074",
+      "action": "edit",
+      "file": "./conclusion/circular_closure.tex",
+      "section": "人定胜天？社会系统对初始条件的修正",
+      "goal": "在「人定胜天？社会系统对初始条件的修正」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    },
+    {
+      "id": "t0075",
+      "action": "edit",
+      "file": "./conclusion/circular_closure.tex",
+      "section": "新的循环：技术作为新的变量",
+      "goal": "在「新的循环：技术作为新的变量」开头添加读者疑问（如“你有没有想过…”），结尾添加「逻辑衔接」小节",
+      "status": "pending"
+    }
+  ]
+}

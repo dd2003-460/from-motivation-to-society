@@ -5,6 +5,22 @@
 \chapter{V.1 存在、稳态与演化动力学}
 \label{math:existence}
 
+\begin{motivation}
+	\textbf{你有没有想过}，为什么"存在""幸存""持续"这些日常词汇在数学上意味着什么？一个结构如何在扰动下保持其存在？
+
+	\textbf{核心动机}：将"存在"形式化为动力系统的稳态概念，为后续分析稳定性与演化行为奠定数学基础。
+\end{motivation}
+
+\begin{logicmap}
+\begin{tikzpicture}[node distance=1.2cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+\node (motivation) {问题动机与建模视角};
+\node (model) [below left=of motivation] {基本模型与假设};
+\node (inference) [below right=of motivation] {推论与方法论分叉};
+\draw[-{Stealth}] (motivation) -- (model);
+\draw[-{Stealth}] (motivation) -- (inference);
+\end{tikzpicture}
+\end{logicmap}
+
 \mathlink{math:existence}{正文链接：存在为何需要稳态条件？}
 
 \begin{mathbox}{1. 问题动机与建模视角}

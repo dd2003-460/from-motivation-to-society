@@ -1,0 +1,396 @@
+[
+  {
+    "file": "./part3_systematic_expansion/chapter3_politics_power_structure.tex",
+    "exists": true,
+    "chapters": [
+      "意识分支 II：政治与权力结构"
+    ],
+    "sections": [
+      "权力的本质：对职能命令的认同",
+      "组织的抽象：从个人魅力到机构权威",
+      "博弈与制衡：权力系统的动力学"
+    ],
+    "subsections": [],
+    "mtime": 1772967176.7527387,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./part3_systematic_expansion/chapter4_law_institutional_form.tex",
+    "exists": true,
+    "chapters": [
+      "制度的终极形态：法律"
+    ],
+    "sections": [
+      "法律的变长编码属性",
+      "责任的归因：基于条件概率的定责逻辑"
+    ],
+    "subsections": [
+      "为什么法律条文必须冗长？（为了减少歧义/分类误差）",
+      "回顾Sbbm讨论：多链条因果的数学处理"
+    ],
+    "mtime": 1772967176.753915,
+    "compiled": true,
+    "log_path": "part3_systematic_expansion/chapter4_law_institutional_form.log"
+  },
+  {
+    "file": "./part3_systematic_expansion/chapter1_economic_base.tex",
+    "exists": true,
+    "chapters": [
+      "物质分支：经济基础"
+    ],
+    "sections": [
+      "供求关系与价值认同",
+      "不对称信息：商业利润的来源",
+      "多金融产品：人为制造的\"复杂编码\""
+    ],
+    "subsections": [],
+    "mtime": 1772967176.752559,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./part3_systematic_expansion/chapter2_culture_folk_institutions.tex",
+    "exists": true,
+    "chapters": [
+      "意识分支 I：文化与民间制度"
+    ],
+    "sections": [
+      "文化作为一种算法：低成本的决策辅助",
+      "道德与风俗：高频行为的短编码化",
+      "模因传播：不问对错，只问强度"
+    ],
+    "subsections": [],
+    "mtime": 1772967176.7526445,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./appendix/appendix_V_math.tex",
+    "exists": true,
+    "chapters": [
+      "数学视角下的演化、结构与稳定性"
+    ],
+    "sections": [
+      "V.0 使用说明与工程声明"
+    ],
+    "subsections": [],
+    "mtime": 1772967176.739588,
+    "compiled": true,
+    "log_path": "appendix/appendix_V_math.log"
+  },
+  {
+    "file": "./appendix/appendix/chapter3_history_probability.tex",
+    "exists": true,
+    "chapters": [
+      "V.3 环境、条件概率与历史路径"
+    ],
+    "sections": [],
+    "subsections": [],
+    "mtime": 1772967176.738307,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./appendix/appendix/chapter4_selforg_dynamics.tex",
+    "exists": true,
+    "chapters": [
+      "V.4 正反馈、自组织与社会结构"
+    ],
+    "sections": [],
+    "subsections": [],
+    "mtime": 1772967176.7383919,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./appendix/appendix/chapter1_existence_dynamics.tex",
+    "exists": true,
+    "chapters": [
+      "V.1 存在、稳态与演化动力学"
+    ],
+    "sections": [],
+    "subsections": [],
+    "mtime": 1772967176.7381332,
+    "compiled": true,
+    "log_path": "appendix/appendix/chapter1_existence_dynamics.log"
+  },
+  {
+    "file": "./appendix/appendix/chapter2_structure_info.tex",
+    "exists": true,
+    "chapters": [
+      "V.2 信息、结构与正交性"
+    ],
+    "sections": [
+      "逻辑去重的 Gram--Schmidt 过程"
+    ],
+    "subsections": [],
+    "mtime": 1772967176.738216,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./appendix/appendix/chapter5_checklist.tex",
+    "exists": true,
+    "chapters": [
+      "V.5 附录自检清单"
+    ],
+    "sections": [
+      "工程自检"
+    ],
+    "subsections": [],
+    "mtime": 1772967176.7384715,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./appendix/appendix/chapter0_readme.tex",
+    "exists": true,
+    "chapters": [],
+    "sections": [
+      "V.0 使用说明与工程声明"
+    ],
+    "subsections": [],
+    "mtime": 1772967176.7371502,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./part2_geological_determinism/chapter2_survival_strategy_divergence.tex",
+    "exists": true,
+    "chapters": [
+      "生存策略的分化：大一统与碎片化"
+    ],
+    "sections": [
+      "中央集权：作为一种降低内部交易成本的解法",
+      "思想控制的必然性推导",
+      "假设反证：如果不是地理环境？"
+    ],
+    "subsections": [
+      "逻辑推导：集权 $\\to$ 统一调度 $\\to$ 统一思想 $\\to$ 抑制异端",
+      "这并非恶意，而是系统维持\"低熵态\"的能耗最优解",
+      "基于条件概率的\"架空推演\""
+    ],
+    "mtime": 1772967176.7523985,
+    "compiled": false,
+    "log_path": null
+  },
+  {
+    "file": "./part2_geological_determinism/chapter1_materialist_historical_view.tex",
+    "exists": true,
+    "chapters": [
+      "唯物史观的基石：地理决定论"
+    ],
+    "sections": [
+      "因果链条的回溯：史观的层级",
+      "案例分析：东西方大分流的地理根源"
+    ],
+    "subsections": [
+      "反驳文化决定论：文化是果不是因",
+      "地理环境作为不可变更的初始条件",
+      "治水与农业：中央集权的地理必然性",
+      "破碎海岸与贸易：分权与契约的地理必然性"
+    ],
+    "mtime": 1772967176.7523084,
+    "compiled": true,
+    "log_path": "part2_geological_determinism/chapter1_materialist_historical_view.log"
+  },
+  {
+    "file": "./part1_core_logic/chapter2_structure_efficiency.tex",
+    "exists": true,
+    "chapters": [
+      "结构与效率：生存的物理学"
+    ],
+    "sections": [
+      "自然选择作为过滤器",
+      "结构为什么会产生效率",
+      "效率的代价：结构僵化",
+      "效率的代价：结构僵化",
+      "生命为何如此复杂？"
+    ],
+    "subsections": [
+      "不是选择最优，而是淘汰不可行",
+      "过滤阈值与及格线结构",
+      "为什么留下来的，往往是有层级的？",
+      "效率不是被追求的目标，而是副产物",
+      "为什么看起来低效的结构还能长期存在？",
+      "起点：简单结构的高适应性",
+      "扩张：规模迫使复杂化",
+      "校正机制的叠加：结构开始维护自身",
+      "结构僵化：一个定义",
+      "土地兼并：再分配机制失效的信号"
+    ],
+    "mtime": 1772967176.7486696,
+    "compiled": true,
+    "log_path": "part1_core_logic/chapter2_structure_efficiency.log"
+  },
+  {
+    "file": "./part1_core_logic/chapter1_nature_motivation.tex",
+    "exists": true,
+    "chapters": [
+      "存在或者毁灭"
+    ],
+    "sections": [
+      "生存的偶然性：从宇宙尺度到文明尺度",
+      "人存原理：观察者的必然性",
+      "中性选择原理：幸存者不是最优者",
+      "本章小结与衔接"
+    ],
+    "subsections": [
+      "存在是小概率事件",
+      "尺度转换：为什么局部看是普遍的？",
+      "弱人存原理：逻辑同义反复",
+      "强人存原理：它究竟比弱人存强在哪里？",
+      "社会推广：制度的存在条件",
+      "最优≠存留：达尔文主义的误解",
+      "漂变与中性变异",
+      "社会启示：很多制度只是\\textit{没死",
+      "回到本章动机：从文学到物理",
+      "衔接到第2章：结构如何维持存在？"
+    ],
+    "mtime": 1772967176.7446022,
+    "compiled": true,
+    "log_path": "part1_core_logic/chapter1_nature_motivation.log"
+  },
+  {
+    "file": "./part1_core_logic/chapter3_language_information.tex",
+    "exists": true,
+    "chapters": [
+      "语言：一种轻量级结构"
+    ],
+    "sections": [
+      "语言为何如此容易使用？",
+      "语言为何不是最优？",
+      "高频与压缩：一种看不见的压力",
+      "这是否只是巧合？",
+      "文学：压缩的极致形式"
+    ],
+    "subsections": [
+      "低门槛的复杂结构",
+      "我们习惯了它，却很少质疑它",
+      "从一个日常问题开始",
+      "重复带来的压力",
+      "看似的反例",
+      "趋势不是瞬间的聪明，而是被留下的轨迹"
+    ],
+    "mtime": 1772967176.750261,
+    "compiled": true,
+    "log_path": "part1_core_logic/chapter3_language_information.log"
+  },
+  {
+    "file": "./part1_core_logic/introduction.tex",
+    "exists": true,
+    "chapters": [],
+    "sections": [
+      "写作动机",
+      "面向读者群体",
+      "结构设计思路",
+      "如何阅读本书"
+    ],
+    "subsections": [
+      " 动机清晰，逻辑唯一",
+      "模块化章节与逻辑拓扑",
+      "线性阅读路径",
+      "跳跃阅读路径",
+      "正向建构与反向学习：两种线性遍历方式",
+      "示例：为什么要问\"为什么\"",
+      "章节预告"
+    ],
+    "mtime": 1772967176.7511885,
+    "compiled": true,
+    "log_path": "part1_core_logic/introduction.log"
+  },
+  {
+    "file": "./大纲1/大纲1.tex",
+    "exists": true,
+    "chapters": [
+      "自然现象：动力与混乱",
+      "结构与效率：生存的物理学",
+      "语言与信息：分类的方法论",
+      "唯物史观的基石：地理决定论",
+      "生存策略的分化：大一统与碎片化",
+      "物质分支：经济基础",
+      "意识分支 I：文化与民间制度",
+      "意识分支 II：政治与权力结构",
+      "制度的终极形态：法律",
+      "结语：循环的闭合",
+      "详细数学推导"
+    ],
+    "sections": [
+      "最基本的动力：熵增与能量流",
+      "次级产生的现象：耗散结构",
+      "自然选择作为过滤器",
+      "结构是效率的物理固化",
+      "案例：从晶体到生物组织的必然性"
+    ],
+    "subsections": [
+      "分类的本质：粗粒化 (Coarse-graining)",
+      "分类的代价：信息损失与误差分析",
+      "高频使用短编码（习惯/直觉）",
+      "低频使用长编码（法律/逻辑）",
+      "反驳文化决定论：文化是果不是因",
+      "地理环境作为不可变更的初始条件",
+      "治水与农业：中央集权的地理必然性",
+      "破碎海岸与贸易：分权与契约的地理必然性",
+      "逻辑推导：集权 $\\to$ 统一调度 $\\to$ 统一思想 $\\to$ 抑制异端",
+      "这并非恶意，而是系统维持“低熵态”的能耗最优解"
+    ],
+    "mtime": 1772967176.759594,
+    "compiled": true,
+    "log_path": "大纲1/大纲1.log"
+  },
+  {
+    "file": "./大纲/大纲.tex",
+    "exists": true,
+    "chapters": [
+      "导论：起点的设定",
+      "经济现实：供求与不完全信息",
+      "政治现实：权力的抽象与赋予",
+      "文化现实：模因的传播强度",
+      "第一公理：信息与结构化",
+      "演化动力学：系统的数学描述",
+      "介观统一论：模因、经济与政治的转换",
+      "因果与责任：条件概率的法律应用",
+      "人存原理与现象归纳",
+      "数学工具详解",
+      "灵感来源与致谢"
+    ],
+    "sections": [
+      "宇宙与地球的基础参数",
+      "偶然与必然的比例：历史的条件概率",
+      "从生存压力到社会结构",
+      "供求关系的本质认同",
+      "不对称信息与追涨杀跌"
+    ],
+    "subsections": [
+      "分类的无交性与完全性",
+      "分类精细度与误差分析",
+      "有损压缩：语言与抽象",
+      "无损压缩：频率派与变长编码",
+      "微分方程与循环因果",
+      "自指与自证预言 (Self-Reflexivity)",
+      "社会势能与广义动量",
+      "杆的摇晃：动量与稳定性的类比",
+      "经济：压缩偏好的金钱模因",
+      "政治：带有偏好的利益交换"
+    ],
+    "mtime": 1772967176.757928,
+    "compiled": true,
+    "log_path": "大纲/大纲.log"
+  },
+  {
+    "file": "./conclusion/circular_closure.tex",
+    "exists": true,
+    "chapters": [
+      "结语：循环的闭合"
+    ],
+    "sections": [
+      "人定胜天？社会系统对初始条件的修正",
+      "新的循环：技术作为新的变量"
+    ],
+    "subsections": [],
+    "mtime": 1772967176.7404935,
+    "compiled": false,
+    "log_path": null
+  }
+]

@@ -23,6 +23,21 @@
 	\textbf{核心动机}：从文学和科幻的感性描述出发，建立对\textbf{生存}这一概念的物理与数学解释。
 \end{motivation}
 
+\begin{logicmap}
+\begin{tikzpicture}[node distance=1.2cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+\node (exist) {存在};
+\node (surv) [below left=of exist] {生存偶然};
+\node (anthro) [below right=of exist] {观察者必然};
+\node (neutral) [below=of anthro] {中性选择};
+\node (conclusion) [below=of surv] {本章小结};
+\draw[-{Stealth}] (exist) -- (surv);
+\draw[-{Stealth}] (exist) -- (anthro);
+\draw[-{Stealth}] (surv) -- (neutral);
+\draw[-{Stealth}] (anthro) -- (neutral);
+\draw[-{Stealth}] (neutral) -- (conclusion);
+\end{tikzpicture}
+\end{logicmap}
+
 	\section{生存的偶然性：从宇宙尺度到文明尺度}
 
 	你有没有想过，为什么宇宙中没有到处都是生命？
@@ -379,6 +394,12 @@
 
 	\section{本章小结与衔接}
 
+	\begin{readingnote}
+		你有没有想过，读完本章后，最大的收获是什么？\\
+		我们从哈姆雷特的困惑出发，经历了存在偶然、观察者必然、中性选择，现在回头看：\\
+		\textbf{这些概念如何串联成一个完整的故事？} 它们共同指向了什么？
+	\end{readingnote}
+
 	\subsection{回到本章动机：从文学到物理}
 
 	莎士比亚的\textit{To be or not to be}从一个文学问题，转化为一个物理问题：
@@ -407,5 +428,8 @@
 
 		这样做的原因：趣味性和结构性的平衡——先用探索引发兴趣，再用严谨建立框架。
 	\end{tcolorbox}
+
+	\paragraph*{逻辑衔接}
+	我们已经回顾了本章的核心洞见：存在是偶然的、对观察者是必然的、存留≠最优。这三大洞察为我们接下来讨论「结构与效率」奠定了基础：如果存在需要精确条件，那么什么样的结构能够以最小成本维持自身存在？这正是第2章要回答的问题。
 
 \end{document}

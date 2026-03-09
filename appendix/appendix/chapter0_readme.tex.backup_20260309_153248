@@ -1,3 +1,4 @@
+
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
@@ -20,11 +21,6 @@
 	
 	\section{V.0 使用说明与工程声明}
 	
-	\begin{questionbox}
-\paragraph*{读者疑问}
-为什么一本讨论社会动力学的书需要数学附录？附录会不会变成另一个「需要学习的全新内容」，反而偏离主题？
-\end{questionbox}
-
 	% 动机说明
 	% 本节目的：防止读者误将数学附录视为新的叙事主线
 	\begin{mathbox}{附录定位与阅读方式}
@@ -38,7 +34,5 @@
 		\end{itemize}
 	\end{mathbox}
 	
-	\paragraph*{逻辑衔接}
-本附录通过形式化手段加固正文的论证链条，但它本身不是论证的终点。每一个数学模块都指向正文中的具体论断，读者应始终在「数学细节」与「直观解释」之间来回切换。附录的价值不在于 mastering the math，而在于 seeing the structure。
 	
 \end{document}

@@ -1,130 +1,142 @@
 \contentsline {chapter}{引言}{1}{chapter*.2}%
 \contentsline {section}{\numberline {0.1}写作动机}{1}{section.0.1}%
-\contentsline {section}{\numberline {0.2}面向读者群体}{1}{section.0.2}%
+\contentsline {section}{\numberline {0.2}面向读者群体}{2}{section.0.2}%
 \contentsline {section}{\numberline {0.3}结构设计思路}{2}{section.0.3}%
-\contentsline {subsection}{\numberline {0.3.1} 动机清晰，逻辑唯一}{2}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {0.3.2}模块化章节与逻辑拓扑}{2}{subsection.0.3.2}%
-\contentsline {section}{\numberline {0.4}如何阅读本书}{2}{section.0.4}%
-\contentsline {subsection}{\numberline {0.4.1}线性阅读路径}{2}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {0.4.2}跳跃阅读路径}{2}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {0.4.3}正向建构与反向学习：两种线性遍历方式}{3}{subsection.0.4.3}%
-\contentsline {paragraph}{演绎为主，归纳验证}{5}{section*.3}%
-\contentsline {paragraph}{归纳为主，理论约束}{5}{section*.4}%
-\contentsline {paragraph}{临界与过渡区域}{5}{section*.5}%
-\contentsline {paragraph}{说明}{5}{section*.6}%
-\contentsline {paragraph}{小结}{5}{section*.7}%
-\contentsline {subsection}{\numberline {0.4.4}示例：为什么要问"为什么"}{5}{subsection.0.4.4}%
-\contentsline {subsection}{\numberline {0.4.5}章节预告}{5}{subsection.0.4.5}%
-\contentsline {part}{I\hspace {1em}核心逻辑：自然、结构与语言 (The Core Loop)}{6}{part.1}%
-\contentsline {chapter}{\numberline {1}存在或者毁灭}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}生存的偶然性：从宇宙尺度到文明尺度}{8}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}存在是小概率事件}{8}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}尺度转换：为什么局部看是普遍的？}{9}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}人存原理：观察者的必然性}{9}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}弱人存原理：逻辑同义反复}{10}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}强人存原理：它究竟比弱人存强在哪里？}{10}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}社会推广：制度的存在条件}{11}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}中性选择原理：幸存者不是最优者}{12}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}最优≠存留：达尔文主义的误解}{13}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}漂变与中性变异}{13}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}社会启示：很多制度只是\textit {没死}}{13}{subsection.1.3.3}%
-\contentsline {subsubsection}{因此产生的多样性}{13}{section*.14}%
-\contentsline {section}{\numberline {1.4}本章小结与衔接}{14}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}回到本章动机：从文学到物理}{14}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}衔接到第2章：结构如何维持存在？}{15}{subsection.1.4.2}%
-\contentsline {chapter}{\numberline {2}结构与效率：生存的物理学}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1}自然选择作为过滤器}{16}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}不是选择最优，而是淘汰不可行}{16}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}过滤阈值与及格线结构}{16}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}结构为什么会产生效率}{17}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}为什么留下来的，往往是有层级的？}{17}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}效率不是被追求的目标，而是副产物}{18}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}为什么看起来低效的结构还能长期存在？}{19}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}效率的代价：结构僵化}{19}{section.2.3}%
-\contentsline {section}{\numberline {2.4}效率的代价：结构僵化}{20}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}起点：简单结构的高适应性}{20}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}扩张：规模迫使复杂化}{21}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}校正机制的叠加：结构开始维护自身}{21}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}结构僵化：一个定义}{22}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}土地兼并：再分配机制失效的信号}{22}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}历史周期律：结构的清算机制}{22}{subsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.4.7}过渡：结构是否只能崩溃？}{23}{subsection.2.4.7}%
-\contentsline {section}{\numberline {2.5}生命为何如此复杂？}{23}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}单细胞已经足够了吗？}{23}{subsection.2.5.1}%
-\contentsline {subsubsection}{简单结构的完整性}{23}{section*.18}%
-\contentsline {subsubsection}{反例：简单是否真的更优？}{24}{section*.19}%
-\contentsline {subsection}{\numberline {2.5.2}分工：复杂化的驱动力}{24}{subsection.2.5.2}%
-\contentsline {subsubsection}{效率来自分工}{24}{section*.20}%
-\contentsline {subsubsection}{读者可能的疑问}{25}{section*.21}%
-\contentsline {subsection}{\numberline {2.5.3}复杂的代价}{25}{subsection.2.5.3}%
-\contentsline {subsubsection}{协调成本的出现}{25}{section*.22}%
-\contentsline {subsubsection}{能量消耗的上升}{25}{section*.23}%
-\contentsline {subsubsection}{反例：为什么昆虫不能无限变大？}{26}{section*.24}%
-\contentsline {subsection}{\numberline {2.5.4}生物的结构弹性}{26}{subsection.2.5.4}%
-\contentsline {subsubsection}{一个关键差异}{26}{section*.25}%
-\contentsline {subsubsection}{局部替换机制}{26}{section*.26}%
-\contentsline {subsubsection}{必要性分析}{27}{section*.27}%
-\contentsline {subsection}{\numberline {2.5.5}统一视角：复杂、效率与限制}{27}{subsection.2.5.5}%
-\contentsline {section}{小结：结构并非优劣，而是存活条件}{27}{section*.28}%
-\contentsline {chapter}{\numberline {3}语言：一种轻量级结构}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}语言为何如此容易使用？}{30}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}低门槛的复杂结构}{30}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}语言为何不是最优？}{31}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}我们习惯了它，却很少质疑它}{31}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}高频与压缩：一种看不见的压力}{31}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}从一个日常问题开始}{31}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}重复带来的压力}{32}{subsection.3.3.2}%
-\contentsline {paragraph}{附录说明}{32}{section*.32}%
-\contentsline {section}{\numberline {3.4}这是否只是巧合？}{32}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}看似的反例}{32}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}趋势不是瞬间的聪明，而是被留下的轨迹}{32}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}文学：压缩的极致形式}{34}{section.3.5}%
-\contentsline {section}{\numberline {3.6}从语言到自然}{34}{section.3.6}%
-\contentsline {section}{\numberline {3.7}存在为何如此频繁？}{34}{section.3.7}%
-\contentsline {paragraph}{逻辑衔接}{35}{section*.33}%
-\contentsline {part}{II\hspace {1em}初始输入：地理与历史的必然性 (The Geologics)}{36}{part.2}%
-\contentsline {chapter}{\numberline {4}唯物史观的基石：地理决定论}{38}{chapter.4}%
-\contentsline {section}{\numberline {4.1}因果链条的回溯：史观的层级}{38}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}反驳文化决定论：文化是果不是因}{38}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}地理环境作为不可变更的初始条件}{38}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}案例分析：东西方大分流的地理根源}{38}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}治水与农业：中央集权的地理必然性}{39}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}破碎海岸与贸易：分权与契约的地理必然性}{39}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}生存策略的分化：大一统与碎片化}{40}{chapter.5}%
-\contentsline {section}{\numberline {5.1}中央集权：作为一种降低内部交易成本的解法}{40}{section.5.1}%
-\contentsline {section}{\numberline {5.2}思想控制的必然性推导}{40}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}逻辑推导：集权 $\to $ 统一调度 $\to $ 统一思想 $\to $ 抑制异端}{40}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}这并非恶意，而是系统维持"低熵态"的能耗最优解}{40}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}假设反证：如果不是地理环境？}{41}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}基于条件概率的"架空推演"}{41}{subsection.5.3.1}%
-\contentsline {part}{III\hspace {1em}系统展开：经济、文化与政治 (The Structure)}{42}{part.3}%
-\contentsline {chapter}{\numberline {6}物质分支：经济基础}{44}{chapter.6}%
-\contentsline {section}{\numberline {6.1}供求关系与价值认同}{44}{section.6.1}%
-\contentsline {section}{\numberline {6.2}不对称信息：商业利润的来源}{44}{section.6.2}%
-\contentsline {section}{\numberline {6.3}多金融产品：人为制造的"复杂编码"}{44}{section.6.3}%
-\contentsline {chapter}{\numberline {7}意识分支 I：文化与民间制度}{45}{chapter.7}%
-\contentsline {section}{\numberline {7.1}文化作为一种算法：低成本的决策辅助}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2}道德与风俗：高频行为的短编码化}{45}{section.7.2}%
-\contentsline {section}{\numberline {7.3}模因传播：不问对错，只问强度}{45}{section.7.3}%
-\contentsline {chapter}{\numberline {8}意识分支 II：政治与权力结构}{46}{chapter.8}%
-\contentsline {section}{\numberline {8.1}权力的本质：对职能命令的认同}{46}{section.8.1}%
-\contentsline {section}{\numberline {8.2}组织的抽象：从个人魅力到机构权威}{46}{section.8.2}%
-\contentsline {section}{\numberline {8.3}博弈与制衡：权力系统的动力学}{46}{section.8.3}%
-\contentsline {chapter}{\numberline {9}制度的终极形态：法律}{47}{chapter.9}%
-\contentsline {section}{\numberline {9.1}法律的变长编码属性}{47}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}为什么法律条文必须冗长？（为了减少歧义/分类误差）}{47}{subsection.9.1.1}%
-\contentsline {section}{\numberline {9.2}责任的归因：基于条件概率的定责逻辑}{47}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}回顾Sbbm讨论：多链条因果的数学处理}{47}{subsection.9.2.1}%
-\contentsline {part}{IV\hspace {1em}结语与数学附录}{48}{part.4}%
-\contentsline {chapter}{\numberline {10}结语：循环的闭合}{49}{chapter.10}%
-\contentsline {section}{\numberline {10.1}人定胜天？社会系统对初始条件的修正}{49}{section.10.1}%
-\contentsline {section}{\numberline {10.2}新的循环：技术作为新的变量}{49}{section.10.2}%
-\contentsline {chapter}{\numberline {A}数学视角下的演化、结构与稳定性}{50}{appendix.A}%
-\contentsline {section}{\numberline {A.1}V.0 使用说明与工程声明}{50}{section.A.1}%
-\contentsline {chapter}{\numberline {B}V.1 存在、稳态与演化动力学}{51}{appendix.B}%
-\contentsline {chapter}{\numberline {C}V.2 信息、结构与正交性}{52}{appendix.C}%
-\contentsline {section}{\numberline {C.1}逻辑去重的 Gram--Schmidt 过程}{52}{section.C.1}%
-\contentsline {chapter}{\numberline {D}V.3 环境、条件概率与历史路径}{53}{appendix.D}%
-\contentsline {chapter}{\numberline {E}V.4 正反馈、自组织与社会结构}{54}{appendix.E}%
-\contentsline {chapter}{\numberline {F}V.5 附录自检清单}{55}{appendix.F}%
-\contentsline {section}{\numberline {F.1}工程自检}{55}{section.F.1}%
+\contentsline {subsection}{\numberline {0.3.1} 动机清晰，逻辑唯一}{3}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}模块化章节与逻辑拓扑}{3}{subsection.0.3.2}%
+\contentsline {section}{\numberline {0.4}如何阅读本书}{3}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}线性阅读路径}{4}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {0.4.2}跳跃阅读路径}{4}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {0.4.3}正向建构与反向学习：两种线性遍历方式}{4}{subsection.0.4.3}%
+\contentsline {paragraph}{演绎为主，归纳验证}{6}{section*.6}%
+\contentsline {paragraph}{归纳为主，理论约束}{6}{section*.7}%
+\contentsline {paragraph}{临界与过渡区域}{6}{section*.8}%
+\contentsline {paragraph}{说明}{6}{section*.9}%
+\contentsline {paragraph}{小结}{6}{section*.10}%
+\contentsline {subsection}{\numberline {0.4.4}示例：为什么要问"为什么"}{6}{subsection.0.4.4}%
+\contentsline {subsection}{\numberline {0.4.5}章节预告}{6}{subsection.0.4.5}%
+\contentsline {part}{I\hspace {1em}核心逻辑：自然、结构与语言 (The Core Loop)}{8}{part.1}%
+\contentsline {chapter}{\numberline {1}存在或者毁灭}{10}{chapter.1}%
+\contentsline {section}{\numberline {1.1}生存的偶然性：从宇宙尺度到文明尺度}{10}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}存在是小概率事件}{10}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}尺度转换：为什么局部看是普遍的？}{11}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}人存原理：观察者的必然性}{12}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}弱人存原理：逻辑同义反复}{12}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}强人存原理：它究竟比弱人存强在哪里？}{12}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}社会推广：制度的存在条件}{13}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}中性选择原理：幸存者不是最优者}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}最优≠存留：达尔文主义的误解}{15}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}漂变与中性变异}{15}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}社会启示：很多制度只是\textit {没死}}{16}{subsection.1.3.3}%
+\contentsline {subsubsection}{因此产生的多样性}{16}{section*.18}%
+\contentsline {section}{\numberline {1.4}本章小结与衔接}{17}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}回到本章动机：从文学到物理}{17}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}衔接到第2章：结构如何维持存在？}{18}{subsection.1.4.2}%
+\contentsline {chapter}{\numberline {2}结构与效率：生存的物理学}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}自然选择作为过滤器}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}不是选择最优，而是淘汰不可行}{20}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}过滤阈值与及格线结构}{20}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}结构为什么会产生效率}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}为什么留下来的，往往是有层级的？}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}效率不是被追求的目标，而是副产物}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}为什么看起来低效的结构还能长期存在？}{23}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}效率的代价：结构僵化}{23}{section.2.3}%
+\contentsline {section}{\numberline {2.4}效率的代价：结构僵化}{24}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}起点：简单结构的高适应性}{24}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}扩张：规模迫使复杂化}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}校正机制的叠加：结构开始维护自身}{25}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}结构僵化：一个定义}{26}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}土地兼并：再分配机制失效的信号}{26}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}历史周期律：结构的清算机制}{26}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}过渡：结构是否只能崩溃？}{27}{subsection.2.4.7}%
+\contentsline {section}{\numberline {2.5}生命为何如此复杂？}{27}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}单细胞已经足够了吗？}{27}{subsection.2.5.1}%
+\contentsline {subsubsection}{简单结构的完整性}{27}{section*.25}%
+\contentsline {subsubsection}{反例：简单是否真的更优？}{28}{section*.26}%
+\contentsline {subsection}{\numberline {2.5.2}分工：复杂化的驱动力}{28}{subsection.2.5.2}%
+\contentsline {subsubsection}{效率来自分工}{28}{section*.27}%
+\contentsline {subsubsection}{读者可能的疑问}{29}{section*.28}%
+\contentsline {subsection}{\numberline {2.5.3}复杂的代价}{29}{subsection.2.5.3}%
+\contentsline {subsubsection}{协调成本的出现}{29}{section*.29}%
+\contentsline {subsubsection}{能量消耗的上升}{29}{section*.30}%
+\contentsline {subsubsection}{反例：为什么昆虫不能无限变大？}{30}{section*.31}%
+\contentsline {subsection}{\numberline {2.5.4}生物的结构弹性}{30}{subsection.2.5.4}%
+\contentsline {subsubsection}{一个关键差异}{30}{section*.32}%
+\contentsline {subsubsection}{局部替换机制}{30}{section*.33}%
+\contentsline {subsubsection}{必要性分析}{31}{section*.34}%
+\contentsline {subsection}{\numberline {2.5.5}统一视角：复杂、效率与限制}{31}{subsection.2.5.5}%
+\contentsline {section}{小结：结构并非优劣，而是存活条件}{32}{section*.35}%
+\contentsline {chapter}{\numberline {3}语言：一种轻量级结构}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}语言为何如此容易使用？}{35}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}低门槛的复杂结构}{35}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}语言为何不是最优？}{35}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}我们习惯了它，却很少质疑它}{35}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}高频与压缩：一种看不见的压力}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}从一个日常问题开始}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}重复带来的压力}{37}{subsection.3.3.2}%
+\contentsline {paragraph}{附录说明}{37}{section*.43}%
+\contentsline {section}{\numberline {3.4}这是否只是巧合？}{37}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}看样的反例}{37}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}趋势不是瞬间的聪明，而是被留下的轨迹}{38}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}文学：压缩的极致形式}{39}{section.3.5}%
+\contentsline {section}{\numberline {3.6}从语言到自然}{39}{section.3.6}%
+\contentsline {section}{\numberline {3.7}存在为何如此频繁？}{40}{section.3.7}%
+\contentsline {paragraph}{逻辑衔接}{40}{section*.47}%
+\contentsline {part}{II\hspace {1em}初始输入：地理与历史的必然性 (The Geologics)}{41}{part.2}%
+\contentsline {chapter}{\numberline {4}唯物史观的基石：地理决定论}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}因果链条的回溯：史观的层级}{43}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}反驳文化决定论：文化是果不是因}{45}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}地理环境作为不可变更的初始条件}{47}{subsection.4.1.2}%
+\contentsline {chapter}{\numberline {5}生存策略的分化：大一统与碎片化}{48}{chapter.5}%
+\contentsline {section}{\numberline {5.1}中央集权：作为一种降低内部交易成本的解法}{48}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}为什么集中决策能降低交易成本？}{48}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}思想控制的必然性推导}{50}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}从统一调度到统一思想：为什么"心之所向"也是资源}{50}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}思想控制的代价：僵化、反弹与系统风险}{52}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}假设反证：如果不是地理环境？}{54}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}反证法：如果我们抽掉地理，还能解释什么？}{54}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}本章小结与衔接}{56}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}理论闭环：策略分化的完整因果链}{56}{subsection.5.4.1}%
+\contentsline {part}{III\hspace {1em}系统展开：经济、文化与政治 (The Structure)}{59}{part.3}%
+\contentsline {chapter}{\numberline {6}物质分支：经济基础}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}供求关系与价值认同}{61}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}价值到底是什么？从"我愿意付多少钱"说起}{61}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}不对称信息：商业利润的来源}{63}{section.6.2}%
+\contentsline {section}{\numberline {6.3}多金融产品：人为制造的"复杂编码"}{65}{section.6.3}%
+\contentsline {chapter}{\numberline {7}意识分支 I：文化与民间制度}{67}{chapter.7}%
+\contentsline {section}{\numberline {7.1}文化作为一种算法：低成本的决策辅助}{67}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}为什么文化能帮你"不思考"？}{67}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}道德与风俗：高频行为的短编码化}{69}{section.7.2}%
+\contentsline {section}{\numberline {7.3}模因传播：不问对错，只问强度}{71}{section.7.3}%
+\contentsline {chapter}{\numberline {8}意识分支 II：政治与权力结构}{73}{chapter.8}%
+\contentsline {section}{\numberline {8.1}权力的本质：对职能命令的认同}{73}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}服从的困惑：为什么我们愿意听命令？}{73}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}组织的抽象：从个人魅力到机构权威}{75}{section.8.2}%
+\contentsline {section}{\numberline {8.3}博弈与制衡：权力系统的动力学}{76}{section.8.3}%
+\contentsline {chapter}{\numberline {9}制度的终极形态：法律}{79}{chapter.9}%
+\contentsline {section}{\numberline {9.1}法律的变长编码属性}{79}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}为什么法律条文必须冗长？（为了减少歧义/分类误差）}{79}{subsection.9.1.1}%
+\contentsline {section}{\numberline {9.2}责任的归因：基于条件概率的定责逻辑}{80}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}为什么"杀人偿命"不够精确？}{80}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}P(A|B)：条件概率如何量化行为对结果的影响？}{82}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}多因一果：如何分配多个行为的责任比例？}{83}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}条件概率的极限：决定论下的责任根基何在？}{85}{subsection.9.2.4}%
+\contentsline {part}{IV\hspace {1em}结语与数学附录}{88}{part.4}%
+\contentsline {chapter}{\numberline {10}结语：循环的闭合}{89}{chapter.10}%
+\contentsline {section}{\numberline {10.1}人定胜天？社会系统对初始条件的修正}{89}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}逻辑衔接}{90}{subsection.10.1.1}%
+\contentsline {section}{\numberline {10.2}新的循环：技术作为新的变量}{90}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}逻辑衔接}{90}{subsection.10.2.1}%
+\contentsline {chapter}{\numberline {A}数学视角下的演化、结构与稳定性}{91}{appendix.A}%
+\contentsline {section}{\numberline {A.1}V.0 使用说明与工程声明}{91}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}你有没有想过，为什么你需要阅读这个数学附录？}{91}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}逻辑衔接}{92}{subsection.A.1.2}%
+\contentsline {chapter}{\numberline {B}V.1 存在、稳态与演化动力学}{93}{appendix.B}%
+\contentsline {chapter}{\numberline {C}V.2 信息、结构与正交性}{95}{appendix.C}%
+\contentsline {section}{\numberline {C.1}逻辑去重的 Gram--Schmidt 过程}{95}{section.C.1}%
+\contentsline {subsection}{\numberline {C.1.1}逻辑衔接}{96}{subsection.C.1.1}%
+\contentsline {chapter}{\numberline {D}V.3 环境、条件概率与历史路径}{97}{appendix.D}%
+\contentsline {chapter}{\numberline {E}V.4 正反馈、自组织与社会结构}{98}{appendix.E}%
+\contentsline {chapter}{\numberline {F}V.5 附录自检清单}{100}{appendix.F}%
+\contentsline {section}{\numberline {F.1}工程自检}{100}{section.F.1}%
+\contentsline {subsection}{\numberline {F.1.1}逻辑衔接}{101}{subsection.F.1.1}%

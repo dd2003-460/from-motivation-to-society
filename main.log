@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.7)  18 FEB 2026 22:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.7)  14 MAR 2026 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1173,160 +1173,1482 @@ LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 ] (./part1_core_logic/introduction.tex
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/b/it' undefined
-(Font)              using `TU/SimSun(0)/b/n' instead on input line 22.
+(Font)              using `TU/SimSun(0)/b/n' instead on input line 8.
 
+[1
 
-Underfull \vbox (badness 2478) has occurred while \output is active []
-
- [1
-
-]
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-Underfull \vbox (badness 2671) has occurred while \output is active []
+] [2] [3]
+Underfull \vbox (badness 1062) has occurred while \output is active []
 
  [4]
+Underfull \vbox (badness 2671) has occurred while \output is active []
 
-LaTeX Warning: Hyper reference `ch:structure' on page 5 undefined on input line
- 239.
+ [5]
+
+LaTeX Warning: Hyper reference `ch:structure' on page 6 undefined on input line
+ 281.
 
 
-LaTeX Warning: Hyper reference `ch:language' on page 5 undefined on input line 
-240.
+LaTeX Warning: Hyper reference `ch:language' on page 6 undefined on input line 
+282.
 
-) [5] [6
+) [6] [7] [8
 
 ] (./part1_core_logic/chapter1_nature_motivation.tex
 Missing character: There is no ≠ (U+2260) in font [lmroman12-regular]:mapping=t
 ex-text;!
-[7]
+[9]
 Chapter 1.
-[8
+[10
 
-]
-Underfull \vbox (badness 1024) has occurred while \output is active []
+] [11]
+Underfull \vbox (badness 7667) has occurred while \output is active []
 
- [9]
-[10] [11]
-Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
-text;!
-[12]
-Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
-text;!
+ [12]
 [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
 Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
 text;!
-[14]
+Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
+text;!
+[15]
+Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
+text;!
 
-LaTeX Warning: Hyper reference `ch:structure' on page 15 undefined on input lin
-e 403.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (./part1_core_logic/chapter2_structure_efficiency.tex [15]
+ [16]
+Missing character: There is no ≠ (U+2260) in font [lmroman12-bold]:mapping=tex-
+text;!
+[17]
+
+LaTeX Warning: Hyper reference `ch:structure' on page 18 undefined on input lin
+e 424.
+
+Missing character: There is no ≠ (U+2260) in font [lmroman12-regular]:mapping=t
+ex-text;!
+) (./part1_core_logic/chapter2_structure_efficiency.tex [18]
 Chapter 2.
-
-LaTeX Warning: Hyper reference `math:selection_filter' on page 16 undefined on 
-input line 40.
-
-[16
+[19
 
 ]
 
-LaTeX Warning: Hyper reference `math:threshold_model' on page 17 undefined on i
-nput line 69.
+LaTeX Warning: Hyper reference `math:selection_filter' on page 20 undefined on 
+input line 75.
 
-[17] [18]
 
-LaTeX Warning: Hyper reference `math:survival_constraint' on page 19 undefined 
-on input line 251.
+LaTeX Warning: Hyper reference `math:threshold_model' on page 20 undefined on i
+nput line 98.
 
-[19] [20] [21] [22] [23] [24] [25] [26] [27] [28])
-(./part1_core_logic/chapter3_language_information.tex [29]
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+
+LaTeX Warning: Hyper reference `math:survival_constraint' on page 23 undefined 
+on input line 285.
+
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32])
+(./part1_core_logic/chapter3_language_information.tex [33]
 Chapter 3.
-[30
 
-] [31] [32] [33] [34]) [35] [36
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34
+
+]
+[35] [36] [37] [38] [39]) [40] [41
 
 ]
 (./part2_geological_determinism/chapter1_materialist_historical_view.tex
-[37]
+[42]
 Chapter 4.
-[38
+[43
 
-]) (./part2_geological_determinism/chapter2_survival_strategy_divergence.tex [3
-9]
+] [44]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ^^I\item 为
+               什么历史解释必须区分"近因"和"远因"？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 78
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ^^I\item 为
+               什么我们不能简单地说"多种因素共同作用"？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 79
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 ^^I\item 为
+               什么地理环境能作为"不变"的参考系？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 80
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ^^I\item 为
+               什么"约束条件"的概念比"原因"更有解释力？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 81
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ^^I\item 为
+               什么理解了硬输入，下一个问题就是"文化作为适应性产物如何运作"？（指向下一小节：反驳文化决定论：文化是果不是因）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 82
+[][]
+ []
+
+[45] [46]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ^^I\item 为
+                什么文化会表现出"路径依赖"的特征？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 117
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ^^I\item 为
+                什么同样的文化要素在不同地理环境下效果不同？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 118
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ^^I\item 为
+                什么文化可塑性比地理强？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 119
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ^^I\item 为
+                什么用"适应性"解释文化演化比"因果关系"更合适？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 120
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ^^I\item 为
+                什么理解了文化是果，下一个问题就是"什么才是真正的因"？（指向下一小节：地理环境作为不可变更的初始条件）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 121
+[][]
+ []
+
+! Text line contains an invalid character.
+l.127 ^^H
+         egin{readingnote}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+
+LaTeX Warning: Reference `chap:info_theory' on page 47 undefined on input line 
+128.
+
+! Undefined control sequence.
+\endtcolorbox ->\tcb@insert@after@part 
+                                       \end {tcb@savebox}\tcb@reset@color \t...
+l.129 \end{readingnote}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Too many }'s.
+\endtcb@savebox ...efalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.129 \end{readingnote}
+                       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Undefined control sequence.
+\endtcb@savebox ...pandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.129 \end{readingnote}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Text line contains an invalid character.
+l.515 ^^H
+         egin{motivation}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.519 ^^H
+         egin{logicmap}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.527 ^^H
+         egin{questionbox}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+)
+Runaway argument?
+\@checkend {tcb@savebox}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+! File ended while scanning use of \@iiiparbox.
+<inserted text> 
+                \par 
+l.170 ...ism/chapter1_materialist_historical_view}
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Extra \endgroup.
+\subfiles@subfile ... }{\filename@base }\endgroup 
+                                                  
+l.170 ...ism/chapter1_materialist_historical_view}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+(./part2_geological_determinism/chapter2_survival_strategy_divergence.tex
+[47]
 Chapter 5.
+[48
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
+] [49]
 
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 16.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 16.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ^^I\item 为
+               什么"交易成本"概念能统一解释集权的起源？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
+Underfull \hbox (badness 10000) detected at line 70
+[][]
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ^^I\item 为
+               什么刚性公共品需求必然导致集权，而不是其他组织形式？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 16.
+Underfull \hbox (badness 10000) detected at line 71
+[][]
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 16.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-[40
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ^^I\item 为
+               什么集权的正反馈循环一旦形成就难以打破？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-]) [41] [42
 
-] (./part3_systematic_expansion/chapter1_economic_base.tex
-[43]
+Underfull \hbox (badness 10000) detected at line 72
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ^^I\item 为
+               什么集权的效率边界由信息成本决定？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 73
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ^^I\item 为
+               什么理解了集权作为降低 TC 的解法，下一个问题就是"这个解法如何维持自身的有效性"？（指向下一小节：思想控制的必然性推导）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 74
+[][]
+ []
+
+[50] [51]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ^^I\item 为
+                什么"思想统一"能比"暴力监控"更省成本？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 115
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 ^^I\item 为
+                什么人类心理如此容易接受意识形态内化？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 116
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ^^I\item 为
+                什么思想控制的三大支柱缺一不可？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 117
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ^^I\item 为
+                什么自我审查是思想控制最成功的标志？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 118
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ^^I\item 为
+                什么理解了思想控制的必然性，下一个问题就是"这套系统有什么致命缺陷"？（指向下一小节：思想控制的代价与反弹风险）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 119
+[][]
+ []
+
+[52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 ^^I\item 为
+                什么思想控制的"短期高效"会演变为"长期脆弱"？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 154
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 ^^I\item 为
+                什么系统会失去负反馈能力？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 155
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ^^I\item 为
+                什么沉默成本会导致剧烈的系统性反弹？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 156
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ^^I\item 为
+                什么控制能耗曲线会呈现倒U型？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 157
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ^^I\item 为
+                什么理解了思想控制的代价，下一个问题就是"如果地理不是决定因素，我们的解释还成立吗"？（指向下一小节：假设反证：如果不是...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 158
+[][]
+ []
+
+[54]
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+ [55]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ^^I\item 为
+                什么反证法能检验理论的 robustness？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 200
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 ^^I\item 为
+                什么替代假说都需要"额外巧合"？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 201
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ^^I\item 为
+                什么"硬约束"比"软约束"解释力更强？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 202
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ^^I\item 为
+                什么地理是必要不充分条件？其他变量如何作为调节变量？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 203
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 ^^I\item 为
+                什么理解了地理假说的稳固性，下一个问题就是"策略确定后，系统内部如何演化出复杂结构"？（指向 Part III：系统如何...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 204
+[][]
+ []
+
+[56]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 ^^I\item 为
+                什么"策略分化"的链条是必要条件链？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 252
+[][]
+ []
+
+[57]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 ^^I\item 为
+                什么其他假说无法提供从输入到输出的完整链条？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 253
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 ^^I\item 为
+                什么技术进步会软化但不消除地理约束？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 254
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 ^^I\item 为
+                什么理解 Part II 的结论会自然引出 Part III 的结构问题？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 255
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 ^^I\item 为
+                什么 Part II 的结束是"策略锁定"，而 Part III 的开始是"结构涌现"？（指向 Part III 第一章...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 256
+[][]
+ []
+
+) [58] [59
+
+] (./part3_systematic_expansion/chapter1_economic_base.tex [60]
 Chapter 6.
-) (./part3_systematic_expansion/chapter2_culture_folk_institutions.tex [44
+[61
 
 ]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ^^I\item 为
+               什么"主观价值"理论比"劳动价值"更符合现实？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 67
+[][]
+ []
+
+[62]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ^^I\item 为
+               什么需求的"强度"难以量化，却深刻影响价格？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 68
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 ^^I\item 为
+               什么人为制造的稀缺不会无限抬价？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 69
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ^^I\item 为
+               什么社会认同能脱离使用价值独自从供求中产生？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 70
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ^^I\item 为
+               什么理解了价值的供求机制，下一个问题就是"信息不对称如何扭曲这个机制"？（指向下一小节：不对称信息：商业利润的来源）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 71
+[][]
+ []
+
+[63]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 ^^I\item 为
+                什么"信息租金"是市场中最隐蔽的利润形式？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 106
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ^^I\item 为
+                什么逆向选择不可避免，只能缓解？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 107
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 ^^I\item 为
+                什么道德风险使完全保险不可行？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 108
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ^^I\item 为
+                什么信号会军备竞赛，不断复杂化？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 109
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ^^I\item 为
+                什么理解了信息不对称的机制，下一个问题就是"金融复杂化是解药还是毒药"？（指向下一小节：多金融产品：人为制造的"复杂编码")
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 110
+[][]
+ []
+
+[64] [65]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 ^^I\item 为
+                什么金融复杂化在危机后会短暂简化，然后又变得更复杂？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 145
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ^^I\item 为
+                什么"风险编码"反而增加了系统风险？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 146
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ^^I\item 为
+                什么监管永远追不上创新？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 147
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 ^^I\item 为
+                什么简单产品无法满足市场需求？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ^^I\item 为
+                什么理解了金融的复杂性陷阱，下一个问题就是"这种模式是否普遍存在于所有社会结构"？（指向 Part III 后续章节：结...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 149
+[][]
+ []
+
+) (./part3_systematic_expansion/chapter2_culture_folk_institutions.tex [66]
 Chapter 7.
-) (./part3_systematic_expansion/chapter3_politics_power_structure.tex [45
 
-]
+LaTeX Warning: Reference `chap:info_theory' on page 67 undefined on input line 
+19.
+
+
+LaTeX Warning: Reference `ch:language' on page 67 undefined on input line 19.
+
+[67
+
+] [68]
+
+LaTeX Warning: Reference `chap:info_theory' on page 69 undefined on input line 
+61.
+
+
+LaTeX Warning: Reference `ch:language' on page 69 undefined on input line 61.
+
+[69] [70]
+
+LaTeX Warning: Reference `ch:neutral_evolution' on page 71 undefined on input l
+ine 109.
+
+
+LaTeX Warning: Reference `ch:language' on page 71 undefined on input line 109.
+
+[71]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 ^^I\item 为
+                什么强度传播会压倒真理？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 152
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ^^I\item 为
+                什么回声室会自我强化？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 153
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 ^^I\item 为
+                什么真相传播常常慢于谣言？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 154
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 ^^I\item 为
+                什么模因的"适应度"与"正确性"可以无关？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 155
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ^^I\item 为
+                什么理解了文化传播的强度逻辑，下一个问题就是"这种强度如何转化为组织化的权力"？（指向下一章：政治与权力结构）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 156
+[][]
+ []
+
+) (./part3_systematic_expansion/chapter3_politics_power_structure.tex [72]
 Chapter 8.
-) (./part3_systematic_expansion/chapter4_law_institutional_form.tex [46
+Missing character: There is no ≠ (U+2260) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[73
 
 ]
-Chapter 9.
-) [47
 
-] [48
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ^^I\item 为
+               什么"制度赋予"的权威比"个人魅力"更稳定？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 54
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ^^I\item 为
+               什么习俗惯性能持续数百年？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ^^I\item 为
+               什么绩效积累有时会失效（如一次失误毁所有）？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 56
+[][]
+ []
+
+[74]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ^^I\item 为
+               什么"角色外包"能减免个人责任？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 57
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ^^I\item 为
+               什么理解了权力的认同本质，下一个问题就是"这种认同如何从人转移到机构"？（指向下一小节：组织的抽象：从个人魅力到机构权威）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 58
+[][]
+ []
+
+Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ② (U+2461) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ③ (U+2462) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[75]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ^^I\item 为
+               什么机构化必然带来标准化和僵化？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 97
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 ^^I\item 为
+               什么科层制难以适应快速变化的环境？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 98
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ^^I\item 为
+               什么信息压缩会丢失"直觉"和"价值观"？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 99
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ^^I\item 为
+                什么大型组织即使知道官僚主义有害也难以消除？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 100
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 ^^I\item 为
+                什么理解了机构化的逻辑，下一个问题就是"机构之间如何相互制约"？（指向下一小节：博弈与制衡：权力系统的动力学）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 101
+[][]
+ []
+
+[76]
+Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ② (U+2461) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ③ (U+2462) in font [lmroman12-regular]:mapping=t
+ex-text;!
+[77]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ^^I\item 为
+                什么制衡系统需要"独立的资源基础"？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 136
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ^^I\item 为
+                什么数字时代的社交媒体改变了传统制衡格局？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 137
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 ^^I\item 为
+                什么有些国家有形式上的三权分立但实质集权？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 138
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 ^^I\item 为
+                什么临时集权往往变成永久集权？
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 139
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 ^^I\item 为
+                什么理解了政治制衡的脆弱性，下一个问题就是"法律如何固化权力结构"？（指向下一章：法律制度化形式）
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 140
+[][]
+ []
+
+) (./part3_systematic_expansion/chapter4_law_institutional_form.tex [78]
+Chapter 9.
+[79
+
+] [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+[82] [83]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+[85] [86]) [87] [88
 
 ] (./conclusion/circular_closure.tex
 Chapter 10.
-) (./appendix/appendix_V_math.tex [49
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89
+
+])
+(./appendix/appendix_V_math.tex [90]
 附录 A.
 
 Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
@@ -1356,27 +2678,130 @@ Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
 
 Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
 text;!
-(./appendix/appendix/chapter1_existence_dynamics.tex [50
+[91
 
 ]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 ...不再引入新的叙事，而是直接进入正文关键论断的形式化展开。下一模块（chapter1_
+                                                  existence_dynamics）将探讨存在动力...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 ^^I
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ） (U+FF09) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 将 (U+5C06) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 探 (U+63A2) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 讨 (U+8BA8) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 存 (U+5B58) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 在 (U+5728) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 力 (U+529B) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 学 (U+5B66) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 中 (U+4E2D) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 演 (U+6F14) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 化 (U+5316) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 稳 (U+7A33) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 定 (U+5B9A) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 性 (U+6027) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 条 (U+6761) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 件 (U+4EF6) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 用 (U+7528) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 博 (U+535A) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 弈 (U+5F08) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 论 (U+8BBA) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 形 (U+5F62) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 式 (U+5F0F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 语 (U+8BED) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 言 (U+8A00) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 揭 (U+63ED) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 示 (U+793A) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 动 (U+52A8) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 机 (U+673A) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 系 (U+7CFB) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 统 (U+7EDF) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 的 (U+7684) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 数 (U+6570) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 学 (U+5B66) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 基 (U+57FA) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 础 (U+7840) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no 。 (U+3002) in font [lmroman12-regular]:mapping=t
+ex-text;!
+(./appendix/appendix/chapter1_existence_dynamics.tex [92]
 附录 B.
 Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
 text;!
 Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
 text;!
-Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
-text;!
-) (./appendix/appendix/chapter2_structure_info.tex [51
+[93
 
 ]
+Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
+text;!
+) (./appendix/appendix/chapter2_structure_info.tex [94]
 附录 C.
-Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
-text;!
-Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
-text;!
-) (./appendix/appendix/chapter3_history_probability.tex [52
 
-]
+Overfull \hbox (128.42929pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
+text;!
+Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
+text;!
+[95
+
+]) (./appendix/appendix/chapter3_history_probability.tex [96]
 附录 D.
 Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
 text;!
@@ -1384,7 +2809,7 @@ Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=te
 text;!
 Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
 text;!
-) (./appendix/appendix/chapter4_selforg_dynamics.tex [53
+) (./appendix/appendix/chapter4_selforg_dynamics.tex [97
 
 ]
 附录 E.
@@ -1394,13 +2819,21 @@ Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=te
 text;!
 Missing character: There is no 🧮 (U+1F9EE) in font [lmsans10-bold]:mapping=tex-
 text;!
-) (./appendix/appendix/chapter5_checklist.tex [54
+[98
 
-]
+]) (./appendix/appendix/chapter5_checklist.tex [99]
 附录 F.
-)) [55
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 ^^I\quad \Rightarrow
+                         $ 改进迭代循环 (如何精进)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-] (./main.aux)
+[100
+
+])) [101] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1410,16 +2843,22 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E2D5F6654F51235DCC3E273119A7776E;17620.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: E2D5F6654F51235DCC3E273119A7776E;17620
+(rerunfilecheck)             After:  36BB05C17E1F911EA9E11A0FA620ADC2;19472.
  ) 
 Here is how much of TeX's memory you used:
- 35486 strings out of 476179
- 842504 string characters out of 5813072
- 1195980 words of memory out of 5000000
- 55547 multiletter control sequences out of 15000+600000
- 477599 words of font info for 105 fonts, out of 8000000 for 9000
+ 36126 strings out of 476179
+ 865580 string characters out of 5813072
+ 1205980 words of memory out of 5000000
+ 56185 multiletter control sequences out of 15000+600000
+ 477615 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,8n,104p,465b,1079s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,14n,104p,512b,1183s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (61 pages).
+Output written on main.pdf (107 pages).

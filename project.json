@@ -1,0 +1,17 @@
+{
+  "id": "motivation-society",
+  "name": "动机社会",
+  "dimension": "学术",
+  "sub_category": "writing",
+  "type": "终点",
+  "status": "进行中",
+  "created": "2026-03-16",
+  "source": "~/.claude/workspace/写作/动机社会/",
+  "description": "四层嵌套社会理论——动机→认知→经济→政治→法律，循环流动永恒演化",
+  "parts": {
+    "part1": "核心逻辑",
+    "part2": "地质决定论",
+    "part3": "系统展开",
+    "part3_pdf": "Part3_系统展开.pdf"
+  }
+}

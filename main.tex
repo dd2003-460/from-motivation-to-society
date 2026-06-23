@@ -146,9 +146,13 @@
 \begin{document}
 	
 	\maketitle      % 生成封面
+	
+	\frontmatter
+	\subfile{frontmatter/preface_gift}
 	\tableofcontents % 生成目录
 	
 	\mainmatter     % 正文页码开始
+
 	
 	% =================================================================
 	% 引言：动机与方法论
@@ -190,6 +194,8 @@
 	% ==============================
 	\appendix
 	\subfile{appendix/appendix_V_math}
-
+	
+	\backmatter
+	\subfile{backmatter/acknowledgements_gift}
 	
 \end{document}

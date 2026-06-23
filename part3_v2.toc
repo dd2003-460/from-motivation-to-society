@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}物质分支：经济基础 (Material Branch: Economic Foundations)}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}供求关系：价格作为集体模因的聚合 (Supply and Demand: Price as the Aggregation of Collective Memes)}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}主观价值如何坍缩为价格 (How Subjective Value Collapses into Price)}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}需求强度如何扭曲价值判断 (How Demand Intensity Distorts Value)}{8}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}供给稀缺性的定价权 (Scarcity and Pricing Power)}{9}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}供求博弈的动态均衡 (Dynamic Equilibrium)}{9}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}从供求到信息：价格的局限性 (Limits of Price)}{9}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}需求的弹性与波动 (Elasticity and Volatility of Demand)}{10}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}为什么同样东西在不同时刻值不同？(Why Does the Same Thing Have Different Values at Different Times?)}{10}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}逆向选择：市场萎缩的机制 (Adverse Selection)}{12}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}道德风险：交易后的行为扭曲 (Moral Hazard)}{13}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}信号与声誉：信息壁垒的突破 (Signaling and Reputation)}{13}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}从信息到市场结构演化 (Information and Market Evolution)}{13}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}供给与稀缺：定价权的博弈 (Supply and Scarcity: The Game of Pricing Power)}{14}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}自然稀缺vs人为稀缺：谁在控制供给？(Natural vs Artificial Scarcity: Who Controls Supply?)}{14}{subsection.1.3.1}%

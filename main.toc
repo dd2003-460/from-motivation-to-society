@@ -97,82 +97,23 @@
 \contentsline {section}{\numberline {4.4}本章小结与衔接}{52}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}理论闭环：策略分化的完整因果链}{52}{subsection.4.4.1}%
 \contentsline {part}{III\hspace {1em}系统展开：经济、文化与政治 (The Structure)}{55}{part.3}%
-\contentsline {chapter}{\numberline {5}物质分支：经济基础 (Material Branch: Economic Foundations)}{57}{chapter.5}%
-\contentsline {section}{\numberline {5.1}供求关系：价格作为集体模因的聚合 (Supply and Demand: Price as the Aggregation of Collective Memes)}{57}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}主观价值如何坍缩为价格 (How Subjective Value Collapses into Price)}{57}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}需求强度如何扭曲价值判断 (How Demand Intensity Distorts Value Judgment)}{59}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}供给稀缺性的定价权 (Scarcity and Pricing Power)}{61}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}供求博弈的动态均衡 (Dynamic Equilibrium of Supply-Demand Games)}{63}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}从供求到信息：价格的局限性 (From Supply-Demand to Information: Limits of Price)}{65}{subsection.5.1.5}%
-\contentsline {section}{\numberline {5.2}需求的弹性与波动 (Elasticity and Volatility of Demand)}{67}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}为什么同样东西在不同时刻值不同？(Why Does the Same Thing Have Different Values at Different Times?)}{67}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}供给与稀缺：定价权的博弈 (Supply and Scarcity: The Game of Pricing Power)}{69}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}自然稀缺vs人为稀缺：谁在控制供给？(Natural vs Artificial Scarcity: Who Controls Supply?)}{69}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}市场失灵：当价格机制崩溃 (Market Failure: When the Price Mechanism Breaks Down)}{70}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}外部性：价格不反映的成本 (Externalities: Costs Not Reflected in Prices)}{70}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}公共品：无法通过价格分配的资源 (Public Goods)}{72}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}垄断与市场支配力 (Monopoly and Market Power)}{73}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}政府干预的双刃剑 (Government Intervention)}{75}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}超越价格：非货币化交换的领域 (Beyond Price: Non-Monetary Exchange)}{77}{subsection.5.4.5}%
-\contentsline {section}{\numberline {5.5}经济的边界：从模因退化到权力涌现 (The Boundary of Economy: When Memetic Degradation Meets Power)}{79}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}经济模型的前提假设及其失败 (The Assumptions of Economic Models and Their Failures)}{79}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}财富如何转化为权力 (How Wealth Converts to Power)}{81}{subsection.5.5.2}%
-\contentsline {chapter}{\numberline {6}意识分支 I：文化与民间制度 (Consciousness Branch I: Culture and Folk Institutions)}{82}{chapter.6}%
-\contentsline {section}{\numberline {6.1}文化作为模因系统：从语言到选择 (Culture as a Memetic System: From Language to Choice)}{82}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}模因的定义与识别 (Defining and Identifying Memes)}{82}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}模因如何驱动选择：观点改变行为的机制 (How Memes Drive Choice)}{85}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}模因的生命周期：诞生、传播、衰退与变形 (Lifecycle of Memes)}{87}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}模因的组合与文化创新：旧元素的新排列 (Memetic Combination and Innovation)}{89}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2}道德：高频行为的短编码压缩 (Morality: Short-Encoding of High-Frequency Behaviors)}{90}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}道德为什么是短编码？(Why Is Morality Short-Encoded?)}{90}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}模因传播：不问对错，只问强度 (Memetic Transmission: Strength Over Truth)}{93}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}传播强度的三个决定因素 (Three Factors That Determine Transmission Strength)}{93}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}文化的权力维度：模因如何塑造身份 (The Power Dimension of Culture: How Memes Shape Identity)}{96}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}身份认同作为模因束 (Identity as a Bundle of Memes)}{96}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}群体内模因强化 (Intra-Group Memetic Reinforcement)}{99}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}群体间模因竞争 (Inter-Group Memetic Competition)}{102}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}模因→权力的转化路径 (The Path from Memes to Power)}{104}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}文化模因如何退化为经济利益 (How Cultural Memes Degrade into Economic Interests)}{107}{subsection.6.4.5}%
-\contentsline {section}{\numberline {6.5}文化的边界：当模因不够用 (The Limits of Culture: When Memes Are Not Enough)}{110}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}模因无法解决的问题 (Problems Memes Cannot Solve)}{110}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}从文化到经济的必然退化 (The Inevitable Degradation from Culture to Economy)}{113}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}经济反过来塑造模因 (How Economy Shapes Memes in Return)}{116}{subsection.6.5.3}%
-\contentsline {subsection}{\numberline {6.5.4}当文化模因遇到权力结构 (When Cultural Memes Meet Power Structures)}{118}{subsection.6.5.4}%
-\contentsline {subsection}{\numberline {6.5.5}章尾：从文化模因到经济退化 (Chapter End: From Cultural Memes to Economic Degradation)}{121}{subsection.6.5.5}%
-\contentsline {chapter}{\numberline {7}意识分支 II：政治与权力结构}{125}{chapter.7}%
-\contentsline {section}{\numberline {7.1}权力的本质：交换网络中的依赖与认同 (The Essence of Power: Dependence and Recognition in Exchange Networks)}{126}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}为什么依赖产生权力？——从经济交换到权力关系 (Why Does Dependence Create Power?)}{126}{subsection.7.1.1}%
-\contentsline {section}{\numberline {7.2}组织的抽象：从个人魅力到机构权威 (Institutional Abstraction: From Charisma to Authority)}{129}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}从魅力到制度：权力的冷却过程 (From Charisma to Institution: The Cooling of Power)}{129}{subsection.7.2.1}%
-\contentsline {section}{\numberline {7.3}博弈与制衡：权力系统的动力学 (Game and Checks: The Dynamics of Power Systems)}{131}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}制衡的自发形成：从博弈到均衡 (The Emergence of Checks: From Game to Equilibrium)}{131}{subsection.7.3.1}%
-\contentsline {chapter}{\numberline {8}制度的终极形态：法律}{135}{chapter.8}%
-\contentsline {section}{\numberline {8.1}法律的变长编码属性 (The Variable-Length Encoding Property of Law)}{135}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}为什么法律条文必须冗长？——当歧义成本超过编码成本}{135}{subsection.8.1.1}%
-\contentsline {section}{\numberline {8.2}责任的归因：基于条件概率的定责逻辑 (Attribution of Responsibility: Causal Logic Based on Conditional Probability)}{136}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}为什么"杀人偿命"不够精确？}{136}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}P(A|B)：条件概率如何量化行为对结果的影响？}{138}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}多因一果：如何分配多个行为的责任比例？}{140}{subsection.8.2.3}%
-\contentsline {subsection}{\numberline {8.2.4}条件概率的极限：决定论下的责任根基何在？}{142}{subsection.8.2.4}%
-\contentsline {section}{\numberline {8.3}统一视角：文化、经济、政治、法律的嵌套关系 (A Unified Perspective: The Nested Relationship of Culture, Economy, Politics, and Law)}{144}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}四者不是四个领域，而是同一张脸 (Not Four Fields, but One Face)}{144}{subsection.8.3.1}%
-\contentsline {part}{IV\hspace {1em}结语与数学附录}{147}{part.4}%
-\contentsline {chapter}{\numberline {9}结语：循环的闭合}{148}{chapter.9}%
-\contentsline {section}{\numberline {9.1}人定胜天？社会系统对初始条件的修正}{148}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}逻辑衔接}{149}{subsection.9.1.1}%
-\contentsline {section}{\numberline {9.2}新的循环：技术作为新的变量}{149}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}逻辑衔接}{149}{subsection.9.2.1}%
-\contentsline {chapter}{\numberline {A}数学视角下的演化、结构与稳定性}{150}{appendix.A}%
-\contentsline {section}{\numberline {A.1}V.0 使用说明与工程声明}{150}{appendix.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}你有没有想过，为什么你需要阅读这个数学附录？}{150}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}逻辑衔接}{151}{subsection.A.1.2}%
-\contentsline {chapter}{\numberline {B}V.1 存在、稳态与演化动力学}{152}{appendix.B}%
-\contentsline {chapter}{\numberline {C}V.2 信息、结构与正交性}{154}{appendix.C}%
-\contentsline {section}{\numberline {C.1}逻辑去重的 Gram--Schmidt 过程}{154}{appendix.C.1}%
-\contentsline {subsection}{\numberline {C.1.1}逻辑衔接}{155}{subsection.C.1.1}%
-\contentsline {chapter}{\numberline {D}V.3 环境、条件概率与历史路径}{156}{appendix.D}%
-\contentsline {chapter}{\numberline {E}V.4 正反馈、自组织与社会结构}{158}{appendix.E}%
-\contentsline {chapter}{\numberline {F}V.5 附录自检清单}{160}{appendix.F}%
-\contentsline {section}{\numberline {F.1}工程自检}{160}{appendix.F.1}%
-\contentsline {subsection}{\numberline {F.1.1}逻辑衔接}{161}{subsection.F.1.1}%
-\contentsline {chapter}{致谢}{162}{appendix*.156}%
+\contentsline {part}{IV\hspace {1em}结语与数学附录}{56}{part.4}%
+\contentsline {chapter}{\numberline {5}结语：循环的闭合}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}人定胜天？社会系统对初始条件的修正}{57}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}逻辑衔接}{58}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}新的循环：技术作为新的变量}{58}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}逻辑衔接}{58}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {A}数学视角下的演化、结构与稳定性}{59}{appendix.A}%
+\contentsline {section}{\numberline {A.1}V.0 使用说明与工程声明}{59}{appendix.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}你有没有想过，为什么你需要阅读这个数学附录？}{59}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}逻辑衔接}{60}{subsection.A.1.2}%
+\contentsline {chapter}{\numberline {B}V.1 存在、稳态与演化动力学}{61}{appendix.B}%
+\contentsline {chapter}{\numberline {C}V.2 信息、结构与正交性}{63}{appendix.C}%
+\contentsline {section}{\numberline {C.1}逻辑去重的 Gram--Schmidt 过程}{63}{appendix.C.1}%
+\contentsline {subsection}{\numberline {C.1.1}逻辑衔接}{64}{subsection.C.1.1}%
+\contentsline {chapter}{\numberline {D}V.3 环境、条件概率与历史路径}{65}{appendix.D}%
+\contentsline {chapter}{\numberline {E}V.4 正反馈、自组织与社会结构}{67}{appendix.E}%
+\contentsline {chapter}{\numberline {F}V.5 附录自检清单}{69}{appendix.F}%
+\contentsline {section}{\numberline {F.1}工程自检}{69}{appendix.F.1}%
+\contentsline {subsection}{\numberline {F.1.1}逻辑衔接}{70}{subsection.F.1.1}%
+\contentsline {chapter}{致谢}{71}{appendix*.59}%

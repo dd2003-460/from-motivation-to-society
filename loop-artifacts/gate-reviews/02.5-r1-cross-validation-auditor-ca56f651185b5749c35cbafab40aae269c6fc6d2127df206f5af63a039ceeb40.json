@@ -1,0 +1,89 @@
+{
+  "blocking_findings": [
+    {
+      "description": "Builder cross_validation.json is empty: validated_fields=[], contradictions=[], summary={}",
+      "evidence": "loop-artifacts/stages/02.5/r1/cross_validation.json",
+      "finding_id": "BF-001",
+      "impact": "Stage success condition completely unmet: 0/12 fields cross-validated",
+      "severity": "critical"
+    },
+    {
+      "description": "No evidence_refs point to external web LLM or authority sources as required by stage contract",
+      "evidence": "loop-artifacts/contracts/02.5-r1-stage-input-package.json attribute_matrix",
+      "finding_id": "BF-002",
+      "impact": "All evidence_refs reference internal project files (04.5-r1.json, loop-state.json, WRITING_PLAN.md), not the required external LLM validation",
+      "severity": "critical"
+    },
+    {
+      "description": "Stage success condition '每个关键调研字段经 >=2 独立来源核验' is NOT met",
+      "evidence": "0 validated_fields vs 12 required fields",
+      "finding_id": "BF-003",
+      "impact": "Cannot advance to stage 03 without cross-validation",
+      "severity": "high"
+    }
+  ],
+  "checked_input_refs": [
+    "loop-artifacts/contracts/02.5-r1-stage-input-package.json",
+    "loop-artifacts/contracts/02.5-r1-stage-contract.md",
+    "loop-artifacts/contracts/02.5-r1-submission-template.json",
+    "loop-artifacts/stages/02.5/r1/cross_validation.json",
+    "loop-artifacts/02-r1.json",
+    "loop-artifacts/04.5-r1.json"
+  ],
+  "checked_output_refs": [],
+  "checks": [
+    {
+      "criterion": "validated_fields 包含每个关键字段的 >=2 独立来源核验结果",
+      "evidence_refs": [
+        "loop-artifacts/stages/02.5/r1/cross_validation.json"
+      ],
+      "note": "FAIL: validated_fields 为空数组，0 个字段被核验",
+      "status": "fail"
+    },
+    {
+      "criterion": "contradictions 记录矛盾与冲突字段",
+      "evidence_refs": [
+        "loop-artifacts/stages/02.5/r1/cross_validation.json"
+      ],
+      "note": "FAIL: contradictions 为空数组，无矛盾记录",
+      "status": "fail"
+    },
+    {
+      "criterion": "summary 产出交叉验证摘要",
+      "evidence_refs": [
+        "loop-artifacts/stages/02.5/r1/cross_validation.json"
+      ],
+      "note": "FAIL: summary 为空对象 {}",
+      "status": "fail"
+    },
+    {
+      "criterion": "evidence_refs 指向外部网页 LLM / 权威来源",
+      "evidence_refs": [
+        "loop-artifacts/contracts/02.5-r1-stage-input-package.json"
+      ],
+      "note": "FAIL: 所有 evidence_refs 指向内部项目文件 (04.5-r1.json, loop-state.json, WRITING_PLAN.md)，无外部 LLM 来源",
+      "status": "fail"
+    },
+    {
+      "criterion": "confidence 根据交叉验证结果更新",
+      "evidence_refs": [
+        "loop-artifacts/stages/02.5/r1/cross_validation.json"
+      ],
+      "note": "FAIL: 未执行交叉验证，无 confidence 更新",
+      "status": "fail"
+    },
+    {
+      "criterion": "disposition 对矛盾字段已更新",
+      "evidence_refs": [
+        "loop-artifacts/stages/02.5/r1/cross_validation.json"
+      ],
+      "note": "FAIL: 无矛盾记录，无 disposition 更新",
+      "status": "fail"
+    }
+  ],
+  "context_mode": "bounded_artifacts",
+  "recommended_action": "rollback",
+  "reviewer_card_id": "02.5-r1-cross-validation-auditor",
+  "summary": "独立门禁审计结论：builder 02.5-r1-builder-cross_validation 标记为 completed 但产出为空（validated_fields=[], contradictions=[], summary={}），未执行任何实际的交叉验证工作。阶段成功条件 '每个关键调研字段经 >=2 独立来源核验' 完全未满足（0/12 字段核验）。attribute_matrix 中所有 evidence_refs 指向内部项目文件而非外部 LLM/权威来源。recovery_count=8 表明已有多次重试但仍无产出。建议回退到阶段 02，重新执行交叉验证 builder，确保每个字段向 >=2 个不同网页 LLM 提问并记录矛盾。",
+  "verdict": "rollback"
+}

@@ -1,0 +1,30 @@
+{
+  "field_concept": "uncertainty_style_gap",
+  "original_confidence": 0.7,
+  "validated_confidence": 0.85,
+  "disposition": "confirmed",
+  "findings": {
+    "style_gap_exists": true,
+    "gap_severity": "moderate",
+    "part1_characteristics": "Part 1 采用高度结构化的教学式文风：使用 \\textit{生活类比}、\\textit{半严谨类比}、\\textit{读者行为预测} 等显式标注框（tcolorbox），段落较短，以设问开场（'你有没有想过'），文学性引用（莎士比亚、三体）作为章节入口。整体风格接近科普讲座，强调与读者的互动感。",
+    "part2_part3_characteristics": "Part 2 和 Part 3 采用统一的 \\textbf{段落N（whyN：描述）} 编号段落结构，段落极长且信息密度高，大量使用具体案例（数据、品牌、事件）支撑论点。Part 2 使用 \\paragraph*{逻辑衔接} 和 \\paragraph*{读者可能还会问} 作为收尾。Part 3 在章节标题中加入了英文翻译，文风更偏百科全书式，段落长度和案例密度显著高于 Part 1。",
+    "key_differences": [
+      "结构标注体系不同：Part 1 使用 tcolorbox 做读者预测和类比标注，Part 2/3 使用显式段落编号（why1-why5）和逻辑衔接段落",
+      "段落长度差异显著：Part 1 段落短小精悍，Part 3 单段可达 500+ 字，信息密度高出一个数量级",
+      "互动语气差异：Part 1 使用 '你有没有想过' 等直接对话式开场，Part 2/3 以论述式开篇，读者互动减少",
+      "案例风格差异：Part 1 使用思想实验和类比（中彩票、鸟群），Part 2/3 使用真实商业案例和数据（Uber surge pricing、Supreme 限量发售）",
+      "Part 3 在标题中引入英文翻译，Part 1/2 没有此特征"
+    ]
+  },
+  "evidence_refs": [
+    "part1_core_logic/chapter1_nature_motivation.tex (435行)",
+    "part2_geological_determinism/chapter1_materialist_historical_view.tex (593行)",
+    "part3_systematic_expansion/chapter1_economic_base.tex (1675行)",
+    "WRITING_PLAN.md",
+    "chapter_edit_template.md"
+  ],
+  "rationale": "通过对比三个 Part 第一章的开头 50 行及正文段落结构，确认存在显著的文风差距。Part 1 的 tcolorbox 标注体系、短段落、对话式语气与 Part 2/3 的编号段落结构、长段落、论述式风格形成鲜明对比。Part 3 的段落长度和信息密度进一步放大这一差距。这种差距不是 minor 级别的格式差异，而是 moderate 级别的写作范式差异——Part 1 更像科普讲座，Part 2/3 更像学术论述。置信度 0.85 是因为仅检查了各章开头部分，但开头部分最能代表作者的写作意图和范式选择。",
+  "contradictions": [
+    "Part 2 和 Part 3 之间的一致性较高（都使用 whyN 段落结构），说明这种文风差异可能是有意为之的分层策略——Part 1 建立直觉，Part 2/3 展开论证——而非写作过程中的风格漂移"
+  ]
+}

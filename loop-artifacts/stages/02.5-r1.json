@@ -4,6 +4,7 @@
   "stage_id": "02.5",
   "subagent_cards": {
     "02.5-r1-builder-cross_validation": {
+      "agent_id": "builder-cross-validation@session-caa3d6e4",
       "allowed_tools": [
         "Read",
         "Glob",
@@ -51,11 +52,12 @@
       "revision": "r1",
       "role": "cross-validation-writer",
       "stage_id": "02.5",
-      "status": "pending",
+      "status": "completed",
       "task_id": null,
       "title": "调研后交叉验证构造"
     },
     "02.5-r1-cross-validation-auditor": {
+      "agent_id": "a9ab1a374ba5e068a",
       "allowed_tools": [
         "Read",
         "Glob",
@@ -71,6 +73,8 @@
         "loop-artifacts/contracts/02.5-r1-submission-template.json",
         "loop-artifacts/stages/02.5-r1-result.json"
       ],
+      "gate_review_ref": "loop-artifacts/gate-reviews/02.5-r1-cross-validation-auditor-ca56f651185b5749c35cbafab40aae269c6fc6d2127df206f5af63a039ceeb40.json",
+      "gate_verdict": "rollback",
       "id": "02.5-r1-cross-validation-auditor",
       "input_refs": [
         "loop-artifacts/stages/02.5-r1-result.json"
@@ -88,6 +92,7 @@
         "比较不同 LLM / 来源答案，更新字段 confidence / disposition / evidence_refs / rationale，并产出交叉验证摘要。"
       ],
       "is_stage_gate": true,
+      "last_agent_id": "cross-validation-auditor@session-27c5bb33",
       "objective": "独立检查每个关键调研字段是否经过 ≥2 个独立来源核验，矛盾冲突是否已被记录与处置。",
       "output_schema": {
         "check_status_values": [
@@ -113,11 +118,12 @@
           "blocked_human"
         ]
       },
+      "recovery_count": 8,
       "required_for_advance": true,
       "revision": "r1",
       "role": "cross-validation-auditor",
       "stage_id": "02.5",
-      "status": "pending",
+      "status": "completed",
       "task_id": null,
       "title": "调研后交叉验证门禁审计"
     }

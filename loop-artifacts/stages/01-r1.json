@@ -4,6 +4,7 @@
   "stage_id": "01",
   "subagent_cards": {
     "01-r1-builder-task_spec-context": {
+      "agent_id": "builder-context@session-caa3d6e4",
       "allowed_tools": [
         "Read",
         "Glob",
@@ -88,11 +89,12 @@
         "objective"
       ],
       "stage_id": "01",
-      "status": "pending",
+      "status": "completed",
       "task_id": null,
       "title": "任务规格构造·context"
     },
     "01-r1-builder-task_spec-options": {
+      "agent_id": "aa112f4c2470f376a",
       "allowed_tools": [
         "Read",
         "Glob",
@@ -176,11 +178,12 @@
         "constraints"
       ],
       "stage_id": "01",
-      "status": "pending",
+      "status": "dispatched",
       "task_id": null,
       "title": "任务规格构造·options"
     },
     "01-r1-builder-task_spec-output": {
+      "agent_id": "builder-output@session-caa3d6e4",
       "allowed_tools": [
         "Read",
         "Glob",
@@ -264,11 +267,12 @@
         "uncertainty"
       ],
       "stage_id": "01",
-      "status": "pending",
+      "status": "completed",
       "task_id": null,
       "title": "任务规格构造·output"
     },
     "01-r1-requirements-auditor": {
+      "agent_id": "01-r1-requirements-auditor@session-0c32abc2",
       "allowed_tools": [
         "Read",
         "Glob",
@@ -335,7 +339,7 @@
       "revision": "r1",
       "role": "requirements-auditor",
       "stage_id": "01",
-      "status": "pending",
+      "status": "dispatched",
       "task_id": null,
       "title": "需求、遗漏和假设审计"
     }

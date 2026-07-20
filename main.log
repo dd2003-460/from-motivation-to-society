@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.19)  20 JUL 2026 18:49
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.19)  20 JUL 2026 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,7 +870,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count370
 \@lastruleclass=\count371
 \@thisrulewidth=\dimen333
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
@@ -950,7 +951,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 155.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -986,58 +986,46 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 155.
-(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
- [1
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+[1
 
 
 ] [2
 
 ] (./frontmatter/preface_gift.tex) [1
 
-] (./main.toc [2
-
 ]
-LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on input line 81.
- [3]
-Overfull \hbox (3.94016pt too wide) in paragraph at lines 103--103
- [][] [][][]\TU/SongtiSCLight(0)/m/n/12 需 求 强 度 如 何 扭 曲 价 值 判 断 \TU/lmr/m/n/12 (How Demand Intensity Distorts Value 
- []
-
-[4]
-Overfull \hbox (10.52817pt too wide) in paragraph at lines 110--110
- [][] [][][]\TU/SongtiSCLight(0)/m/n/12 自 然 稀 缺 \TU/lmr/m/n/12 vs \TU/SongtiSCLight(0)/m/n/12 人 为 稀 缺：|  谁 在 控 制 供 给？| \TU/lmr/m/n/12 (Natural vs Artificial Scarcity: 
- []
-
-
-Overfull \hbox (0.19215pt too wide) in paragraph at lines 123--123
- [][] [][][]\TU/SongtiSCLight(0)/m/n/12 模 因 如 何 驱 动 选 择：|  观 点 改 变 行 为 的 机 制 \TU/lmr/m/n/12 (How Memes Drive Choice)[][] [][]  
- []
-
-
-Overfull \hbox (7.9082pt too wide) in paragraph at lines 126--126
- [][] [][][]\TU/SongtiSCLight(0)/m/n/12 道 德：|  高 频 行 为 的 短 编 码 压 缩 \TU/lmr/m/n/12 (Morality: Short-Encoding of High-Frequency 
- []
-
-[5]
-Overfull \hbox (2.94415pt too wide) in paragraph at lines 141--141
- [][] [][][]\TU/SongtiSCLight(0)/m/n/12 章 尾：|  从 文 化 模 因 到 经 济 退 化 \TU/lmr/m/n/12 (Chapter End: From Cultural Memes 
- []
-
-[6] [7])
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [8] (./part1_core_logic/introduction.tex [1
+[2
+
+] (./part1_core_logic/introduction.tex [1
 
 
-] [2] [3]
+]
+LaTeX Font Info:    Font shape `TU/SongtiSCLight(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/SongtiSCLight(0)/m/it' tried instead on input line 73.
+ [2] [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4] [5]) [6] [7] [8
+ [4] [5]
+
+LaTeX Warning: Hyper reference `ch:existence' on page 6 undefined on input line 280.
+
+
+LaTeX Warning: Hyper reference `chap:structure_efficiency' on page 6 undefined on input line 281.
+
+
+LaTeX Warning: Hyper reference `ch:language' on page 6 undefined on input line 282.
+
+) [6] [7] [8
 
 ] (./part1_core_logic/chapter1_nature_motivation.tex [9]
 Chapter 1.
@@ -1063,9 +1051,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 307.
 
 [15]
+
+LaTeX Warning: Hyper reference `math:various' on page 16 undefined on input line 354.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16] [17]) (./part1_core_logic/chapter2_structure_efficiency.tex [18]
+ [16] [17]
+
+LaTeX Warning: Hyper reference `chap:structure_efficiency' on page 18 undefined on input line 424.
+
+) (./part1_core_logic/chapter2_structure_efficiency.tex [18]
 Chapter 2.
 
 Underfull \vbox (badness 6675) has occurred while \output is active []
@@ -1073,6 +1069,13 @@ Underfull \vbox (badness 6675) has occurred while \output is active []
  [19
 
 ]
+
+LaTeX Warning: Hyper reference `sec:selection_filter' on page 20 undefined on input line 75.
+
+
+LaTeX Warning: Hyper reference `math:threshold_model' on page 20 undefined on input line 98.
+
+
 Underfull \vbox (badness 3417) has occurred while \output is active []
 
  [20]
@@ -1081,7 +1084,11 @@ Underfull \vbox (badness 3039) has occurred while \output is active []
  [21]
 Underfull \vbox (badness 4492) has occurred while \output is active []
 
- [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]) (./part1_core_logic/chapter3_language_information.tex [34]
+ [22]
+
+LaTeX Warning: Hyper reference `math:survival_constraint' on page 23 undefined on input line 285.
+
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]) (./part1_core_logic/chapter3_language_information.tex [34]
 Chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1095,40 +1102,723 @@ Overfull \hbox (9.82509pt too wide) in paragraph at lines 398--398
 
 ) [41] [42
 
-] (./part2_geological_determinism/chapter1_materialist_historical_view.tex)
-Runaway argument?
-  \item 为什么今天的大基建能力差异能追溯到古代治水\ETC.
-! File ended while scanning use of \documentclass.
-<inserted text> 
-                \par 
-l.183 ...ism/chapter1_materialist_historical_view}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-(./part2_geological_determinism/chapter2_survival_strategy_divergence.tex [43]
+] (./part2_geological_determinism/chapter1_materialist_historical_view.tex [43]
 Chapter 4.
-[44
+
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [44
 
 ] [45] [46] [47]
+
+LaTeX Warning: Reference `chap:info_theory' on page 48 undefined on input line 134.
+
+
+LaTeX Warning: Reference `ch:existence' on page 48 undefined on input line 135.
+
+[48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49] [50] [51] [52] [53] [54] [55]
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [56] [57]
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [58]
+Overfull \hbox (3.46811pt too wide) in paragraph at lines 395--396
+[]\TU/SongtiSCLight(0)/m/n/12 为 什 么 理 解 了 西 方 案 例，|  下 一 个 问 题 就 是\TU/lmr/m/n/12 ” \TU/SongtiSCLight(0)/m/n/12 两 个 案 例 的 机 制 如 何 对 比 验 证 理 论\TU/lmr/m/n/12 ”\TU/SongtiSCLight(0)/m/n/12 ？ （指
+ []
+
+[59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60] [61] [62] [63] [64]) (./part2_geological_determinism/chapter2_survival_strategy_divergence.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Overfull \vbox (533.19173pt too high) has occurred while \output is active []
+
+ [67] [68]
+Chapter 5.
+[69
+
+] [70] [71] [72]
 Overfull \hbox (3.46811pt too wide) in paragraph at lines 131--132
 []\TU/SongtiSCLight(0)/m/n/12 为 什 么 理 解 了 思 想 控 制 的 必 然 性，|  下 一 个 问 题 就 是\TU/lmr/m/n/12 ” \TU/SongtiSCLight(0)/m/n/12 这 套 系 统 有 什 么 致 命 缺 陷\TU/lmr/m/n/12 ”\TU/SongtiSCLight(0)/m/n/12 ？ （指
  []
 
-[48] [49] [50] [51] [52] [53]) [54] [55
+[73] [74] [75] [76] [77] [78]) [79] [80
 
-] [56
+] (./part3_systematic_expansion/chapter1_economic_base.tex [81]
+Chapter 6.
+[82
 
-] (./conclusion/circular_closure.tex
-Chapter 5.
+]
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+
+Overfull \hbox (244.76306pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.1.  \TU/SongtiSCLight(0)/m/it/12 供 求 关 系：|  价 格 作 为 集 体 模 因 的 聚 合 \TU/lmr/m/sl/12 (SUPPLY AND DEMAND: PRICE AS THE AGGREGATION OF COLLECTIVE MEMES) \TU/lmr/m/n/12 83
+ []
+
+[83]
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 84 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[84]
+Underfull \vbox (badness 3590) has occurred while \output is active []
+
+
+Overfull \hbox (244.76306pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.1.  \TU/SongtiSCLight(0)/m/it/12 供 求 关 系：|  价 格 作 为 集 体 模 因 的 聚 合 \TU/lmr/m/sl/12 (SUPPLY AND DEMAND: PRICE AS THE AGGREGATION OF COLLECTIVE MEMES) \TU/lmr/m/n/12 85
+ []
+
+[85]
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 86 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[86]
+Underfull \vbox (badness 3590) has occurred while \output is active []
+
+
+Overfull \hbox (244.76306pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.1.  \TU/SongtiSCLight(0)/m/it/12 供 求 关 系：|  价 格 作 为 集 体 模 因 的 聚 合 \TU/lmr/m/sl/12 (SUPPLY AND DEMAND: PRICE AS THE AGGREGATION OF COLLECTIVE MEMES) \TU/lmr/m/n/12 87
+ []
+
+[87]
+Overfull \hbox (19.17915pt too wide) in paragraph at lines 100--100
+[]\TU/SongtiSCLight(0)/b/n/14.4 供 求 博 弈 的 动 态 均 衡 \TU/lmr/bx/n/14.4 (Dynamic Equilibrium of Supply-Demand
+ []
+
+
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 88 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (244.76306pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.1.  \TU/SongtiSCLight(0)/m/it/12 供 求 关 系：|  价 格 作 为 集 体 模 因 的 聚 合 \TU/lmr/m/sl/12 (SUPPLY AND DEMAND: PRICE AS THE AGGREGATION OF COLLECTIVE MEMES) \TU/lmr/m/n/12 89
+ []
+
+[89]
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 90 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[90]
+Overfull \hbox (9.70395pt too wide) in paragraph at lines 157--157
+[]\TU/SongtiSCLight(0)/b/n/14.4 为 什 么 同 样 东 西 在 不 同 时 刻 值 不 同？| \TU/lmr/bx/n/14.4 (Why Does the Same Thing
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57
 
-]) (./appendix/appendix_V_math.tex [58]
+Overfull \hbox (244.76306pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.1.  \TU/SongtiSCLight(0)/m/it/12 供 求 关 系：|  价 格 作 为 集 体 模 因 的 聚 合 \TU/lmr/m/sl/12 (SUPPLY AND DEMAND: PRICE AS THE AGGREGATION OF COLLECTIVE MEMES) \TU/lmr/m/n/12 91
+ []
+
+[91]
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 92 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 94 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[94]
+Overfull \hbox (125.3817pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.4.  \TU/SongtiSCLight(0)/m/it/12 市 场 失 灵：|  当 价 格 机 制 崩 溃 \TU/lmr/m/sl/12 (MARKET FAILURE: WHEN THE PRICE MECHANISM BREAKS DOWN) \TU/lmr/m/n/12 95
+ []
+
+[95]
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 96 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[96]
+Overfull \hbox (125.3817pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.4.  \TU/SongtiSCLight(0)/m/it/12 市 场 失 灵：|  当 价 格 机 制 崩 溃 \TU/lmr/m/sl/12 (MARKET FAILURE: WHEN THE PRICE MECHANISM BREAKS DOWN) \TU/lmr/m/n/12 97
+ []
+
+[97]
+Overfull \hbox (32.80687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 98 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[98]
+Overfull \hbox (125.3817pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.4.  \TU/SongtiSCLight(0)/m/it/12 市 场 失 灵：|  当 价 格 机 制 崩 溃 \TU/lmr/m/sl/12 (MARKET FAILURE: WHEN THE PRICE MECHANISM BREAKS DOWN) \TU/lmr/m/n/12 99
+ []
+
+[99]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 100 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[100]
+Underfull \vbox (badness 3590) has occurred while \output is active []
+
+
+Overfull \hbox (131.2617pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.4.  \TU/SongtiSCLight(0)/m/it/12 市 场 失 灵：|  当 价 格 机 制 崩 溃 \TU/lmr/m/sl/12 (MARKET FAILURE: WHEN THE PRICE MECHANISM BREAKS DOWN) \TU/lmr/m/n/12 101
+ []
+
+[101]
+Overfull \hbox (7.73831pt too wide) in paragraph at lines 345--345
+[]\TU/SongtiSCLight(0)/b/n/14.4 超 越 价 格：|  非 货 币 化 交 换 的 领 域 \TU/lmr/bx/n/14.4 (Beyond Price: Non-Monetary
+ []
+
+
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 102 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[102]
+Underfull \vbox (badness 3590) has occurred while \output is active []
+
+
+Overfull \hbox (131.2617pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.4.  \TU/SongtiSCLight(0)/m/it/12 市 场 失 灵：|  当 价 格 机 制 崩 溃 \TU/lmr/m/sl/12 (MARKET FAILURE: WHEN THE PRICE MECHANISM BREAKS DOWN) \TU/lmr/m/n/12 103
+ []
+
+[103]
+Overfull \hbox (2.48953pt too wide) in paragraph at lines 379--379
+[]\TU/SongtiSCLight(0)/b/n/14.4 经 济 模 型 的 前 提 假 设 及 其 失 败 \TU/lmr/bx/n/14.4 (The Assumptions of Economic
+ []
+
+
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 104 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 105
+ []
+
+[105]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 106 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[106]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 107
+ []
+
+[107]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 108 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 109
+ []
+
+[109]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 110 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[110]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 111
+ []
+
+[111]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 112 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[112]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 113
+ []
+
+[113]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 114 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[114]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 115
+ []
+
+[115]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 116 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[116]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 117
+ []
+
+[117]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 118 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[118]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 119
+ []
+
+[119]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 120 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[120]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 121
+ []
+
+[121]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 122 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[122]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 123
+ []
+
+[123]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 124 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[124]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 125
+ []
+
+[125]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 126 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[126]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 127
+ []
+
+[127]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 128 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[128]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 129
+ []
+
+[129]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 130 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[130]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 131
+ []
+
+[131]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 132 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[132]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 133
+ []
+
+[133]
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 134 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[134]
+Overfull \hbox (260.94841pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 6.5.  \TU/SongtiSCLight(0)/m/it/12 经 济 的 边 界：|  从 模 因 退 化 到 权 力 涌 现 \TU/lmr/m/sl/12 (THE BOUNDARY OF ECONOMY: WHEN MEMETIC DEGRADATION MEETS POWER) \TU/lmr/m/n/12 135
+ []
+
+[135]) (./part3_systematic_expansion/chapter2_culture_folk_institutions.tex
+Overfull \hbox (38.68687pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 136 \TU/lmr/m/sl/12 CHAPTER 6.  \TU/SongtiSCLight(0)/m/it/12 物 质 分 支：|  经 济 基 础 \TU/lmr/m/sl/12 (MATERIAL BRANCH: ECONOMIC FOUNDATIONS)
+ []
+
+[136]
+Chapter 7.
+
+Overfull \hbox (30.5265pt too wide) in paragraph at lines 19--19
+[]\TU/SongtiSCLight(0)/b/n/17.28 文 化 作 为 模 因 系 统：|  从 语 言 到 选 择 \TU/lmr/bx/n/17.28 (Culture as a Memetic
+ []
+
+
+Underfull \vbox (badness 7273) has occurred while \output is active []
+
+ [137
+
+]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 138 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[138]
+Overfull \hbox (159.1284pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.1.  \TU/SongtiSCLight(0)/m/it/12 文 化 作 为 模 因 系 统：|  从 语 言 到 选 择 \TU/lmr/m/sl/12 (CULTURE AS A MEMETIC SYSTEM: FROM LANGUAGE TO CHOICE) \TU/lmr/m/n/12 139
+ []
+
+[139]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 140 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[140]
+Overfull \hbox (159.1284pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.1.  \TU/SongtiSCLight(0)/m/it/12 文 化 作 为 模 因 系 统：|  从 语 言 到 选 择 \TU/lmr/m/sl/12 (CULTURE AS A MEMETIC SYSTEM: FROM LANGUAGE TO CHOICE) \TU/lmr/m/n/12 141
+ []
+
+[141]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 142 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[142]
+Overfull \hbox (159.1284pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.1.  \TU/SongtiSCLight(0)/m/it/12 文 化 作 为 模 因 系 统：|  从 语 言 到 选 择 \TU/lmr/m/sl/12 (CULTURE AS A MEMETIC SYSTEM: FROM LANGUAGE TO CHOICE) \TU/lmr/m/n/12 143
+ []
+
+[143]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 144 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[144]
+Overfull \hbox (36.1684pt too wide) in paragraph at lines 225--225
+[]\TU/SongtiSCLight(0)/b/n/17.28 道 德：|  高 频 行 为 的 短 编 码 压 缩 \TU/lmr/bx/n/17.28 (Morality: Short-Encoding
+ []
+
+
+Underfull \vbox (badness 1365) has occurred while \output is active []
+
+
+Overfull \hbox (140.37357pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.2.  \TU/SongtiSCLight(0)/m/it/12 道 德：|  高 频 行 为 的 短 编 码 压 缩 \TU/lmr/m/sl/12 (MORALITY: SHORT-ENCODING OF HIGH-FREQUENCY BEHAVIORS) \TU/lmr/m/n/12 145
+ []
+
+[145]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 146 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[146]
+Overfull \hbox (140.37357pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.2.  \TU/SongtiSCLight(0)/m/it/12 道 德：|  高 频 行 为 的 短 编 码 压 缩 \TU/lmr/m/sl/12 (MORALITY: SHORT-ENCODING OF HIGH-FREQUENCY BEHAVIORS) \TU/lmr/m/n/12 147
+ []
+
+[147]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 148 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[148]
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+
+Overfull \hbox (66.32158pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.3.  \TU/SongtiSCLight(0)/m/it/12 模 因 传 播：|  不 问 对 错，|  只 问 强 度 \TU/lmr/m/sl/12 (MEMETIC TRANSMISSION: STRENGTH OVER TRUTH) \TU/lmr/m/n/12 149
+ []
+
+[149]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 150 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[150]
+Underfull \vbox (badness 1205) has occurred while \output is active []
+
+
+Overfull \hbox (200.8164pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.4.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 权 力 维 度：|  模 因 如 何 塑 造 身 份 \TU/lmr/m/sl/12 (THE POWER DIMENSION OF CULTURE: HOW MEMES SHAPE IDENTITY) \TU/lmr/m/n/12 151
+ []
+
+[151]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 152 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[152]
+Overfull \hbox (200.8164pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.4.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 权 力 维 度：|  模 因 如 何 塑 造 身 份 \TU/lmr/m/sl/12 (THE POWER DIMENSION OF CULTURE: HOW MEMES SHAPE IDENTITY) \TU/lmr/m/n/12 153
+ []
+
+[153]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 154 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[154]
+Overfull \hbox (200.8164pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.4.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 权 力 维 度：|  模 因 如 何 塑 造 身 份 \TU/lmr/m/sl/12 (THE POWER DIMENSION OF CULTURE: HOW MEMES SHAPE IDENTITY) \TU/lmr/m/n/12 155
+ []
+
+[155]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 156 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[156]
+Overfull \hbox (200.8164pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.4.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 权 力 维 度：|  模 因 如 何 塑 造 身 份 \TU/lmr/m/sl/12 (THE POWER DIMENSION OF CULTURE: HOW MEMES SHAPE IDENTITY) \TU/lmr/m/n/12 157
+ []
+
+[157]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 158 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[158]
+Underfull \vbox (badness 3108) has occurred while \output is active []
+
+
+Overfull \hbox (200.8164pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.4.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 权 力 维 度：|  模 因 如 何 塑 造 身 份 \TU/lmr/m/sl/12 (THE POWER DIMENSION OF CULTURE: HOW MEMES SHAPE IDENTITY) \TU/lmr/m/n/12 159
+ []
+
+[159]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 160 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[160]
+Overfull \hbox (200.8164pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.4.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 权 力 维 度：|  模 因 如 何 塑 造 身 份 \TU/lmr/m/sl/12 (THE POWER DIMENSION OF CULTURE: HOW MEMES SHAPE IDENTITY) \TU/lmr/m/n/12 161
+ []
+
+[161]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 162 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[162]
+Underfull \vbox (badness 3260) has occurred while \output is active []
+
+
+Overfull \hbox (200.8164pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.4.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 权 力 维 度：|  模 因 如 何 塑 造 身 份 \TU/lmr/m/sl/12 (THE POWER DIMENSION OF CULTURE: HOW MEMES SHAPE IDENTITY) \TU/lmr/m/n/12 163
+ []
+
+[163]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 164 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[164]
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 165
+ []
+
+[165]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 166 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[166]
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 167
+ []
+
+[167]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 168 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[168]
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 169
+ []
+
+[169]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 170 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[170]
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 171
+ []
+
+[171]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 172 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[172]
+Overfull \hbox (9.17114pt too wide) in paragraph at lines 1039--1039
+[]\TU/SongtiSCLight(0)/b/n/14.4 当 文 化 模 因 遇 到 权 力 结 构 \TU/lmr/bx/n/14.4 (When Cultural Memes Meet Power
+ []
+
+
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 173
+ []
+
+[173]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 174 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[174]
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 175
+ []
+
+[175]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 176 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[176]
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 177
+ []
+
+[177]
+Overfull \hbox (178.595pt too wide) has occurred while \output is active
+\TU/lmr/m/n/12 178 \TU/lmr/m/sl/12 CHAPTER 7.  \TU/SongtiSCLight(0)/m/it/12 意 识 分 支 \TU/lmr/m/sl/12 I\TU/SongtiSCLight(0)/m/it/12 ：|  文 化 与 民 间 制 度 \TU/lmr/m/sl/12 (CONSCIOUSNESS BRANCH I: CULTURE AND FOLK INSTITUTIONS)
+ []
+
+[178]) (./part3_systematic_expansion/chapter3_politics_power_structure.tex
+Overfull \hbox (91.8804pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 7.5.  \TU/SongtiSCLight(0)/m/it/12 文 化 的 边 界：|  当 模 因 不 够 用 \TU/lmr/m/sl/12 (THE LIMITS OF CULTURE: WHEN MEMES ARE NOT ENOUGH) \TU/lmr/m/n/12 179
+ []
+
+[179]
+Chapter 8.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [180
+
+]
+Overfull \hbox (318.70712pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 8.1.  \TU/SongtiSCLight(0)/m/it/12 权 力 的 本 质：|  交 换 网 络 中 的 依 赖 与 认 同 \TU/lmr/m/sl/12 (THE ESSENCE OF POWER: DEPENDENCE AND RECOGNITION IN EXCHANGE NETWORKS) \TU/lmr/m/n/12 181
+ []
+
+[181] [182]
+Overfull \hbox (318.70712pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 8.1.  \TU/SongtiSCLight(0)/m/it/12 权 力 的 本 质：|  交 换 网 络 中 的 依 赖 与 认 同 \TU/lmr/m/sl/12 (THE ESSENCE OF POWER: DEPENDENCE AND RECOGNITION IN EXCHANGE NETWORKS) \TU/lmr/m/n/12 183
+ []
+
+[183] [184]
+Underfull \vbox (badness 3250) has occurred while \output is active []
+
+
+Overfull \hbox (181.7643pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 8.2.  \TU/SongtiSCLight(0)/m/it/12 组 织 的 抽 象：|  从 个 人 魅 力 到 机 构 权 威 \TU/lmr/m/sl/12 (INSTITUTIONAL ABSTRACTION: FROM CHARISMA TO AUTHORITY) \TU/lmr/m/n/12 185
+ []
+
+[185] [186]
+Overfull \hbox (106.75766pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 8.3.  \TU/SongtiSCLight(0)/m/it/12 博 弈 与 制 衡：|  权 力 系 统 的 动 力 学 \TU/lmr/m/sl/12 (GAME AND CHECKS: THE DYNAMICS OF POWER SYSTEMS) \TU/lmr/m/n/12 187
+ []
+
+[187] [188]) (./part3_systematic_expansion/chapter4_law_institutional_form.tex
+Overfull \hbox (106.75766pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 8.3.  \TU/SongtiSCLight(0)/m/it/12 博 弈 与 制 衡：|  权 力 系 统 的 动 力 学 \TU/lmr/m/sl/12 (GAME AND CHECKS: THE DYNAMICS OF POWER SYSTEMS) \TU/lmr/m/n/12 189
+ []
+
+[189]
+Chapter 9.
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [190
+
+]
+Overfull \hbox (343.74838pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 9.2.  \TU/SongtiSCLight(0)/m/it/12 责 任 的 归 因：|  基 于 条 件 概 率 的 定 责 逻 辑 \TU/lmr/m/sl/12 (ATTRIBUTION OF RESPONSIBILITY: CAUSAL LOGIC BASED ON CONDITIONAL PROBABILITY) \TU/lmr/m/n/12 191
+ []
+
+[191] [192]
+Overfull \hbox (343.74838pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 9.2.  \TU/SongtiSCLight(0)/m/it/12 责 任 的 归 因：|  基 于 条 件 概 率 的 定 责 逻 辑 \TU/lmr/m/sl/12 (ATTRIBUTION OF RESPONSIBILITY: CAUSAL LOGIC BASED ON CONDITIONAL PROBABILITY) \TU/lmr/m/n/12 193
+ []
+
+[193] [194]
+Overfull \hbox (343.74838pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 9.2.  \TU/SongtiSCLight(0)/m/it/12 责 任 的 归 因：|  基 于 条 件 概 率 的 定 责 逻 辑 \TU/lmr/m/sl/12 (ATTRIBUTION OF RESPONSIBILITY: CAUSAL LOGIC BASED ON CONDITIONAL PROBABILITY) \TU/lmr/m/n/12 195
+ []
+
+[195]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [196]
+Overfull \hbox (343.74838pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 9.2.  \TU/SongtiSCLight(0)/m/it/12 责 任 的 归 因：|  基 于 条 件 概 率 的 定 责 逻 辑 \TU/lmr/m/sl/12 (ATTRIBUTION OF RESPONSIBILITY: CAUSAL LOGIC BASED ON CONDITIONAL PROBABILITY) \TU/lmr/m/n/12 197
+ []
+
+[197]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [198]
+Overfull \hbox (425.3964pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 9.3.  \TU/SongtiSCLight(0)/m/it/12 统 一 视 角：|  文 化、|  经 济、|  政 治、|  法 律 的 嵌 套 关 系 \TU/lmr/m/sl/12 (A UNIFIED PERSPECTIVE: THE NESTED RELATIONSHIP OF CULTURE, ECONOMY, POLITICS, AND LAW) \TU/lmr/m/n/12 199
+ []
+
+[199]
+Underfull \vbox (badness 8094) has occurred while \output is active []
+
+ [200])
+Overfull \hbox (425.3964pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/12 9.3.  \TU/SongtiSCLight(0)/m/it/12 统 一 视 角：|  文 化、|  经 济、|  政 治、|  法 律 的 嵌 套 关 系 \TU/lmr/m/sl/12 (A UNIFIED PERSPECTIVE: THE NESTED RELATIONSHIP OF CULTURE, ECONOMY, POLITICS, AND LAW) \TU/lmr/m/n/12 201
+ []
+
+[201] [202
+
+] (./conclusion/circular_closure.tex
+Chapter 10.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [203
+
+]) (./appendix/appendix_V_math.tex [204]
 附录 A.
 
 Package fontspec Info: 
@@ -1153,40 +1843,56 @@ Package fontspec Info:
 
 Underfull \vbox (badness 6542) has occurred while \output is active []
 
- [59
+ [205
 
-] (./appendix/appendix/chapter1_existence_dynamics.tex [60]
+] (./appendix/appendix/chapter1_existence_dynamics.tex [206]
 附录 B.
-[61
 
-]) (./appendix/appendix/chapter2_structure_info.tex [62]
+LaTeX Warning: Hyper reference `math:existence' on page 207 undefined on input line 24.
+
+[207
+
+]
+
+LaTeX Warning: Hyper reference `main:various' on page 208 undefined on input line 52.
+
+) (./appendix/appendix/chapter2_structure_info.tex [208]
 附录 C.
 
 Overfull \hbox (126.4733pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-[63
 
-]) (./appendix/appendix/chapter3_history_probability.tex [64]
+LaTeX Warning: Hyper reference `math:structure' on page 209 undefined on input line 27.
+
+[209
+
+]) (./appendix/appendix/chapter3_history_probability.tex [210]
 附录 D.
+
+LaTeX Warning: Hyper reference `math:history' on page 211 undefined on input line 21.
+
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [65
+ [211
 
-]) (./appendix/appendix/chapter4_selforg_dynamics.tex [66]
+]) (./appendix/appendix/chapter4_selforg_dynamics.tex [212]
 附录 E.
+
+LaTeX Warning: Hyper reference `math:selforg' on page 213 undefined on input line 18.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
+ [213
 
-]) (./appendix/appendix/chapter5_checklist.tex [68]
+]) (./appendix/appendix/chapter5_checklist.tex [214]
 附录 F.
-[69
+[215
 
-])) [70] (./backmatter/acknowledgements_gift.tex) [71
+])) [216] (./backmatter/acknowledgements_gift.tex) [217
 
 
 ] (./main.aux)
@@ -1194,6 +1900,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX2e <2026-06-01>
 L3 programming layer <2026/07/04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1204,16 +1913,16 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: FED3CAE837E097E18DF77A19C453A148;39915
-(rerunfilecheck)             After:  51E3BBD9814849186581E69B3D77AEA2;16841.
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  06D4DB15F78F2AA47B03E85989B97AEB;46883.
  ) 
 Here is how much of TeX's memory you used:
- 33989 strings out of 469837
- 841320 string characters out of 5468785
- 1278647 words of memory out of 5000000
- 62297 multiletter control sequences out of 15000+600000
- 636117 words of font info for 124 fonts, out of 8000000 for 9000
+ 34576 strings out of 469837
+ 867561 string characters out of 5468785
+ 1262263 words of memory out of 5000000
+ 62871 multiletter control sequences out of 15000+600000
+ 636157 words of font info for 129 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,14n,111p,745b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,111p,659b,2025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (81 pages).
+Output written on main.pdf (221 pages).

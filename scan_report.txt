@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/chenglu/.claude/workspace/动机社会/scan_complex_paragraphs.py", line 48, in <module>
+    all_complex[ch.name] = analyze_file(ch)
+                           ^^^^^^^^^^^^^^^^
+  File "/Users/chenglu/.claude/workspace/动机社会/scan_complex_paragraphs.py", line 32, in analyze_file
+    term_count = count_terms(para)
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/chenglu/.claude/workspace/动机社会/scan_complex_paragraphs.py", line 13, in count_terms
+    if isinstance(matches[0], tuple):
+                  ~~~~~~~^^^
+IndexError: list index out of range

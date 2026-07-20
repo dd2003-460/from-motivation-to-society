@@ -1,0 +1,249 @@
+{
+  "chapter3_politics_power_structure.tex": {
+    "probability": {
+      "count": 55,
+      "examples": [
+        "P(B|A)：行为A发生后损害B的概率。比较P(B|A)和P(B|非A)",
+        "条件概率",
+        "P(B|A)：行为A后损害B的概率。比较P(B|A)和P(B|¬A)",
+        "概率"
+      ]
+    },
+    "game_theory": {
+      "count": 22,
+      "examples": [
+        "博弈"
+      ]
+    },
+    "network_science": {
+      "count": 18,
+      "examples": [
+        "网络",
+        "边"
+      ]
+    },
+    "information_theory": {
+      "count": 12,
+      "examples": [
+        "信息"
+      ]
+    },
+    "complexity": {
+      "count": 5,
+      "examples": [
+        "计算",
+        "复杂度"
+      ]
+    },
+    "differential_equations": {
+      "count": 4,
+      "examples": [
+        "动态"
+      ]
+    },
+    "statistics": {
+      "count": 5,
+      "examples": [
+        "回归"
+      ]
+    },
+    "logic": {
+      "count": 73,
+      "examples": [
+        "¬",
+        "逻辑",
+        "→"
+      ]
+    },
+    "optimization": {
+      "count": 2,
+      "examples": [
+        "优化"
+      ]
+    },
+    "linear_algebra": {
+      "count": 3,
+      "examples": [
+        "矩阵"
+      ]
+    }
+  },
+  "chapter4_law_institutional_form.tex": {
+    "probability": {
+      "count": 151,
+      "examples": [
+        "P(损害|行为)",
+        "P(死亡|故意)=1，过失P(死亡|过失)",
+        "P(A|B)",
+        "条件概率",
+        "P(损害|行为) vs P(损害|无行为)"
+      ]
+    },
+    "game_theory": {
+      "count": 8,
+      "examples": [
+        "博弈"
+      ]
+    },
+    "network_science": {
+      "count": 21,
+      "examples": [
+        "网络",
+        "边"
+      ]
+    },
+    "information_theory": {
+      "count": 5,
+      "examples": [
+        "信息",
+        "比特"
+      ]
+    },
+    "complexity": {
+      "count": 22,
+      "examples": [
+        "计算",
+        "算法",
+        "复杂度"
+      ]
+    },
+    "differential_equations": {
+      "count": 3,
+      "examples": [
+        "动态"
+      ]
+    },
+    "statistics": {
+      "count": 5,
+      "examples": [
+        "统计"
+      ]
+    },
+    "logic": {
+      "count": 67,
+      "examples": [
+        "逻辑",
+        "→"
+      ]
+    },
+    "linear_algebra": {
+      "count": 2,
+      "examples": [
+        "线性"
+      ]
+    }
+  },
+  "chapter1_economic_base.tex": {
+    "probability": {
+      "count": 3,
+      "examples": [
+        "条件概率",
+        "概率"
+      ]
+    },
+    "game_theory": {
+      "count": 13,
+      "examples": [
+        "博弈"
+      ]
+    },
+    "network_science": {
+      "count": 34,
+      "examples": [
+        "网络",
+        "边"
+      ]
+    },
+    "information_theory": {
+      "count": 74,
+      "examples": [
+        "信息",
+        "比特"
+      ]
+    },
+    "complexity": {
+      "count": 14,
+      "examples": [
+        "计算",
+        "算法",
+        "复杂度"
+      ]
+    },
+    "differential_equations": {
+      "count": 8,
+      "examples": [
+        "动态"
+      ]
+    },
+    "logic": {
+      "count": 96,
+      "examples": [
+        "逻辑",
+        "→"
+      ]
+    },
+    "optimization": {
+      "count": 2,
+      "examples": [
+        "最大化"
+      ]
+    }
+  },
+  "chapter2_culture_folk_institutions.tex": {
+    "probability": {
+      "count": 5,
+      "examples": [
+        "条件概率",
+        "概率",
+        "贝叶斯"
+      ]
+    },
+    "game_theory": {
+      "count": 2,
+      "examples": [
+        "博弈"
+      ]
+    },
+    "network_science": {
+      "count": 30,
+      "examples": [
+        "网络",
+        "节点",
+        "边"
+      ]
+    },
+    "information_theory": {
+      "count": 24,
+      "examples": [
+        "信息"
+      ]
+    },
+    "complexity": {
+      "count": 13,
+      "examples": [
+        "计算",
+        "算法",
+        "复杂度"
+      ]
+    },
+    "statistics": {
+      "count": 1,
+      "examples": [
+        "统计"
+      ]
+    },
+    "logic": {
+      "count": 71,
+      "examples": [
+        "逻辑",
+        "→"
+      ]
+    },
+    "optimization": {
+      "count": 5,
+      "examples": [
+        "优化"
+      ]
+    }
+  }
+}

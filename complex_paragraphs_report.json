@@ -1,0 +1,1120 @@
+{
+  "chapter3_politics_power_structure.tex": [
+    {
+      "index": 4,
+      "char_count": 262,
+      "term_count": 7,
+      "preview": "\\chapter{意识分支 II：政治与权力结构 (Consciousness Branch II: Politics and Power Structure)}\n\t\\begin{motivation..."
+    },
+    {
+      "index": 5,
+      "char_count": 235,
+      "term_count": 6,
+      "preview": "% ============================================================\n\t% §1 权力的本质：交换网络中的依赖与认同\n\t% ==========..."
+    },
+    {
+      "index": 7,
+      "char_count": 346,
+      "term_count": 3,
+      "preview": "\\textbf{段落1（why1：依赖产生权力的基本逻辑）}：\\\\\n\t权力最基本的来源不是暴力、不是金钱、不是魅力——而是**依赖**。当A需要B才能实现某个目标，而B不需要A时，B对A就有权力。小镇..."
+    },
+    {
+      "index": 8,
+      "char_count": 317,
+      "term_count": 2,
+      "preview": "\\textbf{段落2（why2：权力的三源——强制/利益/认同）}：\\\\\n\t依赖有三种形态，对应权力的三个来源：**强制力**（你服从因为害怕惩罚——警察、军队、老板的解雇威胁）、**利益**（你服..."
+    },
+    {
+      "index": 9,
+      "char_count": 280,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：权力降低交换网络的协调成本）}：\\\\\n\t从系统角度看，权力的功能是**降低协调成本**。想象没有红绿灯的十字路口：每辆车都要和其他车协商谁先过，结果是堵死。有了红绿灯..."
+    },
+    {
+      "index": 10,
+      "char_count": 309,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：合法性——认同如何让权力可持续）}：\\\\\n\t合法性是权力的\"燃料\"。当人们认同你的权力来源，监督成本大幅降低——你不需要派警察监视每个人，人们自愿遵守。民主国家的权力..."
+    },
+    {
+      "index": 14,
+      "char_count": 560,
+      "term_count": 3,
+      "preview": "\\subsection{权力的三源：强制/利益/认同 (Three Sources of Power)}\n\t\begin{motivation}韦伯三种权威类型：传统型（君权神授）、魅力型（个人感召）、..."
+    },
+    {
+      "index": 15,
+      "char_count": 571,
+      "term_count": 4,
+      "preview": "\\subsection{权力降低交换网络的协调成本 (Power Reduces Coordination Costs)}\n\t\begin{motivation}没有红绿灯的十字路口会堵死。有了红绿灯协..."
+    },
+    {
+      "index": 16,
+      "char_count": 629,
+      "term_count": 4,
+      "preview": "\\subsection{合法性：认同如何让权力可持续 (Legitimacy: Making Power Sustainable)}\n\t\begin{motivation>纽伦堡审判中\"我只是服从命令\"..."
+    },
+    {
+      "index": 17,
+      "char_count": 535,
+      "term_count": 4,
+      "preview": "\\subsection{从个人依赖到结构依赖 (From Personal to Structural Dependence)}\n\t\begin{motivation>你不再依赖张三县长，而是依赖县长这..."
+    },
+    {
+      "index": 18,
+      "char_count": 82,
+      "term_count": 5,
+      "preview": "\\section{组织的抽象：从个人魅力到机构权威 (Institutional Abstraction: From Charisma to Authority)}"
+    },
+    {
+      "index": 19,
+      "char_count": 235,
+      "term_count": 4,
+      "preview": "\\subsection{个人魅力的三个致命缺陷 (Three Fatal Flaws of Charisma)}\n\t\\begin{motivation}\n\t\t乔布斯是苹果的灵魂——但他去世后苹果花了3..."
+    },
+    {
+      "index": 20,
+      "char_count": 271,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：不可复制——人死了权威就没了）}：\\\\\n\t个人魅力型权威最大的问题是**不可复制**。乔布斯2011年去世后，苹果从\"创新驱动\"变成了\"运营优化\"——不是Tim Co..."
+    },
+    {
+      "index": 22,
+      "char_count": 257,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：科层制——社会的路由协议）}：\\\\\n\t为什么科层制成为主流？因为它提供**清晰的等级、明确的职责、标准化的流程**。Google在2001年200人时完全扁平——所有..."
+    },
+    {
+      "index": 27,
+      "char_count": 504,
+      "term_count": 3,
+      "preview": "\\subsection{权力的抽取与编码 (Extraction and Encoding of Power)}\n\t\begin{motivation>从创始人抽取决策模式写成制度：大厨变菜谱类比。美国..."
+    },
+    {
+      "index": 28,
+      "char_count": 584,
+      "term_count": 4,
+      "preview": "\\subsection{科层制：社会的路由协议 (Bureaucracy as Social Routing Protocol)}\n\t\begin{motivation>Google从200人扁平到20..."
+    },
+    {
+      "index": 29,
+      "char_count": 591,
+      "term_count": 2,
+      "preview": "\\subsection{机构化的代价：灵活性vs可复制性 (Cost of Institutionalization)}\n\t\begin{motivation>华为让听得见炮声的人做决策——试图在机构化..."
+    },
+    {
+      "index": 30,
+      "char_count": 544,
+      "term_count": 2,
+      "preview": "\\subsection{从机构到系统：多机构协作的挑战 (Institutions to Systems)}\n\t\begin{motivation>政府各部门、企业事业部、联合国系统——多机构协作需要设..."
+    },
+    {
+      "index": 31,
+      "char_count": 65,
+      "term_count": 5,
+      "preview": "\\section{博弈与制衡：权力系统的动力学 (Game and Checks: Power System Dynamics)}"
+    },
+    {
+      "index": 32,
+      "char_count": 155,
+      "term_count": 5,
+      "preview": "\\subsection{为什么权力必须被分散？(Why Must Power Be Dispersed?)}\n\t\\begin{motivation>\n\t\t明朝崇祯皇帝收到的奏折还在说\"流寇不日可平\"—..."
+    },
+    {
+      "index": 40,
+      "char_count": 561,
+      "term_count": 6,
+      "preview": "\\subsection{制衡的自发形成：相互依赖催生谈判 (Spontaneous Emergence of Checks)}\n\t\begin{motivation>FDA vs NIH：安全vs创新的..."
+    },
+    {
+      "index": 41,
+      "char_count": 580,
+      "term_count": 6,
+      "preview": "\\subsection{三权分立：无中心调控的平衡 (Separation of Powers)}\n\t\begin{motivation>2023年美国国会仅通过27个法案，总统行政令上百个——行政权膨..."
+    },
+    {
+      "index": 42,
+      "char_count": 524,
+      "term_count": 2,
+      "preview": "\\subsection{制衡vs集权：弹性系统的需求 (Checks vs Centralization)}\n\t\begin{motivation>二战罗斯福战时权力→战后回归。9/11爱国者法案20年..."
+    },
+    {
+      "index": 43,
+      "char_count": 605,
+      "term_count": 3,
+      "preview": "\\subsection{制衡系统的侵蚀与维护 (Erosion and Maintenance of Checks)}\n\t\begin{motivation>匈牙利欧尔班保留三权分立外壳实质独大。花园类..."
+    },
+    {
+      "index": 44,
+      "char_count": 87,
+      "term_count": 6,
+      "preview": "\\section{政治的经济基础：利益交换网络 (Economic Foundations of Politics: Interest Exchange Networks)}"
+    },
+    {
+      "index": 45,
+      "char_count": 170,
+      "term_count": 5,
+      "preview": "\\subsection{政治决策背后的经济利益 (Economic Interests Behind Political Decisions)}\n\t\\begin{motivation>\n\t\t美国游说产..."
+    },
+    {
+      "index": 52,
+      "char_count": 525,
+      "term_count": 3,
+      "preview": "\\subsection{游说与选举：利益的政治转化 (Lobbying and Elections)}\n\t\begin{motivation>美国12000名注册游说者年花费350亿美元。2020年大选..."
+    },
+    {
+      "index": 53,
+      "char_count": 536,
+      "term_count": 4,
+      "preview": "\\subsection{权力层的自我强化与反抗 (Power Self-Reinforcement and Resistance)}\n\t\begin{motivation>马太效应：有者愈多。旋转门/世..."
+    },
+    {
+      "index": 54,
+      "char_count": 546,
+      "term_count": 6,
+      "preview": "\\subsection{技术问题需要专家 (Technical Problems Need Experts)}\n\t\begin{motivation>政治不能决定哪种疫苗更有效——这是科学问题。COVI..."
+    },
+    {
+      "index": 55,
+      "char_count": 531,
+      "term_count": 5,
+      "preview": "\\subsection{从人治到法治：规则的必然性 (From Rule of Man to Rule of Law)}\n\t\begin{motivation>人治的问题：规则不确定、执行不一致、不可预..."
+    },
+    {
+      "index": 56,
+      "char_count": 568,
+      "term_count": 7,
+      "preview": "\\subsection{章尾：从权力制衡到条件概率追责 (Chapter End: From Power Checks to Probabilistic Accountability)}\n\t\begin..."
+    },
+    {
+      "index": 57,
+      "char_count": 70,
+      "term_count": 6,
+      "preview": "\\section{政治的边界：从权力到规则 (The Boundary of Politics: From Power to Rules)}"
+    },
+    {
+      "index": 58,
+      "char_count": 159,
+      "term_count": 4,
+      "preview": "\\subsection{权力无法解决的问题 (Problems Power Cannot Solve)}\n\t\\begin{motivation>\n\t\t权力能强制行为，但不能强制信念。权力能分配资源，但..."
+    },
+    {
+      "index": 64,
+      "char_count": 504,
+      "term_count": 4,
+      "preview": "\\subsection{技术问题需要专家 (Technical Problems Need Experts)}\n\t\begin{motivation>政治不能决定哪种疫苗更有效——这是科学问题。COVI..."
+    },
+    {
+      "index": 65,
+      "char_count": 494,
+      "term_count": 5,
+      "preview": "\\subsection{从人治到法治：规则的必然性 (From Rule of Man to Rule of Law)}\n\t\begin{motivation>人治：规则不确定执行不一致不可预期。法治：..."
+    },
+    {
+      "index": 66,
+      "char_count": 549,
+      "term_count": 7,
+      "preview": "\\subsection{章尾：从权力制衡到条件概率追责 (Chapter End: From Power Checks to Probabilistic Accountability)}\n\t\begin..."
+    }
+  ],
+  "chapter4_law_institutional_form.tex": [
+    {
+      "index": 4,
+      "char_count": 203,
+      "term_count": 5,
+      "preview": "\\chapter{制度的终极形态：法律 (The Ultimate Form of Institutions: Law)}\n\t\\begin{motivation}\n\t\t政治权力的博弈产生赢家也产生损害..."
+    },
+    {
+      "index": 5,
+      "char_count": 197,
+      "term_count": 4,
+      "preview": "% ============================================================\n\t% §1 法律的变长编码属性\n\t% ==================..."
+    },
+    {
+      "index": 6,
+      "char_count": 231,
+      "term_count": 6,
+      "preview": "\\subsection{为什么法律条文必须冗长？(Why Must Legal Texts Be Lengthy?)}\n\t\\begin{motivation}\n\t\t如果交通规则只有\"小心驾驶\"四个字，..."
+    },
+    {
+      "index": 12,
+      "char_count": 164,
+      "term_count": 5,
+      "preview": "\\subsection{从\"杀人偿命\"到精细责任体系 (From Retaliation to Fine-Grained Liability)}\n\t\\begin{motivation}\n\t\t古代同态复..."
+    },
+    {
+      "index": 18,
+      "char_count": 604,
+      "term_count": 8,
+      "preview": "\\subsection{编码的必然性：社会复杂度的函数 (Encoding as Function of Complexity)}\n\t\\begin{motivation>社会越复杂法律越长不是偶然而是..."
+    },
+    {
+      "index": 19,
+      "char_count": 584,
+      "term_count": 10,
+      "preview": "\\subsection{立法、司法与学习的三重成本 (Triple Costs: Legislative, Judicial, Learning)}\n\t\\begin{motivation>法律变长不仅..."
+    },
+    {
+      "index": 20,
+      "char_count": 600,
+      "term_count": 7,
+      "preview": "\\subsection{精确性与可及性的张力 (Precision vs Accessibility)}\n\t\\begin{motivation>法律越精确普通人越难理解。70000页税法需要专业会计师..."
+    },
+    {
+      "index": 22,
+      "char_count": 231,
+      "term_count": 5,
+      "preview": "% ============================================================\n\t% §2 条件概率：法律定责的数学语言\n\t% =============..."
+    },
+    {
+      "index": 29,
+      "char_count": 560,
+      "term_count": 8,
+      "preview": "\\subsection{多因一果的责任比例分配 (Multi-Cause Liability)}\n\t\\begin{motivation>连环车祸5辆车追尾。每辆车都是原因但责任比例不同。条件概率如何扩..."
+    },
+    {
+      "index": 30,
+      "char_count": 629,
+      "term_count": 9,
+      "preview": "\\subsection{概率提升幅度：责任的量化基础 (Probability Enhancement as Liability Basis)}\n\t\\begin{motivation>汉德公式：B <..."
+    },
+    {
+      "index": 31,
+      "char_count": 672,
+      "term_count": 9,
+      "preview": "\\subsection{决定论下责任的根基 (Foundation of Liability Under Determinism)}\n\t\\begin{motivation>如果世界是决定论的，每个行为..."
+    },
+    {
+      "index": 32,
+      "char_count": 606,
+      "term_count": 8,
+      "preview": "\\subsection{概率定责的哲学与实践边界 (Philosophical and Practical Limits)}\n\t\\begin{motivation>群体概率vs个体正义的张力：超速事故..."
+    },
+    {
+      "index": 34,
+      "char_count": 227,
+      "term_count": 5,
+      "preview": "% ============================================================\n\t% §3 法律的实践：不同领域的概率思维\n\t% ============..."
+    },
+    {
+      "index": 35,
+      "char_count": 572,
+      "term_count": 10,
+      "preview": "\\subsection{刑法：排除合理怀疑的高门槛 (Criminal Law: Beyond Reasonable Doubt)}\n\t\\begin{motivation>刑事定罪需要95%以上确定性..."
+    },
+    {
+      "index": 36,
+      "char_count": 546,
+      "term_count": 10,
+      "preview": "\\subsection{民法：优势证据与期望效用 (Civil Law: Preponderance and Expected Utility)}\n\t\\begin{motivation>民法用50%+..."
+    },
+    {
+      "index": 37,
+      "char_count": 518,
+      "term_count": 9,
+      "preview": "\\subsection{行政法：效率与权利的平衡 (Administrative Law: Efficiency vs Rights)}\n\t\\begin{motivation>行政机关的决定速度比法院..."
+    },
+    {
+      "index": 38,
+      "char_count": 556,
+      "term_count": 10,
+      "preview": "\\subsection{国际法：无强制力的规则系统 (International Law: Rules Without Enforcer)}\n\t\\begin{motivation>主权国家之上无权威。..."
+    },
+    {
+      "index": 39,
+      "char_count": 553,
+      "term_count": 9,
+      "preview": "\\subsection{法律系统的自我维护 (Self-Maintenance of Legal Systems)}\n\t\\begin{motivation>法律不能自己执行。需要警察/法院/监狱/公民..."
+    },
+    {
+      "index": 41,
+      "char_count": 240,
+      "term_count": 7,
+      "preview": "% ============================================================\n\t% §4 统一视角：文化经济政治法律的嵌套关系\n\t% =========..."
+    },
+    {
+      "index": 48,
+      "char_count": 534,
+      "term_count": 11,
+      "preview": "\\subsection{循环流动：法律如何塑造文化 (Circular Flow: How Law Shapes Culture)}\n\t\\begin{motivation>同性婚姻合法化不只是法律变化..."
+    },
+    {
+      "index": 49,
+      "char_count": 544,
+      "term_count": 9,
+      "preview": "\\subsection{政治↔经济的反馈循环 (Political-Economic Feedback Loop)}\n\t\\begin{motivation>经济利益→政治权力→有利政策→更多经济利益。..."
+    },
+    {
+      "index": 50,
+      "char_count": 642,
+      "term_count": 12,
+      "preview": "\\subsection{整体视角：社会作为复杂自适应系统 (Holistic View: Society as Complex Adaptive System)}\n\t\\begin{motivation..."
+    },
+    {
+      "index": 51,
+      "char_count": 690,
+      "term_count": 11,
+      "preview": "\\subsection{章尾：条件概率作为定责的统一语言 (Chapter End: Conditional Probability as Universal Language)}\n\t\\begin{m..."
+    },
+    {
+      "index": 52,
+      "char_count": 217,
+      "term_count": 6,
+      "preview": "% ============================================================\n\t% §5 法律的边界：规则系统的局限\n\t% ==============..."
+    },
+    {
+      "index": 53,
+      "char_count": 161,
+      "term_count": 4,
+      "preview": "\\subsection{法律无法解决的问题 (Problems Law Cannot Solve)}\n\t\\begin{motivation}\n\t\t法律能禁止行为但不能创造价值。法律能保护权利但不能分配..."
+    },
+    {
+      "index": 59,
+      "char_count": 512,
+      "term_count": 7,
+      "preview": "\\subsection{法律与文化：规则的两种形态 (Law vs Culture)}\n\t\\begin{motivation>法律和文化都是行为规范但运作方式不同：法律靠强制力，文化靠认同。最佳状态是..."
+    },
+    {
+      "index": 60,
+      "char_count": 521,
+      "term_count": 8,
+      "preview": "\\subsection{法律与经济：正义vs效率 (Law vs Economy)}\n\t\\begin{motivation>法律追求正义，经济追求效率。当两者冲突时社会需要选择：严格环保法保护环境但降..."
+    },
+    {
+      "index": 61,
+      "char_count": 557,
+      "term_count": 7,
+      "preview": "\\subsection{法律与技术：规则追赶创新 (Law vs Technology)}\n\t\\begin{motivation>AI自动驾驶基因编辑——技术速度远超立法速度。法律永远在追赶。SEC历..."
+    },
+    {
+      "index": 62,
+      "char_count": 644,
+      "term_count": 12,
+      "preview": "\\subsection{章尾：社会秩序的四层架构 (Chapter End: Four-Layer Architecture of Social Order)}\n\t\\begin{motivation>..."
+    }
+  ],
+  "chapter1_economic_base.tex": [
+    {
+      "index": 4,
+      "char_count": 349,
+      "term_count": 4,
+      "preview": "\\chapter{物质分支：经济基础 (Material Branch: Economic Foundations)}\n\t\\begin{motivation}\n\t\t上一章我们看到，模因驱动选择是最一般..."
+    },
+    {
+      "index": 5,
+      "char_count": 243,
+      "term_count": 6,
+      "preview": "% ============================================================\n\t% §1 供求关系：价格作为集体模因的聚合\n\t% ===========..."
+    },
+    {
+      "index": 6,
+      "char_count": 367,
+      "term_count": 5,
+      "preview": "\\subsection{主观价值如何坍缩为价格 (How Subjective Value Collapses into Price)}\n\t\\begin{motivation}\n\t\t同一幅画，有人出1..."
+    },
+    {
+      "index": 7,
+      "char_count": 403,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：从观点到价格——退化如何发生）}：\\\\\n\t上一章我们看到，模因驱动选择：朋友说\"这个牌子不好\"，你就改变购买决定。但如果你最终还是要\"付钱\"，那你的购买决定就不再只是..."
+    },
+    {
+      "index": 8,
+      "char_count": 435,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：共识如何从分散的主观判断中涌现）}：\\\\\n\t价格共识不是一夜之间形成的。以比特币为例：2010年有人用1万个比特币买两个披萨（当时值40美元），2024年这些比特币价..."
+    },
+    {
+      "index": 9,
+      "char_count": 415,
+      "term_count": 3,
+      "preview": "\\textbf{段落3（why3：信息不对称如何扭曲价格共识）}：\\\\\n\t价格共识依赖一个假设：买卖双方都知道商品的真实质量。但现实中，**卖家永远比买家知道得多**。二手车车主知道车出过事故，买家不..."
+    },
+    {
+      "index": 10,
+      "char_count": 458,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：价格作为近似解——够用但不完美）}：\\\\\n\t尽管有信息不对称，市场仍然运转——为什么？因为价格不需要\"完美\"，只需要\"够用\"。以大众点评餐厅评分为例：4.8分的餐厅不..."
+    },
+    {
+      "index": 11,
+      "char_count": 425,
+      "term_count": 3,
+      "preview": "\\textbf{段落5（why5：价格的边界——当退化无法完成）}：\\\\\n\t不是所有模因选择都能退化为价格。你不会在婚礼上说\"我选择你是因为性价比最高\"；你不会在投票站说\"我投这一票值500块\"。想象..."
+    },
+    {
+      "index": 14,
+      "char_count": 598,
+      "term_count": 5,
+      "preview": "\\subsection{需求强度如何扭曲价值判断 (How Demand Intensity Distorts Value)}\n\t\begin{motivation}饥饿时一碗面值50块，饱了只值10块..."
+    },
+    {
+      "index": 15,
+      "char_count": 539,
+      "term_count": 5,
+      "preview": "\\subsection{供给稀缺性的定价权 (Scarcity and Pricing Power)}\n\t\begin{motivation}沙漠水贵因为稀缺，钻石贵因为De Beers控制供给。自然和..."
+    },
+    {
+      "index": 16,
+      "char_count": 522,
+      "term_count": 2,
+      "preview": "\\subsection{供求博弈的动态均衡 (Dynamic Equilibrium)}\n\t\begin{motivation}供求是双边博弈。均衡不是静态点，而是随信息、预期、外部冲击不断移动的动态过..."
+    },
+    {
+      "index": 17,
+      "char_count": 479,
+      "term_count": 2,
+      "preview": "\\subsection{从供求到信息：价格的局限性 (Limits of Price)}\n\t\begin{motivation}价格是强大的压缩算法但丢失信息。当信息不对等时价格共识不可靠——甚至让市场..."
+    },
+    {
+      "index": 19,
+      "char_count": 285,
+      "term_count": 9,
+      "preview": "\\subsection{为什么同样东西在不同时刻值不同？(Why Does the Same Thing Have Different Values at Different Times?)}\n\t\\b..."
+    },
+    {
+      "index": 20,
+      "char_count": 364,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：需求强度的时空依赖性）}：\\\\\n\t需求不是一个固定数字，而是**时间和情境的函数**。同一个人对同一商品的支付意愿，在不同条件下差异巨大。以矿泉水为例：在超市你愿意付..."
+    },
+    {
+      "index": 21,
+      "char_count": 365,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：情绪如何放大需求波动）}：\\\\\n\t情绪是需求波动的放大器。恐慌性抢购是最典型的例子：2020年1月武汉封城消息传出后，全国多地超市被抢空——不是因为物资真的短缺，而是..."
+    },
+    {
+      "index": 22,
+      "char_count": 378,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：收入、偏好和技术如何重塑长期需求）}：\\\\\n\t长期需求的驱动因素和短期完全不同。不是恐慌，而是**收入变化、偏好迁移和技术革命**。中国过去20年的消费升级就是典型案..."
+    },
+    {
+      "index": 23,
+      "char_count": 388,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：需求预测的不可能性——混沌与反身性）}：\\\\\n\t需求预测为什么经常出错？因为经济系统存在**反身性**（reflexivity，索罗斯提出）：预测本身会改变被预测的对..."
+    },
+    {
+      "index": 24,
+      "char_count": 326,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：从需求波动到供给策略——卖家如何利用波动）}：\\\\\n\t需求波动对买家来说是风险，对卖家来说是**机会**。动态定价就是利用需求波动的策略：航空公司在淡季卖300块的机..."
+    },
+    {
+      "index": 26,
+      "char_count": 194,
+      "term_count": 6,
+      "preview": "% ============================================================\n\t% §3 供给与稀缺：定价权的博弈 (Supply and Scarci..."
+    },
+    {
+      "index": 27,
+      "char_count": 545,
+      "term_count": 2,
+      "preview": "\\subsection{逆向选择：市场萎缩的机制 (Adverse Selection)}\n\t\begin{motivation}当买家无法区分好坏，只按平均质量出价→好货退出→只剩坏货。Akerlof..."
+    },
+    {
+      "index": 28,
+      "char_count": 512,
+      "term_count": 2,
+      "preview": "\\subsection{道德风险：交易后的行为扭曲 (Moral Hazard)}\n\t\begin{motivation}买了保险后开车更随意——风险由保险公司承担。这就是道德风险：交易后一方行为改变损..."
+    },
+    {
+      "index": 29,
+      "char_count": 549,
+      "term_count": 3,
+      "preview": "\\subsection{信号与声誉：信息壁垒的突破 (Signaling and Reputation)}\n\t\begin{motivation}学历不一定代表更聪明，但它是高成本信号：低能力的人冒不起..."
+    },
+    {
+      "index": 30,
+      "char_count": 567,
+      "term_count": 4,
+      "preview": "\\subsection{从信息到市场结构演化 (Information and Market Evolution)}\n\t\begin{motivation}信息不是均匀分布的——它会累积、集中、转化为权..."
+    },
+    {
+      "index": 31,
+      "char_count": 71,
+      "term_count": 6,
+      "preview": "\\section{供给与稀缺：定价权的博弈 (Supply and Scarcity: The Game of Pricing Power)}"
+    },
+    {
+      "index": 32,
+      "char_count": 257,
+      "term_count": 6,
+      "preview": "\\subsection{自然稀缺vs人为稀缺：谁在控制供给？(Natural vs Artificial Scarcity: Who Controls Supply?)}\n\t\\begin{motiva..."
+    },
+    {
+      "index": 33,
+      "char_count": 304,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：自然稀缺的定价逻辑）}：\\\\\n\t自然稀缺的定价最直观：东西少，价格高。以稀土为例：全球稀土储量的60%在中国，这赋予中国在稀土定价上的话语权。2010年中日钓鱼岛争端..."
+    },
+    {
+      "index": 34,
+      "char_count": 385,
+      "term_count": 5,
+      "preview": "\\textbf{段落2（why2：人为稀缺——De Beers的钻石骗局）}：\\\\\n\tDe Beers是人为稀缺最经典的案例。钻石在地球上的储量并不稀缺——仅俄罗斯的钻石储量就够全球使用几百年。但De..."
+    },
+    {
+      "index": 35,
+      "char_count": 297,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：供给冲击——口罩价格的48小时暴涨）}：\\\\\n\t供给冲击是稀缺性的极端表现。2020年2月疫情初期，一只普通口罩从0.5元涨到10元——20倍的涨幅只用了48小时。不..."
+    },
+    {
+      "index": 36,
+      "char_count": 352,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：垄断定价——为什么垄断者能赚超额利润）}：\\\\\n\t垄断者赚的不是\"正常利润\"，而是**超额利润**——超过竞争市场均衡水平的利润。以苹果App Store为例：苹果对..."
+    },
+    {
+      "index": 37,
+      "char_count": 253,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：从供给博弈到信息不对称——价格无法反映的盲区）}：\\\\\n\t供给博弈揭示了价格的另一面：它不仅反映价值，也反映**权力**。垄断者定价高不是因为产品更好，而是因为他们控..."
+    },
+    {
+      "index": 40,
+      "char_count": 551,
+      "term_count": 1,
+      "preview": "\\subsection{杠杆：用借来的钱放大赌注 (Leverage)}\n\t\begin{motivation}30%首付=3.3倍杠杆。房价涨10%你的收益是33%。但跌10%你也亏33%——杠杆放大..."
+    },
+    {
+      "index": 41,
+      "char_count": 573,
+      "term_count": 1,
+      "preview": "\\subsection{衍生品：从实体到符号的无限衍生 (Derivatives)}\n\t\begin{motivation}期货起源于农民锁定价格。但现代衍生品已经远离实体——CDO的CDO的CDO，像..."
+    },
+    {
+      "index": 42,
+      "char_count": 639,
+      "term_count": 6,
+      "preview": "\\subsection{监管-创新的军备竞赛 (Regulation-Innovation Arms Race)}\n\t\begin{motivation}2008年Dodd-Frank法案收紧监管。但创..."
+    },
+    {
+      "index": 43,
+      "char_count": 591,
+      "term_count": 4,
+      "preview": "\\subsection{系统性风险：从金融到政治的过渡 (Systemic Risk: Finance to Politics)}\n\t\begin{motivation>大而不倒让纳税人兜底。金融化侵蚀..."
+    },
+    {
+      "index": 44,
+      "char_count": 77,
+      "term_count": 7,
+      "preview": "\\section{市场失灵：当价格机制崩溃 (Market Failure: When the Price Mechanism Breaks Down)}"
+    },
+    {
+      "index": 45,
+      "char_count": 242,
+      "term_count": 5,
+      "preview": "\\subsection{外部性：价格不反映的成本 (Externalities: Costs Not Reflected in Prices)}\n\t\\begin{motivation}\n\t\t你开车上班..."
+    },
+    {
+      "index": 46,
+      "char_count": 383,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：负外部性——价格之外的隐藏成本）}：\\\\\n\t外部性是价格机制最根本的盲区。当你买一件快时尚衣服（比如Shein的15块T恤），价格包含了布料、人工、运输成本，但没有包..."
+    },
+    {
+      "index": 47,
+      "char_count": 351,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：正外部性——价格低估的社会收益）}：\\\\\n\t不只是成本，收益也可以是\"外部的\"。教育是最好的例子：你上大学，私人收益是更高的工资（大学毕业生平均比高中毕业生多赚60%..."
+    },
+    {
+      "index": 48,
+      "char_count": 395,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：科斯定理——为什么谈判不能解决一切）}：\\\\\n\t科斯定理说：如果产权清晰且交易成本为零，外部性可以通过私人谈判解决——不需要政府干预。河流上游的工厂污染下游的渔场，如..."
+    },
+    {
+      "index": 49,
+      "char_count": 370,
+      "term_count": 3,
+      "preview": "\\textbf{段落4（why4：碳排放交易——把外部性内部化的尝试）}：\\\\\n\t碳排放交易（碳市场）是把外部性内部化的典型案例：政府设定排放总量上限，把排放权分配给企业，企业之间可以交易排放权。排放..."
+    },
+    {
+      "index": 53,
+      "char_count": 515,
+      "term_count": 2,
+      "preview": "\\subsection{公共品：无法通过价格分配的资源 (Public Goods)}\n\t\begin{motivation}国防、路灯、清洁空气——非排他非竞争。市场无法提供因为搭便车问题：不付钱也能..."
+    },
+    {
+      "index": 54,
+      "char_count": 537,
+      "term_count": 2,
+      "preview": "\\subsection{垄断与市场支配力 (Monopoly)}\n\t\begin{motivation}自然垄断固定成本极高（水电网络），平台垄断通过网络效应（Google 90%搜索份额）。反垄断法试..."
+    },
+    {
+      "index": 55,
+      "char_count": 520,
+      "term_count": 2,
+      "preview": "\\subsection{政府干预的双刃剑 (Government Intervention)}\n\t\begin{motivation}知道市场失灵容易，找到正确干预方式难。价格管制、补贴、最低工资——每..."
+    },
+    {
+      "index": 56,
+      "char_count": 533,
+      "term_count": 3,
+      "preview": "\\subsection{超越价格：非货币化交换 (Non-Monetary Exchange)}\n\t\begin{motivation>人情面子关系——中国关系网是非货币化交换的典型。社会债务无法被价格..."
+    },
+    {
+      "index": 57,
+      "char_count": 90,
+      "term_count": 8,
+      "preview": "\\section{经济的边界：从模因退化到权力涌现 (The Boundary of Economy: When Memetic Degradation Meets Power)}"
+    },
+    {
+      "index": 58,
+      "char_count": 246,
+      "term_count": 6,
+      "preview": "\\subsection{经济模型的前提假设及其失败 (The Assumptions of Economic Models and Their Failures)}\n\t\\begin{motivatio..."
+    },
+    {
+      "index": 59,
+      "char_count": 442,
+      "term_count": 3,
+      "preview": "\\textbf{段落1（why1：理性人假设的系统性失败）}：\\\\\n\t传统经济学假设：人是\"理性经济人\"（homo economicus）——拥有完整信息，能精确计算所有选项的效用，总是选择效用最大的..."
+    },
+    {
+      "index": 60,
+      "char_count": 437,
+      "term_count": 2,
+      "preview": "\\textbf{段落2（why2：有限理性——不是不理性，而是认知资源有限）}：\\\\\n\t人类不是完全不理性，而是**有限理性**（bounded rationality，Herbert Simon提出..."
+    },
+    {
+      "index": 61,
+      "char_count": 418,
+      "term_count": 2,
+      "preview": "\\textbf{段落3（why3：情感与直觉——被经济学忽视的决策引擎）}：\\\\\n\t经济学假设决策是\"冷计算\"，但神经科学证明：**情感是决策的必要组成部分**。前额叶皮层受损的患者（失去情感能力但保..."
+    },
+    {
+      "index": 62,
+      "char_count": 409,
+      "term_count": 5,
+      "preview": "\\textbf{段落4（why4：行为经济学的政策含义——助推（Nudge））}：\\\\\n\t如果人不理性，政策设计就不能假设人们会\"自动做出最优选择\"。行为经济学催生了**助推理论**（Nudge Th..."
+    },
+    {
+      "index": 63,
+      "char_count": 362,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：从经济边界到权力涌现——当交换加入身份）}：\\\\\n\t行为经济学揭示了经济模型的局限：理性人假设不成立，情感、偏见、选择架构深刻影响决策。但这还不是经济的全部边界。更根..."
+    },
+    {
+      "index": 65,
+      "char_count": 536,
+      "term_count": 6,
+      "preview": "\\subsection{财富如何转化为权力 (How Wealth Converts to Power)}\n\t\begin{motivation}美国超级PAC让富人捐款影响选举。企业游说年花费350亿..."
+    },
+    {
+      "index": 66,
+      "char_count": 577,
+      "term_count": 3,
+      "preview": "\\subsection{身份如何影响经济交换 (Identity and Economic Exchange)}\n\t\begin{motivation}性别薪酬差距女性赚男性82%。阶层固化代际收入弹性..."
+    },
+    {
+      "index": 67,
+      "char_count": 564,
+      "term_count": 5,
+      "preview": "\\subsection{制度作为经济的基础设施 (Institutions as Economic Infrastructure)}\n\t\begin{motivation>Acemoglu《国家为什么会..."
+    },
+    {
+      "index": 68,
+      "char_count": 621,
+      "term_count": 6,
+      "preview": "\\subsection{章尾：经济交换网络中生长出权力层 (Chapter End: Power Emerges from Exchange Networks)}\n\t\begin{motivation>..."
+    }
+  ],
+  "chapter2_culture_folk_institutions.tex": [
+    {
+      "index": 4,
+      "char_count": 289,
+      "term_count": 5,
+      "preview": "\\chapter{意识分支 I：文化与民间制度 (Consciousness Branch I: Culture and Folk Institutions)}\n\t\\begin{motivation}..."
+    },
+    {
+      "index": 5,
+      "char_count": 230,
+      "term_count": 6,
+      "preview": "% ============================================================\n\t% §1 文化作为模因系统：从语言到选择\n\t% ============..."
+    },
+    {
+      "index": 7,
+      "char_count": 474,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：模因是什么——文化的基因）}：\\\\\n\t1976年，理查德·道金斯在《自私的基因》中提出了一个类比：生物通过基因（gene）复制传播，文化则通过**模因（meme）**..."
+    },
+    {
+      "index": 8,
+      "char_count": 480,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：语言是最基础的模因）}：\\\\\n\t语言是人类最强大的模因载体。你说\"苹果\"，我脑中就出现一个红色圆形的水果——这整个映射系统就是模因。没有语言，人类的模因传播速度和黑猩..."
+    },
+    {
+      "index": 9,
+      "char_count": 495,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：模因vs基因——复制的逻辑差异）}：\\\\\n\t模因和基因都遵循\"复制-变异-选择\"的演化逻辑，但有关键差异。基因复制是**精确的**：DNA复制错误率只有约十亿分之一，..."
+    },
+    {
+      "index": 10,
+      "char_count": 450,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：为什么模因需要载体——人脑作为存储介质）}：\\\\\n\t模因必须依附于载体才能存在。最原始的载体是**人脑**：一个观点只有被人记住才能传播。但人脑有限——邓巴数显示人类..."
+    },
+    {
+      "index": 11,
+      "char_count": 461,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：模因的三大选择标准——为什么有些模因灭绝了）}：\\\\\n\t不是所有模因都能存活。像生物一样，模因面临**选择压力**。存活下来的模因通常满足三个条件：第一，**有用性*..."
+    },
+    {
+      "index": 14,
+      "char_count": 211,
+      "term_count": 5,
+      "preview": "\\subsection{模因如何驱动行动选择 (How Memes Drive Action Choices)}\n\t\\begin{motivation}\n\t\t朋友说\"这个牌子不好\"，你就改变购买决定—..."
+    },
+    {
+      "index": 15,
+      "char_count": 301,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：朋友推荐改变购买决定）}：\\\\\n\t你本来想买A品牌手机，朋友说\"B品牌更好用\"，你改了。整个过程中没有金钱交易、没有强制命令——纯粹是**模因驱动选择**。朋友的模因..."
+    },
+    {
+      "index": 16,
+      "char_count": 321,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：广告模因植入——商业化的模因工程）}：\\\\\n\t广告是**有目的地设计和传播模因**。脑白金的\"今年过节不收礼，收礼只收脑白金\"——这个模因不讲产品成分，不讲功效，它只..."
+    },
+    {
+      "index": 17,
+      "char_count": 311,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：社会规范内化——从外部规则到内部程序）}：\\\\\n\t模因驱动不仅来自外部（朋友推荐、广告），更来自**内化的社会规范**。你排队不插队——不是因为有人监督你，而是因为\"..."
+    },
+    {
+      "index": 18,
+      "char_count": 323,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：模因的自动触发——为什么不需要每次都思考）}：\\\\\n\t内化的模因之所以高效，是因为它们能**自动触发**。你看到红灯就停车——不需要思考\"红灯是什么意思\"\"我该不该停..."
+    },
+    {
+      "index": 21,
+      "char_count": 271,
+      "term_count": 9,
+      "preview": "\\subsection{模因如何驱动选择：观点改变行为的机制 (How Memes Drive Choice: The Mechanism of Opinion-Driven Behavior)}\n\\..."
+    },
+    {
+      "index": 22,
+      "char_count": 354,
+      "term_count": 3,
+      "preview": "\\textbf{段落1（why1：信任系数——为什么朋友比广告更有说服力）}：\\\\\n朋友推荐比广告更有效，因为**信任系数**不同。朋友的推荐携带\"亲身体验\"的可信度加权，广告携带\"商业利益\"的嫌疑减..."
+    },
+    {
+      "index": 23,
+      "char_count": 319,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：模因植入——广告业的模因工程学）}：\\\\\n广告业本质上是**模因植入的工业化**。脑白金的\"今年过节不收礼\"不讲成分、不讲功效，只做一件事：把\"送礼=脑白金\"这个关联..."
+    },
+    {
+      "index": 24,
+      "char_count": 376,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：内化模因——从外部规则到自动程序）}：\\\\\n不只是外部模因在驱动行为——你体内已经**内化了大量模因程序**。排队、说谢谢、红灯停——这些不需要思考，自动触发。内化是..."
+    },
+    {
+      "index": 25,
+      "char_count": 349,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：模因驱动的极限——为什么观点无法解决所有问题）}：\\\\\n模因驱动选择的极限在于：**它能改变人的行为，但不能改变行为的物理后果**。你相信\"水能治百病\"（养生模因），..."
+    },
+    {
+      "index": 27,
+      "char_count": 281,
+      "term_count": 6,
+      "preview": "\\subsection{模因的生命周期：诞生、传播、衰退与变形 (Lifecycle of Memes: Birth, Spread, Decay, and Transformation)}\n\\beg..."
+    },
+    {
+      "index": 28,
+      "char_count": 313,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：模因诞生——触发事件与载体适配）}：\\\\\n新模因诞生需要两个条件：**触发事件**和**载体适配**。触发事件提供初始能量：战争、灾难、技术突破、名人言论。载体适配决..."
+    },
+    {
+      "index": 29,
+      "char_count": 353,
+      "term_count": 4,
+      "preview": "\\textbf{段落2（why2：传播阶段——跨越鸿沟的关键节点）}：\\\\\n模因从诞生到大众化需要跨越\"鸿沟\"（Geoffrey Moore概念）：早期使用者→早期大众→晚期大众。跨越的关键是**关键..."
+    },
+    {
+      "index": 30,
+      "char_count": 282,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：峰值与衰退——模因疲劳与过度使用）}：\\\\\n所有模因都会衰退——因为**过度使用导致疲劳**。一个模因被反复引用后，受众的反应强度递减（心理学的\"习惯化\"效应）。\"给..."
+    },
+    {
+      "index": 31,
+      "char_count": 329,
+      "term_count": 2,
+      "preview": "\\textbf{段落4（why4：模因变形——旧模因如何借壳重生）}：\\\\\n衰退中的模因不会完全消失——它可能**变形**为新形式重生。\"内卷\"衰退后，\"躺平\"诞生了——不是全新模因，而是内卷的**反..."
+    },
+    {
+      "index": 33,
+      "char_count": 288,
+      "term_count": 8,
+      "preview": "\\subsection{模因的组合与文化创新：旧元素的新排列 (Memetic Combination and Cultural Innovation: New Arrangements of Old..."
+    },
+    {
+      "index": 34,
+      "char_count": 290,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：组合创新——乐高式的模因拼接）}：\\\\\n创新的本质往往是**旧模因的新组合**。iPhone的每个组件（触屏、处理器、操作系统）都已存在——乔布斯做的不是发明新材料，..."
+    },
+    {
+      "index": 35,
+      "char_count": 299,
+      "term_count": 3,
+      "preview": "\\textbf{段落2（why2：跨界组合——最强大的创新引擎）}：\\\\\n最强的创新来自**跨领域组合**——把一个领域的模因搬到另一个领域。仿生学=生物学+工程学（鲨鱼皮→泳衣面料）；新中式美学=传..."
+    },
+    {
+      "index": 36,
+      "char_count": 332,
+      "term_count": 2,
+      "preview": "\\textbf{段落3（why3：模块化——让创新可协作）}：\\\\\n模因创新的效率取决于**模块化程度**。乐高之所以能无限组合，是因为每个积木都有标准接口（凸点和凹槽）。文化中的\"标准接口\"包括：A..."
+    },
+    {
+      "index": 37,
+      "char_count": 293,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：文化融合——模因的跨国旅行与变异）}：\\\\\n文化融合是模因组合的跨国版本。日本动漫吸收了美国迪士尼的动画技术+中国水墨的意境+欧洲童话的叙事结构→产生了独特的\"日式动..."
+    },
+    {
+      "index": 40,
+      "char_count": 78,
+      "term_count": 6,
+      "preview": "\\section{道德：高频行为的短编码压缩 (Morality: Short-Encoding of High-Frequency Behaviors)}"
+    },
+    {
+      "index": 41,
+      "char_count": 225,
+      "term_count": 5,
+      "preview": "\\subsection{道德为什么是短编码？(Why Is Morality Short-Encoded?)}\n\t\\begin{motivation}\n\t\t\"己所不欲勿施于人\"——7个字概括了几千年的..."
+    },
+    {
+      "index": 42,
+      "char_count": 425,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：高频调用需要低延迟编码）}：\\\\\n\t你每天要做几十次道德判断：让不让座？该不该撒个小谎？看到别人掉钱包要不要提醒？每次判断必须在**几秒内完成**——如果每次都要\"检..."
+    },
+    {
+      "index": 43,
+      "char_count": 416,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：短编码的社会化内化机制）}：\\\\\n\t短编码之所以有效，是因为它被**内化**了——变成了你的\"本能反应\"，不再需要主动思考。内化有三个阶段：**童年灌输**（父母反复..."
+    },
+    {
+      "index": 44,
+      "char_count": 373,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：短编码的代价——灵活性丧失）}：\\\\\n\t短编码的代价是**灵活性丧失**。\"己所不欲勿施于人\"在大多数情况下工作，但边界模糊：如果\"己所欲\"对方不欲怎么办？如果情境特..."
+    },
+    {
+      "index": 45,
+      "char_count": 408,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：编码长度的规律——频率×风险×可预测性）}：\\\\\n\t社会规范的编码长度遵循一个公式：**编码长度 = f(调用频率, 错误风险, 情境可预测性)**。高频、低风险、高..."
+    },
+    {
+      "index": 46,
+      "char_count": 292,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：从短编码到模因传播——编码如何在人群中扩散）}：\\\\\n\t所以，道德和风俗是高频社会行为的短编码，它们通过压缩提高效率，但代价是灵活性。但压缩后的编码如何**传播**？..."
+    },
+    {
+      "index": 48,
+      "char_count": 303,
+      "term_count": 2,
+      "preview": "\\textbf{段落1（why1：善意谎言——短编码的边界冲突）}：\\\\\n\t\"不能撒谎\"是最基础的道德短编码。但当医生面对癌症晚期患者时，这条编码和另一条编码\"不要造成不必要的痛苦\"冲突了。患者家属说..."
+    },
+    {
+      "index": 49,
+      "char_count": 289,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：安乐死——生命权短编码的极限）}：\\\\\n\t\"不能杀人\"是最强的道德短编码——几乎所有文化都有这条规则。但安乐死挑战了它的边界：一个痛苦不堪、无法治愈、明确请求死亡的患..."
+    },
+    {
+      "index": 50,
+      "char_count": 307,
+      "term_count": 4,
+      "preview": "\\textbf{段落3（why3：正当防卫——暴力短编码的例外）}：\\\\\n\t\"不能打人\"是道德短编码，但如果有人先打你呢？正当防卫就是社会对这条短编码的**例外补充**。但补充本身需要长规则：什么是\"..."
+    },
+    {
+      "index": 51,
+      "char_count": 374,
+      "term_count": 2,
+      "preview": "\\textbf{段落4（why4：风俗——比道德更短的仪式化编码）}：\\\\\n\t风俗比道德更短——握手、鞠躬、红包、敬酒。这些几乎不需要思考，变成条件反射。为什么需要这么短？因为它们**调用频率极高**..."
+    },
+    {
+      "index": 54,
+      "char_count": 217,
+      "term_count": 5,
+      "preview": "% ============================================================\n\t% §3 模因传播：不问对错，只问强度\n\t% =============..."
+    },
+    {
+      "index": 55,
+      "char_count": 252,
+      "term_count": 6,
+      "preview": "\\subsection{传播强度的三个决定因素 (Three Factors That Determine Transmission Strength)}\n\t\\begin{motivation}\n\t\t..."
+    },
+    {
+      "index": 56,
+      "char_count": 426,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：情绪唤起——传播的第一引擎）}：\\\\\n\t一个模因的传播强度首先取决于它能触发多强的**情绪反应**。以新冠疫情期间的信息传播为例：\"病毒是人造的\"这个模因（触发恐惧+..."
+    },
+    {
+      "index": 57,
+      "char_count": 455,
+      "term_count": 8,
+      "preview": "\\textbf{段落2（why2：认知流畅——容易理解的模因传播更快）}：\\\\\n\t传播强度的第二个因素是**认知流畅性**（cognitive fluency）：一个模因越容易被理解和记忆，传播越快。..."
+    },
+    {
+      "index": 58,
+      "char_count": 421,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：身份认同——\"我们vs他们\"的传播加速器）}：\\\\\n\t传播强度的第三个因素是**身份认同**：一个模因如果能强化\"我们vs他们\"的群体边界，它在群体内的传播速度会暴增..."
+    },
+    {
+      "index": 59,
+      "char_count": 379,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：强度vs真理——长期博弈中的均衡）}：\\\\\n\t短期看，强度赢了；长期呢？有些强度模因最终被证伪（如\"地球是平的\"），会失去credibility，强度下降。但有些强度..."
+    },
+    {
+      "index": 60,
+      "char_count": 336,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：从文化模因到经济退化——当强度遇到金钱）}：\\\\\n\t所以，模因驱动选择是最一般的社会行为形式：语言和观点改变行动，不需要金钱，不需要权力。但当选择需要用金钱来衡量时，..."
+    },
+    {
+      "index": 63,
+      "char_count": 218,
+      "term_count": 4,
+      "preview": "\\subsection{强度优先是注意力稀缺的理性策略 (Strength-First as Rational Strategy)}\n\t\\begin{motivation}\n\t\t在信息过载的环境中，一..."
+    },
+    {
+      "index": 64,
+      "char_count": 302,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：求偶展示——孔雀尾巴不代表基因好）}：\\\\\n\t模因传播的\"强度优先\"逻辑和生物演化中的**求偶展示**完全平行。雄孔雀的尾巴巨大、鲜艳、消耗大量能量——但它不代表基因..."
+    },
+    {
+      "index": 65,
+      "char_count": 324,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：模因的hooks——传播的钩子设计）}：\\\\\n\t存活的模因都自带**hooks**（传播钩子）：耸人听闻的标题（恐惧hook）、简单化的归因（认知流畅hook）、身份..."
+    },
+    {
+      "index": 66,
+      "char_count": 299,
+      "term_count": 3,
+      "preview": "\\textbf{段落3（why3：社交媒体算法放大器）}：\\\\\n\t社交媒体算法**系统性地放大强度优先逻辑**。平台的优化目标是engagement（用户停留时间），而高强度内容（愤怒、恐惧、惊奇）比..."
+    },
+    {
+      "index": 67,
+      "char_count": 257,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：真理传播需要外部检验+有利竞争位置）}：\\\\\n\t短期看强度赢了；长期看真理有机会翻盘——但需要两个条件。**第一，外部检验**：地心说统治1500年，直到伽利略的望远..."
+    },
+    {
+      "index": 70,
+      "char_count": 85,
+      "term_count": 8,
+      "preview": "\\section{文化的权力维度：模因如何塑造身份 (The Power Dimension of Culture: How Memes Shape Identity)}"
+    },
+    {
+      "index": 72,
+      "char_count": 408,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：身份=模因束——我是谁由我相信什么定义）}：\\\\\n\t你的身份不是一个固定不变的\"本质\"，而是一组从文化中复制来的模因。\"我是中国人\"这个身份包含了：使用中文（语言模因..."
+    },
+    {
+      "index": 73,
+      "char_count": 375,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：群体身份的边界功能——\"我们vs他们\"）}：\\\\\n\t身份的核心功能是**划界**：区分\"我们\"和\"他们\"。这个功能有演化基础——在原始社会，快速识别\"同族vs异族\"关..."
+    },
+    {
+      "index": 74,
+      "char_count": 387,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：群体内模因强化——回声室与仪式）}：\\\\\n\t一旦身份形成，群体会通过**仪式**不断强化内部模因。每周日去教堂（基督教）、每天五次祈祷（伊斯兰教）、每年清明扫墓（儒家..."
+    },
+    {
+      "index": 75,
+      "char_count": 432,
+      "term_count": 4,
+      "preview": "\\textbf{段落4（why4：群体间模因竞争——文化霸权的争夺）}：\\\\\n\t不同群体的模因束之间存在竞争关系——争夺**注意力、资源、合法性和定义权**。亨廷顿的\"文明冲突论\"认为，冷战后世界的主..."
+    },
+    {
+      "index": 76,
+      "char_count": 453,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：文化模因如何退化为经济利益——从身份到交易）}：\\\\\n\t身份模因最终会退化为经济行为。文化产业（电影、音乐、游戏）本质上是在**批量生产和销售模因**：漫威电影卖的不..."
+    },
+    {
+      "index": 85,
+      "char_count": 168,
+      "term_count": 4,
+      "preview": "\\subsection{模因→权力的转化路径与退化为经济 (Memes to Power and Economic Degradation)}\n\t\\begin{motivation}\n\t\t模因不只是被..."
+    },
+    {
+      "index": 91,
+      "char_count": 73,
+      "term_count": 8,
+      "preview": "\\section{文化的边界：当模因不够用 (The Limits of Culture: When Memes Are Not Enough)}"
+    },
+    {
+      "index": 92,
+      "char_count": 213,
+      "term_count": 4,
+      "preview": "\\subsection{模因无法解决的问题 (Problems Memes Cannot Solve)}\n\t\\begin{motivation}\n\t\t模因能让你改变观点，但不能让你吃饱饭。文化能协调行..."
+    },
+    {
+      "index": 93,
+      "char_count": 395,
+      "term_count": 1,
+      "preview": "\\textbf{段落1（why1：技术问题需要实验，不能靠观点解决）}：\\\\\n\t模因驱动的是\"观点→行为\"链条，但有些行为结果不取决于观点，而取决于**物理规律**。你相信\"水能治百病\"这个模因（某些..."
+    },
+    {
+      "index": 94,
+      "char_count": 404,
+      "term_count": 1,
+      "preview": "\\textbf{段落2（why2：资源分配需要价格，不能靠道德呼吁）}：\\\\\n\t假设粮食短缺，怎么分配？模因系统会说：\"大家分享\"\"照顾弱者\"\"先人后己\"——这些道德模因在小群体（几十人的部落）中有效..."
+    },
+    {
+      "index": 95,
+      "char_count": 385,
+      "term_count": 1,
+      "preview": "\\textbf{段落3（why3：冲突解决需要权力，不能靠共识）}：\\\\\n\t当两个群体的利益冲突不可调和时，模因系统（\"大家坐下来谈\"\"互相理解\"）可能完全失效。以色列和巴勒斯坦的冲突已经持续75年—..."
+    },
+    {
+      "index": 96,
+      "char_count": 384,
+      "term_count": 1,
+      "preview": "\\textbf{段落4（why4：模因的局限性总结——三个失败场景）}：\\\\\n\t模因系统在三种场景下失败：第一，**物理约束**——模因不能改变自然规律（你不能通过\"相信\"让水稻亩产万斤，大跃进的惨痛..."
+    },
+    {
+      "index": 97,
+      "char_count": 316,
+      "term_count": 1,
+      "preview": "\\textbf{段落5（why5：章尾——从文化到经济的必然退化）}：\\\\\n\t本章我们追踪了文化作为模因系统的运作机制：模因通过语言传播，通过情绪强度竞争，通过短编码压缩为道德和风俗，通过身份认同获得..."
+    },
+    {
+      "index": 99,
+      "char_count": 165,
+      "term_count": 5,
+      "preview": "\\subsection{从文化到经济的必然退化 (The Inevitable Degradation from Culture to Economy)}\n\t\\begin{motivation}\n\t\t..."
+    }
+  ]
+}

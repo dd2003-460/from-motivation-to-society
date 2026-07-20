@@ -1,0 +1,562 @@
+[
+  {
+    "full_match": "\\\\textbf{段落2（why2：环境法的编码膨胀）}：\\\\\\\\1970年前几乎没有环境法。现在：水污染/空气污染/土壤污染/碳排放/生物多样性——每个领域几十部法规。社会增加一个维度法律就增长一个",
+    "char_count": 76,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：网络法的出现）}：\\\\\\\\互联网出现前没有网络法。现在：数据隐私/网络安全/平台责任/算法歧视——每个子领域都在快速编码化。\\\\\\",
+    "char_count": 54,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：法典化 vs 判例法）}：\\\\\\\\大陆法系法典化（集中编码一次性解决），英美判例法（分散编码逐步演化）。两种方案各有优劣：法典化清晰但僵化，判例法灵活但不可预测。\\",
+    "char_count": 69,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出编码成本）}：\\\\\\\\编码增长带来精确性但也带来成本。下一小节：立法、司法、学习的成本如何累积。\n\n\t\\subsection{立法、司法与学习的三重成本 (Tr",
+    "char_count": 104,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：司法成本）}：\\\\\\\\法官需要掌握越来越多规则。美国联邦法官人均年处理案件400+件——复杂度持续上升。这就是为什么法官需要专业团队和AI辅助。\\\\\\",
+    "char_count": 66,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：公民学习成本）}：\\\\\\\\你不可能了解所有法律。事实上普通人最多了解与自己相关的几十条规则。法律越长普通人越依赖专业律师。\\\\\\",
+    "char_count": 53,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：三重成本的权衡）}：\\\\\\\\立法者在精确性和成本之间权衡：太粗略导致执法争议，太详细导致立法瘫痪。最佳编码长度取决于社会复杂度。\\\\\\",
+    "char_count": 55,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出精确vs可及）}：\\\\\\\\精确性vs可及性是法律系统永恒的张力。下一节：当法律变长编码遇到条件概率——如何精确分配责任。\n\n\t\\subsection{精确性与可",
+    "char_count": 119,
+    "term_count": 2,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：法律简化运动）}：\\\\\\\\美国Plain English运动：要求政府文件使用通俗语言。但简化牺牲精确性——什么是\"合理的\"？不同人理解不同。\\\\\\",
+    "char_count": 63,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：法律科技）}：\\\\\\\\AI合同审核、在线纠纷解决、智能法律顾问——技术试图让精确法律变得可及。但技术本身引入新问题：算法偏见、数据隐私、不可解释性。\\\\\\",
+    "char_count": 65,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：法律教育的两难）}：\\\\\\\\法学院3年JD培养一个律师——时间成本极高。但缩短教育又担心质量下降。法律系统在精确性和可及性之间的张力也反映在人才培养上。\\\\\\",
+    "char_count": 67,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出条件概率）}：\\\\\\\\变长编码让规则精确，但精确规则需要精确的定责方法。下一节追踪：条件概率如何成为法律定责的数学语言。\n\n\t% --- 节级逻辑衔接 ---\n",
+    "char_count": 892,
+    "term_count": 2,
+    "needs_split": true,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：Shapley值思路）}：\\\\\\\\博弈论Shapley值：考虑每个因素在所有可能顺序中的边际贡献，取平均。数学上公平但计算复杂。\\\\\\",
+    "char_count": 52,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：连带责任vs按份责任）}：\\\\\\\\连带责任：任一被告承担全部→内部追偿。按份责任：法院酌定比例。连带保护原告但可能不公平，按份公平但原告承担被告破产风险。\\\\\\",
+    "char_count": 65,
+    "term_count": 2,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：环境损害的多因问题）}：\\\\\\\\一条河被多家工厂污染。每家都说是\"别人也在排\"。条件概率方案：计算每家排污量对总损害的边际贡献。\\\\\\",
+    "char_count": 53,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出概率提升）}：\\\\\\\\多因一果的核心是分解概率贡献。但概率本身怎么算？下一小节：概率提升幅度如何衡量。\n\n\t\\subsection{概率提升幅度：责任的量化基础",
+    "char_count": 134,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：从过失到严格责任）}：\\\\\\\\产品责任：不需要证明企业有过失，只要产品有缺陷且导致损害就负责。严格责任本质是：该行为的风险足够高，不管企业是否尽了注意义务都要承担。",
+    "char_count": 72,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：因果关系的盖然性）}：\\\\\\\\日本水俣病诉讼：法院采用\"疫学因果关系\"——不要求确定性证据，只要统计上高度盖然就认定因果。概率证据进入法庭。\\\\\\",
+    "char_count": 60,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：责任保险与概率定价）}：\\\\\\\\车险保费浮动：出事后涨30-50%。保险公司用你的行为数据估计未来事故概率。条件概率在保险中的日常应用：你的保费就是你的\"风险定价\"",
+    "char_count": 72,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出决定论困境）}：\\\\\\\\概率提升假设人有选择的自由。但如果没有呢？决定论下责任的根基何在？\n\n\t\\subsection{决定论下责任的根基 (Foundatio",
+    "char_count": 121,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：威慑优先于报应）}：\\\\\\\\功利主义：惩罚的目的不是报应而是威慑和矫正。不需要追问行为是否自由，只需要知道惩罚能改变行为分布。就像教育孩子——不需要追究他\"自由选择",
+    "char_count": 77,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：概率框架在决定论下更稳固）}：\\\\\\\\概率描述的是\"基于有限信息的预测精度\"。超速与事故的统计相关性不需要假设自由意志。条件概率定责可以完全从风险管控角度理解。\\\\",
+    "char_count": 66,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：神经科学的挑战）}：\\\\\\\\fMRI研究显示大脑在\"意识到做决定\"前0.5秒已经开始活动。但这不影响法律运作：我们仍然可以区分\"冲动杀人\"和\"预谋杀人\"——不需要假",
+    "char_count": 74,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出不同法律领域）}：\\\\\\\\条件概率在不同法律领域有不同的应用方式。下一节追踪：刑法、民法、行政法各自如何使用概率思维。\n\n\t\\subsection{概率定责的哲",
+    "char_count": 129,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：举证责任的分配）}：\\\\\\\\谁来证明概率？原告举证因果关系还是被告举证无因果？举证责任分配本身决定了责任归属。优势证据(>50%) vs 排除合理怀疑(>95%)标",
+    "char_count": 81,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：专家证人的概率估计）}：\\\\\\\\流行病学家说石棉让肺癌概率提升50倍。被告专家说混杂因素未控制。概率证据的争议就是科学争议进入法庭。\\\\\\",
+    "char_count": 55,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：未来：算法定责）}：\\\\\\\\自动驾驶事故：谁负责？车主/制造商/程序员/道路设计者？条件概率定责框架为算法时代的责任分配提供思路。\\\\\\",
+    "char_count": 56,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出§3实践）}：\\\\\\\\理论框架需要实践检验。下一节：条件概率在不同法律领域的具体应用。\n\n\t% --- 节级逻辑衔接 ---\n\t\\textbf{§2→§3 逻辑",
+    "char_count": 344,
+    "term_count": 0,
+    "needs_split": true,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：DNA证据的概率性）}：\\\\\\\\DNA匹配概率10亿分之一——几乎确定但不是绝对。DNA证据是最接近确定性的概率证据但仍然是概率。\\\\\\",
+    "char_count": 50,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：主观罪过的概率评估）}：\\\\\\\\故意vs过失需要评估被告的心理状态——这本身就是概率性的。陪审团判断\"他是否知道\"本质上是概率估计。\\\\\\",
+    "char_count": 55,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：量刑中的概率思维）}：\\\\\\\\假释委员会评估再犯风险。算法工具COMPAS用20多个变量估计再犯概率——但因种族偏见备受争议。\\\\\\",
+    "char_count": 53,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出民法）}：\\\\\\\\刑法高门槛保护被告。民法采用更低标准——优势证据(>50%)即可。下一节。\n\n\t\\subsection{民法：优势证据与期望效用 (Civil",
+    "char_count": 97,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：汉德公式的日常应用）}：\\\\\\\\楼梯是否足够安全？维修成本B vs 摔伤概率P × 赔偿L。房东的注意义务就是期望效用计算。\\\\\\",
+    "char_count": 51,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：产品责任与风险分配）}：\\\\\\\\严格责任不需要证明过失。产品有缺陷导致损害就负责。把风险从消费者转移到制造商——谁更能预防谁承担。\\\\\\",
+    "char_count": 54,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：合同法的概率视角）}：\\\\\\\\违约损害赔偿=期望利益损失。合同法本质是概率性的：期望违约概率×违约损失=合同定价的一部分。\\\\\\",
+    "char_count": 51,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出行政法）}：\\\\\\\\行政法介于刑法和民法之间。行政机关需要平衡效率和权利保护。\n\n\t\\subsection{行政法：效率与权利的平衡 (Administrati",
+    "char_count": 88,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：行政裁量权的边界）}：\\\\\\\\税务机关有权决定\"合理避税\"vs\"偷税漏税\"的边界。裁量权必须有边界否则就是任意。\\\\\\",
+    "char_count": 46,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：行政复议与司法审查）}：\\\\\\\\行政决定→行政复议→行政诉讼→终审。多层保障让效率和权利平衡。每一层都是纠错机制。\\\\\\",
+    "char_count": 46,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：算法行政的挑战）}：\\\\\\\\信用评分、自动审批、风险预警——算法正在替代人工行政决定。效率提升但透明度降低。\\\\\\",
+    "char_count": 45,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出国际法）}：\\\\\\\\国内法有强制力保障。国际法之上没有世界政府——法律的终极边界。\n\n\t\\subsection{国际法：无强制力的规则系统 (Internati",
+    "char_count": 85,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：国际法院的局限）}：\\\\\\\\国际法院判决只有建议力。美国从未接受国际法院管辖权。大国可以无视判决——小国不能。权力不平等渗透国际法。\\\\\\",
+    "char_count": 57,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：WTO争端解决机制）}：\\\\\\\\WTO是国际法最成功的执行机制之一：败诉国面临贸易报复。但美国近年阻挠WTO上诉法官任命——让机制瘫痪。\\\\\\",
+    "char_count": 53,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：软法的作用）}：\\\\\\\\巴黎协定不具法律约束力但设定了全球气候议程。软法通过示范效应和声誉机制发挥作用——不是强制但有效。\\\\\\",
+    "char_count": 54,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出法律维护）}：\\\\\\\\国际法的脆弱性揭示：法律系统不是自动运行的。下一节追踪：法律如何维护自身权威。\n\n\t\\subsection{法律系统的自我维护 (Self",
+    "char_count": 101,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：法治文化）}：\\\\\\\\法律条文可以抄但法治文化无法抄。法官独立、律师专业、公众尊重法律——需要几代人培养。\\\\\\",
+    "char_count": 47,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：法律的正当性来源）}：\\\\\\\\民主立法程序赋予正当性。但正当性不是永久的——当法律被普遍认为不公（种族隔离法），正当性崩塌。\\\\\\",
+    "char_count": 52,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：法律变革的机制）}：\\\\\\\\宪法修正、司法解释、立法修订——法律通过这些机制自我更新。僵化的法律系统最终被社会抛弃。\\\\\\",
+    "char_count": 49,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出§4统一视角）}：\\\\\\\\法律是文化→经济→政治→法律链条的终点。但它也是起点：法律塑造经济行为，经济影响政治权力，政治改变法律。下一节。\n\n\t% --- 节级",
+    "char_count": 863,
+    "term_count": 14,
+    "needs_split": true,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：禁酒令的失败）}：\\\\\\\\1920年美国禁酒令试图用法律改变文化。结果：黑市繁荣黑帮崛起。法律无法强行改变根深蒂固的文化习惯——文化比法律更顽固。\\\\\\",
+    "char_count": 65,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：反歧视法的文化效应）}：\\\\\\\\民权法案不仅禁止歧视，还改变了\"什么是可接受行为\"的社会共识。法律设定新的道德底线。\\\\\\",
+    "char_count": 47,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：法律教育功能）}：\\\\\\\\法律有教育功能：明确告诉社会什么是对的什么是错的。罚款和刑罚不只是惩罚也是信号。\\\\\\",
+    "char_count": 45,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出政治↔经济循环）}：\\\\法律不只反映文化也塑造文化。但政治↔经济的循环更直接。\n\n\t\\subsection{政治↔经济的反馈循环 (Political-Econ",
+    "char_count": 92,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：负反馈机制）}：\\\\\\\\经济衰退→选民不满→政党轮替→政策调整。民主制的核心负反馈：选民可以让执政党下台。\\\\\\",
+    "char_count": 46,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：全球化打破国内循环）}：\\\\\\\\资本可以跨国流动→国内政治对资本约束力下降。企业威胁\"不减税就搬走\"→政府被迫竞争性减税。\\\\\\",
+    "char_count": 50,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：技术改变权力平衡）}：\\\\\\\\互联网赋予公民新权力（社交媒体动员），也赋予政府新权力（监控/审查）。技术不偏向任何一方——它放大现有的权力差异。\\\\\\",
+    "char_count": 62,
+    "term_count": 2,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出系统视角）}：\\\\\\\\循环流动揭示：四个领域不是独立系统而是同一个系统的不同面向。需要整体视角。\n\n\t\\subsection{整体视角：社会作为复杂自适应系统 ",
+    "char_count": 117,
+    "term_count": 2,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：系统性风险）}：\\\\\\\\四个领域的相互依赖意味着系统性风险：金融危机→政治动荡→法律改革→文化变迁。2008年金融海啸→占领华尔街→Dodd-Frank法案→对华尔",
+    "char_count": 84,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：韧性与脆弱）}：\\\\\\\\多元系统（多种文化/多党制/多种经济形态）更有韧性。单一系统更高效但也更脆弱——一个故障导致系统崩溃。\\\\\\",
+    "char_count": 56,
+    "term_count": 2,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：干预的蝴蝶效应）}：\\\\\\\\在一个领域干预可能在其他领域产生意想不到的后果。禁酒令改变文化失败但催生了有组织犯罪——经济干预改变了政治。\\\\\\",
+    "char_count": 59,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出章尾）}：\\\\\\\\四层嵌套、循环流动、自适应——社会是复杂系统。法律作为最内层规则系统，用条件概率精确化定责，但法律本身也在演化。\n\n\t\\subsection{",
+    "char_count": 142,
+    "term_count": 4,
+    "needs_split": true,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：条件概率的统一性）}：\\\\\\\\传播概率、决策概率、博弈概率、定责概率——条件概率是四层的统一数学语言。P(A|B)既是传播模型也是风险定价也是责任计算。\\\\\\",
+    "char_count": 66,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：退化的意义）}：\\\\\\\\每层退化不是\"堕落\"而是\"适应\"——社会不能用文化模因解决所有问题（效率不够），需要经济（价格压缩）、政治（权力协调）、法律（精确规则）。退",
+    "char_count": 82,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：四层的永恒张力）}：\\\\\\\\文化追求认同、经济追求效率、政治追求稳定、法律追求正义——四个目标经常冲突。社会的智慧是在冲突中找到动态平衡。\\\\\\",
+    "char_count": 60,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：全书终结）}：\\\\\\\\动机社会的核心洞见：人类社会的多层结构不是设计出来的而是演化出来的。每一层都是应对上一层局限性的解决方案，而每一层又产生新的局限性——这就是社",
+    "char_count": 722,
+    "term_count": 5,
+    "needs_split": true,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：法律无法覆盖所有场景）}：\\\\\\\\没有法律规定你必须给老人让座但社会期待你这么做。道德和习俗填补法律空白。\\\\\\",
+    "char_count": 41,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：法律改变文化的案例）}：\\\\\\\\禁烟法改变吸烟文化。垃圾分类法改变环保意识。法律作为模因载体传播新规范。\\\\\\",
+    "char_count": 41,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：文化抵制法律的案例）}：\\\\\\\\禁酒令失败因为文化抵制。某些地区法律禁止的东西（赌博/色情）在文化中广泛存在。当法律和文化冲突时文化通常获胜。\\\\\\",
+    "char_count": 60,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出法律vs经济）}：\\\\\\\\法律与文化的边界是软性的。法律与经济的边界更硬——效率vs正义。\n\n\t\\subsection{法律与经济：正义vs效率 (Law vs",
+    "char_count": 98,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：外部性内部化）}：\\\\\\\\碳税把排放的外部成本变成企业的内部成本。法律通过定价让市场效率与社会目标对齐。\\\\\\",
+    "char_count": 44,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：反垄断的两面）}：\\\\\\\\反垄断保护竞争促进效率但也可能阻碍规模经济。微软拆分案/谷歌反垄断案——界限在哪里？\\\\\\",
+    "char_count": 47,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：劳工保护vs企业灵活性）}：\\\\\\\\最低工资保护工人但可能提高失业率。解雇保护保障就业但降低企业调整能力。没有完美解只有权衡。\\\\\\",
+    "char_count": 50,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出法律vs技术）}：\\\\\\\\法律与经济的张力是永恒的。法律与技术的张力是当代的——AI/区块链/基因编辑挑战法律框架。\n\n\t\\subsection{法律与技术：规",
+    "char_count": 108,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：自动驾驶责任分配）}：\\\\\\\\特斯拉Autopilot事故：车主/制造商/程序员/道路设计者谁负责？条件概率框架提供思路但法律条文尚未跟上。\\\\\\",
+    "char_count": 60,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：区块链与法律管辖权）}：\\\\\\\\比特币无国界→哪个国家的法律适用？DeFi无中央机构→监管谁？去中心化技术挑战传统的法律管辖框架。\\\\\\",
+    "char_count": 54,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：基因编辑的伦理边界）}：\\\\\\\\贺建奎事件：基因编辑婴儿违反什么法律？现有法律体系没有预料到这种技术能力。\\\\\\",
+    "char_count": 42,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：引出章尾）}：\\\\\\\\法律的边界揭示：规则系统永远在追赶现实。但这不意味着法律无用——它是社会可用的最好的规则系统。\n\n\t\\subsection{章尾：社会秩序的四",
+    "char_count": 135,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落2（why2：退化的意义）}：\\\\\\\\每层退化不是堕落而是功能分化。文化不够快→经济价格压缩。经济不够稳→政治权力协调。政治不够精确→法律条件概率定责。退化=适应。\\\\\\",
+    "char_count": 68,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落3（why3：条件概率的统一性）}：\\\\\\\\文化传播概率、经济决策概率、政治博弈概率、法律定责概率。条件概率贯穿四层是社会系统的统一数学语言。\\\\\\",
+    "char_count": 54,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落4（why4：永恒张力）}：\\\\\\\\认同vs效率vs稳定vs正义——四个目标经常冲突。社会智慧是在冲突中找到动态平衡不是追求单一最优。\\\\\\",
+    "char_count": 54,
+    "term_count": 0,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  },
+  {
+    "full_match": "\\\\textbf{段落5（why5：全书终结）}：\\\\\\\\动机社会的核心洞见：人类社会的多层结构是演化出来的不是设计出来的。每层都是应对上层局限的解决方案，每层又产生新局限——社会永恒演化的根本原因。",
+    "char_count": 168,
+    "term_count": 1,
+    "needs_split": false,
+    "file": "chapter4_law_institutional_form.tex"
+  }
+]

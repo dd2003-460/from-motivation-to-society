@@ -1,0 +1,56 @@
+\contentsline {chapter}{前言}{2}{chapter*.1}%
+\contentsline {part}{I\hspace {1em}现实分支：演化游戏与历史拓扑 (Exploration Track)}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}导论：起点的设定}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}宇宙与地球的基础参数}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}偶然与必然的比例：历史的条件概率}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}从生存压力到社会结构}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}经济现实：供求与不完全信息}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}供求关系的本质认同}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}不对称信息与追涨杀跌}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}商业逻辑的自然演化}{4}{section.2.3}%
+\contentsline {chapter}{\numberline {3}政治现实：权力的抽象与赋予}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}权力即共识：对命令的认同}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}职能的抽象化：从个人到组织}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}利益交换：带有偏好的经济学}{5}{section.3.3}%
+\contentsline {chapter}{\numberline {4}文化现实：模因的传播强度}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}情绪与煽动：不问方向，但求强度}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}背景信息与“不完备”的定义}{6}{section.4.2}%
+\contentsline {part}{II\hspace {1em}公理化体系：结构、信息与动力学 (Foundation Track)}{7}{part.2}%
+\contentsline {chapter}{\numberline {5}第一公理：信息与结构化}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}分类与粗粒化 (Coarse-graining)}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}分类的无交性与完全性}{9}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}分类精细度与误差分析}{9}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}信息压缩与编码}{9}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}有损压缩：语言与抽象}{9}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}无损压缩：频率派与变长编码}{9}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}演化动力学：系统的数学描述}{10}{chapter.6}%
+\contentsline {section}{\numberline {6.1}状态空间的定义}{10}{section.6.1}%
+\contentsline {section}{\numberline {6.2}动力学方程：从牛顿到社会力}{10}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}微分方程与循环因果}{10}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}自指与自证预言 (Self-Reflexivity)}{10}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}势阱与稳态：拉格朗日视角}{10}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}社会势能与广义动量}{10}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}杆的摇晃：动量与稳定性的类比}{10}{subsection.6.3.2}%
+\contentsline {chapter}{\numberline {7}介观统一论：模因、经济与政治的转换}{11}{chapter.7}%
+\contentsline {section}{\numberline {7.1}模因统一视角}{11}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}经济：压缩偏好的金钱模因}{11}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}政治：带有偏好的利益交换}{11}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}守恒律与网络性质}{11}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}经济网络的价值守恒}{11}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}政治交换的利益守恒}{11}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}文化传播的非守恒性（无压扩增）}{11}{subsection.7.2.3}%
+\contentsline {chapter}{\numberline {8}因果与责任：条件概率的法律应用}{12}{chapter.8}%
+\contentsline {section}{\numberline {8.1}多链条因果分析}{12}{section.8.1}%
+\contentsline {section}{\numberline {8.2}条件概率与责任划归}{12}{section.8.2}%
+\contentsline {chapter}{\numberline {9}人存原理与现象归纳}{13}{chapter.9}%
+\contentsline {section}{\numberline {9.1}现象归纳的适用边界}{13}{section.9.1}%
+\contentsline {section}{\numberline {9.2}人存原理：幸存者偏差的物理化}{13}{section.9.2}%
+\contentsline {section}{\numberline {9.3}等效曲线拟合与噪声评估}{13}{section.9.3}%
+\contentsline {part}{III\hspace {1em}附录：工具与方法论索引}{14}{part.3}%
+\contentsline {chapter}{\numberline {A}数学工具详解}{15}{appendix.A}%
+\contentsline {section}{\numberline {A.1}信息论基础：从香农到变长编码}{15}{section.A.1}%
+\contentsline {section}{\numberline {A.2}动力系统稳定性分析}{15}{section.A.2}%
+\contentsline {section}{\numberline {A.3}复杂系统的概率评估方法}{15}{section.A.3}%
+\contentsline {chapter}{\numberline {B}灵感来源与致谢}{16}{appendix.B}%
+\contentsline {section}{\numberline {B.1}关于朋友们的启发性讨论 (sbbm, ctt, gcr等)}{16}{section.B.1}%
+\contentsline {section}{\numberline {B.2}推荐阅读与索引地图}{16}{section.B.2}%

@@ -1,0 +1,56 @@
+\contentsline {part}{I\hspace {1em}核心逻辑：自然、结构与语言 (The Core Loop)}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}自然现象：动力与混乱}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}最基本的动力：熵增与能量流}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}次级产生的现象：耗散结构}{3}{section.1.2}%
+\contentsline {chapter}{\numberline {2}结构与效率：生存的物理学}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}自然选择作为过滤器}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}结构是效率的物理固化}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}案例：从晶体到生物组织的必然性}{4}{section.2.3}%
+\contentsline {chapter}{\numberline {3}语言与信息：分类的方法论}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}语言即信息传递}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}结构的抽象表示：分类 (Classification)}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}分类的本质：粗粒化 (Coarse-graining)}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}分类的代价：信息损失与误差分析}{5}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}编码理论：霍夫曼编码与社会分层}{5}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}高频使用短编码（习惯/直觉）}{5}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}低频使用长编码（法律/逻辑）}{5}{subsection.3.3.2}%
+\contentsline {part}{II\hspace {1em}初始输入：地理与历史的必然性 (The Geologics)}{6}{part.2}%
+\contentsline {chapter}{\numberline {4}唯物史观的基石：地理决定论}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}因果链条的回溯：史观的层级}{8}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}反驳文化决定论：文化是果不是因}{8}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}地理环境作为不可变更的初始条件}{8}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}案例分析：东西方大分流的地理根源}{8}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}治水与农业：中央集权的地理必然性}{8}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}破碎海岸与贸易：分权与契约的地理必然性}{8}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}生存策略的分化：大一统与碎片化}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}中央集权：作为一种降低内部交易成本的解法}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}思想控制的必然性推导}{9}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}逻辑推导：集权 $\to $ 统一调度 $\to $ 统一思想 $\to $ 抑制异端}{9}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}这并非恶意，而是系统维持“低熵态”的能耗最优解}{9}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}假设反证：如果不是地理环境？}{9}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}基于条件概率的“架空推演”}{9}{subsection.5.3.1}%
+\contentsline {part}{III\hspace {1em}系统展开：经济、文化与政治 (The Structure)}{10}{part.3}%
+\contentsline {chapter}{\numberline {6}物质分支：经济基础}{12}{chapter.6}%
+\contentsline {section}{\numberline {6.1}供求关系与价值认同}{12}{section.6.1}%
+\contentsline {section}{\numberline {6.2}不对称信息：商业利润的来源}{12}{section.6.2}%
+\contentsline {section}{\numberline {6.3}多金融产品：人为制造的“复杂编码”}{12}{section.6.3}%
+\contentsline {chapter}{\numberline {7}意识分支 I：文化与民间制度}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}文化作为一种算法：低成本的决策辅助}{13}{section.7.1}%
+\contentsline {section}{\numberline {7.2}道德与风俗：高频行为的短编码化}{13}{section.7.2}%
+\contentsline {section}{\numberline {7.3}模因传播：不问对错，只问强度}{13}{section.7.3}%
+\contentsline {chapter}{\numberline {8}意识分支 II：政治与权力结构}{14}{chapter.8}%
+\contentsline {section}{\numberline {8.1}权力的本质：对职能命令的认同}{14}{section.8.1}%
+\contentsline {section}{\numberline {8.2}组织的抽象：从个人魅力到机构权威}{14}{section.8.2}%
+\contentsline {section}{\numberline {8.3}博弈与制衡：权力系统的动力学}{14}{section.8.3}%
+\contentsline {chapter}{\numberline {9}制度的终极形态：法律}{15}{chapter.9}%
+\contentsline {section}{\numberline {9.1}法律的变长编码属性}{15}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}为什么法律条文必须冗长？（为了减少歧义/分类误差）}{15}{subsection.9.1.1}%
+\contentsline {section}{\numberline {9.2}责任的归因：基于条件概率的定责逻辑}{15}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}回顾Sbbm讨论：多链条因果的数学处理}{15}{subsection.9.2.1}%
+\contentsline {chapter}{结语：循环的闭合}{16}{chapter*.2}%
+\contentsline {section}{\numberline {9.3}人定胜天？社会系统对初始条件的修正}{16}{section.9.3}%
+\contentsline {section}{\numberline {9.4}新的循环：技术作为新的变量}{16}{section.9.4}%
+\contentsline {part}{IV\hspace {1em}附录：数学工具箱与参考文献}{17}{part.4}%
+\contentsline {chapter}{详细数学推导}{18}{appendix*.3}%
+\contentsline {section}{\numberline {.1}变长编码与熵的计算细节}{18}{section.Alph0.1}%
+\contentsline {section}{\numberline {.2}动力学方程的稳定性证明}{18}{section.Alph0.2}%

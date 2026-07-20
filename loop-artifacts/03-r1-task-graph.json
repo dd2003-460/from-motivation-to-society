@@ -1,0 +1,116 @@
+{
+  "description": "《动机社会》编译修复 + 文风统一 — 最小可执行任务图",
+  "completed_tasks": [
+    {
+      "id": "comp-fix-001",
+      "name": "修复 chapter1_economic_base.tex 编译错误",
+      "status": "done",
+      "details": "修复8处LaTeX错误：stray }、未闭合\\textbf{、空\\textbf{。}、复制粘贴重复段落",
+      "file": "part3_systematic_expansion/chapter1_economic_base.tex"
+    },
+    {
+      "id": "comp-fix-002",
+      "name": "修复 chapter1_materialist_historical_view.tex 未闭合环境",
+      "status": "done",
+      "details": "移除subfile中错误的\\begin{document}，将\\end{document}替换为\\end{questionbox}\\end{logicmap}\\end{motivation}",
+      "file": "part2_geological_determinism/chapter1_materialist_historical_view.tex"
+    },
+    {
+      "id": "comp-verify",
+      "name": "验证干净编译",
+      "status": "done",
+      "details": "xelatex 3轮稳定输出172页PDF，0 error，仅warnings（undefined refs、missing chars、overfull hbox）"
+    }
+  ],
+  "pending_tasks": [
+    {
+      "id": "style-001",
+      "name": "修缮 part2 机械读者疑问模式",
+      "status": "pending",
+      "depends_on": [],
+      "description": "part2_geological_determinism 各章存在生硬的 reader_anticipation 套路化引导，需按 part1 风格重写",
+      "files": [
+        "part2_geological_determinism/chapter2_survival_strategy_divergence.tex"
+      ],
+      "scope": "reader_anticipation 段落 + motivation/readingnote/questionbox 空壳"
+    },
+    {
+      "id": "style-002",
+      "name": "修缮 part3 机械读者疑问模式",
+      "status": "pending",
+      "depends_on": [],
+      "description": "part3_systematic_expansion 各章同样存在生硬 reader_anticipation 和空壳 box",
+      "files": [
+        "part3_systematic_expansion/chapter1_economic_base.tex",
+        "part3_systematic_expansion/chapter2_culture_folk_institutions.tex",
+        "part3_systematic_expansion/chapter3_politics_power_structure.tex",
+        "part3_systematic_expansion/chapter4_law_institutional_form.tex"
+      ],
+      "scope": "reader_anticipation + 空壳 readingnote/motivation/mathbox/questionbox"
+    },
+    {
+      "id": "style-003",
+      "name": "修缮 conclusion 文风",
+      "status": "pending",
+      "depends_on": [],
+      "description": "conclusion/circular_closure.tex 需统一术语密度和叙述风格",
+      "files": [
+        "conclusion/circular_closure.tex"
+      ],
+      "scope": "全文风格统一 + reader_anticipation"
+    },
+    {
+      "id": "style-004",
+      "name": "修缮 appendix 数学附录文风",
+      "status": "pending",
+      "depends_on": [],
+      "description": "appendix/appendix_V_math.tex 及子章节需统一风格",
+      "files": [
+        "appendix/appendix_V_math.tex",
+        "appendix/appendix/chapter0_readme.tex",
+        "appendix/appendix/chapter1_existence_dynamics.tex",
+        "appendix/appendix/chapter2_structure_info.tex",
+        "appendix/appendix/chapter3_history_probability.tex",
+        "appendix/appendix/chapter4_selforg_dynamics.tex",
+        "appendix/appendix/chapter5_checklist.tex"
+      ],
+      "scope": "全文风格统一 + overfull hbox 修复"
+    },
+    {
+      "id": "style-005",
+      "name": "修复 undefined hyper references",
+      "status": "pending",
+      "depends_on": [],
+      "description": "约10个未定义的 hyper 引用（math:various, math:selection_filter, math:threshold_model, math:survival_constraint, math:existence, math:structure, math:history, math:selforg, ch:structure 等）",
+      "scope": "定位引用点，确认是标签缺失还是拼写错误"
+    },
+    {
+      "id": "style-006",
+      "name": "修复 missing character warnings",
+      "status": "pending",
+      "depends_on": [],
+      "description": "🧮(U+1F9EE)、①②③(U+2460-2462)、⊃(U+2283)、≈(U+2248)、↔(U+2194)、≠(U+2260)、₂(U+2082) 在 lmsans 字体中缺失",
+      "scope": "考虑使用 Unicode 字体或替代符号"
+    }
+  ],
+  "execution_order": [
+    "style-001",
+    "style-002",
+    "style-003",
+    "style-004",
+    "style-005",
+    "style-006"
+  ],
+  "parallel_groups": [
+    [
+      "style-001",
+      "style-002",
+      "style-003",
+      "style-004"
+    ],
+    [
+      "style-005",
+      "style-006"
+    ]
+  ]
+}

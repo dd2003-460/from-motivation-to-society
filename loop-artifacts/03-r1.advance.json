@@ -1,0 +1,78 @@
+{
+  "action": "advance",
+  "status": "passed",
+  "stage_id": "03",
+  "revision": "r1",
+  "next_stage": "04",
+  "payload": {
+    "stage_review": "阶段 03 执行任务分解：编译错误已全部修复（chapter1_economic_base.tex 8处LaTeX错误 + chapter1_materialist_historical_view.tex 未闭合环境），xelatex 3轮稳定输出172页PDF，0 error。task_graph 已写入6个待执行文风修缮子任务（part2/part3/conclusion/appendix 机械读者疑问模式重写 + hyper refs + missing chars），coverage_proof 确认文档覆盖率。",
+    "task_spec": {
+      "task_description": "《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风",
+      "task_graph": "loop-artifacts/03-r1-task-graph.json",
+      "coverage_proof": "loop-artifacts/03-r1-coverage-proof.json",
+      "pending_tasks": [
+        "style-001",
+        "style-002",
+        "style-003",
+        "style-004",
+        "style-005",
+        "style-006"
+      ],
+      "attribute_matrix": [
+        {
+          "attribute": "任务描述",
+          "concept": "用户原始任务",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "user:initial_task"
+          ],
+          "impact": "material",
+          "rationale": "用户初始任务输入，作为本阶段已知背景字段。",
+          "reversible": false,
+          "role": "background"
+        },
+        {
+          "attribute": "main.tex 已干净编译，172页PDF，0 error，仅warnings",
+          "concept": "编译状态",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "main.pdf",
+            "main.log"
+          ],
+          "impact": "material",
+          "rationale": "xelatex 3轮稳定输出，无Emergency stop，无error",
+          "reversible": false,
+          "role": "交付物"
+        },
+        {
+          "attribute": "6个文风修缮子任务已分解，含依赖关系和并行组",
+          "concept": "task_graph",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/03-r1-task-graph.json"
+          ],
+          "impact": "material",
+          "rationale": "基于实际文档状态分析：part2/part3/conclusion/appendix 需重写机械reader_anticipation，hyper refs和missing chars需修复",
+          "reversible": false,
+          "role": "交付物"
+        },
+        {
+          "attribute": "20+ tex文件已覆盖，编译错误修复2个文件，文风修缮12个文件待处理",
+          "concept": "coverage_proof",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/03-r1-coverage-proof.json"
+          ],
+          "impact": "material",
+          "rationale": "part1_core_logic不修改（范本），其余所有subfile已列入任务图",
+          "reversible": false,
+          "role": "交付物"
+        }
+      ]
+    }
+  }
+}

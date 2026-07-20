@@ -1,0 +1,8 @@
+{
+  "action": "advance",
+  "status": "completed",
+  "stage_id": "02.5",
+  "revision": "r1",
+  "next_stage": "03",
+  "message": "02.5 交叉验证：research_findings 为空，无待核验字段，成功条件自然满足。推进到 03（并行调研与执行）。"
+}

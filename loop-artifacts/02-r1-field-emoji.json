@@ -1,0 +1,20 @@
+{
+  "concept": "uncertainty_emoji",
+  "role": "不确定性",
+  "attribute": "🧮 emoji 的 intended 用途（装饰性图标还是数学符号？）",
+  "disposition": "confirmed",
+  "rationale": "经全面调研，🧮 emoji 在项目中仅出现于 main.tex 第94-98行的 mathbox tcolorbox 定义中：title=\\textbf{🧮 数学建模：#1}。它作为装饰性图标（icon）出现在数学建模框的标题栏，不是数学符号。mathbox 环境在 appendix 目录下被使用 12 次（appendix_V_math.tex 1 次、chapter1_existence_dynamics.tex 3 次、chapter2_structure_info.tex 2 次、chapter3_history_probability.tex 3 次、chapter4_selforg_dynamics.tex 3 次）。part1/part2/part3 正文中未使用 mathbox 环境。main_gift.tex 中也有相同的 mathbox 定义。中文学术出版中 emoji 使用不常见，但 LaTeX tcolorbox 支持 emoji 渲染，此处作为装饰图标是合理的设计选择。建议保留，但应在修订说明中记录此设计决策。",
+  "evidence_refs": [
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/main.tex 第94-98行：mathbox tcolorbox 定义，title 包含 🧮 图标",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/main_gift.tex 第84行：相同的 mathbox 定义",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/appendix/appendix_V_math.tex 第28行：mathbox 使用（1 次）",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/appendix/appendix/chapter1_existence_dynamics.tex 第26/42/48行：mathbox 使用（3 次）",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/appendix/appendix/chapter2_structure_info.tex 第34/38行：mathbox 使用（2 次）",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/appendix/appendix/chapter3_history_probability.tex 第23/29/36行：mathbox 使用（3 次）",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/appendix/appendix/chapter4_selforg_dynamics.tex 第20/26/32行：mathbox 使用（3 次）",
+    "LaTeX tcolorbox 官方文档：enhanced 模式支持 Unicode/emoji 渲染"
+  ],
+  "confidence": 0.95,
+  "impact": "cosmetic",
+  "reversible": true
+}

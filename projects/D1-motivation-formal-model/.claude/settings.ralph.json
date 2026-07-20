@@ -1,0 +1,88 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook userpromptsubmit --mode enforce"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook pretooluse --mode enforce"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook posttooluse --mode enforce"
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook subagentstart --mode enforce"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook subagentstop --mode enforce"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook precompact --mode enforce"
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook postcompact --mode enforce"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook stop --mode enforce"
+          }
+        ]
+      }
+    ]
+  }
+}

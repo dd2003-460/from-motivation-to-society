@@ -1,0 +1,21 @@
+{
+  "stage": {
+    "id": "01",
+    "revision": "r1"
+  },
+  "task": {
+    "description": "",
+    "source": null
+  },
+  "task_spec": {
+    "assumptions": [],
+    "attribute_matrix": [],
+    "authoritative_inputs": [],
+    "constraints": [],
+    "open_questions": [],
+    "scenarios": [],
+    "semantic_map": {},
+    "status": "unclarified",
+    "success_criteria": []
+  }
+}

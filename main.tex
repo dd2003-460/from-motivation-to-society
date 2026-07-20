@@ -17,7 +17,9 @@
 \usepackage{tikz}           % 绘图核心包
 \usetikzlibrary{shapes.geometric, arrows.meta, positioning} % 载入TikZ扩展库
 
-\usepackage[most]{tcolorbox}
+\usepackage{tcolorbox}
+\usepackage{amsmath}
+\newcommand{\xr}{\xrightarrow}
 
 \newtcolorbox{readingnote}{
 	colback=gray!5,
@@ -94,11 +96,11 @@
 	colback=gray!5,
 	colframe=gray!60!black,
 	title=\textbf{数学建模：#1},
-	fonttitle=\small\bfseries,
+	fonttitle=\small\bfseries\sffamily,
 	leftrule=2mm,
 	breakable
 }
-\usepackage[most]{tcolorbox}
+\usepackage{tcolorbox}
 
 \newtcolorbox{definitionbox}{
 	colback=blue!3!white,
@@ -127,6 +129,13 @@
 	arc=2mm
 }
 
+\newenvironment{reader_anticipation}{
+	\begin{tcolorbox}[colback=yellow!3!white,colframe=yellow!50!black,title=\textit{读者可能还会问},breakable]
+	\begin{itemize}
+}{
+	\end{itemize}
+	\end{tcolorbox}
+}
 
 % 画图等需要的宏包
 \usepackage{tikz}

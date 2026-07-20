@@ -1,0 +1,18 @@
+{
+  "concept": "uncertainty_missing_chapters",
+  "role": "不确定性",
+  "attribute": "part3 ch5 / part4 / part5 是否需要创建，还是标记为待后续",
+  "disposition": "confirmed",
+  "rationale": "经全面调研，三个缺失项均不需要创建，理论框架已自洽闭合：(1) Part 3 ch5 (ch5_system_integration) 标记为缺失，但 chapter4_law_institutional_form.tex 的 Section 2 '统一视角：文化、经济、政治、法律的嵌套关系' 已承担总结功能，明确给出嵌套链（文化 ⊃ 经济 ⊃ 政治，法律作为公共基础设施）和三个嵌套命题，且 ch4 结尾已标注 'Part 3 的推导至此完成'。(2) Part 4 从未在当前 manuscript 结构中定义——main.tex 仅有 Part I-V（核心逻辑、地理决定论、系统展开、结语与附录、数学附录），WRITING_PLAN.md 中的 Part 4/Part 5 条目是早期 ChatGPT 对话产物，实际 manuscript 中 '系统整合' 功能已由 ch4 Section 2 承担，'展望' 功能已由 conclusion/circular_closure.tex 承担（展示社会系统对初始条件的反馈修正及技术作为新变量的循环）。(3) Part 5 数学附录已以 \\appendix 形式存在（appendix/appendix_V_math.tex），不需要作为独立 Part V。全书形成 '正向建构（原理→现象）+ 反向学习（问题→原理）' 的双向遍历框架，无逻辑断点。建议将 WRITING_PLAN.md 中的 ch5/Part 4/Part 5 标记为 '已由现有章节承担'。",
+  "evidence_refs": [
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/main.tex 第189-193行：Part III 仅 include 4 个 chapter 文件，无 ch5",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/WRITING_PLAN.md 第32行：'ch5_system_integration: 缺失，总结章不存在'；第36-37行：'Part 4 & Part 5: 完全不存在'；第100-102行：列为 '等待用户决策' 项",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/part3_systematic_expansion/chapter4_law_institutional_form.tex 第212-276行：Section 2 '统一视角：文化、经济、政治、法律的嵌套关系' 已承担 ch5 的总结功能，第276行明确标注 'Part 3 的推导至此完成'",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/conclusion/circular_closure.tex 第23-39行：'社会系统对初始条件的修正' 和 '技术作为新变量' 已承担 Part 4/Part 5 的展望功能",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/main.tex 第204-205行：数学附录以 \\appendix 形式存在（appendix/appendix_V_math.tex），非独立 Part V",
+    "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society/补充材料/写作 ChatGPT-20260310-184648-目录快照.md：ChatGPT 对话中曾提议 Part V 数学附录结构，但实际实现采用 \\appendix 而非独立 Part"
+  ],
+  "confidence": 0.95,
+  "impact": "material",
+  "reversible": true
+}

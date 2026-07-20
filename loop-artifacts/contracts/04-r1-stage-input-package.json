@@ -1,0 +1,151 @@
+{
+  "authoritative_inputs": [
+    {
+      "kind": "initial_task",
+      "source": "ralph run",
+      "text": "任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expansion、conclusion/circular_closure、appendix/appendix_V_math，重点修 ①引导读者疑问生硬套路化 ②readingnote/motivation/mathbox/questionbox 等解释性 box 不完善或空壳 ③文风术语排版密度与第一大章不一致；按上述方法论逐项改写使全书连贯。3)产出：可干净编译的 main.pdf + 简短修订说明(列改了哪些章节哪些 box/疑问段重写)。约束：直接编辑本目录 .tex，不另起新文件结构，保持 ctex/xelatex 工具链，本次以 main.tex 为准(main_gift.tex 是变体)。"
+    },
+    {
+      "kind": "human_input",
+      "source": "UserPromptSubmit",
+      "text": "任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expansion、conclusion/circular_closure、appendix/appendix_V_math，重点修 ①引导读者疑问生硬套路化 ②readingnote/motivation/mathbox/questionbox 等解释性 box 不完善或空壳 ③文风术语排版密度与第一大章不一致；按上述方法论逐项改写使全书连贯。3)产出：可干净编译的 main.pdf + 简短修订说明(列改了哪些章节哪些 box/疑问段重写)。约束：直接编辑本目录 .tex，不另起新文件结构，保持 ctex/xelatex 工具链，本次以 main.tex 为准(main_gift.tex 是变体)。"
+    },
+    {
+      "kind": "human_input",
+      "source": "UserPromptSubmit",
+      "text": "# RALPH 字段中心 · 阶段提醒（02-r1 · 未知信息调研）\n当前任务：任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expans\n[… 已截断，完整内容在 loop-state.json …]\n\n## 1. 本阶段方法论（来自阶段 prompt 文件；**直接改该文件即可调整本阶段行为**，无需动运行时代码）\n# 02 未知信息调研（逐个未知词派 subagent 调研）\n\n<!-- origin: ai -->\n\n## 输入\n\n- 上一阶段交付物：`loop-artifacts/01-r1.md` / `01-r1.json`。\n- 其中 `unknown` 字段里的**每一个词语**，就是一个独立的待调研项。\n- 灵魂默认决策画像（`AGENTS.md` 默认偏好）。\n\n## 本阶段交付物（每阶段只一对文件，命名 `0x-rx`，链式传递）\n\n- `loop-artifacts/02-r1.json`：**你只需写这个**——每个未知词调研后产出的字段（用 `ralph field-apply <项目> loop-artifacts/02-r1.json` 落盘）。\n- `loop-artifacts/02-r1.md`：可读性 Markdown，**由 `ralph render` / field-apply 自动从 JSON 生成，你不必手写**。\n- **下一阶段（02.5）的输入就是本阶段的 `02-r1.json`**（需人读版看同目录 `.md`）。\n\n## Commander 的工作（极简：只编排，不调研）\n\nCommander 是**薄分发器**，几乎不干活：\n\n1. 从 `01-r1.json` 的 `unknown` 字段取出每个未知词，逐个处理。\n2. 对**单个未知词**，派一个窄调研 subagent，把「调研 prompt（见下）」连同该**单个未知词**一起交给它。\n3. subagent 返回只含那一个字段的 JSON，Commander 用 `ralph field-apply <项目> <单字段文件>` 落盘。\n4. 所有 `unknown` 词处理完即本阶段完成，** Commander 自己不写任何调研内容、不查证据**。\n\n> 给主 agent 的提示只需：**命令 + 单个未知因素字段**。\n> 示例：`ralph field-apply <项目> <文件>`，文件内仅 `{concept:\"<单个未知词>\", ...}`。\n\n## 给 subagent 的调研 prompt（这才是真正的调研指令）\n\n> 你只负责调研**一个**未知词。请直接联网搜索 **不加年份** 的关键词（描述事实本身，如「H100 HBM3e 带宽」「GPU 互联 NVLink 带宽」），拿到**当前最新**的官方规格 / 论文 / 基准 / 厂商文档。\n> 产出**只含这一个字段**的 JSON，必须带回 `evidence_refs`（URL）与 `confidence`：\n> `{concept, role:\"未知\", attribute, disposition:\"confirmed\"|\"assumed_default\", rationale, evidence_refs:[...], confidence, impact, reversible}`。\n> 不要读无关文档，不要产出其他字段。\n\n## 字段表怎么填（通过 `ralph field-apply`，禁止直接写 loop-state.json）\n\n- 每个未知词调研完，写成一条字段 JSON，运行 `ralph field-apply <项目> <单字段文件>`：校验通过才原子落盘（按 `concept` 合并；`{\"concept\":\"...\",\"delete\":true}` 删除）。\n- 可累积多条后一次性 `field-apply`，但每条必须带 `evidence_refs`。\n\n## 检查\n\n- [ ] `unknown` 中每个词都已派 subagent 调研并带回 `evidence_refs`。\n- [ ] 无未带证据的 `research_required` / `unknown` 字段残留。\n- [ ] 调研引出的新未知已被消化（无 `pending`）。\n\n## 分支\n\n- 通过：输出 `advance` 进入 `02.5`（字段完整后也可等待运行时推进）。\n- 等待人类：返回 `blocked_human`（仅限「项目/环境无答案、会改变硬可行性」的项）。\n\n## 必须遵守\n\n1. 阶段编号 `02`；重新调研用 `02-r2`。\n2. **Commander 不调研、不查证据、不写调研内容**，只派 subagent + field-apply；调研指令在给 subagent 的 prompt 里。\n3. 搜索不加年份，确保拿到最新结果。\n4. 本阶段只做调研与证据补齐，**不做交叉验证**（交叉验证在 02.5）。\n\n## 2. 本阶段目标（运行时校验）：所有 research_required 字段已调研带回 evidence_refs，无未带证据的调研字段；应交付：research_findings\n## 3. 仍需填写的字段（只补这些，不必一次交齐）：research_findings\n## 4. 阶段文件（每阶段只产出一对，命名 `0x-rx`，链式传递）\n- **本阶段交付物**：写 `loop-artifacts/02-r1.md`（分析/笔记）与 `loop-artifacts/02-r1.json`（结构化结果，含本阶段字段）。\n- **本阶段输入**：先读上一阶段交付物 `loop-artifacts/01-r1.md` 与 `.json`，再动手（上一阶段输出即本阶段输入）。\n- **提交字段**：把要新增/更新的字段写进本阶段 `.json`（列表，或 `{\"fields\": [...]}`），每条含 `concept / role / attribute / disposition / rationale / evidence_refs / confidence / impact / reversible`；运行 **`ralph field-apply <项目> loop-artifacts/02-r1.json`** 校验并原子落盘（按 `concept` 合并：同 concept 覆盖、新 concept 追加；`{\"concept\": \"...\", \"delete\": true}` 删除）。\n- **推进到下一阶段（关键）**：本阶段字段齐全（无 pending、无未带证据的 research_required）后**必须显式推进**——**只有阶段 01 会自动推进，02+ 不会**，且聊天里输出 `<RALPH_STAGE_RESULT> advance` 无效（运行时不会解析聊天 token）。正确做法：写一份 action 文件 `loop-artifacts/02-r1.advance.json`：\n  ```json\n{\n  \"action\": \"advance\",\n  \"status\": \"completed\",\n  \"stage_id\": \"02\",\n  \"revision\": \"r1\",\n  \"next_stage\": \"02.5\",\n  \"message\": \"完成 未知信息调研，推进到 02.5\"\n}\n  ```\n  然后运行 **`ralph apply . loop-artifacts/02-r1.advance.json`**（或 `ralph validate --result loop-artifacts/02-r1.advance.json --apply`）即完成推进；运行时自动校验、原子落盘。\n- **禁止直接 Write/Edit `loop-state.json`**（易损坏导致循环崩溃）；`loop-state.json` 仅供运行时读取。\n- 项目路径可用绝对路径 `/Users/a1-6/Desktop/workspace/projects/D1-gpu-inference-hardware`，或当前目录用 `.`。\n- 状态损坏/需回退：`ralph recover-state <项目>`（或 `--stage <id>` 重置到上一阶段）。\n- 阶段 02 字段齐全后必须运行 `ralph apply . loop-artifacts/02-r1.advance.json` 显式推进，不能只靠聊天输出 advance。\n\n上一轮提示（供参考，不要原样扩写）：上一轮 Claude 已结束；从持久化状态继续，不复述旧 transcript。"
+    },
+    {
+      "kind": "human_input",
+      "source": "UserPromptSubmit",
+      "text": "# RALPH 字段中心 · 阶段提醒（04-r1 · 验证与交叉验证）\n当前任务：任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expans\n[… 已截断，完整内容在 loop-state.json …]\n\n## 1. 本阶段方法论（来自阶段 prompt 文件；**直接改该文件即可调整本阶段行为**，无需动运行时代码）\n# 04 验证与交叉验证\n\n<!-- origin: ai -->\n\n## 输入\n\n- `03-子任务执行.md` 的产物（execution_summary + 子任务产出）。\n- 任务定义中的成功、失败和证据条件。\n- 代码测试、外部来源或交叉验证结果。\n\n## 本阶段要交付什么\n\n把 03 的执行产物整理成**事实账本（claim ledger）**并核验：\n\n1. 每个关键 claim 必须有数值/上下文、来源链接、来源类型、日期、适用条件、复核者和状态。\n2. 无来源或无法复核的断言必须标 `uncertain` / `rejected`，不能进入最终推荐。\n3. 并行结果是否存在冲突；Join 输入是否完整。\n4. 本阶段做「验证」（事实账本 + 一致性核验）；**逐源交叉验证在 04.5**。\n\n## 检查\n\n- [ ] 输出覆盖任务定义。\n- [ ] 证据可复现。\n- [ ] 无未声明的副作用。\n- [ ] 并行结果冲突已记录。\n- [ ] Join 输入完整。\n\n## 输出\n\n- 事实账本（claim ledger）：claim / source_url / source_type / checked_by / status。\n- 核验摘要：结论与残余不确定性。\n\n## 必须遵守\n\n1. 阶段编号 `04`；重新验证用 `04-r2`、`04-r3`。\n2. 完成前须派发 evidence-verifier。\n3. 见 `04.5-交叉验证.md`（产出后交叉验证）。\n\n## 分支\n\n- 验证通过：返回 `advance`，进入 `04.5`。\n- 验证失败：返回 `rollback`，创建修复任务或新 plan revision。\n- 信息不足：标记 `blocked_human`。\n- 无 ready 任务：返回 `explore`。\n\n## 结构化结果\n\n```json\n{\n  \"action\": \"advance\",\n  \"status\": \"passed\",\n  \"stage_id\": \"04\",\n  \"revision\": \"r1\",\n  \"next_stage\": \"04.5\",\n  \"payload\": {\n    \"verification\": \"<claim ledger + 核验摘要>\"\n  }\n}\n```\n\n## 2. 本阶段目标（运行时校验）：验证通过且证据充分；应交付：verification_report\n## 3. 仍需填写的字段（只补这些，不必一次交齐）：verification_report\n## 4. 阶段文件（每阶段只产出一对，命名 `0x-rx`，链式传递）\n- **本阶段交付物**：写 `loop-artifacts/04-r1.md`（分析/笔记）与 `loop-artifacts/04-r1.json`（结构化结果，含本阶段字段）。\n- **本阶段输入**：先读上一阶段交付物 `loop-artifacts/03-r1.md` 与 `.json`，再动手（上一阶段输出即本阶段输入）。\n- **提交字段**：把要新增/更新的字段写进本阶段 `.json`（列表，或 `{\"fields\": [...]}`），每条含 `concept / role / attribute / disposition / rationale / evidence_refs / confidence / impact / reversible`；运行 **`ralph field-apply <项目> loop-artifacts/04-r1.json`** 校验并原子落盘（按 `concept` 合并：同 concept 覆盖、新 concept 追加；`{\"concept\": \"...\", \"delete\": true}` 删除）。\n- **推进到下一阶段（关键）**：本阶段字段齐全（无 pending、无未带证据的 research_required）后**必须显式推进**——**只有阶段 01 会自动推进，02+ 不会**，且聊天里输出 `<RALPH_STAGE_RESULT> advance` 无效（运行时不会解析聊天 token）。正确做法：写一份 action 文件 `loop-artifacts/04-r1.advance.json`：\n  ```json\n{\n  \"action\": \"advance\",\n  \"status\": \"completed\",\n  \"stage_id\": \"04\",\n  \"revision\": \"r1\",\n  \"next_stage\": \"04.5\",\n  \"message\": \"完成 验证与交叉验证，推进到 04.5\"\n}\n  ```\n  然后运行 **`ralph apply . loop-artifacts/04-r1.advance.json`**（或 `ralph validate --result loop-artifacts/04-r1.advance.json --apply`）即完成推进；运行时自动校验、原子落盘。\n- **禁止直接 Write/Edit `loop-state.json`**（易损坏导致循环崩溃）；`loop-state.json` 仅供运行时读取。\n- 项目路径可用绝对路径 `/Users/a1-6/Desktop/workspace/projects/D1-gpu-inference-hardware`，或当前目录用 `.`。\n- 状态损坏/需回退：`ralph recover-state <项目>`（或 `--stage <id>` 重置到上一阶段）。\n- 阶段 04 字段齐全后必须运行 `ralph apply . loop-artifacts/04-r1.advance.json` 显式推进，不能只靠聊天输出 advance。\n\n上一轮提示（供参考，不要原样扩写）：上一轮 Claude 已结束；从持久化状态继续，不复述旧 transcript。"
+    }
+  ],
+  "context_mode": "bounded_artifacts",
+  "current_stage_cards": [],
+  "purpose": "供独立阶段门禁审计；不包含 Commander 主对话或隐藏推理。",
+  "stage": {
+    "failure_condition": "发现问题或证据不足",
+    "id": "04",
+    "input_description": "执行产物和验证证据",
+    "name": "验证与交叉验证",
+    "on_failure": "03",
+    "on_success": "04.5",
+    "required_outputs": [
+      "verification_report"
+    ],
+    "revision": "r1",
+    "success_condition": "验证通过且证据充分"
+  },
+  "structured_inputs": {
+    "decision": {},
+    "handoff": {},
+    "last_exploration": null,
+    "plan": {
+      "joins": [],
+      "nodes": [],
+      "parallel_groups": [],
+      "revision": "r1"
+    },
+    "queue": {
+      "blocked_human": [],
+      "candidates": [],
+      "ready": []
+    },
+    "task_intake": null,
+    "task_spec": {
+      "assumptions": [],
+      "attribute_matrix": [
+        {
+          "attribute": "任务描述",
+          "concept": "用户原始任务",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "user:initial_task"
+          ],
+          "impact": "material",
+          "rationale": "用户初始任务输入，作为本阶段已知背景字段。",
+          "reversible": false,
+          "role": "background"
+        },
+        {
+          "attribute": "main.tex 已干净编译，172页PDF，0 error，仅warnings",
+          "concept": "编译状态",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "main.pdf",
+            "main.log"
+          ],
+          "impact": "material",
+          "rationale": "xelatex 3轮稳定输出，无Emergency stop，无error",
+          "reversible": false,
+          "role": "交付物"
+        },
+        {
+          "attribute": "6个文风修缮子任务已分解，含依赖关系和并行组",
+          "concept": "task_graph",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/03-r1-task-graph.json"
+          ],
+          "impact": "material",
+          "rationale": "基于实际文档状态分析：part2/part3/conclusion/appendix 需重写机械reader_anticipation，hyper refs和missing chars需修复",
+          "reversible": false,
+          "role": "交付物"
+        },
+        {
+          "attribute": "20+ tex文件已覆盖，编译错误修复2个文件，文风修缮12个文件待处理",
+          "concept": "coverage_proof",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/03-r1-coverage-proof.json"
+          ],
+          "impact": "material",
+          "rationale": "part1_core_logic不修改（范本），其余所有subfile已列入任务图",
+          "reversible": false,
+          "role": "交付物"
+        }
+      ],
+      "authoritative_inputs": [
+        {
+          "kind": "initial_task",
+          "source": "ralph run",
+          "text": "任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expansion、conclusion/circular_closure、appendix/appendix_V_math，重点修 ①引导读者疑问生硬套路化 ②readingnote/motivation/mathbox/questionbox 等解释性 box 不完善或空壳 ③文风术语排版密度与第一大章不一致；按上述方法论逐项改写使全书连贯。3)产出：可干净编译的 main.pdf + 简短修订说明(列改了哪些章节哪些 box/疑问段重写)。约束：直接编辑本目录 .tex，不另起新文件结构，保持 ctex/xelatex 工具链，本次以 main.tex 为准(main_gift.tex 是变体)。"
+        },
+        {
+          "kind": "human_input",
+          "source": "UserPromptSubmit",
+          "text": "任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expansion、conclusion/circular_closure、appendix/appendix_V_math，重点修 ①引导读者疑问生硬套路化 ②readingnote/motivation/mathbox/questionbox 等解释性 box 不完善或空壳 ③文风术语排版密度与第一大章不一致；按上述方法论逐项改写使全书连贯。3)产出：可干净编译的 main.pdf + 简短修订说明(列改了哪些章节哪些 box/疑问段重写)。约束：直接编辑本目录 .tex，不另起新文件结构，保持 ctex/xelatex 工具链，本次以 main.tex 为准(main_gift.tex 是变体)。"
+        },
+        {
+          "kind": "human_input",
+          "source": "UserPromptSubmit",
+          "text": "# RALPH 字段中心 · 阶段提醒（02-r1 · 未知信息调研）\n当前任务：任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expans\n[… 已截断，完整内容在 loop-state.json …]\n\n## 1. 本阶段方法论（来自阶段 prompt 文件；**直接改该文件即可调整本阶段行为**，无需动运行时代码）\n# 02 未知信息调研（逐个未知词派 subagent 调研）\n\n<!-- origin: ai -->\n\n## 输入\n\n- 上一阶段交付物：`loop-artifacts/01-r1.md` / `01-r1.json`。\n- 其中 `unknown` 字段里的**每一个词语**，就是一个独立的待调研项。\n- 灵魂默认决策画像（`AGENTS.md` 默认偏好）。\n\n## 本阶段交付物（每阶段只一对文件，命名 `0x-rx`，链式传递）\n\n- `loop-artifacts/02-r1.json`：**你只需写这个**——每个未知词调研后产出的字段（用 `ralph field-apply <项目> loop-artifacts/02-r1.json` 落盘）。\n- `loop-artifacts/02-r1.md`：可读性 Markdown，**由 `ralph render` / field-apply 自动从 JSON 生成，你不必手写**。\n- **下一阶段（02.5）的输入就是本阶段的 `02-r1.json`**（需人读版看同目录 `.md`）。\n\n## Commander 的工作（极简：只编排，不调研）\n\nCommander 是**薄分发器**，几乎不干活：\n\n1. 从 `01-r1.json` 的 `unknown` 字段取出每个未知词，逐个处理。\n2. 对**单个未知词**，派一个窄调研 subagent，把「调研 prompt（见下）」连同该**单个未知词**一起交给它。\n3. subagent 返回只含那一个字段的 JSON，Commander 用 `ralph field-apply <项目> <单字段文件>` 落盘。\n4. 所有 `unknown` 词处理完即本阶段完成，** Commander 自己不写任何调研内容、不查证据**。\n\n> 给主 agent 的提示只需：**命令 + 单个未知因素字段**。\n> 示例：`ralph field-apply <项目> <文件>`，文件内仅 `{concept:\"<单个未知词>\", ...}`。\n\n## 给 subagent 的调研 prompt（这才是真正的调研指令）\n\n> 你只负责调研**一个**未知词。请直接联网搜索 **不加年份** 的关键词（描述事实本身，如「H100 HBM3e 带宽」「GPU 互联 NVLink 带宽」），拿到**当前最新**的官方规格 / 论文 / 基准 / 厂商文档。\n> 产出**只含这一个字段**的 JSON，必须带回 `evidence_refs`（URL）与 `confidence`：\n> `{concept, role:\"未知\", attribute, disposition:\"confirmed\"|\"assumed_default\", rationale, evidence_refs:[...], confidence, impact, reversible}`。\n> 不要读无关文档，不要产出其他字段。\n\n## 字段表怎么填（通过 `ralph field-apply`，禁止直接写 loop-state.json）\n\n- 每个未知词调研完，写成一条字段 JSON，运行 `ralph field-apply <项目> <单字段文件>`：校验通过才原子落盘（按 `concept` 合并；`{\"concept\":\"...\",\"delete\":true}` 删除）。\n- 可累积多条后一次性 `field-apply`，但每条必须带 `evidence_refs`。\n\n## 检查\n\n- [ ] `unknown` 中每个词都已派 subagent 调研并带回 `evidence_refs`。\n- [ ] 无未带证据的 `research_required` / `unknown` 字段残留。\n- [ ] 调研引出的新未知已被消化（无 `pending`）。\n\n## 分支\n\n- 通过：输出 `advance` 进入 `02.5`（字段完整后也可等待运行时推进）。\n- 等待人类：返回 `blocked_human`（仅限「项目/环境无答案、会改变硬可行性」的项）。\n\n## 必须遵守\n\n1. 阶段编号 `02`；重新调研用 `02-r2`。\n2. **Commander 不调研、不查证据、不写调研内容**，只派 subagent + field-apply；调研指令在给 subagent 的 prompt 里。\n3. 搜索不加年份，确保拿到最新结果。\n4. 本阶段只做调研与证据补齐，**不做交叉验证**（交叉验证在 02.5）。\n\n## 2. 本阶段目标（运行时校验）：所有 research_required 字段已调研带回 evidence_refs，无未带证据的调研字段；应交付：research_findings\n## 3. 仍需填写的字段（只补这些，不必一次交齐）：research_findings\n## 4. 阶段文件（每阶段只产出一对，命名 `0x-rx`，链式传递）\n- **本阶段交付物**：写 `loop-artifacts/02-r1.md`（分析/笔记）与 `loop-artifacts/02-r1.json`（结构化结果，含本阶段字段）。\n- **本阶段输入**：先读上一阶段交付物 `loop-artifacts/01-r1.md` 与 `.json`，再动手（上一阶段输出即本阶段输入）。\n- **提交字段**：把要新增/更新的字段写进本阶段 `.json`（列表，或 `{\"fields\": [...]}`），每条含 `concept / role / attribute / disposition / rationale / evidence_refs / confidence / impact / reversible`；运行 **`ralph field-apply <项目> loop-artifacts/02-r1.json`** 校验并原子落盘（按 `concept` 合并：同 concept 覆盖、新 concept 追加；`{\"concept\": \"...\", \"delete\": true}` 删除）。\n- **推进到下一阶段（关键）**：本阶段字段齐全（无 pending、无未带证据的 research_required）后**必须显式推进**——**只有阶段 01 会自动推进，02+ 不会**，且聊天里输出 `<RALPH_STAGE_RESULT> advance` 无效（运行时不会解析聊天 token）。正确做法：写一份 action 文件 `loop-artifacts/02-r1.advance.json`：\n  ```json\n{\n  \"action\": \"advance\",\n  \"status\": \"completed\",\n  \"stage_id\": \"02\",\n  \"revision\": \"r1\",\n  \"next_stage\": \"02.5\",\n  \"message\": \"完成 未知信息调研，推进到 02.5\"\n}\n  ```\n  然后运行 **`ralph apply . loop-artifacts/02-r1.advance.json`**（或 `ralph validate --result loop-artifacts/02-r1.advance.json --apply`）即完成推进；运行时自动校验、原子落盘。\n- **禁止直接 Write/Edit `loop-state.json`**（易损坏导致循环崩溃）；`loop-state.json` 仅供运行时读取。\n- 项目路径可用绝对路径 `/Users/a1-6/Desktop/workspace/projects/D1-gpu-inference-hardware`，或当前目录用 `.`。\n- 状态损坏/需回退：`ralph recover-state <项目>`（或 `--stage <id>` 重置到上一阶段）。\n- 阶段 02 字段齐全后必须运行 `ralph apply . loop-artifacts/02-r1.advance.json` 显式推进，不能只靠聊天输出 advance。\n\n上一轮提示（供参考，不要原样扩写）：上一轮 Claude 已结束；从持久化状态继续，不复述旧 transcript。"
+        },
+        {
+          "kind": "human_input",
+          "source": "UserPromptSubmit",
+          "text": "# RALPH 字段中心 · 阶段提醒（04-r1 · 验证与交叉验证）\n当前任务：任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expans\n[… 已截断，完整内容在 loop-state.json …]\n\n## 1. 本阶段方法论（来自阶段 prompt 文件；**直接改该文件即可调整本阶段行为**，无需动运行时代码）\n# 04 验证与交叉验证\n\n<!-- origin: ai -->\n\n## 输入\n\n- `03-子任务执行.md` 的产物（execution_summary + 子任务产出）。\n- 任务定义中的成功、失败和证据条件。\n- 代码测试、外部来源或交叉验证结果。\n\n## 本阶段要交付什么\n\n把 03 的执行产物整理成**事实账本（claim ledger）**并核验：\n\n1. 每个关键 claim 必须有数值/上下文、来源链接、来源类型、日期、适用条件、复核者和状态。\n2. 无来源或无法复核的断言必须标 `uncertain` / `rejected`，不能进入最终推荐。\n3. 并行结果是否存在冲突；Join 输入是否完整。\n4. 本阶段做「验证」（事实账本 + 一致性核验）；**逐源交叉验证在 04.5**。\n\n## 检查\n\n- [ ] 输出覆盖任务定义。\n- [ ] 证据可复现。\n- [ ] 无未声明的副作用。\n- [ ] 并行结果冲突已记录。\n- [ ] Join 输入完整。\n\n## 输出\n\n- 事实账本（claim ledger）：claim / source_url / source_type / checked_by / status。\n- 核验摘要：结论与残余不确定性。\n\n## 必须遵守\n\n1. 阶段编号 `04`；重新验证用 `04-r2`、`04-r3`。\n2. 完成前须派发 evidence-verifier。\n3. 见 `04.5-交叉验证.md`（产出后交叉验证）。\n\n## 分支\n\n- 验证通过：返回 `advance`，进入 `04.5`。\n- 验证失败：返回 `rollback`，创建修复任务或新 plan revision。\n- 信息不足：标记 `blocked_human`。\n- 无 ready 任务：返回 `explore`。\n\n## 结构化结果\n\n```json\n{\n  \"action\": \"advance\",\n  \"status\": \"passed\",\n  \"stage_id\": \"04\",\n  \"revision\": \"r1\",\n  \"next_stage\": \"04.5\",\n  \"payload\": {\n    \"verification\": \"<claim ledger + 核验摘要>\"\n  }\n}\n```\n\n## 2. 本阶段目标（运行时校验）：验证通过且证据充分；应交付：verification_report\n## 3. 仍需填写的字段（只补这些，不必一次交齐）：verification_report\n## 4. 阶段文件（每阶段只产出一对，命名 `0x-rx`，链式传递）\n- **本阶段交付物**：写 `loop-artifacts/04-r1.md`（分析/笔记）与 `loop-artifacts/04-r1.json`（结构化结果，含本阶段字段）。\n- **本阶段输入**：先读上一阶段交付物 `loop-artifacts/03-r1.md` 与 `.json`，再动手（上一阶段输出即本阶段输入）。\n- **提交字段**：把要新增/更新的字段写进本阶段 `.json`（列表，或 `{\"fields\": [...]}`），每条含 `concept / role / attribute / disposition / rationale / evidence_refs / confidence / impact / reversible`；运行 **`ralph field-apply <项目> loop-artifacts/04-r1.json`** 校验并原子落盘（按 `concept` 合并：同 concept 覆盖、新 concept 追加；`{\"concept\": \"...\", \"delete\": true}` 删除）。\n- **推进到下一阶段（关键）**：本阶段字段齐全（无 pending、无未带证据的 research_required）后**必须显式推进**——**只有阶段 01 会自动推进，02+ 不会**，且聊天里输出 `<RALPH_STAGE_RESULT> advance` 无效（运行时不会解析聊天 token）。正确做法：写一份 action 文件 `loop-artifacts/04-r1.advance.json`：\n  ```json\n{\n  \"action\": \"advance\",\n  \"status\": \"completed\",\n  \"stage_id\": \"04\",\n  \"revision\": \"r1\",\n  \"next_stage\": \"04.5\",\n  \"message\": \"完成 验证与交叉验证，推进到 04.5\"\n}\n  ```\n  然后运行 **`ralph apply . loop-artifacts/04-r1.advance.json`**（或 `ralph validate --result loop-artifacts/04-r1.advance.json --apply`）即完成推进；运行时自动校验、原子落盘。\n- **禁止直接 Write/Edit `loop-state.json`**（易损坏导致循环崩溃）；`loop-state.json` 仅供运行时读取。\n- 项目路径可用绝对路径 `/Users/a1-6/Desktop/workspace/projects/D1-gpu-inference-hardware`，或当前目录用 `.`。\n- 状态损坏/需回退：`ralph recover-state <项目>`（或 `--stage <id>` 重置到上一阶段）。\n- 阶段 04 字段齐全后必须运行 `ralph apply . loop-artifacts/04-r1.advance.json` 显式推进，不能只靠聊天输出 advance。\n\n上一轮提示（供参考，不要原样扩写）：上一轮 Claude 已结束；从持久化状态继续，不复述旧 transcript。"
+        }
+      ],
+      "constraints": [],
+      "note_02": "01-r1.json 无 unknown 字段、无 research_required 字段，本阶段无需调研。阶段 02 成功条件自然满足。",
+      "open_questions": [],
+      "research_findings": [],
+      "scenarios": [],
+      "semantic_map": {},
+      "status": "unclarified",
+      "success_criteria": []
+    },
+    "verification": {}
+  },
+  "submission_template_ref": "loop-artifacts/contracts/04-r1-submission-template.json",
+  "task": {
+    "description": "任务：《动机社会》(main.tex，ctex+xelatex 中文书稿)做成可干净编译的成品并统一文风。0)前置必读(动手改任何 .tex 前必须通读，严格继承、不要凭空设计风格)：① 补充材料/写作 ChatGPT-20260310-184648-目录快照 · 2026_3_10 18_40_24_副本.md —— 含模块A–G标准写作模板、读者行为预测、对比表格规范、留白钩子、严格/通俗双轨工程规范；② 根目录 WRITING_PLAN.md、quality_assurance.md、chapter_edit_template.md、detailed_decomposition.md；③ main.tex 里已有的对比表格/tcolorbox 宏包定义(禁止另造宏)。part1_core_logic 的 .tex 是这些规范的 concrete 范本，对照阅读，不要改 part1。1)编译：用 xelatex 编译 main.tex，修复全部编译错误(未定义引用/缺失 subfile/TikZ 与 tcolorbox 环境未定义/字体缺失等)直到无 error 生成 main.pdf，warning 尽量清理；缺包用 TinyTeX(~/Library/TinyTeX)自行安装。2)修缮后续 AI 机械生成章节：part2_geological_determinism、part3_systematic_expansion、conclusion/circular_closure、appendix/appendix_V_math，重点修 ①引导读者疑问生硬套路化 ②readingnote/motivation/mathbox/questionbox 等解释性 box 不完善或空壳 ③文风术语排版密度与第一大章不一致；按上述方法论逐项改写使全书连贯。3)产出：可干净编译的 main.pdf + 简短修订说明(列改了哪些章节哪些 box/疑问段重写)。约束：直接编辑本目录 .tex，不另起新文件结构，保持 ctex/xelatex 工具链，本次以 main.tex 为准(main_gift.tex 是变体)。",
+    "source": "ralph run"
+  }
+}

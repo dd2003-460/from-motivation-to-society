@@ -1,0 +1,263 @@
+% ======================================================================
+% main2.tex —— 《动机社会》重构版独立入口
+% ----------------------------------------------------------------------
+% 本文件是结构重构版（v2）的编译入口。结构与内容权威：
+%   notes/00-architecture.md
+% 原书入口 main.tex 与全部原章节文件保持零改动；本文件只引用
+%   draft/** 下的新章节。
+% 编译：xelatex main2.tex && xelatex main2.tex（两遍，出目录与交叉引用）
+%
+% 字体说明：macOS 下使用与原书 main.tex 完全相同的字体配置
+% （Songti SC / Menlo / Times New Roman / Helvetica / STIX Two Math，
+%  fontset=none）。在非 macOS 环境（Linux 沙箱 / CI）下自动回退到
+% TeX Live 自带字体（Fandol / TeX Gyre / Latin Modern Math），
+% 该回退分支在 macOS 上不会生效。
+% ======================================================================
+\documentclass[openany, a4paper, 12pt]{book}
+
+% ==========================================
+% 1. 基础宏包配置（自 main.tex 复制）
+% ==========================================
+\usepackage[UTF8,fontset=none]{ctex}     % 中文支持（手动指定字体，避免 TinyTeX mac fontset 缺失）
+\IfFontExistsTF{Songti SC}{%
+  % ---- macOS 正式字体配置（与原书 main.tex 完全一致）----
+  \setCJKmainfont{Songti SC}
+  \setCJKsansfont{Songti SC}
+  \setCJKmonofont{Menlo}
+  \setmainfont{Times New Roman}
+  \setsansfont{Helvetica}
+  \setmonofont{Menlo}
+}{%
+  % ---- 非 macOS 回退（沙箱/CI 编译验证用；macOS 上自动走上面的分支）----
+  \setCJKmainfont[Extension=otf,BoldFont=FandolSong-Bold,ItalicFont=FandolKai-Regular]{FandolSong-Regular}
+  \setCJKsansfont[Extension=otf,AutoFakeBold=2.2]{FandolHei-Regular}
+  \setCJKmonofont[Extension=otf,AutoFakeBold=2.2]{FandolFang-Regular}
+  \setmainfont{texgyretermes}[
+    Extension=.otf,
+    UprightFont=*-regular,
+    BoldFont=*-bold,
+    ItalicFont=*-italic,
+    BoldItalicFont=*-bolditalic]
+  \setsansfont{texgyreheros}[
+    Extension=.otf,
+    UprightFont=*-regular,
+    BoldFont=*-bold,
+    ItalicFont=*-italic,
+    BoldItalicFont=*-bolditalic]
+  \setmonofont{texgyrecursor}[
+    Extension=.otf,
+    UprightFont=*-regular,
+    BoldFont=*-bold,
+    ItalicFont=*-italic,
+    BoldItalicFont=*-bolditalic]
+}
+\usepackage{unicode-math}
+\IfFontExistsTF{STIX Two Math}{%
+  \setmathfont{STIX Two Math}
+}{%
+  \setmathfont{latinmodern-math.otf}   % 非 macOS 回退
+}
+\usepackage{geometry}       % 页面设置
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fancyhdr}       % 页眉页脚
+\usepackage{hyperref}       % 超链接目录
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=cyan}
+\usepackage{subfiles}       % 子文件支持
+
+% ==========================================
+% 2. 绘图与框图工具 (自 main.tex 复制)
+% ==========================================
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, shadows, calc, fit, trees}
+
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{skins, breakable, theorems}
+
+% 阅读笔记框
+\newtcolorbox{readingnote}{
+	colback=gray!5,
+	colframe=gray!40,
+	boxrule=0.4pt,
+	arc=2mm,
+	left=6pt,
+	right=6pt,
+	top=6pt,
+	bottom=6pt
+}
+
+\newcommand{\xr}{\xrightarrow}
+
+% ==========================================
+% 数学附录 ↔ 正文 链接接口
+% ==========================================
+\newcommand{\mathlink}[2]{%
+	\par\noindent
+	\textcolor{blue}{\small$\rightarrow$ \hyperref[#1]{#2}}%
+	\par
+}
+
+% ==========================================
+% 低频高信息密度强调（写作工程接口）
+% ==========================================
+\newcommand{\lowfreq}[1]{\textbf{\textcolor{red!70!black}{#1}}}
+
+
+% ==========================================
+% 3. 自定义环境定义（自 main.tex 复制）
+% ==========================================
+
+% 定义【逻辑地图】环境
+% 使用 tcolorbox 包装，带有标题和边框
+\newenvironment{logicmap}{
+	\begin{tcolorbox}[
+		colback=blue!5!white,      % 背景色：极淡蓝
+		colframe=blue!50!black,    % 边框色：深蓝
+		title=\textbf{逻辑地图 (Logic Map)}, % 标题
+		fonttitle=\bfseries,
+		sharp corners=south,       % 底部直角
+		boxrule=0.5mm,
+		]
+	\centering
+	}{
+	\end{tcolorbox}
+}
+
+% 定义【写作动机】环境
+% 使用灰色背景强调
+\newenvironment{motivation}{
+	\vspace{0.5em}
+	\begin{tcolorbox}[
+		colback=gray!10,           % 背景色：淡灰
+		colframe=gray!60,          % 边框色：深灰
+		title=\textit{本章动机 (Motivation)},
+		fonttitle=\bfseries,
+		arc=0mm,                   % 直角边框
+		leftrule=3mm               % 左侧加粗
+		]
+		\small \itshape % 字体变小并倾斜
+	}{
+	\end{tcolorbox}
+	\vspace{1em}
+}
+
+% --- 2.4 数学推导盒子 ---
+\newtcolorbox{mathbox}[1]{
+	enhanced,
+	colback=gray!5,
+	colframe=gray!60!black,
+	title=\textbf{数学建模：#1},
+	fonttitle=\small\bfseries\sffamily,
+	leftrule=2mm,
+	breakable
+}
+
+\newtcolorbox{definitionbox}{
+	colback=blue!3!white,
+	colframe=blue!60!black,
+	fonttitle=\bfseries,
+	breakable,
+	enhanced,
+	boxrule=0.8pt,
+	arc=2mm
+}
+\newtcolorbox{questionbox}{
+	colback=red!3!white,
+	colframe=red!60!black,
+	breakable,
+	enhanced,
+	boxrule=0.8pt,
+	arc=2mm
+}
+
+\newtcolorbox{examplebox}{
+	colback=green!3!white,
+	colframe=green!50!black,
+	breakable,
+	enhanced,
+	boxrule=0.8pt,
+	arc=2mm
+}
+
+\newenvironment{reader_anticipation}{
+	\begin{tcolorbox}[colback=yellow!3!white,colframe=yellow!50!black,title=\textit{读者可能还会问},breakable]
+	\begin{itemize}
+}{
+	\end{itemize}
+	\end{tcolorbox}
+}
+
+\usepackage{booktabs}
+
+% ==========================================
+% 4. 书籍信息
+% ==========================================
+\title{\textbf{动机社会：从动机到预测}\\ \large ——社会系统的前向推导与贡献分解（重构版）}
+\author{D·declaim}
+\date{\today}
+
+% ==========================================
+% 5. 正文开始
+% ==========================================
+\begin{document}
+
+	\maketitle      % 生成封面
+
+	\frontmatter
+	\subfile{draft/frontmatter/preface_v2}
+	\tableofcontents % 生成目录
+
+	\mainmatter     % 正文页码开始
+
+	% =================================================================
+	% 引言：新的目标——预测
+	% =================================================================
+	\subfile{draft/part1_motivation_goal/introduction_v2}
+
+	% =================================================================
+	% PART I: 动机与目标——从行为反推到意向
+	% =================================================================
+	\part{动机与目标：从行为反推到意向 (Motivation and Goal)}
+	\subfile{draft/part1_motivation_goal/chapter1_motivation}
+	\subfile{draft/part1_motivation_goal/chapter2_goal}
+
+	% =================================================================
+	% PART II: 演化状态空间（P2 → P3 是硬依赖：条件概率必须定义在状态空间上）
+	% =================================================================
+	\part{演化状态空间：物质、人、相互作用 (The State Space)}
+	\subfile{draft/part2_state_space/chapter3_state_triple}
+	\subfile{draft/part2_state_space/chapter4_survival}
+	\subfile{draft/part2_state_space/chapter5_evolution}
+
+	% =================================================================
+	% PART III: 条件概率与贡献分解（原书断裂点的修复处）
+	% =================================================================
+	\part{条件概率与贡献分解 (Conditional Probability and Contribution)}
+	\subfile{draft/part3_conditional_probability/chapter6_prediction_math}
+	\subfile{draft/part3_conditional_probability/chapter7_contribution}
+
+	% =================================================================
+	% PART IV: 四个通道（嵌套而非并列：每章是上一章「加入一个约束」）
+	% =================================================================
+	\part{四个通道：模因、经济、政治、法律 (Four Channels)}
+	\subfile{draft/part4_channels/chapter8_channel_generator}
+	\subfile{draft/part4_channels/chapter9_meme}
+	\subfile{draft/part4_channels/chapter10_economy}
+	\subfile{draft/part4_channels/chapter11_politics}
+	\subfile{draft/part4_channels/chapter12_law}
+
+	% =================================================================
+	% PART V: 预测与循环（从贡献表到未来走向）
+	% =================================================================
+	\part{预测与循环：从贡献表到未来走向 (Forecast and Loop)}
+	\subfile{draft/part5_backtest/chapter13_forecast}
+	\subfile{draft/part5_backtest/chapter14_closure}
+
+	% =================================================================
+	% 数学附录（v2）
+	% =================================================================
+	\appendix
+	\subfile{draft/appendix/appendix_v2_math}
+
+	\backmatter
+
+\end{document}

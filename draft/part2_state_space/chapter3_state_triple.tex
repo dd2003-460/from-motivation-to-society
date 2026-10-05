@@ -1,0 +1,114 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 原书材料接入点：
+	%   - 原书 part2 ch1（地理决定论）→ §3.1「只写物质够不够」：降级为物质层约束
+	%   - 原书 part1 ch2（结构与效率）→ §3.3「加入相互作用」：结构=相互作用的产物
+	% 本章是原书缺失的「本体论」层：先规定未来由什么构成，概率才有定义空间。
+	% ======================================================================
+
+	\chapter{状态三元组：物质、人、相互作用}
+	\label{ch:state}
+
+	\begin{motivation}
+		上一章遗留的问题：目标函数不可观测、反推不唯一，我们退到了概率——但概率脚下必须有地面。「未来由什么构成」没有被规定之前，$P(\text{未来})$ 只是空转的符号。\\
+		\textbf{核心动机}：给「未来」规定最小构成——物质、人、相互作用——并论证这个三元组的闭包性：任何「X 决定论」都只是三元组中某一项的权重问题。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=0.9cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {「未来」说的是什么在变？};
+	\node (m) [below=of q] {物质（§3.1）};
+	\node (p) [below=of m] {人（§3.2）};
+	\node (i) [below=of p] {相互作用（§3.3）};
+	\node (c) [below=of i] {闭包性：三个就够（§3.4）};
+	\node (n) [below=of c] {边界与引擎（抛给第4、5章）};
+	\draw[-{Stealth}] (q) -- (m);
+	\draw[-{Stealth}] (m) -- (p);
+	\draw[-{Stealth}] (p) -- (i);
+	\draw[-{Stealth}] (i) -- (c);
+	\draw[-{Stealth}] (c) -- (n);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{只写「物质」够不够}
+	\label{sec:state-material}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】先复现原书的物质决定论：地理能解释制度吗？→ 能，但它解释不了「同一地理下不同制度」。差异从哪来？→ 不在物质层 → 引出 §3.2「加入人」。}}
+
+	\textcolor{gray}{（正文待写：复现原书 part2 ch1 的地理论证作为物质层；用「同一地理、不同制度」的反例击穿单层充分性。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么同在一条河的两岸，会活出两种制度？）}
+	\end{readingnote}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）地理决定论为什么被降级而不是删除？→ §3.4 闭包性：它变成三元组中的一项。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）我们已经看到物质层解释约束、解释不了差异。但差异需要一个载体——它从哪来？下一节「加入人」将引入三元组的第二项。}
+
+	% ==================================================================
+	\section{加入「人」}
+	\label{sec:state-people}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】人不是物质，是「有目标的物质」——第2章的目标函数在此获得本体位置。人的加入带来的是偏好差异。偏好差异从哪来？→ 本节只安放、不解决（模因层，第9章）。}}
+
+	\textcolor{gray}{（正文待写：用「加入一个约束」句式从物质中分离出人；偏好差异作为状态变量进入空间。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）我们有了有目标的物质。但有目标的物质各自为政，还构不成社会——它们之间得发生点什么。下一节「加入相互作用」补上第三项。}
+
+	% ==================================================================
+	\section{加入「相互作用」}
+	\label{sec:state-interaction}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】人与人、人与物质之间的互动，其产物叫结构（原书 part1 ch2「结构与效率」在此接入：结构如何自我维持）。结构和目标谁先？→ 一起决定——结构是筛选后的稳态（第1章 §1.2 的结论在此升级为定义）。}}
+
+	\textcolor{gray}{（正文待写：相互作用的形式（交换、模仿、强制、协作）；结构 = 相互作用的沉淀物。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）相互作用的两种数学形态是什么？→ 第5章 §5.2：有压扩增 vs 无压扩增。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）三元到齐。但凭什么不需要第四个元素？下一节「三元组的闭包性」给出封闭性论证。}
+
+	% ==================================================================
+	\section{三元组的闭包性}
+	\label{sec:state-closure}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】追问：还需要第四个元素吗？→ 用封闭性论证说明三元组已足够：任何「X 决定论」（技术决定论、文化决定论、地理决定论……）都可归约为三元组中某项的权重问题。真的够了吗？→ 够，但要诚实承认：权重是可变的。}}
+
+	\textcolor{gray}{（正文待写：闭包论证 + 各决定论的归约表；\lowfreq 标注：闭包性是工作假设而非定理。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）我们已经有了状态空间：物质、人、相互作用。但这份清单是静态的——它凭什么不散架、又怎么动起来？缺两样东西：一条所有目标都压不过去的边界（人存），和一个让状态变化的引擎（演化）。下一章先处理边界。}
+
+	% ==================================================================
+	\section{本章小结与衔接}
+	\label{sec:state-summary}
+
+	\textcolor{gray}{（正文待写：收束三元组；预告 Part II 剩余两章：边界（第4章人存）与引擎（第5章演化）。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）状态有了，但「未来」还不能动。第4章「人存：唯一不可协商的约束」将给出状态空间的硬边界——所有目标函数的公共约束域。}
+
+\end{document}

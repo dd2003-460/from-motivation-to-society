@@ -1,0 +1,115 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 本章是原书断裂点的修复处：
+	%   原书附录 V.3 把 P(结果|原因) 与 P(原因|结果) 两个方向混用，
+	%   且 V.2（空间正交化）与 V.3（因果条件概率）不同构。
+	%   新结构：统一因果方向（只用 P(未来|现在)），并把本体论（Part II）
+	%   放在概率论之前。见 notes/00-architecture.md P3 ch6。
+	% ======================================================================
+
+	\chapter{预测的数学形式：从结果反推条件}
+	\label{ch:prediction}
+
+	\begin{motivation}
+		上一章遗留的问题：演化是随机的，「可预测窗口」又划出了边界——那「预测」到底在预测什么？第2章末尾我们退到了概率，但概率的公式至今没有写出来。\\
+		\textbf{核心动机}：把「预测未来」写成数学——$P(\text{未来} \mid \text{现在})$，且只用一个因果方向。这是原书断裂点（附录 V.2 $\rightarrow$ V.3）的正式修复。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=0.9cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {预测 = 什么？};
+	\node (c) [below=of q] {条件概率，不是预言（§6.1）};
+	\node (d) [below=of c] {因果方向：只用 $P(\text{果} \mid \text{因})$（§6.2）};
+	\node (p) [below=of d] {链的乘积分解（§6.3）};
+	\node (r) [below=of p] {冗余与短板效应（§6.4）};
+	\node (n) [below=of r] {多因问题（抛给第7章）};
+	\draw[-{Stealth}] (q) -- (c);
+	\draw[-{Stealth}] (c) -- (d);
+	\draw[-{Stealth}] (d) -- (p);
+	\draw[-{Stealth}] (p) -- (r);
+	\draw[-{Stealth}] (r) -- (n);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{预测 = 条件概率，不是预言}
+	\label{sec:pred-prob}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】$P(\text{未来} \mid \text{现在})$。诚实说明：这不是「预知」，是「概率断言」。为什么不是预言？→ 因为未来依赖未观测的初值与随机扰动（第5章的可预测窗口）。}}
+
+	\textcolor{gray}{（正文待写：气象学家 vs 巫师的技术版本；概率断言的可检验性在频率里，不在单例里。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么保险公司从不预言谁的死期，却是全人类最会算「死」的公司？）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）概率断言定了，但条件概率有两个方向。选哪个？下一节「因果方向的选择」做出本书最重要的一次方法论决定。}
+
+	% ==================================================================
+	\section{因果方向的选择}
+	\label{sec:pred-direction}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】$P(\text{结果} \mid \text{原因})$ 还是 $P(\text{原因} \mid \text{结果})$？→ 本书选前者。原书附录 V.3 用了两个方向的混合，这正是断裂点。选前者的代价？→ 需要因果假设，不能纯从数据得——诚实面对。}}
+
+	\textcolor{gray}{（正文待写：医生诊断（果推因）与政策评估（因推果）的对照；贝叶斯翻转 $P(A \mid B) = P(B \mid A)P(A)/P(B)$ 只在两个方向都要用时才引入，且必须显式声明先验的来源。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\begin{questionbox}
+		\textcolor{gray}{（待写：反驳位——「历史学全是果推因，按这个说法历史学都不成立？」回答：成立但不完备——果推因给出的是候选原因集（第1章 §1.3 的多一映射），定贡献必须回到因推果。）}
+	\end{questionbox}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）方向定了。但现实里从现在到未来隔着长长的一串环节。下一节「链条的乘积分解」把长链拆成可测量的接口。}
+
+	% ==================================================================
+	\section{链条的乘积分解}
+	\label{sec:pred-chain}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】沿因果链 $C_1 \to C_2 \to \cdots \to C_n \to R$，$P(R \mid C_0) = \prod_k P(C_k \mid C_{k-1})$。每一步都是一个可测量的接口。为什么要分解成乘积？→ 因为要归因：只有把链拆开，才能定位每个环节的贡献。}}
+
+	\textcolor{gray}{（正文待写：mathbox 正式推导（见附录 A.2）；「接口」的日常例子——供应链每一环的良率相乘；与第13章 §13.2 的通道贡献组装互相指向。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）乘积分解的严格推导与边界条件？→ 附录 A.2。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）链条拆开了。但每个因子的可靠性不同——最弱的一环会怎样？下一节「冗余与稳健性」给出短板效应。}
+
+	% ==================================================================
+	\section{冗余与稳健性}
+	\label{sec:pred-redundancy}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】如果某个 $P_k$ 很小，整条链会怎样？→ 短板效应：整链概率被最弱环节压死。这就是「历史关键杠杆点」的形式定义。短板怎么补？→ 冗余——并联备份让单点失效不再致命。}}
+
+	\textcolor{gray}{（正文待写：$\prod_k P_k \le \min_k P_k$ 的直觉版；杠杆点与冗余的政治学例子（继任制度、粮道、备份系统）。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）单链会算了。但现实从不排队——A 和 B 同时作用怎么办？第7章「贡献分解」正面处理多因一果。}
+
+	% ==================================================================
+	\section{本章小结与衔接}
+	\label{sec:pred-summary}
+
+	\textcolor{gray}{（正文待写：收束——预测 = 单一方向的条件概率 + 乘积链 + 短板效应。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）我们能算单链的概率了。但「各占多少」还没有定义。第7章「贡献分解：条件概率差」用 $C_A = P(D \mid A) - P(D \mid \neg A)$ 给出全书最重要的一个量。}
+
+\end{document}

@@ -1,0 +1,106 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 本章是全书最重要的技术内容（notes/arena-prompt.md 任务卡 B）：
+	%   §7.3 多因一果的交互项必须显式处理，给出 Shapley 值 / 边际贡献
+	%   排序两种方案并说明选择理由；不许糊弄。
+	% 原书 part3 ch4（法律）的条件概率定责逻辑拆分后在此接入。
+	% ======================================================================
+
+	\chapter{贡献分解：条件概率差}
+	\label{ch:contribution}
+
+	\begin{motivation}
+		上一章遗留的问题：单链的概率会算了，但现实里 A 和 B 同时作用——各占多少？这是原书 part3 ch4 里那个「不够精确」问题的正式答案所在。\\
+		\textbf{核心动机}：给出「贡献」的操作性定义 $C_A = P(D \mid A) - P(D \mid \neg A)$，处理多因一果的交互项，并诚实标注这个方法的全部边界。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=0.9cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {A 和 B 都有份，各占多少？};
+	\node (d) [below=of q] {贡献 = 条件概率差（§7.1）};
+	\node (i) [below=of d] {可干预性 = 因果的定义（§7.2）};
+	\node (m) [below=of i] {多因一果：交互项显式（§7.3）};
+	\node (n) [below=of m] {归一化：份额与警示（§7.4）};
+	\node (t) [below=of n] {通道（抛给 Part IV）};
+	\draw[-{Stealth}] (q) -- (d);
+	\draw[-{Stealth}] (d) -- (i);
+	\draw[-{Stealth}] (i) -- (m);
+	\draw[-{Stealth}] (m) -- (n);
+	\draw[-{Stealth}] (n) -- (t);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{从「有/无」到定量}
+	\label{sec:contrib-def}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】$C_A = P(D \mid A) - P(D \mid \neg A)$。先讲清这个式子在做什么：反事实对比——「有 A 的世界」对「没有 A 的世界」。为什么这个差值有意义？→ 因为它是可干预的量：改变 A 的存在与否，这个差就是行为的杠杆。}}
+
+	\textcolor{gray}{（正文待写：反事实推演是预测的最小单元（引言的承诺在此兑现）；「如果当初没有 X」= 计算一个 $C_X$。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么法庭问的是「如果他没有开枪，死者还会死吗」，而不是「他是不是坏人」？）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）反事实差定义好了。但它凭什么配叫「因果」？下一节「可干预性」把这个定义焊死。}
+
+	% ==================================================================
+	\section{可干预性 = 因果的定义}
+	\label{sec:contrib-intervene}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】$C_A \neq 0 \iff$ A 对 D 有因果作用。这是本书对「因果」的操作性定义。观察性数据能算吗？→ 只能估，不能保证——混杂因子会把 $C_A$ 污染，诚实列出。}}
+
+	\textcolor{gray}{（正文待写：干预 do(A) 与观察 P(A|D) 的区别（辛普森悖论一例）；「我们能说什么/不能说什么」分列。）}
+
+	\begin{questionbox}
+		\textcolor{gray}{（待写：反驳位——「历史不能做实验，这套工具对历史无用？」回答：不能干预，但可以比较——自然实验与断点案例是把观察逼近干预的手段；第13章 §13.3 演示。）}
+	\end{questionbox}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）单因会算了。但 A 和 B 同时在场上，且互相纠缠——下一节「多因一果的分配」处理全书最难的诚实问题。}
+
+	% ==================================================================
+	\section{多因一果的分配}
+	\label{sec:contrib-interaction}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】A、B 同时作用且有交互项。诚实处理：$C_A + C_B \neq$ 总效应，交互项必须显式。交互项归谁？→ 两种方案：Shapley 值（对称分摊）或边际贡献排序（保序不保量）；说明选择理由与各自代价。}}
+
+	\textcolor{gray}{（正文待写：mathbox——交互项 $I_{AB}$ 的定义与两种归因方案的公式（附录 A.3/A.4）；「不许假装交互项可以随便分掉」。）}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）Shapley 值与交互项的严格推导？→ 附录 A.3、A.4。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）贡献可以算了，但数字读起来不友好。下一节「归一化与可读性」把贡献变成份额——并付出代价。}
+
+	% ==================================================================
+	\section{归一化与可读性}
+	\label{sec:contrib-normalize}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】$C_A / \sum_i C_i \to$ 贡献份额。强调这是可解释的，但代价是丢掉绝对量级。丢了量级会怎样？→ 一个全是 1\% 贡献的世界和一个 60\% 贡献的世界，份额表可以长得一模一样——警示必须显式。}}
+
+	\textcolor{gray}{（正文待写：贡献表（booktabs）示例；份额 vs 量级的双列警示。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）分解原则齐了：定义、可干预性、交互项、归一化。但「因素」不能永远是抽象字母——它们具体是什么？Part IV「四个通道」把 A、B、C 填成模因、经济、政治、法律。}
+
+	% ==================================================================
+	\section{本章小结与衔接}
+	\label{sec:contrib-summary}
+
+	\textcolor{gray}{（正文待写：收束全书定量核心；预告 Part IV 的通道将逐个代入 $C$。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）第8章「通道生成器」从「复制还是转移」这个二分出发，把抽象的贡献分解变成可指认的通道。}
+
+\end{document}

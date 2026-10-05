@@ -1,0 +1,108 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 扩增模式标注：本章 = 无压扩增（传播不消耗原体）。
+	% 原书材料接入点：
+	%   - 原书 part3 ch2（文化与民间制度）→ 本章主体
+	%   - 原书 part1 ch3（语言与信息）→ §9.3：语言 = 模因的最高频压缩层
+	%     （从「核心逻辑」降级至此，是有意改动）
+	% ======================================================================
+
+	\chapter{通道一：模因（无压扩增）}
+	\label{ch:meme}
+
+	\begin{motivation}
+		上一章遗留的问题：生成树的第一个节点——不加任何约束的传播长什么样？什么信息会自己传播？\\
+		\textbf{核心动机}：定义模因（meme）并论证其无压属性；确立其关键指标是传播强度（intensity）而非方向（direction）；给出模因通道的贡献分解。\\
+		\textbf{扩增模式}：无压——复制不消耗原体，上限在接收方。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=0.9cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {什么信息会自己传播？};
+	\node (d) [below=of q] {模因定义与判据（§9.1）};
+	\node (s) [below=of d] {传播强度 > 方向正确（§9.2）};
+	\node (l) [below=of s] {语言 = 压缩层（§9.3）};
+	\node (c) [below=of l] {模因的贡献分解（§9.4）};
+	\node (n) [below=of c] {传播要花钱呢？（抛给第10章）};
+	\draw[-{Stealth}] (q) -- (d);
+	\draw[-{Stealth}] (d) -- (s);
+	\draw[-{Stealth}] (s) -- (l);
+	\draw[-{Stealth}] (l) -- (c);
+	\draw[-{Stealth}] (c) -- (n);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{模因的定义与判据}
+	\label{sec:meme-def}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】信息片段、复制不消耗原体、上限是接收方注意力与认知带宽。为什么上限在接收方？→ 因为原体不被消耗——讲一个故事，故事还在讲述者这里。}}
+
+	\textcolor{gray}{（正文待写：定义 + 三判据的可操作化；谣言/口号/Emoji 三个例子。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么谣言永远比辟谣跑得快？）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）模因会自己跑，但跑得快慢由什么决定？下一节「传播强度决定一切」给出沿用原书的答案。}
+
+	% ==================================================================
+	\section{传播强度决定一切}
+	\label{sec:meme-intensity}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】情绪激活度 > 方向正确性（沿用原书：模因传播不问对错，只问强度）。为什么强度优先？→ 因为复制只需要「被接收」，不需要「被验证」。}}
+
+	\textcolor{gray}{（正文待写：三因素（情绪、认知成本、身份认同）；为什么谣言赢在起跑线——验证是接收方的成本，情绪是传播方的燃料。）}
+
+	\begin{questionbox}
+		\textcolor{gray}{（待写：反驳位——「那真相就没救了？」回答：真相必须模因化才能传播（科学传播的教训）；这与第10章的价格失真、第11章的认同逻辑同构。）}
+	\end{questionbox}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）传播强度讲了「什么在跑」，还没讲「跑的容器长什么样」。下一节「语言作为压缩层」把原书第3章（语言与信息）接进来。}
+
+	% ==================================================================
+	\section{语言作为压缩层}
+	\label{sec:meme-language}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】原书 part1 ch3 的位置：从「核心逻辑」降到「模因的最高频压缩层」。为什么语言在模因之下？→ 因为它是一套被优化的压缩协议——高频短编码、变长编码，都是传播效率的选择。}}
+
+	\textcolor{gray}{（正文待写：高频词短、低频词长（变长编码）的日常证据；文学 = 压缩的极致形式（原书结论的压缩重述）；\lowfreq 标注类比边界。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）压缩与频率的严格形式？→ 原书附录 V.2 的信息论部分（前身的处理）+ 本版附录 A.5 的边界说明。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）模因的生成、传播、容器都齐了。还差最后一块：它在结果里占多少？下一节「模因的贡献分解」。}
+
+	% ==================================================================
+	\section{模因的贡献分解}
+	\label{sec:meme-contribution}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】$C_{\text{模因}} = P(D \mid \text{模因传播}) - P(D \mid \neg \text{模因传播})$。模因贡献多大？→ 依对象而定，不能一概而论——诚实列出模因贡献被高估与低估的典型情形。}}
+
+	\textcolor{gray}{（正文待写：代入第7章框架；例子（一次口号动员对一场选举的边际贡献）；观察数据只能估的警告。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）模因传播不消耗资源——这是它无压、也因此无价的性质。但如果一种传播\textbf{必须}消耗稀缺资源呢？第10章「通道二：经济」处理生成树上的第二个节点。}
+
+	% ==================================================================
+	\section{本章小结与衔接}
+	\label{sec:meme-summary}
+
+	\textcolor{gray}{（正文待写：收束——无压通道的完整画像；「传播不消耗原体」既是模因的力量，也是它定量上的软肋。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）第10章「通道二：经济（模因 + 稀缺约束）」：加入稀缺约束的那一刻，无压扩增变成有压扩增——经济从文化中分离出来。}
+
+\end{document}

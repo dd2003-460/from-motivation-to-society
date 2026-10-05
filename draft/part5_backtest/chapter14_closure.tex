@@ -1,0 +1,74 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 原书材料接入点：
+	%   - 原书 conclusion（循环的闭合）→ 本章，升级为「预测 → 新动机」闭环
+	% ======================================================================
+
+	\chapter{循环的闭合：未来塑造新的动机}
+	\label{ch:closure}
+
+	\begin{motivation}
+		上一章遗留的问题：预测的方法与边界都交代了。但预测不是旁观——一份被足够多人相信的预测，会改变被预测的世界本身。我们预测出的未来，会不会反过来塑造新的动机？\\
+		\textbf{核心动机}：闭合全书——预测的结果回流为下一轮的动机与目标（P5 $\to$ P1 的循环边）；并给出一句诚实的总结：这本书给出的是结构，不是预言。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=1.0cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {预测会改变世界吗？};
+	\node (s) [below=of q] {自指与预期（§14.1）};
+	\node (b) [below=of s] {回到 Part I（§14.2）};
+	\node (e) [below=of b] {结语：结构，不是预言（§14.3）};
+	\node (l) [left=1.8cm of b] {Part I\\动机与目标};
+	\draw[-{Stealth}] (q) -- (s);
+	\draw[-{Stealth}] (s) -- (b);
+	\draw[-{Stealth}] (b) -- (e);
+	\draw[-{Stealth}, dashed] (b) -- (l);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{自指与预期}
+	\label{sec:cl-selfreference}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】预期本身改变结果——自证预言（self-fulfilling prophecy）与自否预言（沿用原书 loop 概念）。预期实现了吗？→ 可能自我实现，也可能自我否定：银行挤兑与「不会被挤兑」的公告。}}
+
+	\textcolor{gray}{（正文待写：自证/自否的机制与不对称性；预测被公开后的反身性——这给第13章的方法加上一条第 6 种失败模式：预测改变初值。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么「我看空银行」这条推特本身就能让银行出事？）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）预测改变动机、动机改变行为、行为改变结果——这条回流的终点在哪？下一节「回到 Part I」把循环焊上。}
+
+	% ==================================================================
+	\section{回到 Part I}
+	\label{sec:cl-return}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】第13章的预测结果成为新一轮的动机输入：P5 $\to$ P1，闭环成立。循环有终点吗？→ 有——第5章可预测窗口的两端：完全冻结与完全混沌都不再产生「新动机」。}}
+
+	\textcolor{gray}{（正文待写：闭环的完整一圈（动机 $\to$ 目标 $\to$ 状态 $\to$ 概率 $\to$ 贡献 $\to$ 通道 $\to$ 预测 $\to$ 新动机）；循环不是圆圈而是螺旋：每圈的状态空间都被上一圈改写（呼应原书「人化自然」。）}
+
+	\begin{questionbox}
+		\textcolor{gray}{（待写：反驳位——「循环解释一切，等于什么都没解释？」回答：循环不是解释，是结构声明——每个箭头都有独立的定义与度量（第1--13章），循环只是把它们首尾相接。）}
+	\end{questionbox}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）循环闭合了。最后一节，把全书压成一句诚实的话。}
+
+	% ==================================================================
+	\section{结语：结构，不是预言}
+	\label{sec:cl-coda}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】一句诚实的总结：这本书给出的是结构，不是预言。它能告诉你「哪几个因素在起作用、各占多少」，不能告诉你「明天会发生什么」。}}
+
+	\textcolor{gray}{（正文待写：回放引言的检验标准（一句话立论）并逐条对账；「我们能说什么/我们不能说什么」终版分列；最后一页：回到第一章那个问「为什么」的小孩。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（终章无下一章。待写：以「循环回到第1章」作结，首尾呼应。）}
+
+\end{document}

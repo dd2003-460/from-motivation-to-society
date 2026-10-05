@@ -29,7 +29,7 @@
 
 	\section{A.0 使用说明与工程声明}
 
-	本附录不是新的论述层，而是对正文关键论断的\textbf{形式化、可核验重写}。阅读方式：按需跳转，每一节通过 \mathlink{} 与正文一一对应；附录中不引入新的经验性主张，仅展开假设、模型与边界。
+	本附录不是新的论述层，而是对正文关键论断的\textbf{形式化、可核验重写}。阅读方式：按需跳转，每一节通过 \texttt{\textbackslash mathlink} 链接与正文一一对应；附录中不引入新的经验性主张，仅展开假设、模型与边界。
 
 	\begin{mathbox}{附录定位与阅读方式}
 		\textbf{定位}：正文（第6、7、12、13章）的定量承诺单。\\[0.4em]
@@ -82,7 +82,7 @@
 		第二步：加入\textbf{链式假设}（一阶马尔可夫）：给定直接前驱，每个环节与更早的历史独立
 		\[ P(C_k \mid C_0, \dots, C_{k-1}) = P(C_k \mid C_{k-1}), \qquad P(R \mid C_0, \dots, C_n) = P(R \mid C_n). \]
 		代入即得
-		\[ P(R \mid C_0) = \prod_{k=1}^{n} P(C_k \mid C_{k-1}) \cdot P(R \mid C_n). \qquad \blacksquare \]
+		\[ P(R \mid C_0) = \prod_{k=1}^{n} P(C_k \mid C_{k-1}) \cdot P(R \mid C_n). \qquad \text{（证毕）} \]
 		\textit{工程意义}：链式假设把 $n{+}1$ 元联合分布压缩为 $n{+}1$ 个二元条件概率——每个 $P(C_k \mid C_{k-1})$ 是一个\textbf{可测量接口}：供应链的良率、审批的通过率、动员的转化率。归因（第7章）因此才有落点。
 	\end{mathbox}
 
@@ -131,8 +131,7 @@
 	\end{mathbox}
 
 	\begin{mathbox}{A.3.3 贡献表（示例格式）}
-		\begin{table}[h]
-		\centering
+		\begin{center}
 		\begin{tabular}{lccc}
 			\toprule
 			因素 & 贡献 $C$ & 份额 $s = C / \sum_i C_i$ & 备注 \\
@@ -145,8 +144,9 @@
 			合计 & $+0.60$ & $1.00$ & \textbf{不含交互项}（见 A.4） \\
 			\bottomrule
 		\end{tabular}
-		\caption{贡献表示例（数字为示意，非实证结果）。注意：份额归一化\textbf{丢失绝对量级}——合计 $0.60$ 与合计 $0.05$ 的两张表，份额列可以完全相同。}
-		\end{table}
+
+		{\small 表注（贡献表示例，数字为示意，非实证结果）：份额归一化\textbf{丢失绝对量级}——合计 $0.60$ 与合计 $0.05$ 的两张表，份额列可以完全相同。}
+		\end{center}
 	\end{mathbox}
 
 	\paragraph*{逻辑衔接}
@@ -159,8 +159,7 @@
 
 	\begin{mathbox}{A.4.1 四格分解}
 		两个因素 $A, B$，一个结果 $D$。全部可干预概率构成 $2 \times 2$ 四格：
-		\begin{table}[h]
-		\centering
+		\begin{center}
 		\begin{tabular}{lcc}
 			\toprule
 			 & $B$ 在场 & $B$ 缺席 \\
@@ -169,8 +168,9 @@
 			$A$ 缺席 & $P(D \mid \neg A, B)$ & $P(D \mid \neg A, \neg B)$ \\
 			\bottomrule
 		\end{tabular}
-		\caption{四格表：多因一果的全部信息都在这四个数里（在干预意义下）。}
-		\end{table}
+
+		{\small 表注：多因一果的全部信息都在这四个数里（在干预意义下）。}
+		\end{center}
 		以 $p_0 = P(D \mid \neg A, \neg B)$ 为基准，定义：
 		\[ c_A = P(D \mid A, \neg B) - p_0, \qquad c_B = P(D \mid \neg A, B) - p_0, \]
 		\[ T = P(D \mid A, B) - p_0 \quad (\text{联合总效应}), \]
@@ -184,7 +184,7 @@
 		\textbf{方案一：Shapley 值（对称分摊）}。$A$ 的 Shapley 贡献：
 		\[ \phi_A = \tfrac{1}{2}\, c_A + \tfrac{1}{2}\, (T - c_B) = c_A + \tfrac{1}{2} I_{AB}, \]
 		\[ \phi_B = c_B + \tfrac{1}{2} I_{AB}, \qquad \phi_A + \phi_B = T. \]
-		性质：交互项对半分摊；贡献恰好配平总效应；$n$ 个因素时推广为对所有加入顺序取平均（组合数 $2^n$ 项）。\\[0.5em]
+		性质：交互项对半分摊；贡献恰好配平总效应；$n$ 个因素时推广为对所有 $n!$ 个加入顺序取平均（等价地对 $2^{\,n-1}$ 个子集求和）。\\[0.5em]
 		\textbf{方案二：边际贡献排序（保序不保量）}。报告 $A$ 的边际贡献\textbf{区间}：
 		\[ \big[\, \min(c_A,\; T - c_B),\;\; \max(c_A,\; T - c_B) \,\big], \]
 		即「另一因素缺席/在场」两种世界里的两个边际值。只承诺排序，不承诺配平。\\[0.5em]

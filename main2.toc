@@ -3,12 +3,12 @@
 \contentsline {section}{\numberline {0.1}钩子：为什么算得最准的人，预测得最离谱}{1}{section.0.1}%
 \contentsline {section}{\numberline {0.2}诊断：他们懂统计，却不懂因果}{2}{section.0.2}%
 \contentsline {section}{\numberline {0.3}承诺：一套从法庭到科学界都在用的工具}{3}{section.0.3}%
-\contentsline {section}{\numberline {0.4}面向读者群体}{3}{section.0.4}%
+\contentsline {section}{\numberline {0.4}面向读者群体}{4}{section.0.4}%
 \contentsline {section}{\numberline {0.5}新结构：从动机到循环}{4}{section.0.5}%
 \contentsline {section}{\numberline {0.6}如何阅读本书}{5}{section.0.6}%
 \contentsline {subsection}{\numberline {0.6.1}线性阅读路径}{5}{subsection.0.6.1}%
 \contentsline {subsection}{\numberline {0.6.2}跳跃阅读路径}{5}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {0.6.3}正向建构与反向学习}{5}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {0.6.3}正向建构与反向学习}{6}{subsection.0.6.3}%
 \contentsline {section}{\numberline {0.7}检验标准：一句话立论}{6}{section.0.7}%
 \contentsline {section}{\numberline {0.8}章节预告}{6}{section.0.8}%
 \contentsline {part}{I\hspace {1em}动机与目标：从行为反推到意向 (Motivation and Goal)}{8}{part.1}%

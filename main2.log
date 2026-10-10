@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.19)  10 OCT 2026 19:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.7.19)  10 OCT 2026 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1225,10 +1225,13 @@ LaTeX Font Warning: Font shape `TU/SongtiSC(0)/m/it' undefined
 [1
 
 
-]
-Underfull \vbox (badness 3396) has occurred while \output is active []
+] [2]
+Missing character: There is no ⟺ (U+27FA) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+[3]
 
- [2] [3] [4] [5] [6]) [7] [8
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5] [6]) [7] [8
 
 ] (./draft/part1_motivation_goal/chapter1_motivation.tex [9]
 Chapter 1.
@@ -1399,10 +1402,10 @@ Package rerunfilecheck Info: File `main2.out' has not changed.
 (rerunfilecheck)             Checksum: D2EE5BEE5A6215E61FC7F53E14C35488;13065.
  ) 
 Here is how much of TeX's memory you used:
- 39514 strings out of 469837
- 941735 string characters out of 5468785
- 1410695 words of memory out of 5000000
- 67750 multiletter control sequences out of 15000+600000
+ 39511 strings out of 469837
+ 941684 string characters out of 5468785
+ 1411748 words of memory out of 5000000
+ 67747 multiletter control sequences out of 15000+600000
  634079 words of font info for 162 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  102i,10n,107p,481b,1156s stack positions out of 10000i,1000n,20000p,200000b,200000s

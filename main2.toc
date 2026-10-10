@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {0.6}如何阅读本书}{5}{section.0.6}%
 \contentsline {subsection}{\numberline {0.6.1}线性阅读路径}{5}{subsection.0.6.1}%
 \contentsline {subsection}{\numberline {0.6.2}跳跃阅读路径}{5}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {0.6.3}正向建构与反向学习}{5}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {0.6.3}正向建构与反向学习}{6}{subsection.0.6.3}%
 \contentsline {section}{\numberline {0.7}检验标准：一句话立论}{6}{section.0.7}%
 \contentsline {section}{\numberline {0.8}章节预告}{6}{section.0.8}%
 \contentsline {part}{I\hspace {1em}动机与目标：从行为反推到意向 (Motivation and Goal)}{8}{part.1}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.10.10)  10 OCT 2026 11:39
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.10.10)  10 OCT 2026 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1438,13 +1438,14 @@ anguage=dflt;mapping=tex-text;' not found.
  [1
 
 
-]
-Underfull \vbox (badness 3312) has occurred while \output is active []
+] [2] [3]
 
- [2]
-[3] [4] [5] [6]) [7] [8
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-] (./draft/part1_motivation_goal/chapter1_motivation.tex [9]
+[4] [5] [6]) [7] [8
+
+] (./draft/part1_motivation_goal/chapter1_motivation.tex
+[9]
 Chapter 1.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1661,10 +1662,10 @@ Package rerunfilecheck Info: File `main2.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 39211 strings out of 479406
- 931468 string characters out of 5890978
- 1250820 words of memory out of 5000000
- 56004 multiletter control sequences out of 15000+600000
+ 39199 strings out of 479406
+ 930746 string characters out of 5890978
+ 1250702 words of memory out of 5000000
+ 55992 multiletter control sequences out of 15000+600000
  537514 words of font info for 139 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,9n,112p,966b,1186s stack positions out of 5000i,500n,10000p,200000b,100000s

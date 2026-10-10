@@ -2,7 +2,7 @@
 % main2.tex —— 《动机社会》重构版独立入口
 % ----------------------------------------------------------------------
 % 本文件是结构重构版（v2）的编译入口。结构与内容权威：
-%   notes/00-architecture.md
+%   notes/02-architecture-v2.md
 % 原书入口 main.tex 与全部原章节文件保持零改动；本文件只引用
 %   draft/** 下的新章节。
 % 编译：xelatex main2.tex && xelatex main2.tex（两遍，出目录与交叉引用）
@@ -209,48 +209,46 @@
 	\mainmatter     % 正文页码开始
 
 	% =================================================================
-	% 引言：新的目标——预测
+	% 导论：为什么算得最准的人，预测得最离谱
 	% =================================================================
 	\subfile{draft/part1_motivation_goal/introduction_v2}
 
 	% =================================================================
-	% PART I: 动机与目标——从行为反推到意向
+	% PART I: 动机与目标——预测的必要输入（不是解释的终点）
 	% =================================================================
 	\part{动机与目标：从行为反推到意向 (Motivation and Goal)}
 	\subfile{draft/part1_motivation_goal/chapter1_motivation}
 	\subfile{draft/part1_motivation_goal/chapter2_goal}
 
 	% =================================================================
-	% PART II: 演化状态空间（P2 → P3 是硬依赖：条件概率必须定义在状态空间上）
+	% PART II: 预测与因果——谁是真正的推手（因果从「想预测」里长出）
 	% =================================================================
-	\part{演化状态空间：物质、人、相互作用 (The State Space)}
-	\subfile{draft/part2_state_space/chapter3_state_triple}
-	\subfile{draft/part2_state_space/chapter4_survival}
-	\subfile{draft/part2_state_space/chapter5_evolution}
+	\part{预测与因果：谁是真正的推手 (Prediction and Causality)}
+	\subfile{draft/part2_prediction_causality/chapter6_prediction_math}
+	\subfile{draft/part2_prediction_causality/chapter7_contribution}
 
 	% =================================================================
-	% PART III: 条件概率与贡献分解（原书断裂点的修复处）
+	% PART III: 法庭上的时光机——多因分账（方法最早的成熟应用现场）
 	% =================================================================
-	\part{条件概率与贡献分解 (Conditional Probability and Contribution)}
-	\subfile{draft/part3_conditional_probability/chapter6_prediction_math}
-	\subfile{draft/part3_conditional_probability/chapter7_contribution}
+	\part{法庭上的时光机：多因分账 (The Courtroom Time Machine)}
+	\subfile{draft/part3_courtroom/chapter_law_method}
 
 	% =================================================================
-	% PART IV: 四个通道（嵌套而非并列：每章是上一章「加入一个约束」）
+	% PART IV: 社会的四大齿轮（嵌套而非并列：每章是上一章「加入一个约束」）
 	% =================================================================
-	\part{四个通道：模因、经济、政治、法律 (Four Channels)}
-	\subfile{draft/part4_channels/chapter8_channel_generator}
-	\subfile{draft/part4_channels/chapter9_meme}
-	\subfile{draft/part4_channels/chapter10_economy}
-	\subfile{draft/part4_channels/chapter11_politics}
-	\subfile{draft/part4_channels/chapter12_law}
+	\part{社会的四大齿轮 (Four Gears of Society)}
+	\subfile{draft/part4_gears/chapter8_channel_generator}
+	\subfile{draft/part4_gears/chapter9_meme}
+	\subfile{draft/part4_gears/chapter10_economy}
+	\subfile{draft/part4_gears/chapter11_politics}
+	\subfile{draft/part4_gears/chapter12_law}
 
 	% =================================================================
-	% PART V: 预测与循环（从贡献表到未来走向）
+	% PART V: 回到循环——预测如何改变预测
 	% =================================================================
-	\part{预测与循环：从贡献表到未来走向 (Forecast and Loop)}
-	\subfile{draft/part5_backtest/chapter13_forecast}
-	\subfile{draft/part5_backtest/chapter14_closure}
+	\part{回到循环：预测如何改变预测 (Loop Closure)}
+	\subfile{draft/part5_loop/chapter13_forecast}
+	\subfile{draft/part5_loop/chapter14_closure}
 
 	% =================================================================
 	% 数学附录（v2）

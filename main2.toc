@@ -20,73 +20,75 @@
 \contentsline {chapter}{\numberline {2}目标：把意向写成可比较的量}{17}{chapter.2}%
 \contentsline {section}{\numberline {2.1}目标不是名词，是排序}{18}{section.2.1}%
 \contentsline {section}{\numberline {2.2}可通约性难题}{19}{section.2.2}%
-\contentsline {section}{\numberline {2.3}目标函数的形式化}{20}{section.2.3}%
-\contentsline {section}{\numberline {2.4}目标函数如何反推：显示性偏好}{22}{section.2.4}%
-\contentsline {section}{\numberline {2.5}本章小结：交给概率}{23}{section.2.5}%
+\contentsline {section}{\numberline {2.3}目标函数：给想要的东西打分}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.4}看得见的约束：菜单与点菜}{21}{section.2.4}%
+\contentsline {section}{\numberline {2.5}目标函数如何反推：显示性偏好}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}本章小结：原料齐了，但规律会骗人}{23}{section.2.6}%
 \contentsline {part}{II\hspace {1em}预测与因果：谁是真正的推手 (Prediction and Causality)}{25}{part.2}%
-\contentsline {chapter}{\numberline {3}预测的数学形式：从结果反推条件}{26}{chapter.3}%
-\contentsline {section}{\numberline {3.1}预测 = 条件概率，不是预言}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}因果方向的选择}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}链条的乘积分解}{27}{section.3.3}%
-\contentsline {section}{\numberline {3.4}冗余与稳健性}{28}{section.3.4}%
-\contentsline {section}{\numberline {3.5}本章小结与衔接}{28}{section.3.5}%
-\contentsline {chapter}{\numberline {4}贡献分解：条件概率差}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}从「有/无」到定量}{30}{section.4.1}%
-\contentsline {section}{\numberline {4.2}可干预性 = 因果的定义}{30}{section.4.2}%
-\contentsline {section}{\numberline {4.3}多因一果的分配}{30}{section.4.3}%
-\contentsline {section}{\numberline {4.4}归一化与可读性}{31}{section.4.4}%
-\contentsline {section}{\numberline {4.5}本章小结与衔接}{31}{section.4.5}%
-\contentsline {part}{III\hspace {1em}法庭上的时光机：多因分账 (The Courtroom Time Machine)}{32}{part.3}%
-\contentsline {chapter}{\numberline {5}法庭上的时光机：当因果必须给出一个数字}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}当「差不多」不行的时候}{34}{section.5.1}%
-\contentsline {section}{\numberline {5.2}把责任拆成可比较的量}{34}{section.5.2}%
-\contentsline {section}{\numberline {5.3}与「无你检验」的同构}{34}{section.5.3}%
-\contentsline {section}{\numberline {5.4}本章小结与衔接}{35}{section.5.4}%
-\contentsline {part}{IV\hspace {1em}社会的四大齿轮 (Four Gears of Society)}{36}{part.4}%
-\contentsline {chapter}{\numberline {6}通道生成器：有压与无压}{37}{chapter.6}%
-\contentsline {section}{\numberline {6.1}传播的两种数学形态}{37}{section.6.1}%
-\contentsline {section}{\numberline {6.2}守恒性作为分类判据}{38}{section.6.2}%
-\contentsline {section}{\numberline {6.3}四通道的生成树}{38}{section.6.3}%
-\contentsline {section}{\numberline {6.4}本章小结与衔接}{39}{section.6.4}%
-\contentsline {chapter}{\numberline {7}通道一：模因（无压扩增）}{40}{chapter.7}%
-\contentsline {section}{\numberline {7.1}模因的定义与判据}{41}{section.7.1}%
-\contentsline {section}{\numberline {7.2}传播强度决定一切}{41}{section.7.2}%
-\contentsline {section}{\numberline {7.3}语言作为压缩层}{41}{section.7.3}%
-\contentsline {section}{\numberline {7.4}模因的贡献分解}{42}{section.7.4}%
-\contentsline {section}{\numberline {7.5}本章小结与衔接}{42}{section.7.5}%
-\contentsline {chapter}{\numberline {8}通道二：经济（模因 + 稀缺约束）}{43}{chapter.8}%
-\contentsline {section}{\numberline {8.1}加入稀缺约束}{44}{section.8.1}%
-\contentsline {section}{\numberline {8.2}稀缺到供方，偏好到需求}{44}{section.8.2}%
-\contentsline {section}{\numberline {8.3}追涨杀跌的理性化}{44}{section.8.3}%
-\contentsline {section}{\numberline {8.4}经济的贡献分解}{45}{section.8.4}%
-\contentsline {section}{\numberline {8.5}本章小结与衔接}{45}{section.8.5}%
-\contentsline {chapter}{\numberline {9}通道三：政治（经济 + 身份权重）}{46}{chapter.9}%
-\contentsline {section}{\numberline {9.1}从等价到不等价}{47}{section.9.1}%
-\contentsline {section}{\numberline {9.2}认同赋予权力}{47}{section.9.2}%
-\contentsline {section}{\numberline {9.3}权力的模因化：制度化}{47}{section.9.3}%
-\contentsline {section}{\numberline {9.4}生存策略的两条扩增路径}{48}{section.9.4}%
-\contentsline {section}{\numberline {9.5}本章小结与衔接}{48}{section.9.5}%
-\contentsline {chapter}{\numberline {10}通道四：法律（博弈结果的编码与定量方法）}{49}{chapter.10}%
-\contentsline {section}{\numberline {10.1}法律是变长编码}{50}{section.10.1}%
-\contentsline {section}{\numberline {10.2}法律是 Part III 的现实应用}{50}{section.10.2}%
-\contentsline {section}{\numberline {10.3}法律如何驱动其余三通道}{51}{section.10.3}%
-\contentsline {section}{\numberline {10.4}四通道的嵌套关系}{51}{section.10.4}%
-\contentsline {section}{\numberline {10.5}本章小结与衔接}{51}{section.10.5}%
-\contentsline {part}{V\hspace {1em}回到循环：预测如何改变预测 (Loop Closure)}{52}{part.5}%
-\contentsline {chapter}{\numberline {11}从贡献表到未来走向}{53}{chapter.11}%
-\contentsline {section}{\numberline {11.1}贡献表是一份状态压缩}{53}{section.11.1}%
-\contentsline {section}{\numberline {11.2}条件概率链的重新组装}{54}{section.11.2}%
-\contentsline {section}{\numberline {11.3}一个具体工作过的例子}{54}{section.11.3}%
-\contentsline {section}{\numberline {11.4}预测失败模式清单}{55}{section.11.4}%
-\contentsline {section}{\numberline {11.5}本章小结与衔接}{55}{section.11.5}%
-\contentsline {chapter}{\numberline {12}循环的闭合：未来塑造新的动机}{56}{chapter.12}%
-\contentsline {section}{\numberline {12.1}自指与预期}{56}{section.12.1}%
-\contentsline {section}{\numberline {12.2}回到 Part I}{57}{section.12.2}%
-\contentsline {section}{\numberline {12.3}结语：结构，不是预言}{57}{section.12.3}%
-\contentsline {chapter}{\numberline {A}数学附录（v2）：条件概率、贡献分解与交互项}{58}{appendix.A}%
-\contentsline {section}{\numberline {A.1}A.0 使用说明与工程声明}{58}{appendix.A.1}%
-\contentsline {section}{\numberline {A.2}A.1 记号与因果方向声明}{59}{appendix.A.2}%
-\contentsline {section}{\numberline {A.3}A.2 条件概率链的乘积分解}{59}{appendix.A.3}%
-\contentsline {section}{\numberline {A.4}A.3 贡献分解：条件概率差}{61}{appendix.A.4}%
-\contentsline {section}{\numberline {A.5}A.4 多因一果：交互项的显式处理}{62}{appendix.A.5}%
-\contentsline {section}{\numberline {A.6}A.5 与正文的接口、未覆盖问题与命题指向}{64}{appendix.A.6}%
+\contentsline {chapter}{\numberline {3}预测与因果}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}数据最多的人，输得最难看}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}冰淇淋与溺水}{29}{section.3.2}%
+\contentsline {section}{\numberline {3.3}三种身世：推手、幕后老板、巧合}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4}看客与玩家：一堵墙}{32}{section.3.4}%
+\contentsline {section}{\numberline {3.5}本章小结：规律的两张面孔}{33}{section.3.5}%
+\contentsline {chapter}{\numberline {4}贡献分解：无你检验}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}一台水泵的审讯}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}船医、对照与平行宇宙}{37}{section.4.2}%
+\contentsline {section}{\numberline {4.3}红酒、香烟与第三只手}{39}{section.4.3}%
+\contentsline {section}{\numberline {4.4}能预测，因为找到推手}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.5}一屋子推手，各占多少}{41}{section.4.5}%
+\contentsline {section}{\numberline {4.6}本章小结：从「是不是」到「占多少」}{43}{section.4.6}%
+\contentsline {part}{III\hspace {1em}法庭上的时光机：多因分账 (The Courtroom Time Machine)}{45}{part.3}%
+\contentsline {chapter}{\numberline {5}法庭上的时光机：当因果必须给出一个数字}{46}{chapter.5}%
+\contentsline {section}{\numberline {5.1}当「差不多」不行的时候}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}把责任拆成可比较的量}{47}{section.5.2}%
+\contentsline {section}{\numberline {5.3}与「无你检验」的同构}{47}{section.5.3}%
+\contentsline {section}{\numberline {5.4}本章小结与衔接}{48}{section.5.4}%
+\contentsline {part}{IV\hspace {1em}社会的四大齿轮 (Four Gears of Society)}{49}{part.4}%
+\contentsline {chapter}{\numberline {6}通道生成器：有压与无压}{50}{chapter.6}%
+\contentsline {section}{\numberline {6.1}传播的两种数学形态}{51}{section.6.1}%
+\contentsline {section}{\numberline {6.2}守恒性作为分类判据}{51}{section.6.2}%
+\contentsline {section}{\numberline {6.3}四通道的生成树}{51}{section.6.3}%
+\contentsline {section}{\numberline {6.4}本章小结与衔接}{52}{section.6.4}%
+\contentsline {chapter}{\numberline {7}通道一：模因（无压扩增）}{53}{chapter.7}%
+\contentsline {section}{\numberline {7.1}模因的定义与判据}{54}{section.7.1}%
+\contentsline {section}{\numberline {7.2}传播强度决定一切}{54}{section.7.2}%
+\contentsline {section}{\numberline {7.3}语言作为压缩层}{54}{section.7.3}%
+\contentsline {section}{\numberline {7.4}模因的贡献分解}{55}{section.7.4}%
+\contentsline {section}{\numberline {7.5}本章小结与衔接}{55}{section.7.5}%
+\contentsline {chapter}{\numberline {8}通道二：经济（模因 + 稀缺约束）}{56}{chapter.8}%
+\contentsline {section}{\numberline {8.1}加入稀缺约束}{57}{section.8.1}%
+\contentsline {section}{\numberline {8.2}稀缺到供方，偏好到需求}{57}{section.8.2}%
+\contentsline {section}{\numberline {8.3}追涨杀跌的理性化}{57}{section.8.3}%
+\contentsline {section}{\numberline {8.4}经济的贡献分解}{58}{section.8.4}%
+\contentsline {section}{\numberline {8.5}本章小结与衔接}{58}{section.8.5}%
+\contentsline {chapter}{\numberline {9}通道三：政治（经济 + 身份权重）}{59}{chapter.9}%
+\contentsline {section}{\numberline {9.1}从等价到不等价}{60}{section.9.1}%
+\contentsline {section}{\numberline {9.2}认同赋予权力}{60}{section.9.2}%
+\contentsline {section}{\numberline {9.3}权力的模因化：制度化}{60}{section.9.3}%
+\contentsline {section}{\numberline {9.4}生存策略的两条扩增路径}{61}{section.9.4}%
+\contentsline {section}{\numberline {9.5}本章小结与衔接}{61}{section.9.5}%
+\contentsline {chapter}{\numberline {10}通道四：法律（博弈结果的编码与定量方法）}{62}{chapter.10}%
+\contentsline {section}{\numberline {10.1}法律是变长编码}{63}{section.10.1}%
+\contentsline {section}{\numberline {10.2}法律是 Part III 的现实应用}{63}{section.10.2}%
+\contentsline {section}{\numberline {10.3}法律如何驱动其余三通道}{64}{section.10.3}%
+\contentsline {section}{\numberline {10.4}四通道的嵌套关系}{64}{section.10.4}%
+\contentsline {section}{\numberline {10.5}本章小结与衔接}{64}{section.10.5}%
+\contentsline {part}{V\hspace {1em}回到循环：预测如何改变预测 (Loop Closure)}{65}{part.5}%
+\contentsline {chapter}{\numberline {11}从贡献表到未来走向}{66}{chapter.11}%
+\contentsline {section}{\numberline {11.1}贡献表是一份状态压缩}{66}{section.11.1}%
+\contentsline {section}{\numberline {11.2}条件概率链的重新组装}{67}{section.11.2}%
+\contentsline {section}{\numberline {11.3}一个具体工作过的例子}{67}{section.11.3}%
+\contentsline {section}{\numberline {11.4}预测失败模式清单}{68}{section.11.4}%
+\contentsline {section}{\numberline {11.5}本章小结与衔接}{68}{section.11.5}%
+\contentsline {chapter}{\numberline {12}循环的闭合：未来塑造新的动机}{69}{chapter.12}%
+\contentsline {section}{\numberline {12.1}自指与预期}{69}{section.12.1}%
+\contentsline {section}{\numberline {12.2}回到 Part I}{70}{section.12.2}%
+\contentsline {section}{\numberline {12.3}结语：结构，不是预言}{70}{section.12.3}%
+\contentsline {chapter}{\numberline {A}数学附录（v2）：条件概率、贡献分解与交互项}{71}{appendix.A}%
+\contentsline {section}{\numberline {A.1}A.0 使用说明与工程声明}{71}{section.A.1}%
+\contentsline {section}{\numberline {A.2}A.1 记号与因果方向声明}{72}{section.A.2}%
+\contentsline {section}{\numberline {A.3}A.2 条件概率链的乘积分解}{72}{section.A.3}%
+\contentsline {section}{\numberline {A.4}A.3 贡献分解：条件概率差}{74}{section.A.4}%
+\contentsline {section}{\numberline {A.5}A.4 多因一果：交互项的显式处理}{75}{section.A.5}%
+\contentsline {section}{\numberline {A.6}A.5 与正文的接口、未覆盖问题与命题指向}{77}{section.A.6}%

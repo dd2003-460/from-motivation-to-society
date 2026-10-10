@@ -6,7 +6,8 @@
 	% 数学附录（v2 骨架版）
 	% 状态：A.0–A.5 中，「条件概率链乘积分解」「贡献分解」「多因一果交互项」
 	% 三部分为正式推导（本次会话完成）；其余为骨架与接口清单。
-	% 对应正文：第6章（链）、第7章（贡献）、第12章（法律定责）。
+	% 对应正文（v2）：Part II（ch:prediction / ch:contribution）、Part III（ch:law-method）、
+	% Part IV 第10章（ch:law 法律定责）、Part V 第11章（ch:forecast 链的重组）。
 	% 原书附录 V.2→V.3 断裂点的修复说明见 A.1。
 	% ======================================================================
 
@@ -32,7 +33,7 @@
 	本附录不是新的论述层，而是对正文关键论断的\textbf{形式化、可核验重写}。阅读方式：按需跳转，每一节通过 \texttt{\textbackslash mathlink} 链接与正文一一对应；附录中不引入新的经验性主张，仅展开假设、模型与边界。
 
 	\begin{mathbox}{附录定位与阅读方式}
-		\textbf{定位}：正文（第6、7、12、13章）的定量承诺单。\\[0.4em]
+		\textbf{定位}：正文（第\ref{ch:prediction}、\ref{ch:contribution}、\ref{ch:law-method}、\ref{ch:law}、\ref{ch:forecast}章）的定量承诺单。\\[0.4em]
 		\textbf{阅读建议}：
 		\begin{itemize}
 			\item 可在阅读正文后，按需跳转至对应数学模块；
@@ -59,7 +60,7 @@
 
 	\begin{mathbox}{为什么这是断裂点的修复}
 		原书附录 V.2 使用信息空间的正交化（Gram--Schmidt 意义上的「去重」），V.3 使用因果意义下的条件概率——\textbf{空间的几何}与\textbf{因果的推断}不同构：正交化没有方向，条件概率有方向。把两者直接衔接，链条在 V.2 $\rightarrow$ V.3 处断裂。\\[0.4em]
-		本版的处理：放弃「正交化 $\to$ 条件概率」的伪衔接，改为「\textbf{状态空间}（正文第3章）$\to$ \textbf{单一方向的因果条件概率}（本附录 A.2 起）」。概率定义在状态空间的转移上，方向由因果假设显式给出——每个假设都可被单独攻击与替换。
+		本版的处理：放弃「正交化 $\to$ 条件概率」的伪衔接，改为「\textbf{可干预事件的因果方向声明}（正文第\ref{ch:prediction}章 §\ref{sec:pred-intervention} 的白话版）$\to$ \textbf{单一方向的因果条件概率}（本附录 A.2 起）」。概率定义在可干预事件的对比上，方向由因果假设显式给出——每个假设都可被单独攻击与替换。（v2 注：原 v1 的「状态空间」中介层已整体退役，本附录不再经由它衔接。）
 	\end{mathbox}
 
 	\paragraph*{逻辑衔接}
@@ -68,7 +69,7 @@
 	\section{A.2 条件概率链的乘积分解}
 	\label{app:chain}
 
-	\mathlink{sec:pred-chain}{正文链接：第6章 §6.3「链条的乘积分解」}
+	\mathlink{sec:fc-reassemble}{正文链接：第\ref{ch:forecast}章 §\ref{sec:fc-reassemble}「条件概率链的重新组装」}
 
 	\begin{mathbox}{A.2.1 目标}
 		给定因果链 $C_0 \to C_1 \to \cdots \to C_n \to R$，证明在链式（马尔可夫）假设下
@@ -83,7 +84,7 @@
 		\[ P(C_k \mid C_0, \dots, C_{k-1}) = P(C_k \mid C_{k-1}), \qquad P(R \mid C_0, \dots, C_n) = P(R \mid C_n). \]
 		代入即得
 		\[ P(R \mid C_0) = \prod_{k=1}^{n} P(C_k \mid C_{k-1}) \cdot P(R \mid C_n). \qquad \text{（证毕）} \]
-		\textit{工程意义}：链式假设把 $n{+}1$ 元联合分布压缩为 $n{+}1$ 个二元条件概率——每个 $P(C_k \mid C_{k-1})$ 是一个\textbf{可测量接口}：供应链的良率、审批的通过率、动员的转化率。归因（第7章）因此才有落点。
+		\textit{工程意义}：链式假设把 $n{+}1$ 元联合分布压缩为 $n{+}1$ 个二元条件概率——每个 $P(C_k \mid C_{k-1})$ 是一个\textbf{可测量接口}：供应链的良率、审批的通过率、动员的转化率。归因（第\ref{ch:contribution}章）因此才有落点。
 	\end{mathbox}
 
 	\begin{mathbox}{A.2.3 推论：短板效应与关键杠杆点}
@@ -110,7 +111,7 @@
 	\section{A.3 贡献分解：条件概率差}
 	\label{app:contribution}
 
-	\mathlink{sec:contrib-def}{正文链接：第7章 §7.1「从有/无到定量」}
+	\mathlink{sec:contrib-snow}{正文链接：第\ref{ch:contribution}章 §\ref{sec:contrib-snow}「一台水泵的审讯」（无你检验）}
 
 	\begin{mathbox}{A.3.1 定义}
 		因素 $A$ 对结果 $D$ 的\textbf{贡献}：
@@ -155,7 +156,7 @@
 	\section{A.4 多因一果：交互项的显式处理}
 	\label{app:interaction}
 
-	\mathlink{sec:contrib-interaction}{正文链接：第7章 §7.3「多因一果的分配」}
+	\mathlink{sec:contrib-multi}{正文链接：第\ref{ch:contribution}章 §\ref{sec:contrib-multi}「一屋子推手，各占多少」}
 
 	\begin{mathbox}{A.4.1 四格分解}
 		两个因素 $A, B$，一个结果 $D$。全部可干预概率构成 $2 \times 2$ 四格：
@@ -208,35 +209,37 @@
 
 	\begin{mathbox}{A.5.1 接口清单}
 		\begin{itemize}
-			\item 第6章 §6.3（乘积链）$\leftrightarrow$ 本附录 A.2；
-			\item 第7章 §7.1（贡献定义）、§7.3（交互项）、§7.4（归一化）$\leftrightarrow$ A.3、A.4；
-			\item 第12章 §12.2（法律定责）$\leftrightarrow$ A.3.1：责任 $\propto P(\text{损害} \mid \text{行为}) - P(\text{损害} \mid \neg \text{行为})$；
-			\item 第13章 §13.2（链的重组）、§13.3（完整演示）$\leftrightarrow$ A.2 + A.4 联用。
+			\item 第\ref{ch:prediction}章 §\ref{sec:pred-intervention}（干预与玩家预测）$\leftrightarrow$ A.1 的方向声明；
+			\item 第\ref{ch:contribution}章 §\ref{sec:contrib-snow}（无你检验）、§\ref{sec:contrib-multi}（各占多少）$\leftrightarrow$ A.3、A.4；
+			\item 第\ref{ch:law-method}章 §\ref{sec:court-decompose}（把责任拆成可比较的量）$\leftrightarrow$ A.2 的链接口与 A.4 的交互项（法庭版）；
+			\item 第\ref{ch:law}章 §\ref{sec:law-quantitative}（法律定责）$\leftrightarrow$ A.3.1：责任 $\propto P(\text{损害} \mid \text{行为}) - P(\text{损害} \mid \neg \text{行为})$；
+			\item 第\ref{ch:forecast}章 §\ref{sec:fc-reassemble}（链的重组）、§\ref{sec:fc-example}（完整演示）$\leftrightarrow$ A.2 + A.4 联用。
 		\end{itemize}
 	\end{mathbox}
 
 	\begin{mathbox}{A.5.2 未覆盖问题（诚实清单）}
 		本附录\textbf{不}处理、且当前数学没有干净解法的问题：
 		\begin{enumerate}
-			\item \textbf{非平稳}：$P(C_k \mid C_{k-1})$ 本身随时间漂移（第5章 $\kappa$ 的变化）；
+			\item \textbf{非平稳}：$P(C_k \mid C_{k-1})$ 本身随时间漂移（v2 注：v1 第5章的 $\kappa$ 已随状态空间层退役，此条只保留「转移概率漂移」本身）；
 			\item \textbf{外部冲击}：链外事件改变四格表全体（黑天鹅不在 $2\times2$ 里）；
-			\item \textbf{反身性}：预测被公布后改变被预测的概率（第14章；此时概率是「预测的函数」）；
-			\item \textbf{权重不可测}：第2章 $w_i$ 的识别问题，在贡献层面同样存在；
-			\item \textbf{通道切分的任意性}：四通道是生成树（第8章）的产物，不是自然类别——切分变了，交互项全变。
+			\item \textbf{反身性}：预测被公布后改变被预测的概率（第\ref{ch:closure}章；此时概率是「预测的函数」）；
+			\item \textbf{权重不可测}：第\ref{ch:goal}章打分表权重的识别问题，在贡献层面同样存在；
+			\item \textbf{通道切分的任意性}：四通道是生成树（第\ref{ch:channels}章）的产物，不是自然类别——切分变了，交互项全变；
+			\item \textbf{压缩直觉的形式化}：正文第\ref{ch:meme}章借用的「压缩」直觉（高频短编码、保真压缩）不承担公理角色，其信息论严格化（率失真、算法信息论）挂账于待发表论文《介观统一论》——本书不依赖其成立。
 		\end{enumerate}
 	\end{mathbox}
 
 	\begin{mathbox}{A.5.3 介观统一论三命题（只描述，不证明）}
-		正文第12章 §12.4 陈述了三个命题：
+		正文第\ref{ch:law}章 §\ref{sec:law-nesting} 陈述了三个命题：
 		\begin{enumerate}
 			\item 经济是稀缺化的模因；
 			\item 政治是人情化的经济；
 			\item 法律是博弈结果的条件概率编码。
 		\end{enumerate}
-		\lowfreq{以上三个命题的严格推导不在本附录范围内，见待发表论文《介观统一论》。本附录与正文只提供其直觉呈现（第8--12章的生成树推导是它的示意版本，不是证明）。让 AI 在正文中「证明」它们，会产生虚假推导——此为原书作者明令禁止的事项。}
+		\lowfreq{以上三个命题的严格推导不在本附录范围内，见待发表论文《介观统一论》。本附录与正文只提供其直觉呈现（第\ref{ch:channels}--\ref{ch:law}章的生成树推导是它的示意版本，不是证明）。让 AI 在正文中「证明」它们，会产生虚假推导——此为原书作者明令禁止的事项。}
 	\end{mathbox}
 
 	\paragraph*{逻辑衔接}
-	附录到此为骨架版：三个核心推导（A.2、A.3、A.4）已完整，接口与边界已清点。后续会话将按正文 Part III--V 的精写进度，补充数值算例与敏感性分析（对齐第13章 §13.3 的完整演示）。
+	附录到此为骨架版：三个核心推导（A.2、A.3、A.4）已完整，接口与边界已清点。后续会话将按正文 Part III--V 的精写进度，补充数值算例与敏感性分析（对齐第\ref{ch:forecast}章 §\ref{sec:fc-example} 的完整演示）。
 
 \end{document}

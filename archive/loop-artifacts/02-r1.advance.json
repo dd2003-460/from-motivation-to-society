@@ -1,8 +1,0 @@
-{
-  "action": "advance",
-  "status": "completed",
-  "stage_id": "02",
-  "revision": "r1",
-  "next_stage": "02.5",
-  "message": "完成 未知信息调研：2 个 research_required 字段已调研并 confirmed（emoji 装饰性图标、缺失章节无需创建）。推进到 02.5（交叉验证）。"
-}

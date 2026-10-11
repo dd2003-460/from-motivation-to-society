@@ -1,8 +1,0 @@
-{
-  "action": "advance",
-  "status": "completed",
-  "stage_id": "01",
-  "revision": "r1",
-  "next_stage": "02",
-  "message": "01 阶段完成：7 个属性维度已分解，12 个字段已填写（8 confirmed, 3 research_required, 1 assumed_default）。requirements-auditor 审计通过。推进到 02。"
-}

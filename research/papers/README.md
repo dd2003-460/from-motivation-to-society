@@ -71,7 +71,7 @@
 | E17 | ✅ S2 + Science Advances | 摘要 + Results | 已核实 |
 | E18 | ✅ PubMed | 摘要 | 已核实 |
 | E19 | ✅ 官方页面 | Methodology | 已核实 |
-| E20 | ✅ OpenAxex（DOI 已更正为 02495.x） | 论文 PDF | 已核实 |
+| E20 | ✅ OpenAlex（DOI 已更正为 02495.x） | 论文 PDF | 已核实 |
 | E21 | ✅ Nature 页面 | 正文 | 已核实 |
 | E22 | ✅ OpenAlex | arXiv PDF 正文 | 已核实 |
 | E25 | ⚠️ 未核原始文本 | 广泛转述 | **待核实（等级：弱，不影响结论）** |

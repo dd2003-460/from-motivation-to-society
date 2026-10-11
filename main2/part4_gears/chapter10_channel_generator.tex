@@ -1,0 +1,148 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+\chapter{通道生成器：社会因果长什么样}
+\label{ch:channels}
+
+\begin{motivation}
+	Part III 遗留的问题：分账的手艺齐了，但账上的 A、B、C 还是抽象字母——社会里的「因素」到底长什么样？更重的是两枚埋了很久的追问还没收：千万人的动机怎么汇聚成宏观规律？个体加总起来会得到什么？\\
+	\textbf{核心动机}：正面收掉这两枚追问——答案是\textbf{通道}（channel）：个体行为沿通道扩散，通道的数学形态决定宏观规律长什么样。并用一个判据（守恒性）从「传播」生成全书 Part IV 的地图。
+\end{motivation}
+
+\begin{logicmap}
+\begin{tikzpicture}[node distance=0.85cm, every node/.style={draw, rectangle, rounded corners, align=center, font=\small}]
+\node (q) {回收两枚追问：微观怎么变宏观};
+\node (c) [below=of q] {答案：沿通道传播};
+\node (d) [below=of c] {两种形态：复制 vs 转移};
+\node (p) [below=of d] {判据：守恒性};
+\node (n) [below=of p] {生成树：四条通道，逐层加约束};
+\draw[-{Stealth}] (q) -- (c);
+\draw[-{Stealth}] (c) -- (d);
+\draw[-{Stealth}] (d) -- (p);
+\draw[-{Stealth}] (p) -- (n);
+\end{tikzpicture}
+\end{logicmap}
+
+\section{回收：微观的动机，怎么变成宏观的规律}
+
+\begin{readingnote}
+	你有没有想过，菜市场里每个摊贩只算自己的账，为什么全城菜价却像有脾气？\\
+	千万个「我」的算计，是怎么变成一个「它」的？
+\end{readingnote}
+
+先把两枚追问摆出来。第一枚（第 2 章埋的）：千万人的排序搅在一起，会自动变成稳定的社会规律吗？第二枚（第 7 章埋的）：即使搞清了每个人的动机和因果，个体加总起来会得到什么？
+
+我的回答，一句话版：\textbf{个体不直接加总——他们的行为沿「通道」扩散，通道的形态决定宏观规律}。
+
+\begin{tcolorbox}[colback=green!5, title=\textit{生活类比}]
+	雨滴不商量，河却有固定的走向。因为雨滴不直接相加——它们汇入\textbf{河道}。摊贩的动机是雨滴，菜价的规律是河道。微观到宏观之间站着的，就是通道。
+\end{tcolorbox}
+
+这回答顺手拆掉一个老误会：宏观规律不是「集体潜意识」，也不是「历史必然」。它是个体行为在特定\textbf{传播机制}里反复放大的统计形状。要看清形状，先看清机制。
+
+\begin{questionbox}
+	\textit{现在你可能想反驳：「经济学不就是研究『加总』的吗？供求曲线就是个体加总啊。」}\\
+	\textbf{对了一半。}供求加总的是「出价」这一种行为，只走过\textbf{一条}通道。可人的行为里，传谣言不走报价、站队不走报价、打官司不走报价。只用经济通道解释社会，像只用一种河道解释所有洪水。本章之后的四条通道，就是补全地图。
+\end{questionbox}
+
+\paragraph*{逻辑衔接}
+	答案有了雏形：加总经由通道。但通道怎么分类？下一节给最底层的一个分岔：同是「传」，有的传完你还留着，有的传完你就没了。
+
+\section{两种传播：复制，还是转移}
+
+\begin{readingnote}
+	你有没有想过，为什么「教别人」让自己更会，「给别人钱」让自己更穷？\\
+	同样是「给出去」，一个越给越多，一个越给越少——差别在哪？
+\end{readingnote}
+
+把「传」拆到底，只剩两种动作：
+
+\begin{itemize}
+	\item \textbf{复制}：$A \rightarrow A + B$。你把笑话讲给朋友，你还有这个笑话，朋友多了一个。原体不消耗。
+	\item \textbf{转移}：$A \rightarrow B$。你把一百块递出去，你少了一百块，朋友多了一百块。原体消失。
+\end{itemize}
+
+两种动作的宏观脾气完全不同。复制的东西原则上可以无限膨胀——一个梗可以传到十亿人，谁也没被掏空。转移的东西总量锁死——全市场的钱加起来就是那么多，你多我就少。\textbf{零和}开始起作用的地方，就是经济的领地。
+
+\begin{tcolorbox}[colback=green!5, title=\textit{生活类比}]
+	复制像传火：一支蜡烛点燃一百支，原火不灭。转移像分粥：锅里就那么多，你碗里多一勺，我碗里少一勺。人类文明最拧巴的地方，就是用「分粥的制度」去管「传火的事」——比如给知识设壁垒、给口碑设垄断。
+\end{tcolorbox}
+
+\paragraph*{逻辑衔接}
+	两个形态摆在那。但分类原则必须可操作（本书规矩：判据要能测具体案例）——下一节给测量动作。
+
+\section{守恒性：一把可操作的尺子}
+
+判据一句话：\textbf{找总量不变量}。能找到「怎么传总量都不变」的量，这场传播就是转移型（有压）；找不到，就是复制型（无压）。
+
+拿三个案例测一遍：
+
+\begin{itemize}
+	\item \textbf{讲八卦}：全镇的「八卦存量」？没这个量。你传我传，总量只增不减——\textbf{无压}。
+	\item \textbf{卖白菜}：全镇白菜总量可数，今天卖出一百斤，摊上就少一百斤——\textbf{有压}。
+	\item \textbf{注意力}：每天就二十四小时，刷短视频多一小时，读书就少一小时——在\textbf{注意力}这一层，有压。
+\end{itemize}
+
+第三例捅出一个微妙处，值得当场处理：注意力守恒，内容不守恒——同一条视频可以被一亿人看。所以判据要看\textbf{传播物本身}在哪一层守恒，不能混着说。
+
+\begin{questionbox}
+	\textit{现在你可能想反驳：「照这个判据，抢注意力的短视频平台做的其实是『有压』生意？」}\\
+	\textbf{好眼力，正是。}内容（模因）无压，注意力有压——平台的商业模式，就是把无压的东西装进有压的货架上卖钱。第 11、12 章你会看到这两种压强怎么咬合。这就是「算法为什么专推你爱看的」的结构性答案：它在抢你的守恒量。
+\end{questionbox}
+
+\paragraph*{逻辑衔接}
+	尺子有了。现在正式生成 Part IV 的地图：从「传播」出发，一次加一个约束，看四条通道怎么被逼出来。
+
+\section{生成树：四条通道，逐层加约束}
+
+从「传播」开始，每加一个约束，一条新通道被逼出来：
+
+\begin{quote}
+	不加任何约束——只传不耗——\textbf{观念}（模因通道）。\\
+	加入约束「传播要消耗稀缺资源」——\textbf{经济通道}从观念里分离出来。\\
+	再加入约束「交换里有不可标价的偏好（身份、公平）」——\textbf{政治通道}从经济里分离出来。\\
+	最后加入约束「博弈结果必须被写成可执行的定责」——\textbf{法律通道}接手编码。
+\end{quote}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[
+	node distance=0.9cm and 0.4cm,
+	every node/.style={draw, rectangle, rounded corners, align=center, font=\small}
+]
+\node (root) {传播：一切社会行为};
+\node (m) [below left=1.2cm and 1.6cm of root] {不加约束\\观念（模因）\\无压};
+\node (e) [below right=1.2cm and 1.6cm of root] {加稀缺\\经济\\有压};
+\node (p) [below right=1.2cm and 1.6cm of e] {加身份偏好\\政治};
+\node (l) [below right=1.2cm and 1.6cm of p] {加定责\\法律（编码）};
+\draw[-{Stealth}] (root) -- (m);
+\draw[-{Stealth}] (root) -- (e);
+\draw[-{Stealth}] (e) -- (p);
+\draw[-{Stealth}] (p) -- (l);
+\end{tikzpicture}
+\caption{四通道生成树。每条通道都是「传播 + 一个新约束」的产物——不是四个独立领域，是同一动力学的四张脸。}
+\label{fig:channel-tree}
+\end{figure}
+
+为什么次序是这个？因为约束是嵌套的：没有稀缺谈不上交换，没有交换谈不上身份溢价，没有博弈结果谈不上定责。第 11 到 14 章，每章开头都标注「本章加了什么约束」——这条生成树就是那四章的母图。
+
+\lowfreq{这是理想化模型，现实社会有噪声：真实历史里四条通道互相污染、次序颠倒。模型给的是「分离变量」的脚手架，不是编年史。}
+
+\begin{reader_anticipation}
+	\item 为什么法律排最后，不排第一？→ 法律要编码的对象（博弈结果）得先存在。第 14 章还会看到它反过来咬合前三者。
+	\item 四条通道的「各占多少」怎么算？→ 第 9 章的分账公式，第 11–14 章逐章代入具体因素，第 15 章拼回整表。
+\end{reader_anticipation}
+
+\paragraph*{逻辑衔接}
+	生成树建好，两枚追问收掉：微观动机沿通道放大成宏观规律。第一站从最无压的一枝开始——什么信息会自己传播？第 11 章：观念的病毒。
+
+\begin{thinkbox}
+\begin{enumerate}
+	\item 用「守恒性」尺子测三个你天天接触的东西：一个表情包、一次拼单、一场热搜。各是复制型还是转移型？守恒量是什么（如果有的话）？
+	\item \textbf{反事实}：如果「转发」这个动作每次收费一毛钱——传播必须消耗稀缺资源了——热搜榜会变成什么样？谣言会变少，还是换一种跑法？
+	\item \textbf{反事实}：如果古代没有纸（知识复制的成本高到接近转移），丝绸之路会更像商队还是更像使团？「无压传播」被压成「有压」，文明的形状会怎么变？
+\end{enumerate}
+\end{thinkbox}
+
+\end{document}

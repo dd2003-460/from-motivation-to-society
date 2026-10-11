@@ -1,0 +1,65 @@
+{
+  "meta": "AI 味词表（去 AI 化检测用）。来源：维基百科《Signs of AI writing》、朱雀 AI 检测规则、多篇去 AI 味指南（2026-10-11 检索整理）。本词表只作『需人工复核』提示，不自动判定——学术写作里部分词（如统计『显著』）是正当用法，需结合上下文。",
+  "note": "本作者（动机社会）常用且正当的词已剔除：闭环、基石、引擎、本质上（作者用作严肃概念）等。下列词在本书语境里基本是 AI 腔信号。",
+  "categories": {
+    "connector_formal": {
+      "severity": "med",
+      "desc": "正式过渡连接词，真人写作密度很低；每 3-4 句出现一个即偏 AI",
+      "terms": ["值得注意的是", "综上所述", "总而言之", "综上", "换言之", "由此可见", "换句话说", "从这个角度看", "在这个背景下", "在当今", "与此同时", "此外", "另外", "首先", "其次", "最后", "旨在", "致力于", "毋庸置疑", "不可否认", "显而易见", "不言而喻", "某种程度上"]
+    },
+    "quantifier_filler": {
+      "severity": "med",
+      "desc": "空泛量化词，AI 用来显得『深刻』但无信息量",
+      "terms": ["广泛", "全面", "大幅", "大幅度", "极其", "尤为", "格外", "实质性", "空前", "史无前例", "前所未有", "不可或缺", "至关重要", "举足轻重", "不可替代", "不容忽视", "深刻影响", "从根本上"]
+    },
+    "metaphor_cliche": {
+      "severity": "med",
+      "desc": "AI 最爱用的宏大比喻/黑话，本书作者不用",
+      "terms": ["双刃剑", "画卷", "风景线", "交响曲", "桥梁（比喻义）", "矩阵", "赛道", "生态（比喻义）", "格局（比喻义）", "版图", "范式", "浪潮", "图景", "护城河", "抓手", "赋能", "底层逻辑", "组合拳", "压舱石", "定海神针", "淋漓尽致", "完美诠释"]
+    },
+    "superlative": {
+      "severity": "med",
+      "desc": "用力过猛的最高级/强调，常是 AI 模仿『有力度』的痕迹",
+      "terms": ["最稳健", "最关键", "最致命", "最核心", "最明显", "最值得", "最重要", "最狠", "太狠", "最为", "至极", "登峰造极", "真正意义上"]
+    },
+    "magic_adv": {
+      "severity": "low",
+      "desc": "模糊但显深刻的副词",
+      "terms": ["悄然", "悄悄", "某种意义上", "不容置疑"]
+    },
+    "en_ai": {
+      "severity": "med",
+      "desc": "英文 AI 腔高频词（大小写不敏感）",
+      "terms": ["delve", "leverage", "robust", "streamline", "harness", "tapestry", "landscape", "underscore", "testament", "pivotal", "intricate", "nuanced", "vibrant", "showcase", "foster", "seamless", "holistic", "game-changer", "elevate", "unlock", "cutting-edge", "in conclusion", "moreover", "furthermore", "it is worth noting", "plays a crucial role", "plays an important role", "not only", "but also"]
+    },
+    "filler_cliche": {
+      "severity": "low",
+      "desc": "套路化填充语（注意：『说白了/其实』是本书作者正当口语，不在此列）",
+      "terms": ["讲真", "说真的", "坦白说", "老实说", "毋庸置疑地"]
+    }
+  },
+  "heuristics": {
+    "over_bold": {
+      "severity": "med",
+      "desc": "段落内加粗过多＝没有重点；阈值：单段 ** 数 ≥ 5，或（词数>40 且加粗占比>12%）",
+      "para_bold_min": 5,
+      "para_word_min": 40,
+      "bold_ratio_max": 0.12
+    },
+    "em_dash": {
+      "severity": "low",
+      "desc": "破折号 —— 单段 ≥ 3 处即偏 AI（AI 爱用破折号插入补述）",
+      "para_emdash_min": 3
+    },
+    "not_x_but_y": {
+      "severity": "low",
+      "desc": "『不是 X，而是 Y』戏剧化句式，高频出现即 AI",
+      "pattern": "不是.{0,20}而是"
+    },
+    "from_x_to_y": {
+      "severity": "low",
+      "desc": "『从 X 到 Y』虚假跨度修辞",
+      "pattern": "从.{1,15}到.{1,15}"
+    }
+  }
+}

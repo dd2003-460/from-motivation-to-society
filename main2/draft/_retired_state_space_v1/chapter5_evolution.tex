@@ -1,0 +1,114 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 本章把原书 part3_AI执行指导.md 的核心分叉（有压扩增 vs 无压扩增）
+	% 从 Part 3 中间提升到 Part II，作为演化引擎的基础——这是有意的
+	% 结构改动（notes/00-architecture.md §P2 ch5）。
+	% ======================================================================
+
+	\chapter{演化：相互作用如何改变状态}
+	\label{ch:evolution}
+
+	\begin{motivation}
+		上一章遗留的问题：人存给出边界、策略给出菜单，但边界内的一切仍是静态的——状态怎么动？谁在推动物质、人、相互作用离开当前位置？\\
+		\textbf{核心动机}：论证相互作用是状态变化的唯一引擎；并在引擎内部找到全书最重要的分叉——有压扩增与无压扩增。这个分叉是后面四个通道（Part IV）的生成器。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=0.9cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {状态怎么动？};
+	\node (e) [below=of q] {相互作用 = 唯一引擎（§5.1）};
+	\node (f) [below left=1.1cm and 1.5cm of e] {有压扩增（零和·收敛）};
+	\node (u) [below right=1.1cm and 1.5cm of e] {无压扩增（非零和·发散）};
+	\node (k) [below=2.2cm of e] {耦合强度 $\kappa$ 决定速度（§5.3）};
+	\node (w) [below=of k] {可预测窗口（§5.4）};
+	\draw[-{Stealth}] (q) -- (e);
+	\draw[-{Stealth}] (e) -- (f);
+	\draw[-{Stealth}] (e) -- (u);
+	\draw[-{Stealth}] (f) -- (k);
+	\draw[-{Stealth}] (u) -- (k);
+	\draw[-{Stealth}] (k) -- (w);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{相互作用是唯一的引擎}
+	\label{sec:evo-engine}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】如果物质不动、人不动，状态会变吗？→ 不会。变化只来自相互作用。相互作用需要消耗什么吗？→ 这是分叉点：有的消耗，有的不消耗——这个差别将切开出两条完全不同的世界线。}}
+
+	\textcolor{gray}{（正文待写：反证式论证——冻结物质与人的假想实验；变化 = 至少一对元素发生相互作用。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么一间没人住的屋子只会越来越乱，而一间有人住的屋子可以越来越整洁？）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）引擎找到了，但引擎有两种点火方式——有的烧油，有的不烧。下一节「有压扩增 vs 无压扩增」是全书最重要的一次分叉。}
+
+	% ==================================================================
+	\section{有压扩增 vs 无压扩增}
+	\label{sec:evo-pressure}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】有压（消耗稀缺资源，零和，收敛）/ 无压（传播不消耗原体，非零和，发散）。为什么会分叉？→ 因为复制与转移的数学性质不同：$A \to A + B$ 与 $A \to B$ 的差别。}}
+
+	\textcolor{gray}{（正文待写：本节必须完整——它是 Part IV 四通道的生成器。用「加入一个约束」句式：传播不消耗原体时无压；加入稀缺约束后复制变转移、总量守恒、零和开始起作用。经济/政治属前者？不——模因属无压，经济政治属有压；预告 ch8。)}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么一个笑话讲给一百个人它还在你嘴里，而一百块钱分给一百个人它就没了？）}
+	\end{readingnote}
+
+	\begin{questionbox}
+		\textcolor{gray}{（待写：反驳位——「注意力难道不是稀缺资源吗？无压扩增真的是无压的吗？」回答：压在接收方，不在传播方——这正是 §9.1 模因上限在接收方的原因。）}
+	\end{questionbox}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）这个分叉怎么生成四个通道？→ 第8章「通道生成器」。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）两条扩增模式定了。但社会不是匀速演化的——什么东西决定快慢？下一节「互动强度决定演化速度」引入耦合强度 $\kappa$。}
+
+	% ==================================================================
+	\section{互动强度决定演化速度}
+	\label{sec:evo-kappa}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】耦合强度 $\kappa$ 决定状态变化速率。$\kappa$ 太低 = 冻结，太高 = 混沌，中间才是「有历史」的区域。太高为什么会混沌？→ 因为预测失效：误差指数放大。}}
+
+	\textcolor{gray}{（正文待写：mathbox——状态方程 $\mathrm{d}S/\mathrm{d}t = \kappa \cdot f(S)$ 的直觉版；冻结/混沌两端的例子（孤岛部落 vs 金融泡沫）。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）$\kappa$ 的两端都令人绝望。那本书的预测能力到底落在哪？下一节「可预测窗口」划出诚实的边界。}
+
+	% ==================================================================
+	\section{可预测窗口}
+	\label{sec:evo-window}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】诚实论证：$\kappa$ 中间窗口给出有意义的预测，两端都不给。这就是本书预测能力的边界——不是谦虚的修辞，是模型的性质。}}
+
+	\textcolor{gray}{（正文待写：窗口的三段论；「我们能说什么/我们不能说什么」分列；\lowfreq 标注窗口边界的经验性。第13章 §13.4 的失败模式清单在此预埋。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）演化是随机的，但随机不等于不可分析。Part III「条件概率与贡献分解」将回答：随机演化里，「预测」到底在预测什么。}
+
+	% ==================================================================
+	\section{本章小结与衔接}
+	\label{sec:evo-summary}
+
+	\textcolor{gray}{（正文待写：收束——引擎（相互作用）、两种点火（有压/无压）、速度旋钮（$\kappa$）、可用区间（窗口）。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）Part II 完成：状态有了、边界有了、引擎有了。第6章「预测的数学形式」把「预测」二字第一次写成公式。}
+
+\end{document}

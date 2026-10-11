@@ -1,0 +1,242 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 数学附录（v2 骨架版）
+	% 状态：A.0–A.5 中，「条件概率链乘积分解」「贡献分解」「多因一果交互项」
+	% 三部分为正式推导（本次会话完成）；其余为骨架与接口清单。
+	% 对应正文：第6章（链）、第7章（贡献）、第12章（法律定责）。
+	% 原书附录 V.2→V.3 断裂点的修复说明见 A.1。
+	% ======================================================================
+
+	\chapter{数学附录（v2）：条件概率、贡献分解与交互项}
+	\label{app:v2math}
+
+	\begin{motivation}
+		你可能会问：正文不是已经说清楚了吗？为什么还要数学附录？\\
+		\textbf{核心动机}：正文给直觉，附录给可检验的承诺。正文说「贡献是条件概率差」，附录就要说清：这个定义依赖哪些假设、放松哪些假设它会失效、多因一果时交互项怎么显式处理。形式化不是炫耀，是让「大概如此」变得可争议。
+	\end{motivation}
+
+	\begin{logicmap}
+	正文直觉与洞察
+	$\rightarrow$ 单一因果方向的声明（A.1）
+	$\rightarrow$ 条件概率链的乘积分解（A.2）
+	$\rightarrow$ 贡献分解：条件概率差（A.3）
+	$\rightarrow$ 多因一果：交互项与分配方案（A.4）
+	$\rightarrow$ 边界、接口与未覆盖问题（A.5）
+	\end{logicmap}
+
+	\section{A.0 使用说明与工程声明}
+
+	本附录不是新的论述层，而是对正文关键论断的\textbf{形式化、可核验重写}。阅读方式：按需跳转，每一节通过 \texttt{\textbackslash mathlink} 链接与正文一一对应；附录中不引入新的经验性主张，仅展开假设、模型与边界。
+
+	\begin{mathbox}{附录定位与阅读方式}
+		\textbf{定位}：正文（第6、7、12、13章）的定量承诺单。\\[0.4em]
+		\textbf{阅读建议}：
+		\begin{itemize}
+			\item 可在阅读正文后，按需跳转至对应数学模块；
+			\item 每一节均标注其依赖的假设，假设放松的后果显式列出；
+			\item 附录与正文冲突时，以附录的严格版本为准——直觉向严格让步。
+		\end{itemize}
+	\end{mathbox}
+
+	\paragraph*{逻辑衔接}
+	明确了定位与使用方法，我们先做一件正文反复强调、但从未正式写下的事：因果方向的选择。这是原书断裂点的修复声明，下一节 A.1 完成。
+
+	\section{A.1 记号与因果方向声明}
+
+	\begin{mathbox}{记号}
+		\begin{itemize}
+			\item $C_0$：初始条件（「现在」）；$R$：结果事件（「未来」中被预测的对象）；
+			\item $C_1 \to C_2 \to \cdots \to C_n \to R$：因果链上的中间环节；
+			\item $A, B$：候选原因（因素、通道）；$D$：被解释的结果；
+			\item $P(X \mid Y)$：在 $Y$ 发生的条件下 $X$ 的概率。
+		\end{itemize}
+	\end{mathbox}
+
+	\textbf{因果方向声明}：本附录与正文只使用一个方向——$P(\text{结果} \mid \text{原因})$。诊断方向 $P(\text{原因} \mid \text{结果})$ 仅在显式声明先验、并通过贝叶斯翻转时允许出现。
+
+	\begin{mathbox}{为什么这是断裂点的修复}
+		原书附录 V.2 使用信息空间的正交化（Gram--Schmidt 意义上的「去重」），V.3 使用因果意义下的条件概率——\textbf{空间的几何}与\textbf{因果的推断}不同构：正交化没有方向，条件概率有方向。把两者直接衔接，链条在 V.2 $\rightarrow$ V.3 处断裂。\\[0.4em]
+		本版的处理：放弃「正交化 $\to$ 条件概率」的伪衔接，改为「\textbf{状态空间}（正文第3章）$\to$ \textbf{单一方向的因果条件概率}（本附录 A.2 起）」。概率定义在状态空间的转移上，方向由因果假设显式给出——每个假设都可被单独攻击与替换。
+	\end{mathbox}
+
+	\paragraph*{逻辑衔接}
+	方向定了、记号齐了。接下来是第一个正式推导：沿因果链，$P(R \mid C_0)$ 如何分解为可测量的接口。下一节 A.2。
+
+	\section{A.2 条件概率链的乘积分解}
+	\label{app:chain}
+
+	\mathlink{sec:pred-chain}{正文链接：第6章 §6.3「链条的乘积分解」}
+
+	\begin{mathbox}{A.2.1 目标}
+		给定因果链 $C_0 \to C_1 \to \cdots \to C_n \to R$，证明在链式（马尔可夫）假设下
+		\[ P(R \mid C_0) \;=\; \prod_{k=1}^{n} P(C_k \mid C_{k-1}) \cdot P(R \mid C_n), \]
+		且每个因子是\textbf{可独立测量的接口}。
+	\end{mathbox}
+
+	\begin{mathbox}{A.2.2 推导}
+		第一步：联合事件的链式法则（恒等式，无假设）
+		\[ P(C_1, \dots, C_n, R \mid C_0) = P(C_1 \mid C_0)\, P(C_2 \mid C_0, C_1) \cdots P(R \mid C_0, C_1, \dots, C_n). \]
+		第二步：加入\textbf{链式假设}（一阶马尔可夫）：给定直接前驱，每个环节与更早的历史独立
+		\[ P(C_k \mid C_0, \dots, C_{k-1}) = P(C_k \mid C_{k-1}), \qquad P(R \mid C_0, \dots, C_n) = P(R \mid C_n). \]
+		代入即得
+		\[ P(R \mid C_0) = \prod_{k=1}^{n} P(C_k \mid C_{k-1}) \cdot P(R \mid C_n). \qquad \text{（证毕）} \]
+		\textit{工程意义}：链式假设把 $n{+}1$ 元联合分布压缩为 $n{+}1$ 个二元条件概率——每个 $P(C_k \mid C_{k-1})$ 是一个\textbf{可测量接口}：供应链的良率、审批的通过率、动员的转化率。归因（第7章）因此才有落点。
+	\end{mathbox}
+
+	\begin{mathbox}{A.2.3 推论：短板效应与关键杠杆点}
+		设各环节独立可靠度为 $P_k \in [0,1]$，则整链
+		\[ P_{\text{链}} = \prod_{k} P_k \;\le\; \min_k P_k. \]
+		\begin{itemize}
+			\item \textbf{短板效应}：整链不优于最弱一环。改善最强的环节对整链几乎无益；
+			\item \textbf{关键杠杆点的形式定义}：称 $k^\ast$ 为杠杆点，若 $\partial P_{\text{链}} / \partial P_{k^\ast}$ 在当前配置下最大——即 $P_{\text{链}} / P_{k^\ast}$ 最大处、且 $P_{k^\ast}$ 尚有提升空间；
+			\item \textbf{冗余}：并联 $m$ 条独立路径时，$P_{\text{并}} = 1 - \prod_{j=1}^{m}(1 - P^{(j)}) \ge \max_j P^{(j)}$——单点失效不再致命。
+		\end{itemize}
+	\end{mathbox}
+
+	\begin{mathbox}{A.2.4 假设边界}
+		\begin{itemize}
+			\item 链式假设不成立（长程依赖）时，乘积公式失效，退化为需要全历史条件的联合分布；
+			\item 环节间相关（共同原因）时，独立并联公式高估冗余收益；
+			\item \lowfreq{社会系统里「环节」的切分本身就是建模选择——切分不同，杠杆点不同。此边界无法从数学内部消除。}
+		\end{itemize}
+	\end{mathbox}
+
+	\paragraph*{逻辑衔接}
+	单链会分解了。但归因的真正对象不是链，而是「多因一果」里每个因素各占多少。下一节 A.3 给出贡献的定义。
+
+	\section{A.3 贡献分解：条件概率差}
+	\label{app:contribution}
+
+	\mathlink{sec:contrib-def}{正文链接：第7章 §7.1「从有/无到定量」}
+
+	\begin{mathbox}{A.3.1 定义}
+		因素 $A$ 对结果 $D$ 的\textbf{贡献}：
+		\[ C_A \;=\; P(D \mid A) - P(D \mid \neg A). \]
+		\begin{itemize}
+			\item 这是一次\textbf{反事实对比}：「有 $A$ 的世界」对「无 $A$ 的世界」；
+			\item $C_A \in [-1, 1]$：正贡献、零贡献、负贡献（保护因素）；
+			\item \textbf{可干预性定义因果}：$C_A \neq 0 \iff$ 改变 $A$ 能改变 $D$ 的概率。本书不使用更形而上的因果概念。
+		\end{itemize}
+	\end{mathbox}
+
+	\begin{mathbox}{A.3.2 观察与干预的区分（诚实条款）}
+		$P(D \mid A)$ 是\textbf{观察}到的条件频率；贡献定义要求的是\textbf{干预} $\operatorname{do}(A)$：
+		\[ C_A = P(D \mid \operatorname{do}(A)) - P(D \mid \operatorname{do}(\neg A)). \]
+		当存在混杂因子 $Z$（同时影响 $A$ 与 $D$）时，
+		\[ P(D \mid A) \neq P(D \mid \operatorname{do}(A)), \]
+		直接用观察数据计算 $C_A$ 会得到\textbf{有偏估计}。缓解手段（分层、匹配、自然实验）只能逼近、不能保证消除偏差。\lowfreq{本附录后文在记号上不区分 $P(\cdot \mid A)$ 与 $P(\cdot \mid \operatorname{do}(A))$，但正文与附录的每个具体应用都必须单独声明它的识别策略。}
+	\end{mathbox}
+
+	\begin{mathbox}{A.3.3 贡献表（示例格式）}
+		\begin{center}
+		\begin{tabular}{lccc}
+			\toprule
+			因素 & 贡献 $C$ & 份额 $s = C / \sum_i C_i$ & 备注 \\
+			\midrule
+			模因通道 & $+0.18$ & $0.30$ & 估计，来源：$\ldots$ \\
+			经济通道 & $+0.24$ & $0.40$ & 估计，来源：$\ldots$ \\
+			政治通道 & $+0.12$ & $0.20$ & 估计，来源：$\ldots$ \\
+			法律通道 & $+0.06$ & $0.10$ & 估计，来源：$\ldots$ \\
+			\midrule
+			合计 & $+0.60$ & $1.00$ & \textbf{不含交互项}（见 A.4） \\
+			\bottomrule
+		\end{tabular}
+
+		{\small 表注（贡献表示例，数字为示意，非实证结果）：份额归一化\textbf{丢失绝对量级}——合计 $0.60$ 与合计 $0.05$ 的两张表，份额列可以完全相同。}
+		\end{center}
+	\end{mathbox}
+
+	\paragraph*{逻辑衔接}
+	单因素的贡献有了定义。但当 $A$、$B$ 同时在场时，两张「单独的」贡献表加不起来——交互项必须显式处理。下一节 A.4 是本附录最需要诚实的部分。
+
+	\section{A.4 多因一果：交互项的显式处理}
+	\label{app:interaction}
+
+	\mathlink{sec:contrib-interaction}{正文链接：第7章 §7.3「多因一果的分配」}
+
+	\begin{mathbox}{A.4.1 四格分解}
+		两个因素 $A, B$，一个结果 $D$。全部可干预概率构成 $2 \times 2$ 四格：
+		\begin{center}
+		\begin{tabular}{lcc}
+			\toprule
+			 & $B$ 在场 & $B$ 缺席 \\
+			\midrule
+			$A$ 在场 & $P(D \mid A, B)$ & $P(D \mid A, \neg B)$ \\
+			$A$ 缺席 & $P(D \mid \neg A, B)$ & $P(D \mid \neg A, \neg B)$ \\
+			\bottomrule
+		\end{tabular}
+
+		{\small 表注：多因一果的全部信息都在这四个数里（在干预意义下）。}
+		\end{center}
+		以 $p_0 = P(D \mid \neg A, \neg B)$ 为基准，定义：
+		\[ c_A = P(D \mid A, \neg B) - p_0, \qquad c_B = P(D \mid \neg A, B) - p_0, \]
+		\[ T = P(D \mid A, B) - p_0 \quad (\text{联合总效应}), \]
+		\[ I_{AB} = T - c_A - c_B = P(D \mid A, B) - P(D \mid A, \neg B) - P(D \mid \neg A, B) + p_0. \]
+		\textbf{关键事实}：一般情况下 $I_{AB} \neq 0$，因此
+		\[ C_A + C_B \neq T \quad (\text{总效应不等于单独贡献之和}). \]
+		把 $I_{AB}$ 悄悄摊进 $C_A$、$C_B$，是归因分析最常见的糊弄——本附录禁止。
+	\end{mathbox}
+
+	\begin{mathbox}{A.4.2 交互项的两种分配方案}
+		\textbf{方案一：Shapley 值（对称分摊）}。$A$ 的 Shapley 贡献：
+		\[ \phi_A = \tfrac{1}{2}\, c_A + \tfrac{1}{2}\, (T - c_B) = c_A + \tfrac{1}{2} I_{AB}, \]
+		\[ \phi_B = c_B + \tfrac{1}{2} I_{AB}, \qquad \phi_A + \phi_B = T. \]
+		性质：交互项对半分摊；贡献恰好配平总效应；$n$ 个因素时推广为对所有 $n!$ 个加入顺序取平均（等价地对 $2^{\,n-1}$ 个子集求和）。\\[0.5em]
+		\textbf{方案二：边际贡献排序（保序不保量）}。报告 $A$ 的边际贡献\textbf{区间}：
+		\[ \big[\, \min(c_A,\; T - c_B),\;\; \max(c_A,\; T - c_B) \,\big], \]
+		即「另一因素缺席/在场」两种世界里的两个边际值。只承诺排序，不承诺配平。\\[0.5em]
+		\textbf{选择理由与代价}：
+		\begin{itemize}
+			\item Shapley：唯一满足对称性、 dummy（零贡献因素不得分）、可加性的分配；代价——「对半分摊」是\textbf{规范性约定}而非测量，且 $n$ 大时枚举爆炸；
+			\item 边际排序：不假装能配平，对交互项的误分摊稳健；代价——丢失量级，且两因素区间重叠时排序也不完整。
+		\end{itemize}
+		本书默认：\textbf{定性结论用边际排序，定量核算用 Shapley，两者并报}。当 $|I_{AB}|$ 与 $|c_A|$ 同量级时，任何分配都低可信——此时只报 $I_{AB}$ 本身。
+	\end{mathbox}
+
+	\begin{mathbox}{A.4.3 三因素及以上的边界}
+		$n \ge 3$ 时，Shapley 需要 $2^n$ 个 $\operatorname{do}$-概率；真实社会场景几乎不可能全部测得。可行的退路：只对\textbf{疑似强交互}的对子做 $I_{(\cdot)(\cdot)}$ 检验，其余假设可加（$I = 0$）——并在结果中显式声明「未检验的交互对子」清单。\lowfreq{「大部分交互项可忽略」是经验工作假设，不是定理；历史上它失败过的次数不少（组合创新、生态联动）。}
+	\end{mathbox}
+
+	\paragraph*{逻辑衔接}
+	链、贡献、交互项——三个工具都齐了。最后清点它们与正文的接口、以及它们覆盖不了的问题。下一节 A.5。
+
+	\section{A.5 与正文的接口、未覆盖问题与命题指向}
+	\label{app:interface}
+
+	\begin{mathbox}{A.5.1 接口清单}
+		\begin{itemize}
+			\item 第6章 §6.3（乘积链）$\leftrightarrow$ 本附录 A.2；
+			\item 第7章 §7.1（贡献定义）、§7.3（交互项）、§7.4（归一化）$\leftrightarrow$ A.3、A.4；
+			\item 第12章 §12.2（法律定责）$\leftrightarrow$ A.3.1：责任 $\propto P(\text{损害} \mid \text{行为}) - P(\text{损害} \mid \neg \text{行为})$；
+			\item 第13章 §13.2（链的重组）、§13.3（完整演示）$\leftrightarrow$ A.2 + A.4 联用。
+		\end{itemize}
+	\end{mathbox}
+
+	\begin{mathbox}{A.5.2 未覆盖问题（诚实清单）}
+		本附录\textbf{不}处理、且当前数学没有干净解法的问题：
+		\begin{enumerate}
+			\item \textbf{非平稳}：$P(C_k \mid C_{k-1})$ 本身随时间漂移（第5章 $\kappa$ 的变化）；
+			\item \textbf{外部冲击}：链外事件改变四格表全体（黑天鹅不在 $2\times2$ 里）；
+			\item \textbf{反身性}：预测被公布后改变被预测的概率（第14章；此时概率是「预测的函数」）；
+			\item \textbf{权重不可测}：第2章 $w_i$ 的识别问题，在贡献层面同样存在；
+			\item \textbf{通道切分的任意性}：四通道是生成树（第8章）的产物，不是自然类别——切分变了，交互项全变。
+		\end{enumerate}
+	\end{mathbox}
+
+	\begin{mathbox}{A.5.3 介观统一论三命题（只描述，不证明）}
+		正文第12章 §12.4 陈述了三个命题：
+		\begin{enumerate}
+			\item 经济是稀缺化的模因；
+			\item 政治是人情化的经济；
+			\item 法律是博弈结果的条件概率编码。
+		\end{enumerate}
+		\lowfreq{以上三个命题的严格推导不在本附录范围内，见待发表论文《介观统一论》。本附录与正文只提供其直觉呈现（第8--12章的生成树推导是它的示意版本，不是证明）。让 AI 在正文中「证明」它们，会产生虚假推导——此为原书作者明令禁止的事项。}
+	\end{mathbox}
+
+	\paragraph*{逻辑衔接}
+	附录到此为骨架版：三个核心推导（A.2、A.3、A.4）已完整，接口与边界已清点。后续会话将按正文 Part III--V 的精写进度，补充数值算例与敏感性分析（对齐第13章 §13.3 的完整演示）。
+
+\end{document}

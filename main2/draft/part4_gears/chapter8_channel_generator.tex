@@ -1,0 +1,91 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 本章是 Part IV 的前提章：先建分类判据（守恒性），再生成四通道。
+	% 原书错误 1（四章并列）在此根治：后面四章每章开头标注「加入什么约束」。
+	% ======================================================================
+
+	\chapter{通道生成器：有压与无压}
+	\label{ch:channels}
+
+	\begin{motivation}
+		上一章遗留的问题：贡献分解的 A、B 还是抽象字母——「因素」具体是什么？第5章埋下的分叉（有压/无压）还没有被当作分类判据正式使用。\\
+		\textbf{核心动机}：建立全书第一个真正的分类原则——守恒性——并用它从「传播」出发生成四条通道。后面四章每一条，都是本章生成树上的一个节点。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=0.9cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {传播的两种数学形态（§8.1）};
+	\node (c) [below=of q] {守恒性 = 分类判据（§8.2）};
+	\node (t) [below=of c] {四通道生成树（§8.3）};
+	\node (m1) [below left=1.0cm and 2.2cm of t] {模因（无压）};
+	\node (m2) [below=1.0cm of t] {经济（+稀缺）};
+	\node (m3) [below right=1.0cm and 2.2cm of t] {政治（+身份）};
+	\node (m4) [below=2.0cm of t] {法律（定责编码）};
+	\draw[-{Stealth}] (q) -- (c);
+	\draw[-{Stealth}] (c) -- (t);
+	\draw[-{Stealth}] (t) -- (m1);
+	\draw[-{Stealth}] (t) -- (m2);
+	\draw[-{Stealth}] (t) -- (m3);
+	\draw[-{Stealth}] (t) -- (m4);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{传播的两种数学形态}
+	\label{sec:gen-two-forms}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】复制 $A \to A + B$（不消耗原体）vs 转移 $A \to B$（原体消失）。为什么会分出两类？→ 因为守恒性不同：一个总量可增，一个总量不变。}}
+
+	\textcolor{gray}{（正文待写：两个式子的日常版本——讲故事 vs 递烟；从第5章 §5.2 接过来，升级为判据。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么「教别人」让自己更会，而「给别人钱」让自己更穷？）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）两种形态摆在那，但需要一个可操作的判据来测。下一节「守恒性作为分类判据」给出测量动作：找总量不变量。}
+
+	% ==================================================================
+	\section{守恒性作为分类判据}
+	\label{sec:gen-conservation}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】守恒 → 总量约束 → 零和；不守恒 → 可以无限复制。守恒性怎么测？→ 找总量不变量：能找到守恒量的传播走有压逻辑，找不到的走无压逻辑。}}
+
+	\textcolor{gray}{（正文待写：判据的可操作性清单（守恒量、零和性、收敛/发散）；「分类原则必须先建立，判据必须可操作」（风格守则规则3）。）}
+
+	\begin{questionbox}
+		\textcolor{gray}{（待写：反驳位——「注意力/时间是守恒的，所以一切都是有压的？」回答：守恒量所在层不同——注意力守恒不等于内容守恒；判据按传播物本身的总量计。）}
+	\end{questionbox}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）判据在手。从「传播」出发逐层加约束，会长出一棵树。下一节「四通道的生成树」展示全书 Part IV 的地图。}
+
+	% ==================================================================
+	\section{四通道的生成树}
+	\label{sec:gen-tree}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】从「传播」出发，依次加入约束：不加 → 模因（无压）；加稀缺 → 经济；再加身份/偏好 → 政治；对三者博弈结果加定责要求 → 法律。每条通道的贡献怎么算？→ 用第7章的 $C_A$ 逐通道代入。}}
+
+	\textcolor{gray}{（正文待写：生成树 TikZ 大图；嵌套关系预演：文化 $\supset$ 经济 $\supset$ 政治，法律提供定量框架——第12章 §12.4 将推导而非断言它。）}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）为什么生成树的顺序是模因→经济→政治→法律？→ 第9--12章逐章回答：每次加一个约束，通道分离。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）分类树建好了。第9章「通道一：模因」从最无压的一枝开始——什么信息会自己传播？}
+
+	% ==================================================================
+	\section{本章小结与衔接}
+	\label{sec:gen-summary}
+
+	\textcolor{gray}{（正文待写：收束——分类判据 + 生成树；后面四章每章开头标注「本章是哪种扩增模式、加了什么约束」。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）第9章「通道一：模因（无压扩增）」处理树上第一个节点：不消耗原体的传播。}
+
+\end{document}

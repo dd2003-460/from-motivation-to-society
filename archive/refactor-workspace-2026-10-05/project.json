@@ -1,0 +1,57 @@
+{
+  "id": "motivation-society-refactor",
+  "name": "谁在推动未来（动机社会重构 v2）",
+  "dimension": "学术",
+  "sub_category": "writing",
+  "type": "进行中",
+  "status": "v2_architecture_settled_arena_rewriting",
+  "created": "2026-10-05",
+  "revised": "2026-10-05 (v1 → v2)",
+  "bucket": "influence",
+  "upstream": {
+    "local": "/Users/a1-6/Desktop/workspace/projects/理论物理/写作-社会系统/D1-writing/motivation_society",
+    "github": "https://github.com/dd2003-460/from-motivation-to-society",
+    "upstream_head": "b22ff00"
+  },
+  "description": "对《社会动力学与公理化体系》的结构性重构。核心转向：从回溯式解释（为什么是这个结果）改为前向式预测（这个结果里各因素各占多少），最终支持反事实推演。v2 砍掉 v1 的本体论层，因果推断从「预测未来」内部自然长出。",
+  "core_thesis": "能预测 ⟺ 有因果。这是同一个问题的两面。所以因果推断不需要单独引入——它是「想预测未来」这个动作的内在要求。",
+  "v2_chapter_title": "谁在推动未来——从「发生了什么」到「谁在起作用」",
+  "entry": "notes/02-architecture-v2.md",
+  "style_source": "补充材料/part3_AI执行指导.md (upstream) + skills/motivation-society-style/SKILL.md (extracted, 第8节为v2新增)",
+  "consult_source": "notes/consult/gemini-response-01.txt (Gemini 3.1 Pro Preview, thinking=High)",
+  "hard_constraints": [
+    "禁止改动 main.tex",
+    "禁止改动任何原章节 part1_core_logic/ part2_geological_determinism/ part3_systematic_expansion/ conclusion/ frontmatter/ backmatter/ appendix/appendix_V_math.tex",
+    "新内容只允许写入 main2.tex 与 draft/ 下新文件",
+    "逐章推进，每章单独 commit+push",
+    "不确定写什么时停下提问，禁止用空话填充",
+    "Part I 和 Part II 零公式；公式从 Part III 开始",
+    "每个术语全书只准正名一次（首次出现括号标注），之后用日常说法",
+    "「贡献分解」不许当小节标题，用「分锅」「算账」「各占多少」",
+    "理想化模型必须用 \\lowfreq{} 显式标注",
+    "Part I 末尾、Part II 末尾各埋一个微观→宏观追问，Part IV 开头必须正面回答（不许只埋不收）"
+  ],
+  "terminology_packaging": {
+    "条件概率定贡献": "无你检验 / 平行宇宙对比法",
+    "因果推断": "寻找真正的幕后推手",
+    "模因": "观念的病毒",
+    "贡献分解": "分锅 / 算账 / 各占多少"
+  },
+  "structure": {
+    "introduction": "导论：为什么算得最准的人，预测得最离谱（2008 金融危机开场）",
+    "part1": "驱动未来的引擎：动机与目标 (ch1 motivation, ch2 goal)",
+    "part2": "谁是真正的推手：预测与因果 (ch6 prediction_cause, ch7 correlation_causation) — 零公式",
+    "part3": "法庭上的时光机：多因分账 (ch8 butfor_test, ch9 multiple_causes)",
+    "part4": "社会的四大齿轮：观念/经济/权力/法律 (ch10-ch14)",
+    "part5": "回到循环：预测如何改变预测 (ch15 forecast, ch16 closure)"
+  },
+  "removed_in_v2": [
+    "v1 Part II「演化状态空间：物质/人/相互作用」整部 — 太不自然，是前提性声明而非读者会问的问题",
+    "v1 ch3 state_triple / ch4 survival / ch5 evolution 三章"
+  ],
+  "reassigned_in_v2": {
+    "法律": "从 Part IV 的一个通道，升格为 Part III「方法最早的成熟应用」；同时在 Part IV 仍作为齿轮之一出现（两个角度，有意为之）"
+  },
+  "acceptance": "notes/02-architecture-v2.md §2 + skills/motivation-society-style/SKILL.md §9（读者可读性 4 问优先级最高）",
+  "arena_session": "01a10b07-df56-72c4-be7a-807001feb103"
+}

@@ -1,0 +1,571 @@
+{
+  "authoritative_inputs": [
+    {
+      "characters": 583,
+      "kind": "human_input",
+      "sha256": "54ed45def7b5bc6f",
+      "source": "UserPromptSubmit",
+      "text": "<task-notification>\n<task-id>a583997a8e648e839</task-id>\n<tool-use-id>call_45c41857</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-a1-6-D1-academic----writing-----/ef9eb490-39e4-41eb-8824-02f6f0c790ac/tasks/a583997a8e648e839.output</output-file>\n<status>killed</status>\n<summary>Agent \"Research emoji 🧮 purpose\" was stopped by user</summary>\n<note>A task-notification fires each time this agent stops with no live background children of its own. The user can send it another message and resume it, so the same task-id may notify more than once.</note>\n</task-notification>"
+    },
+    {
+      "characters": 707,
+      "kind": "human_input",
+      "sha256": "5b28ff106ae95726",
+      "source": "UserPromptSubmit",
+      "text": "<task-notification>\n<task-id>ae912f584e3f47d67</task-id>\n<tool-use-id>call_5cf6cb47</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-a1-6-D1-academic----writing-----/956e8480-8795-443e-a1bb-9c55c391e4b1/tasks/ae912f584e3f47d67.output</output-file>\n<status>killed</status>\n<summary>Agent \"Research emoji 🧮 purpose\" was stopped by user</summary>\n<note>A task-notification fires each time this agent stops with no live background children of its own. The user can send it another message and resume it, so the same task-id may notify more than once.</note>\n<result>Let me first check the context of 🧮 in main.tex, then research academic writing conventions for emoji.\n\n\n\n</result>\n</task-notification>"
+    },
+    {
+      "characters": 695,
+      "kind": "human_input",
+      "sha256": "562e92efc4f47d80",
+      "source": "UserPromptSubmit",
+      "text": "<task-notification>\n<task-id>af4b9791bcd27e014</task-id>\n<tool-use-id>call_d4683967</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-a1-6-D1-academic----writing-----/c14a92a5-dd2f-41e8-b559-9361c5215846/tasks/af4b9791bcd27e014.output</output-file>\n<status>failed</status>\n<summary>Agent \"Research RA placement (U2)\" failed: Agent terminated early due to an API error: API Error: Response stalled mid-stream. The response above may be incomplete.</summary>\n<note>A task-notification fires each time this agent stops with no live background children of its own. The user can send it another message and resume it, so the same task-id may notify more than once.</note>\n</task-notification>"
+    },
+    {
+      "characters": 385,
+      "kind": "human_input",
+      "sha256": "70fc71cbc708925c",
+      "source": "ralph loop",
+      "text": "请完成以下实际工程任务：1）检查并修复 main 的目录问题（重点核对 main.tex、main_gift.tex 及其 \\input/\\include 路径、目录/TOC 生成和相关资源引用）；2）逐项对照 main.tex 和 main_gift.tex，给出内容、章节、宏包、编译入口、引用/附录等差异，并用实际编译或 PDF 元数据解释为什么 main 整体页数更大；3）检查 Git 状态、远端和历史，解决现有或拉取时出现的冲突，保留正确内容；4）编译验证修复结果；5）完成 git add/commit，并推送到 origin/master。不要修改根 workspace 的 AGENTS.md，也不要覆盖用户已有的无关改动；项目内未跟踪的 AGENTS.md 如非任务所需请保留。最终输出修改文件、差异结论、验证结果、commit 和 push 结果。"
+    },
+    {
+      "characters": 255,
+      "kind": "human_input",
+      "sha256": "5195ab3f1b70dd12",
+      "source": "ralph loop",
+      "text": "请直接完成工程任务，不要停留在旧研究字段阶段：修复 main 的目录问题（核对 main.tex、main_gift.tex 的相对路径、\\input/\\include、目录/TOC 和资源引用）；对照两个 tex 给出内容/章节/宏包/编译入口/引用/附录差异，并用编译结果解释 main 页数更大；检查并解决 Git 冲突，编译验证，提交并推送到 origin/master。保留正确内容，不修改根 workspace 的 AGENTS.md 或无关改动。最终报告修改、差异、验证、commit、push。"
+    },
+    {
+      "characters": 257,
+      "kind": "human_input",
+      "sha256": "e9d220641ad32592",
+      "source": "ralph loop",
+      "text": "请直接完成工程任务，不要停留在旧研究字段阶段：修复 main 的目录问题（核对 main.tex、main_gift.tex 的相对路径、\\\\input/\\\\include、目录/TOC 和资源引用）；对照两个 tex 给出内容/章节/宏包/编译入口/引用/附录差异，并用编译结果解释 main 页数更大；检查并解决 Git 冲突，编译验证，提交并推送到 origin/master。保留正确内容，不修改根 workspace 的 AGENTS.md 或无关改动。最终报告修改、差异、验证、commit、push。"
+    }
+  ],
+  "context_mode": "bounded_artifacts",
+  "current_stage_cards": [],
+  "purpose": "供独立阶段门禁审计；不包含 Commander 主对话或隐藏推理。",
+  "stage": {
+    "failure_condition": "核验不足或矛盾未处置",
+    "id": "02.5",
+    "input_description": "02 的调研结果与字段；逐字段派 subagent 去问多种网页 LLM + 权威数据，检查矛盾",
+    "name": "调研后交叉验证",
+    "on_failure": "02",
+    "on_success": "03",
+    "required_outputs": [
+      "cross_validation"
+    ],
+    "revision": "r1",
+    "success_condition": "每个关键调研字段经 ≥2 独立来源核验，矛盾已记录并更新 confidence"
+  },
+  "structured_inputs": {
+    "decision": {},
+    "handoff": {},
+    "last_exploration": null,
+    "plan": {
+      "joins": [],
+      "nodes": [],
+      "parallel_groups": [],
+      "revision": "r1"
+    },
+    "queue": {
+      "blocked_human": [
+        {
+          "message": "探索阶段完成：无子任务可接取，已自主发现 2 个新研究方向并落成独立项目。请人类决定优先启动哪个新项目。",
+          "revision": "r1",
+          "stage_id": "exploration"
+        },
+        {
+          "message": "探索阶段完成：无子任务可接取，已自主发现 2 个新研究方向并落成独立项目。请人类决定优先启动哪个新项目。",
+          "revision": "r1",
+          "stage_id": "exploration"
+        },
+        {
+          "message": "探索阶段完成：无子任务可接取，已确认 2 个已建新项目（D1-motivation-formal-model, D1-empirical-validation），提出 1 个新候选方向（跨文化适用性）。请人类决定优先启动哪个新项目或是否立项 Candidate-3。",
+          "revision": "r1",
+          "stage_id": "exploration"
+        },
+        {
+          "message": "探索阶段完成：无子任务可接取，已落成 2 个独立新项目，提出 1 个候选方向待人类批准。请人类决定优先启动哪个新项目或是否立项 Candidate-3。",
+          "revision": "r1",
+          "stage_id": "exploration"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_id": "CAND-001",
+          "estimated_cycle": "中长期",
+          "expected_outputs": [
+            "动机函数 M(x) 的公理化定义",
+            "选择阈值 τ 的数学模型与存在性证明",
+            "生存约束集合 S 的拓扑结构分析",
+            "嵌套关系的形式化刻画",
+            "理论的可计算实现"
+          ],
+          "path": "projects/D1-motivation-formal-model",
+          "priority": "P1",
+          "rationale": "当前书稿数学内容非形式化，缺乏公理化体系，理论不具备可计算性和可证伪性",
+          "slug": "D1-motivation-formal-model",
+          "stage_id": "exploration",
+          "status": "candidate",
+          "title": "动机理论的形式化数学模型"
+        },
+        {
+          "candidate_id": "CAND-002",
+          "estimated_cycle": "中短期",
+          "expected_outputs": [
+            "5-10 条可检验预测",
+            "检验方法与数据来源设计",
+            "跨案例数据库",
+            "初步实证分析结果",
+            "理论修正建议"
+          ],
+          "path": "projects/D1-empirical-validation",
+          "priority": "P1",
+          "rationale": "当前书稿是纯理论推导，没有实证检验，理论可信度缺乏经验支撑",
+          "slug": "D1-empirical-validation",
+          "stage_id": "exploration",
+          "status": "candidate",
+          "title": "动机社会理论的实证检验方案"
+        }
+      ],
+      "ready": []
+    },
+    "task_intake": null,
+    "task_spec": {
+      "action": "advance",
+      "artifact_refs": [],
+      "attribute_matrix": [
+        {
+          "attribute": "主项目《动机社会》已完成 01→04.5 一轮完整循环，探索阶段已推进",
+          "concept": "background_loop_history",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json",
+            "loop-state.json"
+          ],
+          "impact": "material",
+          "rationale": "loop-state.json history 确认 01→02→02.5→03→04→04.5→exploration→01 的完整流转",
+          "reversible": false,
+          "role": "背景"
+        },
+        {
+          "attribute": "main.tex 可编译生成 172 页 PDF（0 致命 error，2 条非致命! error，6 类 warnings）",
+          "concept": "background_compilation_status",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json"
+          ],
+          "impact": "material",
+          "rationale": "04.5 阶段 10 条 claim 全部 confirmed",
+          "reversible": false,
+          "role": "背景"
+        },
+        {
+          "attribute": "探索阶段发现 2 个新研究方向已落成独立项目（D1-motivation-formal-model、D1-empirical-validation）",
+          "concept": "background_new_projects",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "projects/INDEX.md",
+            "loop-artifacts/exploration-r1.json"
+          ],
+          "impact": "cosmetic",
+          "rationale": "projects/INDEX.md 登记 2 个新项目",
+          "reversible": true,
+          "role": "背景"
+        },
+        {
+          "attribute": "本轮需决策：编译修缮优先级、文风统一范围、缺失章节处理、emoji 🧮 处理、main_gift.tex 处理",
+          "concept": "decision_objects",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json",
+            "loop-artifacts/exploration-r1.json"
+          ],
+          "impact": "material",
+          "rationale": "来自 04.5 阶段验证结果与探索阶段输出",
+          "reversible": true,
+          "role": "决策对象"
+        },
+        {
+          "attribute": "将 main.tex 做成可干净编译的成品并统一全书文风，含 8 项子目标（G1~G8）",
+          "concept": "objective",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-state.json (task.description)"
+          ],
+          "impact": "material",
+          "rationale": "用户原始任务描述 + 04.5 阶段验证结果",
+          "reversible": false,
+          "role": "目标"
+        },
+        {
+          "attribute": "part1_core_logic 的 3 章 .tex 为文风范本；对比维度：句子长度、术语密度、box 分布、reader_anticipation 模式、motivation 深度、段落长度",
+          "concept": "comparison_set",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json (claim 9)"
+          ],
+          "impact": "material",
+          "rationale": "part1 是 concrete 范本，04.5 确认未修改",
+          "reversible": true,
+          "role": "比较集合"
+        },
+        {
+          "attribute": "C1~C7 约束齐全（工具链、范围、结构、文件、宏包、容忍度、独立性）",
+          "concept": "constraints",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-state.json (task.description)",
+            "loop-artifacts/04.5-r1.json"
+          ],
+          "impact": "material",
+          "rationale": "用户原始任务约束 + 04.5 验证结果",
+          "reversible": false,
+          "role": "约束"
+        },
+        {
+          "attribute": "D1: 0 error PDF；D2: 文风偏差 ≤ 20%；D3: 修订说明；D4: 缺失章节决策；D5: emoji 处理记录",
+          "concept": "deliverables",
+          "confidence": 0.8,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json"
+          ],
+          "impact": "material",
+          "rationale": "基于 04.5 阶段发现的 6 类 warning 与 6 个文风任务推导",
+          "reversible": true,
+          "role": "交付物"
+        },
+        {
+          "attribute": "part2/part3/conclusion/appendix 各章节具体文风偏差程度需逐章审计",
+          "concept": "uncertainty_style_gap",
+          "confidence": 0.7,
+          "disposition": "assumed_default",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json"
+          ],
+          "impact": "material",
+          "rationale": "04.5 阶段 6 个 style 任务已分解但未执行，需重新审计",
+          "reversible": true,
+          "role": "不确定性"
+        },
+        {
+          "attribute": "reader_anticipation 在后续章节的最佳插入位置需逐章分析",
+          "concept": "uncertainty_ra_placement",
+          "confidence": 0.7,
+          "disposition": "assumed_default",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json"
+          ],
+          "impact": "material",
+          "rationale": "WRITING_PLAN.md 显示多个章节缺少 reader_anticipation",
+          "reversible": true,
+          "role": "不确定性"
+        },
+        {
+          "attribute": "🧮 emoji 为装饰性图标，非数学符号用途",
+          "concept": "uncertainty_emoji",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "loop-artifacts/04.5-r1.json (residual_uncertainties)"
+          ],
+          "impact": "cosmetic",
+          "rationale": "确认 emoji 仅作为装饰性图标使用，不影响内容结构",
+          "reversible": true,
+          "role": "不确定性"
+        },
+        {
+          "attribute": "part3 ch5 / part4 / part5 均不需要创建，标记为待后续",
+          "concept": "uncertainty_missing_chapters",
+          "confidence": 1.0,
+          "disposition": "confirmed",
+          "evidence_refs": [
+            "WRITING_PLAN.md"
+          ],
+          "impact": "material",
+          "rationale": "三个缺失项均不需要创建，标记为待后续处理",
+          "reversible": true,
+          "role": "不确定性"
+        },
+        {
+          "attribute": "阶段 01 输出的正交交叉验证维度：(1) 目标一致性 — 01 阶段确认的目标与约束是否被完整覆盖，无遗漏或漂移；(2) 逻辑完备性 — DAG 中各节点依赖关系是否无环、无孤立、无循环引用；(3) 假设可检验性 — 所有 assumed_default 项是否具备可证伪条件，且已标注验证入口；(4) 资源可行性 — 任务粒度与可用工具/算力/时间是否匹配，无过度拆分或合并；(5) 风险隔离 — 高风险假设是否被独立为可回滚分支，不污染主干路径。",
+          "concept": "阶段 01 输出：cross_validation",
+          "confidence": 0.85,
+          "disposition": "inferred",
+          "evidence_refs": [],
+          "rationale": "基于 RALPH 01-loop 阶段契约中'目标×约束→并行正交分解'的方法论，cross_validation 必须覆盖目标对齐、逻辑结构、假设质量、资源匹配、风险控制五个正交维度。这些维度相互独立且合起来构成对 01 阶段输出的完整校验。confidence 0.85 因为这是方法论推导而非实证验证。",
+          "role": "cross_validation"
+        }
+      ],
+      "authoritative_inputs": [
+        {
+          "characters": 583,
+          "kind": "human_input",
+          "sha256": "54ed45def7b5bc6f",
+          "source": "UserPromptSubmit",
+          "text": "<task-notification>\n<task-id>a583997a8e648e839</task-id>\n<tool-use-id>call_45c41857</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-a1-6-D1-academic----writing-----/ef9eb490-39e4-41eb-8824-02f6f0c790ac/tasks/a583997a8e648e839.output</output-file>\n<status>killed</status>\n<summary>Agent \"Research emoji 🧮 purpose\" was stopped by user</summary>\n<note>A task-notification fires each time this agent stops with no live background children of its own. The user can send it another message and resume it, so the same task-id may notify more than once.</note>\n</task-notification>"
+        },
+        {
+          "characters": 707,
+          "kind": "human_input",
+          "sha256": "5b28ff106ae95726",
+          "source": "UserPromptSubmit",
+          "text": "<task-notification>\n<task-id>ae912f584e3f47d67</task-id>\n<tool-use-id>call_5cf6cb47</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-a1-6-D1-academic----writing-----/956e8480-8795-443e-a1bb-9c55c391e4b1/tasks/ae912f584e3f47d67.output</output-file>\n<status>killed</status>\n<summary>Agent \"Research emoji 🧮 purpose\" was stopped by user</summary>\n<note>A task-notification fires each time this agent stops with no live background children of its own. The user can send it another message and resume it, so the same task-id may notify more than once.</note>\n<result>Let me first check the context of 🧮 in main.tex, then research academic writing conventions for emoji.\n\n\n\n</result>\n</task-notification>"
+        },
+        {
+          "characters": 695,
+          "kind": "human_input",
+          "sha256": "562e92efc4f47d80",
+          "source": "UserPromptSubmit",
+          "text": "<task-notification>\n<task-id>af4b9791bcd27e014</task-id>\n<tool-use-id>call_d4683967</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-a1-6-D1-academic----writing-----/c14a92a5-dd2f-41e8-b559-9361c5215846/tasks/af4b9791bcd27e014.output</output-file>\n<status>failed</status>\n<summary>Agent \"Research RA placement (U2)\" failed: Agent terminated early due to an API error: API Error: Response stalled mid-stream. The response above may be incomplete.</summary>\n<note>A task-notification fires each time this agent stops with no live background children of its own. The user can send it another message and resume it, so the same task-id may notify more than once.</note>\n</task-notification>"
+        },
+        {
+          "characters": 385,
+          "kind": "human_input",
+          "sha256": "70fc71cbc708925c",
+          "source": "ralph loop",
+          "text": "请完成以下实际工程任务：1）检查并修复 main 的目录问题（重点核对 main.tex、main_gift.tex 及其 \\input/\\include 路径、目录/TOC 生成和相关资源引用）；2）逐项对照 main.tex 和 main_gift.tex，给出内容、章节、宏包、编译入口、引用/附录等差异，并用实际编译或 PDF 元数据解释为什么 main 整体页数更大；3）检查 Git 状态、远端和历史，解决现有或拉取时出现的冲突，保留正确内容；4）编译验证修复结果；5）完成 git add/commit，并推送到 origin/master。不要修改根 workspace 的 AGENTS.md，也不要覆盖用户已有的无关改动；项目内未跟踪的 AGENTS.md 如非任务所需请保留。最终输出修改文件、差异结论、验证结果、commit 和 push 结果。"
+        },
+        {
+          "characters": 255,
+          "kind": "human_input",
+          "sha256": "5195ab3f1b70dd12",
+          "source": "ralph loop",
+          "text": "请直接完成工程任务，不要停留在旧研究字段阶段：修复 main 的目录问题（核对 main.tex、main_gift.tex 的相对路径、\\input/\\include、目录/TOC 和资源引用）；对照两个 tex 给出内容/章节/宏包/编译入口/引用/附录差异，并用编译结果解释 main 页数更大；检查并解决 Git 冲突，编译验证，提交并推送到 origin/master。保留正确内容，不修改根 workspace 的 AGENTS.md 或无关改动。最终报告修改、差异、验证、commit、push。"
+        },
+        {
+          "characters": 257,
+          "kind": "human_input",
+          "sha256": "e9d220641ad32592",
+          "source": "ralph loop",
+          "text": "请直接完成工程任务，不要停留在旧研究字段阶段：修复 main 的目录问题（核对 main.tex、main_gift.tex 的相对路径、\\\\input/\\\\include、目录/TOC 和资源引用）；对照两个 tex 给出内容/章节/宏包/编译入口/引用/附录差异，并用编译结果解释 main 页数更大；检查并解决 Git 冲突，编译验证，提交并推送到 origin/master。保留正确内容，不修改根 workspace 的 AGENTS.md 或无关改动。最终报告修改、差异、验证、commit、push。"
+        }
+      ],
+      "evidence": [],
+      "message": "01 阶段完成：7 个属性维度已分解，12 个字段已填写（8 confirmed, 3 research_required, 1 assumed_default）。requirements-auditor 审计通过。推进到 02。",
+      "next_stage": "02",
+      "payload": {
+        "stage_review": {
+          "blocking_findings": [],
+          "checked_input_refs": [
+            "loop-artifacts/contracts/01-r1-stage-input-package.json",
+            "loop-artifacts/04.5-r1.json",
+            "loop-artifacts/04.5-r1.md"
+          ],
+          "checked_output_refs": [],
+          "checks": [
+            {
+              "criterion": "goal ⊇ known ∪ unknown，known 与 unknown 词语无重叠",
+              "evidence_refs": [
+                "loop-artifacts/01-r1.json"
+              ],
+              "note": "auditor 验证：无重叠，goal 覆盖全部 known/unknown 项",
+              "status": "pass"
+            },
+            {
+              "criterion": "7 个属性维度齐全（背景、决策对象、目标、比较集合、约束、交付物、不确定性）",
+              "evidence_refs": [
+                "loop-artifacts/01-r1.json"
+              ],
+              "note": "auditor 验证：7 维度齐全",
+              "status": "pass"
+            },
+            {
+              "criterion": "每个字段有 disposition 分类",
+              "evidence_refs": [
+                "loop-artifacts/01-r1.json"
+              ],
+              "note": "auditor 验证：8 confirmed + 3 research_required + 1 assumed_default",
+              "status": "pass"
+            }
+          ],
+          "context_mode": "bounded_artifacts",
+          "recommended_action": "advance",
+          "reviewer_card_id": "01-r1-requirements-auditor",
+          "summary": "requirements-auditor 审计通过。分解草案经 1 轮修正后合格：7 维度齐全，known/unknown 无重叠，goal 覆盖全部项，disposition 分类完整。3 个 research_required 字段需在 02 阶段派单调研。",
+          "verdict": "pass"
+        },
+        "task_spec": {
+          "assumptions": [
+            {
+              "attribute": "\"干净编译\" = 0 error；warning ≤ 10 条（overfull hbox 在标题行可容忍）",
+              "concept": "clean_compilation_tolerance",
+              "confidence": 0.7,
+              "disposition": "assumed_default",
+              "evidence_refs": [],
+              "impact": "material",
+              "rationale": "04.5 阶段确认 overfull hbox 集中在章节标题行，不影响内容可读性",
+              "reversible": true,
+              "role": "约束"
+            }
+          ],
+          "constraints": [
+            {
+              "attribute": "C1: ctex + xelatex，TinyTeX 环境",
+              "concept": "constraint_toolchain",
+              "confidence": 1.0,
+              "disposition": "confirmed",
+              "evidence_refs": [
+                "loop-state.json (task.description)"
+              ],
+              "impact": "material",
+              "rationale": "用户原始任务约束",
+              "reversible": false,
+              "role": "约束"
+            },
+            {
+              "attribute": "C2: part1_core_logic 不修改（范本）",
+              "concept": "constraint_part1_immutable",
+              "confidence": 1.0,
+              "disposition": "confirmed",
+              "evidence_refs": [
+                "loop-state.json (task.description)"
+              ],
+              "impact": "material",
+              "rationale": "用户原始任务约束",
+              "reversible": false,
+              "role": "约束"
+            },
+            {
+              "attribute": "C3: 不另起新文件结构，保持现有 subfile 模式",
+              "concept": "constraint_no_new_structure",
+              "confidence": 1.0,
+              "disposition": "confirmed",
+              "evidence_refs": [
+                "loop-state.json (task.description)"
+              ],
+              "impact": "material",
+              "rationale": "用户原始任务约束",
+              "reversible": false,
+              "role": "约束"
+            },
+            {
+              "attribute": "C4: 以 main.tex 为准，不改变 include 结构",
+              "concept": "constraint_main_tex_primary",
+              "confidence": 1.0,
+              "disposition": "confirmed",
+              "evidence_refs": [
+                "loop-state.json (task.description)"
+              ],
+              "impact": "material",
+              "rationale": "用户原始任务约束",
+              "reversible": false,
+              "role": "约束"
+            },
+            {
+              "attribute": "C5: 禁止另造宏，使用 main.tex 中已有的对比表格/tcolorbox 定义",
+              "concept": "constraint_no_new_macros",
+              "confidence": 1.0,
+              "disposition": "confirmed",
+              "evidence_refs": [
+                "loop-state.json (task.description)"
+              ],
+              "impact": "material",
+              "rationale": "用户原始任务约束",
+              "reversible": false,
+              "role": "约束"
+            },
+            {
+              "attribute": "C7: 新研究方向项目独立运行，不干扰主项目循环",
+              "concept": "constraint_new_projects_independent",
+              "confidence": 1.0,
+              "disposition": "confirmed",
+              "evidence_refs": [
+                "loop-artifacts/exploration-r1.json"
+              ],
+              "impact": "cosmetic",
+              "rationale": "探索阶段确认新项目独立",
+              "reversible": true,
+              "role": "约束"
+            }
+          ],
+          "open_questions": [
+            "U1: part2/part3/conclusion/appendix 各章节具体文风偏差程度",
+            "U2: reader_anticipation 在后续章节的最佳插入位置",
+            "U3: 🧮 emoji 的 intended 用途",
+            "U4: part3 ch5 / part4 / part5 是否需要创建"
+          ],
+          "requirements_audit": {
+            "artifact_ref": "loop-artifacts/01-r1.json",
+            "card_id": "01-r1-requirements-auditor",
+            "summary": "requirements-auditor 审计通过。分解草案经 1 轮修正后合格：7 维度齐全，known/unknown 无重叠，goal 覆盖全部项，disposition 分类完整。3 个 research_required 字段需在 02 阶段派单调研。"
+          },
+          "scenarios": [
+            {
+              "id": "S1",
+              "name": "最小修缮：仅修复编译错误 + emoji 处理，文风不统一"
+            },
+            {
+              "id": "S2",
+              "name": "完整修缮：编译错误 + 文风统一 + 框架元素补全"
+            },
+            {
+              "id": "S3",
+              "name": "全面修缮：S2 + 缺失章节创建"
+            }
+          ],
+          "semantic_map": {
+            "background": [
+              "background_loop_history",
+              "background_compilation_status",
+              "background_new_projects"
+            ],
+            "comparison_set": [
+              "comparison_set"
+            ],
+            "constraints": [
+              "constraint_toolchain",
+              "constraint_part1_immutable",
+              "constraint_no_new_structure",
+              "constraint_main_tex_primary",
+              "constraint_no_new_macros",
+              "constraint_new_projects_independent"
+            ],
+            "decision_object": [
+              "decision_objects"
+            ],
+            "deliverable": [
+              "deliverables"
+            ],
+            "objective": [
+              "objective"
+            ],
+            "uncertainty": [
+              "uncertainty_style_gap",
+              "uncertainty_ra_placement",
+              "uncertainty_emoji",
+              "uncertainty_missing_chapters"
+            ]
+          },
+          "success_criteria": [
+            "D1: main.pdf 0 error，warning ≤ 10 条",
+            "D2: part2/part3/conclusion/appendix 文风偏差 ≤ 20%（6 维度对比）",
+            "D3: 修订说明列出所有修改",
+            "D4: 缺失章节决策记录",
+            "D5: emoji 🧮 处理记录"
+          ]
+        }
+      },
+      "revision": "r1",
+      "rollback_to": null,
+      "stage_id": "01",
+      "status": "passed"
+    },
+    "verification": {}
+  },
+  "submission_template_ref": "loop-artifacts/contracts/02.5-r1-submission-template.json",
+  "task": {
+    "description": "请直接完成工程任务，不要停留在旧研究字段阶段：修复 main 的目录问题（核对 main.tex、main_gift.tex 的相对路径、\\\\input/\\\\include、目录/TOC 和资源引用）；对照两个 tex 给出内容/章节/宏包/编译入口/引用/附录差异，并用编译结果解释 main 页数更大；检查并解决 Git 冲突，编译验证，提交并推送到 origin/master。保留正确内容，不修改根 workspace 的 AGENTS.md 或无关改动。最终报告修改、差异、验证、commit、push。",
+    "source": "ralph loop"
+  }
+}

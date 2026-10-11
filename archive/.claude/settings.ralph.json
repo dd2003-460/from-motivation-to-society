@@ -1,0 +1,88 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook userpromptsubmit --mode shadow"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook pretooluse --mode shadow"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook posttooluse --mode shadow"
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook subagentstart --mode shadow"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook subagentstop --mode shadow"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook precompact --mode shadow"
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook postcompact --mode shadow"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/a1-6/.local/share/ralph-runtime/venv/bin/python -m ralph_runtime.cli hook stop --mode shadow"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+\documentclass[../../main2.tex]{subfiles}
+
+\begin{document}
+
+	% ======================================================================
+	% 骨架文件：小节标题与追问链为终版；正文由后续会话填充。
+	% 原书材料接入点：
+	%   - 原书 part1 ch1（存在或者毁灭）→ §4.1/§4.2：存在是小概率 + 观察者效应，
+	%     在此升级为「人存作为公共约束域」的数学表达
+	%   - 原书 part2 ch2（生存策略分化）→ §4.3：集权 vs 碎片 = 人存约束下的
+	%     两种生存策略，由物质约束推出
+	% ======================================================================
+
+	\chapter{人存：唯一不可协商的约束}
+	\label{ch:survival}
+
+	\begin{motivation}
+		上一章遗留的问题：状态三元组只是清单——清单上的东西凭什么不散架？第2章说过目标函数 $U(x)$ 定义在可行集 $F$ 上，但 $F$ 的硬边界从未被规定。所有目标里，有没有一个是不能放弃的？\\
+		\textbf{核心动机}：论证「人存」是所有目标函数的公共约束域——不是道德律令，而是定义域限制：边界之外，一切效用无从评估。
+	\end{motivation}
+
+	\begin{logicmap}
+	\begin{tikzpicture}[node distance=0.9cm, every node/.style={draw, rectangle, rounded corners, align=center}]
+	\node (q) {有没有不能放弃的目标？};
+	\node (b) [below=of q] {人存 = 公共约束域（§4.1）};
+	\node (m) [below=of b] {进入数学：$U$ 只在 $\mathcal{S}_{\text{survive}}$ 上评估（§4.2）};
+	\node (s) [below=of m] {从人存到生存策略（§4.3）};
+	\node (n) [below=of s] {边界有了，方向没有（抛给第5章）};
+	\draw[-{Stealth}] (q) -- (b);
+	\draw[-{Stealth}] (b) -- (m);
+	\draw[-{Stealth}] (m) -- (s);
+	\draw[-{Stealth}] (s) -- (n);
+	\end{tikzpicture}
+	\end{logicmap}
+
+	% ==================================================================
+	\section{人存作为边界条件}
+	\label{sec:surv-boundary}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】为了任何目标，你能接受全灭吗？→ 不能。所以「人存」是所有目标函数的公共约束域。谁来执行这个约束？→ 不是道德，是结构：不可持续的选择会被从观测里删除（第1章 §1.2 的过滤器，在此获得它的硬版本）。}}
+
+	\textcolor{gray}{（正文待写：从「你愿意收多少钱去死」的失灵（第2章 §2.2）接到全灭的不可报价性；人存的执行者不是道德而是筛选。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写：你有没有想过，为什么没有任何一家保险公司出售「确定的死亡」？）}
+	\end{readingnote}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）约束域找到了，但它如何进入第2章的效用函数？下一节「人存如何进入数学」把边界写成定义域限制。}
+
+	% ==================================================================
+	\section{人存如何进入数学}
+	\label{sec:surv-math}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】目标函数定义域限制在「可持续集合」上：$U$ 只在 $\mathcal{S}_{\text{survive}}$ 上评估。边界外是什么？→ 状态变为「不可行」——不是效用低，是效用无定义。}}
+
+	\textcolor{gray}{（正文待写：mathbox——$\max U(x)$ s.t. $x \in \mathcal{S}_{\text{survive}}$；「无定义」与「取值为零」的区别。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\begin{reader_anticipation}
+		\item \textcolor{gray}{（待写）可持续集合的数学性质（连通性、收缩方向）？→ 第5章：演化把边界变成动态的。}
+	\end{reader_anticipation}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）边界写进了公式。但边界内的世界怎么活？下一节「从人存到生存策略」接入原书 part2 ch2 的材料——在约束内，物质条件推出策略。}
+
+	% ==================================================================
+	\section{从人存到生存策略}
+	\label{sec:surv-strategy}
+
+	\textcolor{gray}{\textit{【骨架 · 追问链（终版）】在可持续集合内，物质约束下人怎么选？→ 原书 part2 ch2 在此接入，且有了正确位置：集权与碎片化不是「文化差异」，是同一人存约束在不同物质条件下的两条解。为什么是这几条策略？→ 由物质约束推出，不是由民族性推出。}}
+
+	\textcolor{gray}{（正文待写：治水-集权 / 贸易-分权的重述（第1章 §1.3 的例子升级为约束优化问题）；策略 = 约束下的可行解，不是自由意志的任性。）}
+
+	\begin{readingnote}
+		\textcolor{gray}{（待写）}
+	\end{readingnote}
+
+	\begin{questionbox}
+		\textcolor{gray}{（待写：反驳位——「这不就是环境决定论的复活吗？」回答：决定的是可行集，不是选择；同一可行集内仍有多解，多解的分化要等第5章的演化与第9章的模因。）}
+	\end{questionbox}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）我们有了边界与边界内的策略菜单。但菜单不会自己转动——还缺引擎。下一章「演化」让状态动起来。}
+
+	% ==================================================================
+	\section{本章小结与衔接}
+	\label{sec:surv-summary}
+
+	\textcolor{gray}{（正文待写：收束——人存给出边界与可行解菜单，但不给出方向；方向由动力学给出。）}
+
+	\paragraph*{逻辑衔接}
+	\textcolor{gray}{（待写）边界之内仍然可以走向任何地方。第5章「演化：相互作用如何改变状态」将提供唯一的引擎。}
+
+\end{document}

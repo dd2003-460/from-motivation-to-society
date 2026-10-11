@@ -168,7 +168,9 @@
 }
 
 \usepackage{booktabs}
-\usepackage{amsmath,amssymb}
+% 注意：XeLaTeX + unicode-math 已覆盖 amssymb 符号集，二者同载会报
+% "Command \eth already defined"，故只保留 amsmath（公式环境需要）。
+\usepackage{amsmath}
 
 % ==========================================
 % 4. 书籍信息

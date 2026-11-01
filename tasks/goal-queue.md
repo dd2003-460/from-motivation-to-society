@@ -7,13 +7,13 @@
 
 | # | 任务 | 项目 | 状态 | 备注 |
 |---|------|------|------|------|
-| 4 | 动机社会: v1编译修复 + meme章试写 | D1-writing | **done 2026-11-01** | commit 690d169, H5问题钩子已加, 待确认 |
+| 4 | 动机社会: v1编译修复 + meme章试写(H5+H6) | D1-writing | **done 2026-11-01** | cde82ed+后续commit, H5问题钩子+H6矛盾优先(§2改矛盾开头), xelatex 0err, 待用户验收 |
 
 ## 排队（按序）
 
 | # | 任务 | 项目 | 前置 | 备注 |
 |---|------|------|------|------|
-| 5 | 动机社会: v2 全 17 章自然语言重写 | D1-writing | #4 通过 | 每章 commit, ai-tell 0 |
+| 5 | 动机社会: v2 全 17 章自然语言重写(v3 prompt H1-H6) | D1-writing | #4 用户验收 | 每章先花20-30%找真矛盾+双源验证, 有矛盾用矛盾开头否则问题钩子, 每章 commit |
 | 6 | 动机社会: v1 Part II/III 重写 | D1-writing | #5 done | Part I 只微调 |
 | 7 | bh 任务C: 遗迹MF+PISN间隙图 | bh-mass-spectrum | — | subagent 失败(本地模型循环), 改主会话做 |
 | 8 | bh 任务A: 多红移BHMF+占据率两图 | bh-mass-spectrum | — | 同上 |

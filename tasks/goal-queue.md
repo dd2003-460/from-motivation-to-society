@@ -7,7 +7,7 @@
 
 | # | 任务 | 项目 | 状态 | 备注 |
 |---|------|------|------|------|
-| 4 | 动机社会: v1编译修复 + meme章试写 | D1-writing | **主会话执行中** | 用户确认人味才批量 |
+| 4 | 动机社会: v1编译修复 + meme章试写 | D1-writing | **done 2026-11-01** | commit 071dd1d, 待用户确认人味 |
 
 ## 排队（按序）
 
@@ -25,6 +25,7 @@
 
 | # | 任务 | 时间戳 | 产出 |
 |---|------|--------|------|
+| 4b | 动机社会: v1编译修复+meme章人味重写 | 2026-11-01 | commit 071dd1d, xelatex 0err |
 | 1 | bh docstring 修复 (3 failed→0) | 2026-11-01 | commit 2a0c3fb, pytest 175 passed |
 | 2 | pfb pre-commit hook 安装 | 2026-11-01 | commit 577773e |
 | 3 | 压缩调参 (timeout 600, threshold 0.75) | 2026-11-01 | config.yaml patched |
